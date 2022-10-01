@@ -11,8 +11,6 @@ public class Transition : MonoBehaviour
     public float duration;
     public List<MoveTransitionAction> moveActions;
     public List<ScreenTransitionAction> screenActions;
-    public UnityEvent OnStart;
-    public UnityEvent OnFinish;
     protected bool started;
     protected bool back;
     float timeSinceStart;
@@ -20,6 +18,7 @@ public class Transition : MonoBehaviour
     List<TransitionAction> backwardsActionsInTime;
     Queue<TransitionAction> actionsQueue;
     bool toggle;
+    TransitionHandle currentHandle;
 
     protected float t
     {
@@ -59,15 +58,23 @@ public class Transition : MonoBehaviour
         }
     }
 
-    public virtual void StartTransition(bool back = false)
+    public virtual TransitionHandle StartTransition(bool back = false)
     {
-        OnStart.Invoke();
         started = true;
         timeSinceStart = 0;
         actionsQueue = new Queue<TransitionAction>(back ? backwardsActionsInTime : actionsInTime);
 
         this.back = back;
-        Debug.Log("#####################");
+        TransitionHandle transitionHandle = new TransitionHandle();
+
+        if (currentHandle != null)
+        {
+            currentHandle.cancelHandle = transitionHandle;
+            currentHandle.OnCancel.Invoke();
+        }
+        currentHandle = transitionHandle;
+
+        return currentHandle;
     }
 
     public void ToggleAndStartTransition()
@@ -89,7 +96,7 @@ public class Transition : MonoBehaviour
     protected virtual void EndTransition()
     {
         started = false;
-        OnFinish.Invoke();
+        currentHandle.OnFinish.Invoke();
     }
 
     protected virtual void UpdateTransition()
@@ -106,4 +113,11 @@ public class Transition : MonoBehaviour
                 currentMinTime = back ? 1 - (actionsQueue.Peek().startTime + actionsQueue.Peek().duration) : actionsQueue.Peek().startTime;
         }
     }
+}
+
+public class TransitionHandle
+{
+    public TransitionHandle cancelHandle;
+    public Action OnCancel;
+    public Action OnFinish;
 }

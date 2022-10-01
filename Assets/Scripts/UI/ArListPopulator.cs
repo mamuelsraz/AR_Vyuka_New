@@ -6,6 +6,8 @@ using UnityEngine.UI;
 
 public class ArListPopulator : MonoBehaviour
 {
+    public Page page;
+    public Page placePage;
     public Transform parent;
     public GameObject categoryPrefab;
     public GameObject blockPrefab;
@@ -39,6 +41,7 @@ public class ArListPopulator : MonoBehaviour
                 var block = Instantiate(blockPrefab, obj.transform);
                 block.GetComponentInChildren<TextMeshProUGUI>().text = arObj.nickName;
                 block.GetComponent<ArListBlock>().arObject = arObj;
+                block.GetComponent<ArListBlock>().populator = this;
             }
         }
 
@@ -48,5 +51,9 @@ public class ArListPopulator : MonoBehaviour
         //Canvas.ForceUpdateCanvases();
         //contentSizeFitter.enabled = true;
         //Canvas.ForceUpdateCanvases();
+    }
+
+    public void ChangePage() {
+        page.GoTo(placePage);
     }
 }
