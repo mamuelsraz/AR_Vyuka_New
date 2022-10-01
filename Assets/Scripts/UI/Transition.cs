@@ -1,8 +1,10 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.InputSystem;
 
 public class Transition : MonoBehaviour
 {
@@ -15,7 +17,10 @@ public class Transition : MonoBehaviour
     protected bool back;
     float timeSinceStart;
     List<TransitionAction> actionsInTime;
+    List<TransitionAction> backwardsActionsInTime;
     Queue<TransitionAction> actionsQueue;
+    bool toggle;
+
     protected float t
     {
         get { return Mathf.InverseLerp(0, duration, timeSinceStart); }
@@ -23,36 +28,34 @@ public class Transition : MonoBehaviour
 
     private void Awake()
     {
+        List<TransitionAction> actions = new List<TransitionAction>(moveActions.Count + screenActions.Count);
         actionsInTime = new List<TransitionAction>();
-        foreach (var newAction in moveActions)
+        actions.AddRange(moveActions);
+        actions.AddRange(screenActions);
+
+        foreach (var newAction in actions)
         {
             newAction.Initialize();
 
             int index = 0;
-            for (int i = 1; i < actionsInTime.Count; i++)
+            for (int i = 0; i < actionsInTime.Count; i++)
             {
                 if (actionsInTime[i].startTime > newAction.startTime)
                 {
-                    index = i - 1;
+                    index = i;
                     break;
                 }
+                else if (i == actionsInTime.Count - 1) index = actionsInTime.Count;
             }
+            index = Mathf.Clamp(index, 0, int.MaxValue);
             actionsInTime.Insert(index, newAction);
         }
-        foreach (var newAction in screenActions)
-        {
-            newAction.Initialize();
+        backwardsActionsInTime = new List<TransitionAction>(actionsInTime);
+        backwardsActionsInTime.Reverse();
 
-            int index = 0;
-            for (int i = 1; i < actionsInTime.Count; i++)
-            {
-                if (actionsInTime[i].startTime > newAction.startTime)
-                {
-                    index = i - 1;
-                    break;
-                }
-            }
-            actionsInTime.Insert(index, newAction);
+        foreach (var item in actionsInTime)
+        {
+            Debug.Log(item);
         }
     }
 
@@ -61,8 +64,16 @@ public class Transition : MonoBehaviour
         OnStart.Invoke();
         started = true;
         timeSinceStart = 0;
-        actionsQueue = new Queue<TransitionAction>(actionsInTime);
+        actionsQueue = new Queue<TransitionAction>(back ? backwardsActionsInTime : actionsInTime);
+
         this.back = back;
+        Debug.Log("#####################");
+    }
+
+    public void ToggleAndStartTransition()
+    {
+        StartTransition(toggle);
+        toggle = !toggle;
     }
 
     private void Update()
@@ -84,11 +95,15 @@ public class Transition : MonoBehaviour
     protected virtual void UpdateTransition()
     {
         if (actionsQueue == null) return;
-        while ((back ? 1f - actionsQueue.Peek().startTime : actionsQueue.Peek().startTime) > t)
+        if (actionsQueue.Count < 1) return;
+        float currentMinTime = back ? 1 - (actionsQueue.Peek().startTime + actionsQueue.Peek().duration) : actionsQueue.Peek().startTime;
+        while (actionsQueue.Count > 0 && currentMinTime < t)
         {
             var action = actionsQueue.Dequeue();
-            if (back) action.Back();
-            else action.Forward();
+            if (back) action.Back(duration);
+            else action.Forward(duration);
+            if (actionsQueue.Count > 0)
+                currentMinTime = back ? 1 - (actionsQueue.Peek().startTime + actionsQueue.Peek().duration) : actionsQueue.Peek().startTime;
         }
     }
 }

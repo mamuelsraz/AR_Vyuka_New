@@ -13,17 +13,22 @@ public class TransitionAction
     [Range(0f, 1f)]
     public float duration;
     public bool toGoal;
-    public virtual TweenCallback Forward()
+    public virtual TweenCallback Forward(float duration)
     {
         throw new NotImplementedException();
     }
-    public virtual TweenCallback Back()
+    public virtual TweenCallback Back(float duration)
     {
         throw new NotImplementedException();
     }
     public virtual void Initialize()
     {
 
+    }
+
+    public override string ToString()
+    {
+        return $"transition: {startTime} {duration}";
     }
 }
 
@@ -38,13 +43,13 @@ public class MoveTransitionAction : TransitionAction
         startPos = transform.anchoredPosition;
     }
 
-    public override TweenCallback Forward()
+    public override TweenCallback Forward(float duration)
     {
         transform.anchoredPosition = toGoal ? startPos : pos;
         return transform.DOAnchorPos(toGoal ? pos : startPos, duration).onComplete;
     }
 
-    public override TweenCallback Back()
+    public override TweenCallback Back(float duration)
     {
         transform.anchoredPosition = toGoal ? pos : startPos;
         return transform.DOAnchorPos(toGoal ? startPos : pos, duration).onComplete;
@@ -56,23 +61,24 @@ public class ScreenTransitionAction : TransitionAction
 {
     public RectTransform transform;
     public Vector2 pos;
-    [HideInInspector] public Vector2 startPos;
+    public Vector2 startPos;
     public override void Initialize()
     {
-        startPos = transform.anchoredPosition;
-        startPos = new Vector2(startPos.x / Screen.width, startPos.y / Screen.height);
+
     }
 
-    public override TweenCallback Forward()
+    public override TweenCallback Forward(float duration)
     {
-        Vector2 pos = new Vector2(this.pos.x * Screen.width, startPos.y / Screen.height);
+        Vector2 pos = new Vector2(this.pos.x * Screen.width, this.pos.y / Screen.height);
+        Vector2 startPos = new Vector2(this.startPos.x * Screen.width, this.startPos.y / Screen.height);
         transform.anchoredPosition = toGoal ? startPos : pos;
         return transform.DOAnchorPos(toGoal ? pos : startPos, duration).onComplete;
     }
 
-    public override TweenCallback Back()
+    public override TweenCallback Back(float duration)
     {
-        Vector2 pos = new Vector2(this.pos.x * Screen.width, startPos.y / Screen.height);
+        Vector2 pos = new Vector2(this.pos.x * Screen.width, this.pos.y / Screen.height);
+        Vector2 startPos = new Vector2(this.startPos.x * Screen.width, this.startPos.y / Screen.height);
         transform.anchoredPosition = toGoal ? pos : startPos;
         return transform.DOAnchorPos(toGoal ? startPos : pos, duration).onComplete;
     }
