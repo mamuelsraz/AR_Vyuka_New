@@ -9,6 +9,8 @@ public class Page : MonoBehaviour
 {
     [HideInInspector] RectTransform rect;
     public Transition transition;
+    public bool active;
+
     public UnityEvent onPreShow;
     public UnityEvent onPostShow;
     public UnityEvent onPreHide;
@@ -17,13 +19,14 @@ public class Page : MonoBehaviour
     private void Awake()
     {
         rect = GetComponent<RectTransform>();
+        onPreShow.AddListener(ActivatePanel);
+        onPostHide.AddListener(DeactivatePanel);
     }
 
     public void GoTo(Page page) {
         transition.screenActions[0].transform = rect;
         transition.screenActions[1].transform = page.rect;
         onPreHide.Invoke();
-        page.gameObject.SetActive(true);
         page.onPreShow.Invoke();
 
         var handle = transition.StartTransition();
@@ -36,7 +39,6 @@ public class Page : MonoBehaviour
         {
             from.onPostHide.Invoke();
             to.onPostShow.Invoke();
-            from.gameObject.SetActive(false);
         };
         handle.OnCancel += () =>
         {
@@ -44,5 +46,16 @@ public class Page : MonoBehaviour
             from.onPreShow.Invoke();
             SubToHandle(handle.cancelHandle, to, from);
         };
+    }
+
+    void ActivatePanel() {
+        Debug.Log(gameObject.name);
+        active = true;
+        gameObject.SetActive(true);
+    }
+
+    void DeactivatePanel() {
+        active = false;
+        gameObject.SetActive(false);
     }
 }

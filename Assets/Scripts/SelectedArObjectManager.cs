@@ -18,13 +18,20 @@ public class SelectedArObjectManager : MonoBehaviour
         else Destroy(this);
     }
 
-    public void PlaceNew(ArObject arObject)
+    public void SelectNew(ArObject arObject)
     {
         if (selectedObject != null && selectedArObject.bundle == arObject.bundle) return;
 
         if (selectedObject != null) selectedObject.SetActive(false);
         selectedArObject = arObject;
         selectedObject = AssetStreamingManager.instance.cachedArObjects[selectedArObject];
-        selectedObject.SetActive(true);
+        //selectedObject.SetActive(true);
+    }
+
+    public void SpawnCurrent(Transform parent) {
+        selectedObject.transform.parent = parent;
+        selectedObject.transform.localPosition = Vector3.zero;
+        selectedObject.transform.localScale = Vector3.one;
+        selectedObject.transform.localRotation = Quaternion.identity;
     }
 }

@@ -52,7 +52,7 @@ public class ArListBlock : MonoBehaviour
     }
 
     void Place() {
-        SelectedArObjectManager.instance.PlaceNew(arObject);
+        SelectedArObjectManager.instance.SelectNew(arObject);
         populator.ChangePage();
     }
 }
