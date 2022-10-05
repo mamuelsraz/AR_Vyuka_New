@@ -17,6 +17,10 @@ struct CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB;
 // System.String
 struct String_t;
 
+IL2CPP_EXTERN_C const RuntimeMethod* PoseData_get_position_mEE4843D61931F8AB21EE810CD308D74D725F2008_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* PoseData_get_rotation_m6A15A78CF66E4D2F9E2EE9FE88BC8D89A65EB904_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TangoInputTracking_Internal_TryGetPoseAtTime_mAF42AE39482D9299C33ACF569A341CC9A3CA16C3_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TangoInputTracking_TryGetPoseAtTime_m54012D53CFA783FA8B1DBFEDD893BD2C15436CB3_RuntimeMethod_var;
 
 
 IL2CPP_EXTERN_C_BEGIN
@@ -233,6 +237,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TangoInputTracking_Internal_TryGetPoseAt
 // UnityEngine.Quaternion UnityEngine.XR.Tango.PoseData::get_rotation()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 PoseData_get_rotation_m6A15A78CF66E4D2F9E2EE9FE88BC8D89A65EB904 (PoseData_t50F35DDE09AD0711D1477EA62E5ED2C232285C24* __this, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PoseData_get_rotation_m6A15A78CF66E4D2F9E2EE9FE88BC8D89A65EB904_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(PoseData_get_rotation_m6A15A78CF66E4D2F9E2EE9FE88BC8D89A65EB904_RuntimeMethod_var);
 	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
@@ -265,6 +276,13 @@ IL2CPP_EXTERN_C  Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 PoseData_g
 // UnityEngine.Vector3 UnityEngine.XR.Tango.PoseData::get_position()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 PoseData_get_position_mEE4843D61931F8AB21EE810CD308D74D725F2008 (PoseData_t50F35DDE09AD0711D1477EA62E5ED2C232285C24* __this, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PoseData_get_position_mEE4843D61931F8AB21EE810CD308D74D725F2008_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(PoseData_get_position_mEE4843D61931F8AB21EE810CD308D74D725F2008_RuntimeMethod_var);
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
@@ -304,6 +322,13 @@ IL2CPP_EXTERN_C  Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 PoseData_get_
 // System.Boolean UnityEngine.XR.Tango.TangoInputTracking::Internal_TryGetPoseAtTime(UnityEngine.XR.Tango.PoseData&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TangoInputTracking_Internal_TryGetPoseAtTime_mAF42AE39482D9299C33ACF569A341CC9A3CA16C3 (PoseData_t50F35DDE09AD0711D1477EA62E5ED2C232285C24* ___pose0, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TangoInputTracking_Internal_TryGetPoseAtTime_mAF42AE39482D9299C33ACF569A341CC9A3CA16C3_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(TangoInputTracking_Internal_TryGetPoseAtTime_mAF42AE39482D9299C33ACF569A341CC9A3CA16C3_RuntimeMethod_var);
 	typedef bool (*TangoInputTracking_Internal_TryGetPoseAtTime_mAF42AE39482D9299C33ACF569A341CC9A3CA16C3_ftn) (PoseData_t50F35DDE09AD0711D1477EA62E5ED2C232285C24*);
 	static TangoInputTracking_Internal_TryGetPoseAtTime_mAF42AE39482D9299C33ACF569A341CC9A3CA16C3_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
@@ -314,6 +339,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TangoInputTracking_Internal_TryGetPoseAt
 // System.Boolean UnityEngine.XR.Tango.TangoInputTracking::TryGetPoseAtTime(UnityEngine.XR.Tango.PoseData&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TangoInputTracking_TryGetPoseAtTime_m54012D53CFA783FA8B1DBFEDD893BD2C15436CB3 (PoseData_t50F35DDE09AD0711D1477EA62E5ED2C232285C24* ___pose0, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TangoInputTracking_TryGetPoseAtTime_m54012D53CFA783FA8B1DBFEDD893BD2C15436CB3_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(TangoInputTracking_TryGetPoseAtTime_m54012D53CFA783FA8B1DBFEDD893BD2C15436CB3_RuntimeMethod_var);
 	bool V_0 = false;
 	{
 		PoseData_t50F35DDE09AD0711D1477EA62E5ED2C232285C24* L_0 = ___pose0;

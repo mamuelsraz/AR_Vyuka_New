@@ -6,27 +6,22 @@ using UnityEngine.UI;
 
 public class ArListPopulator : MonoBehaviour
 {
-    public Page page;
-    public Page placePage;
+    public SelectPage page;
     public Transform parent;
     public GameObject categoryPrefab;
     public GameObject blockPrefab;
 
-    private void Start()
+    public void Populate(bool chemie)
     {
-        if (AssetStreamingManager.instance.ArObjectList.Length > 0) Populate();
-        else AssetStreamingManager.instance.LoadList(AssetStreamingManager.path, "list").Complete += (StreamingHandleResponse response) =>
+        foreach (Transform child in parent)
         {
-            if (response.status != StreamingStatus.Failed)
-                Populate();
-        };
-    }
+            GameObject.Destroy(child.gameObject);
+        }
 
-    void Populate()
-    {
-        Dictionary<ArObjCategories, List<ArObject>> sortedCategories = new ();
+        Dictionary<string, List<ArObject>> sortedCategories = new();
         foreach (var item in AssetStreamingManager.instance.ArObjectList)
         {
+            if (item.physics != chemie) continue;
             if (!sortedCategories.ContainsKey(item.category))
                 sortedCategories.Add(item.category, new List<ArObject>());
             sortedCategories[item.category].Add(item);
@@ -41,19 +36,8 @@ public class ArListPopulator : MonoBehaviour
                 var block = Instantiate(blockPrefab, obj.transform);
                 block.GetComponentInChildren<TextMeshProUGUI>().text = arObj.nickName;
                 block.GetComponent<ArListBlock>().arObject = arObj;
-                block.GetComponent<ArListBlock>().populator = this;
+                block.GetComponent<ArListBlock>().page = page;
             }
         }
-
-        Debug.Log("finished");
-        //var contentSizeFitter = parent.GetComponent<ContentSizeFitter>();
-        //contentSizeFitter.enabled = false;
-        //Canvas.ForceUpdateCanvases();
-        //contentSizeFitter.enabled = true;
-        //Canvas.ForceUpdateCanvases();
-    }
-
-    public void ChangePage() {
-        page.GoTo(placePage);
     }
 }

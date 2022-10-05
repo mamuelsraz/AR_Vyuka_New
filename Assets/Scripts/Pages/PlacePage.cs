@@ -5,9 +5,8 @@ using UnityEngine.UI;
 using UnityEngine.XR.ARFoundation;
 using UnityEngine.XR.ARSubsystems;
 
-public class PlacePage : MonoBehaviour
+public class PlacePage : Page
 {
-    public Page page;
     public Page viewPage;
     public Camera camera;
 
@@ -24,23 +23,21 @@ public class PlacePage : MonoBehaviour
     private Pose placementPose;
     private bool placementPoseIsValid = false;
 
-    void Awake()
+    private void Start()
     {
         m_AnchorPoints = new List<ARAnchor>();
     }
 
     void Update()
     {
-        if (page.active)
+        if (active)
         {
-
-
             if (!placementIndicator.activeSelf) placementIndicator.SetActive(true);
 
             UpdatePlacementPose();
             UpdatePlacementIndicator();
 
-            //placeButton.interactable = placementPoseIsValid;
+            placeButton.interactable = placementPoseIsValid;
 #if UNITY_EDITOR
             placeButton.interactable = true;
 #endif
@@ -55,7 +52,7 @@ public class PlacePage : MonoBehaviour
     {
 #if UNITY_EDITOR
         SelectedArObjectManager.instance.SpawnCurrent(null);
-        page.GoTo(viewPage);
+        GoTo(viewPage);
         return;
 #endif
         if (placementPoseIsValid) PlaceObject();
@@ -107,9 +104,10 @@ public class PlacePage : MonoBehaviour
         else
         {
             m_AnchorPoints.Add(anchor);
+            anchor.transform.localScale = Vector3.one * 0.1f;
             SelectedArObjectManager.instance.SpawnCurrent(anchor.transform);
 
-            page.GoTo(viewPage);
+            GoTo(viewPage);
         }
     }
 }

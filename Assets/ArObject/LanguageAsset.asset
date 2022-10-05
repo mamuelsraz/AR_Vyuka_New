@@ -9,10 +9,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 99d0876742e685842a34b543423061db, type: 3}
-  m_Name: CubeAsset
+  m_Script: {fileID: 11500000, guid: 42c263dd625183845824377cfdd042af, type: 3}
+  m_Name: LanguageAsset
   m_EditorClassIdentifier: 
   obj: {fileID: 5612157172080107447, guid: 7c4f400367d645245a43b414c0961721, type: 3}
-  nickName: a
+  nickName: c
   bundle: test_1
-  category: 0
+  physics: 0
+  category: AAAAA
+  nameInLanguage:
+  - language: cs-CS
+    word: Krychle
+    prepositions:
+    - ta
+    - ona

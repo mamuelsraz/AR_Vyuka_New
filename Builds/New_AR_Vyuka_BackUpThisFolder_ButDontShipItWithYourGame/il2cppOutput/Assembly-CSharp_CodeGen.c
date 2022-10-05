@@ -118,30 +118,30 @@ extern void PlacePage_PlaceObject_mA44E3B303CEF45D3348C2DEFFBF7C184F9296210 (voi
 extern void PlacePage__ctor_mD7F3549681E4D205409FE059B70A475B3D12DC09 (void);
 // 0x00000035 System.Void PlacePage::.cctor()
 extern void PlacePage__cctor_m2EEF8F776DB3FF233D1C2451AD58FF5940AFE7A0 (void);
-// 0x00000036 ArObject SelectedArObjectManager::get_selectedArObject()
+// 0x00000036 System.Void ViewPage::Update()
+extern void ViewPage_Update_mE80DED5FDF1E16786B61B3FB6DE6B16BD0383D11 (void);
+// 0x00000037 System.Void ViewPage::.ctor()
+extern void ViewPage__ctor_mC57C06F37E9EBAF72FCAF760D7FD56B2EF17892E (void);
+// 0x00000038 ArObject SelectedArObjectManager::get_selectedArObject()
 extern void SelectedArObjectManager_get_selectedArObject_m4FCC514196A392187F1AB91C82F36BC6214E12A5 (void);
-// 0x00000037 System.Void SelectedArObjectManager::set_selectedArObject(ArObject)
+// 0x00000039 System.Void SelectedArObjectManager::set_selectedArObject(ArObject)
 extern void SelectedArObjectManager_set_selectedArObject_m7820FE55ABF090EAE26DDB87BEA90F995234D509 (void);
-// 0x00000038 UnityEngine.GameObject SelectedArObjectManager::get_selectedObject()
+// 0x0000003A UnityEngine.GameObject SelectedArObjectManager::get_selectedObject()
 extern void SelectedArObjectManager_get_selectedObject_m5743EE70DFDC9C54B9C82C5E378D6D9085948729 (void);
-// 0x00000039 System.Void SelectedArObjectManager::set_selectedObject(UnityEngine.GameObject)
+// 0x0000003B System.Void SelectedArObjectManager::set_selectedObject(UnityEngine.GameObject)
 extern void SelectedArObjectManager_set_selectedObject_mB6EB8EF9D6F5FEA51BAAE08F2FBEE2455943817B (void);
-// 0x0000003A System.Void SelectedArObjectManager::Awake()
+// 0x0000003C System.Void SelectedArObjectManager::Awake()
 extern void SelectedArObjectManager_Awake_mACD3A8415903D311C2EBA38D383B4A542E9F0B34 (void);
-// 0x0000003B System.Void SelectedArObjectManager::SelectNew(ArObject)
+// 0x0000003D System.Void SelectedArObjectManager::SelectNew(ArObject)
 extern void SelectedArObjectManager_SelectNew_mA293588D09043FCCEC520A0672C0660C7F38C422 (void);
-// 0x0000003C System.Void SelectedArObjectManager::SpawnCurrent(UnityEngine.Transform)
-extern void SelectedArObjectManager_SpawnCurrent_mB6508DF5FC6A83494440A5184B43A84A63B35A15 (void);
-// 0x0000003D System.Void SelectedArObjectManager::.ctor()
+// 0x0000003E UnityEngine.GameObject SelectedArObjectManager::SpawnCurrent(UnityEngine.Transform)
+extern void SelectedArObjectManager_SpawnCurrent_m9DB2E5C86D486967E3F7770B817F9381EBF8F236 (void);
+// 0x0000003F System.Void SelectedArObjectManager::.ctor()
 extern void SelectedArObjectManager__ctor_mA6FA781E941365032FF0554B7C9788C06B941BFF (void);
-// 0x0000003E System.Void SimpleDownload::Start()
-extern void SimpleDownload_Start_m6A624587FE72C4A4716018C79A2F70ED80C6AFCB (void);
-// 0x0000003F System.Void SimpleDownload::OnListComplete(StreamingHandleResponse)
-extern void SimpleDownload_OnListComplete_m6FC69E5C0E46431B38CA9291332D5DC637C39592 (void);
-// 0x00000040 System.Void SimpleDownload::OnArObjDownloaded(StreamingHandleResponse)
-extern void SimpleDownload_OnArObjDownloaded_m0B38307F07E9C5246734947EDA01949C8141DA9A (void);
-// 0x00000041 System.Void SimpleDownload::.ctor()
-extern void SimpleDownload__ctor_mFE8AE9EC20DD3D9D23E0344A66169BD367153B7C (void);
+// 0x00000040 System.Void TouchControls::RotateAndScaleObj(UnityEngine.Transform)
+extern void TouchControls_RotateAndScaleObj_mCC0ACEA972DC7165E80974E2310B59D942191C4A (void);
+// 0x00000041 System.Void TouchControls::.ctor()
+extern void TouchControls__ctor_m22C3B30221CD426DF6C3396A0050B2DE326F61C6 (void);
 // 0x00000042 System.Void ArListBlock::Click()
 extern void ArListBlock_Click_mB91CC8EBF16FF056B5A25D06399C90B19A0FF247 (void);
 // 0x00000043 System.Void ArListBlock::Update()
@@ -168,69 +168,79 @@ extern void ArListSection__ctor_mA9A0CA26264EAF02FE7F6266847F30728148B3ED (void)
 extern void ArListSection_U3COpenU3Eb__8_0_m49464EA326A3B6D7E6DC2D878697673071B8C6A9 (void);
 // 0x0000004E System.Void ArListSection::<Close>b__9_0()
 extern void ArListSection_U3CCloseU3Eb__9_0_m26256F049940B2ADC679638F1C013C887BED7176 (void);
-// 0x0000004F System.Void Page::Awake()
+// 0x0000004F System.Void LoadingGraphic::Start()
+extern void LoadingGraphic_Start_mB9C93C0F7F6182BCD40C46A2F34E8ABC777BB91E (void);
+// 0x00000050 System.Void LoadingGraphic::Update()
+extern void LoadingGraphic_Update_m56721A1BBC3BDF4191C1A4E3A5EC3A80969F52B0 (void);
+// 0x00000051 System.Void LoadingGraphic::StartLoading()
+extern void LoadingGraphic_StartLoading_m8DD302166947C09C4ABDC7C6B6DFC68DAF69CC2D (void);
+// 0x00000052 System.Void LoadingGraphic::StopLoading()
+extern void LoadingGraphic_StopLoading_mC017826688D28AECC662300878C196BD97C80B64 (void);
+// 0x00000053 System.Void LoadingGraphic::.ctor()
+extern void LoadingGraphic__ctor_mF486845BA8F5290B6D33083CD2F189E68A0D6403 (void);
+// 0x00000054 System.Void Page::Awake()
 extern void Page_Awake_m8D9E3415D8AC2540EB94662D2BB0D5197529668B (void);
-// 0x00000050 System.Void Page::GoTo(Page)
+// 0x00000055 System.Void Page::GoTo(Page)
 extern void Page_GoTo_mDADF1A91723098CF31ED4665C33AC827FB9CCB60 (void);
-// 0x00000051 System.Void Page::SubToHandle(TransitionHandle,Page,Page)
+// 0x00000056 System.Void Page::SubToHandle(TransitionHandle,Page,Page)
 extern void Page_SubToHandle_m87C48E184362A8452017A5500481B0D88C9008C6 (void);
-// 0x00000052 System.Void Page::ActivatePanel()
+// 0x00000057 System.Void Page::ActivatePanel()
 extern void Page_ActivatePanel_m4329C1A33D7709F24D7F6F5C88090BE286631AEB (void);
-// 0x00000053 System.Void Page::DeactivatePanel()
+// 0x00000058 System.Void Page::DeactivatePanel()
 extern void Page_DeactivatePanel_mA36168BCD02D3E4ED3105EC94870E7C6A9883EEC (void);
-// 0x00000054 System.Void Page::.ctor()
+// 0x00000059 System.Void Page::.ctor()
 extern void Page__ctor_mCFBD15DF3FBC2869DD0328163E1F789546304D92 (void);
-// 0x00000055 System.Void Page/<>c__DisplayClass9_0::.ctor()
+// 0x0000005A System.Void Page/<>c__DisplayClass9_0::.ctor()
 extern void U3CU3Ec__DisplayClass9_0__ctor_m86C76E30D4E83E595A7FB31486DB177B1437EEA2 (void);
-// 0x00000056 System.Void Page/<>c__DisplayClass9_0::<SubToHandle>b__0()
+// 0x0000005B System.Void Page/<>c__DisplayClass9_0::<SubToHandle>b__0()
 extern void U3CU3Ec__DisplayClass9_0_U3CSubToHandleU3Eb__0_m766263103ECA90DD4C427DA187F35C8515C7521D (void);
-// 0x00000057 System.Void Page/<>c__DisplayClass9_0::<SubToHandle>b__1()
+// 0x0000005C System.Void Page/<>c__DisplayClass9_0::<SubToHandle>b__1()
 extern void U3CU3Ec__DisplayClass9_0_U3CSubToHandleU3Eb__1_m9567E306400640E730DC17B31BC73583D8EA3769 (void);
-// 0x00000058 System.Single Transition::get_t()
+// 0x0000005D System.Single Transition::get_t()
 extern void Transition_get_t_m05DFCCDAF5AF126916013EE1199DCB0B85B4F456 (void);
-// 0x00000059 System.Void Transition::Awake()
+// 0x0000005E System.Void Transition::Awake()
 extern void Transition_Awake_m8ACE03C58DAED13C8F2F2ACE954AF37246CD5CC9 (void);
-// 0x0000005A TransitionHandle Transition::StartTransition(System.Boolean)
+// 0x0000005F TransitionHandle Transition::StartTransition(System.Boolean)
 extern void Transition_StartTransition_m491E5606F0F11F7254B82217DC277E47DE2952DC (void);
-// 0x0000005B System.Void Transition::ToggleAndStartTransition()
+// 0x00000060 System.Void Transition::ToggleAndStartTransition()
 extern void Transition_ToggleAndStartTransition_mBE901013A39C97BD6594A3344073D1DF1571B8D2 (void);
-// 0x0000005C System.Void Transition::Update()
+// 0x00000061 System.Void Transition::Update()
 extern void Transition_Update_m92BA0BCCA1DEB843C9840CFB87F43A9C59A9CEEA (void);
-// 0x0000005D System.Void Transition::EndTransition()
+// 0x00000062 System.Void Transition::EndTransition()
 extern void Transition_EndTransition_mA6F36782035A04BDDA839B2CA9AFEBBB2D4083B2 (void);
-// 0x0000005E System.Void Transition::UpdateTransition()
+// 0x00000063 System.Void Transition::UpdateTransition()
 extern void Transition_UpdateTransition_mF73B6CE6E3D8A0050B36397B9269AB3F7DEB1C37 (void);
-// 0x0000005F System.Void Transition::.ctor()
+// 0x00000064 System.Void Transition::.ctor()
 extern void Transition__ctor_m641CBEB2CAC3DD257BAC609DE294488F9BF64768 (void);
-// 0x00000060 System.Void TransitionHandle::.ctor()
+// 0x00000065 System.Void TransitionHandle::.ctor()
 extern void TransitionHandle__ctor_mCDD00F32A3E874197644497DB0FE4596776CD492 (void);
-// 0x00000061 DG.Tweening.TweenCallback TransitionAction::Forward(System.Single)
+// 0x00000066 DG.Tweening.TweenCallback TransitionAction::Forward(System.Single)
 extern void TransitionAction_Forward_mDD03790F04EE78F14F8EBBD77AFB6F140BBEBCFA (void);
-// 0x00000062 DG.Tweening.TweenCallback TransitionAction::Back(System.Single)
+// 0x00000067 DG.Tweening.TweenCallback TransitionAction::Back(System.Single)
 extern void TransitionAction_Back_mC605157BF3BD47F0864E5B15D9B312B793BCA773 (void);
-// 0x00000063 System.Void TransitionAction::Initialize()
+// 0x00000068 System.Void TransitionAction::Initialize()
 extern void TransitionAction_Initialize_mFB7D55BB63B132AA2465ABAA4A7DBB0CAE1079FB (void);
-// 0x00000064 System.String TransitionAction::ToString()
+// 0x00000069 System.String TransitionAction::ToString()
 extern void TransitionAction_ToString_m3131D507B18C42356E791D7017B220268D8C195D (void);
-// 0x00000065 System.Void TransitionAction::.ctor()
+// 0x0000006A System.Void TransitionAction::.ctor()
 extern void TransitionAction__ctor_m51FAB9A08D9226D363D83D0E69D161833C057652 (void);
-// 0x00000066 System.Void MoveTransitionAction::Initialize()
+// 0x0000006B System.Void MoveTransitionAction::Initialize()
 extern void MoveTransitionAction_Initialize_m53E8FE9DCFC3A1707A4836BE52803C8A9D840F85 (void);
-// 0x00000067 DG.Tweening.TweenCallback MoveTransitionAction::Forward(System.Single)
+// 0x0000006C DG.Tweening.TweenCallback MoveTransitionAction::Forward(System.Single)
 extern void MoveTransitionAction_Forward_m5C302B6F851EDF9E09FEAAACA5125BA4B0689E33 (void);
-// 0x00000068 DG.Tweening.TweenCallback MoveTransitionAction::Back(System.Single)
+// 0x0000006D DG.Tweening.TweenCallback MoveTransitionAction::Back(System.Single)
 extern void MoveTransitionAction_Back_m57C3ADDB405A34FB1991CBDA7175C7F14B7D7A75 (void);
-// 0x00000069 System.Void MoveTransitionAction::.ctor()
+// 0x0000006E System.Void MoveTransitionAction::.ctor()
 extern void MoveTransitionAction__ctor_m1D04AE6719DCA408934C48DA9E018C1BBDE7D4CF (void);
-// 0x0000006A System.Void ScreenTransitionAction::Initialize()
+// 0x0000006F System.Void ScreenTransitionAction::Initialize()
 extern void ScreenTransitionAction_Initialize_mEC7B236A0FCDD17F4D9187D9815653A75E23E330 (void);
-// 0x0000006B DG.Tweening.TweenCallback ScreenTransitionAction::Forward(System.Single)
+// 0x00000070 DG.Tweening.TweenCallback ScreenTransitionAction::Forward(System.Single)
 extern void ScreenTransitionAction_Forward_m467FA88D77223BF62437D6BB90A4DF01BF2CB48D (void);
-// 0x0000006C DG.Tweening.TweenCallback ScreenTransitionAction::Back(System.Single)
+// 0x00000071 DG.Tweening.TweenCallback ScreenTransitionAction::Back(System.Single)
 extern void ScreenTransitionAction_Back_m5212D8D85B5A6EA4E5DCBB3CE47FA95A8F3841BF (void);
-// 0x0000006D System.Void ScreenTransitionAction::.ctor()
+// 0x00000072 System.Void ScreenTransitionAction::.ctor()
 extern void ScreenTransitionAction__ctor_mE694387DB5343C9C0EE9B4733823BDCF6E23BE9E (void);
-static Il2CppMethodPointer s_methodPointers[109] = 
+static Il2CppMethodPointer s_methodPointers[114] = 
 {
 	AnchorCreator_get_AnchorPrefab_mBBAF7805E9D9F8D79408EE642D153BC76306B25A,
 	AnchorCreator_set_AnchorPrefab_m53CC9CC3022C713826B44536B48B462C8A1FACFF,
@@ -285,18 +295,18 @@ static Il2CppMethodPointer s_methodPointers[109] =
 	PlacePage_PlaceObject_mA44E3B303CEF45D3348C2DEFFBF7C184F9296210,
 	PlacePage__ctor_mD7F3549681E4D205409FE059B70A475B3D12DC09,
 	PlacePage__cctor_m2EEF8F776DB3FF233D1C2451AD58FF5940AFE7A0,
+	ViewPage_Update_mE80DED5FDF1E16786B61B3FB6DE6B16BD0383D11,
+	ViewPage__ctor_mC57C06F37E9EBAF72FCAF760D7FD56B2EF17892E,
 	SelectedArObjectManager_get_selectedArObject_m4FCC514196A392187F1AB91C82F36BC6214E12A5,
 	SelectedArObjectManager_set_selectedArObject_m7820FE55ABF090EAE26DDB87BEA90F995234D509,
 	SelectedArObjectManager_get_selectedObject_m5743EE70DFDC9C54B9C82C5E378D6D9085948729,
 	SelectedArObjectManager_set_selectedObject_mB6EB8EF9D6F5FEA51BAAE08F2FBEE2455943817B,
 	SelectedArObjectManager_Awake_mACD3A8415903D311C2EBA38D383B4A542E9F0B34,
 	SelectedArObjectManager_SelectNew_mA293588D09043FCCEC520A0672C0660C7F38C422,
-	SelectedArObjectManager_SpawnCurrent_mB6508DF5FC6A83494440A5184B43A84A63B35A15,
+	SelectedArObjectManager_SpawnCurrent_m9DB2E5C86D486967E3F7770B817F9381EBF8F236,
 	SelectedArObjectManager__ctor_mA6FA781E941365032FF0554B7C9788C06B941BFF,
-	SimpleDownload_Start_m6A624587FE72C4A4716018C79A2F70ED80C6AFCB,
-	SimpleDownload_OnListComplete_m6FC69E5C0E46431B38CA9291332D5DC637C39592,
-	SimpleDownload_OnArObjDownloaded_m0B38307F07E9C5246734947EDA01949C8141DA9A,
-	SimpleDownload__ctor_mFE8AE9EC20DD3D9D23E0344A66169BD367153B7C,
+	TouchControls_RotateAndScaleObj_mCC0ACEA972DC7165E80974E2310B59D942191C4A,
+	TouchControls__ctor_m22C3B30221CD426DF6C3396A0050B2DE326F61C6,
 	ArListBlock_Click_mB91CC8EBF16FF056B5A25D06399C90B19A0FF247,
 	ArListBlock_Update_m08ADD9DC5DE6844F1F603BFED75C5002C4290591,
 	ArListBlock_Download_mE0D543104F84D509769FC299CCF60E8531ACE57B,
@@ -310,6 +320,11 @@ static Il2CppMethodPointer s_methodPointers[109] =
 	ArListSection__ctor_mA9A0CA26264EAF02FE7F6266847F30728148B3ED,
 	ArListSection_U3COpenU3Eb__8_0_m49464EA326A3B6D7E6DC2D878697673071B8C6A9,
 	ArListSection_U3CCloseU3Eb__9_0_m26256F049940B2ADC679638F1C013C887BED7176,
+	LoadingGraphic_Start_mB9C93C0F7F6182BCD40C46A2F34E8ABC777BB91E,
+	LoadingGraphic_Update_m56721A1BBC3BDF4191C1A4E3A5EC3A80969F52B0,
+	LoadingGraphic_StartLoading_m8DD302166947C09C4ABDC7C6B6DFC68DAF69CC2D,
+	LoadingGraphic_StopLoading_mC017826688D28AECC662300878C196BD97C80B64,
+	LoadingGraphic__ctor_mF486845BA8F5290B6D33083CD2F189E68A0D6403,
 	Page_Awake_m8D9E3415D8AC2540EB94662D2BB0D5197529668B,
 	Page_GoTo_mDADF1A91723098CF31ED4665C33AC827FB9CCB60,
 	Page_SubToHandle_m87C48E184362A8452017A5500481B0D88C9008C6,
@@ -342,123 +357,128 @@ static Il2CppMethodPointer s_methodPointers[109] =
 	ScreenTransitionAction_Back_m5212D8D85B5A6EA4E5DCBB3CE47FA95A8F3841BF,
 	ScreenTransitionAction__ctor_mE694387DB5343C9C0EE9B4733823BDCF6E23BE9E,
 };
-static const int32_t s_InvokerIndices[109] = 
+static const int32_t s_InvokerIndices[114] = 
 {
-	7363,
-	5921,
-	7491,
-	7491,
-	7491,
-	7491,
-	13316,
-	7422,
-	5976,
-	7491,
-	7491,
-	7491,
-	5782,
-	5921,
-	7491,
-	13316,
-	7491,
-	2169,
-	2169,
-	1259,
-	1259,
-	7491,
-	13316,
-	5888,
-	7491,
-	7412,
-	7363,
-	7491,
-	7363,
-	5888,
-	7491,
-	7412,
-	7363,
-	7491,
-	7363,
-	7491,
-	2947,
-	7491,
-	7491,
-	7491,
-	7491,
-	7491,
-	7491,
-	7491,
-	5921,
-	7491,
-	7491,
-	7491,
-	7491,
-	7491,
-	7491,
-	7491,
-	13316,
-	7363,
-	5921,
-	7363,
-	5921,
-	7491,
-	5921,
-	5921,
-	7491,
-	7491,
-	5921,
-	5921,
-	7491,
-	7491,
-	7491,
-	7491,
-	7491,
-	7491,
-	5921,
-	7491,
-	7491,
-	7491,
-	7491,
-	7491,
-	7491,
-	7491,
-	7491,
-	5921,
-	1618,
-	7491,
-	7491,
-	7491,
-	7491,
-	7491,
-	7491,
-	7422,
-	7491,
-	4411,
-	7491,
-	7491,
-	7491,
-	7491,
-	7491,
-	7491,
-	4413,
-	4413,
-	7491,
-	7363,
-	7491,
-	7491,
-	4413,
-	4413,
-	7491,
-	7491,
-	4413,
-	4413,
-	7491,
+	7438,
+	5966,
+	7567,
+	7567,
+	7567,
+	7567,
+	13438,
+	7498,
+	6023,
+	7567,
+	7567,
+	7567,
+	5827,
+	5966,
+	7567,
+	13438,
+	7567,
+	2174,
+	2174,
+	1262,
+	1262,
+	7567,
+	13438,
+	5933,
+	7567,
+	7488,
+	7438,
+	7567,
+	7438,
+	5933,
+	7567,
+	7488,
+	7438,
+	7567,
+	7438,
+	7567,
+	2956,
+	7567,
+	7567,
+	7567,
+	7567,
+	7567,
+	7567,
+	7567,
+	5966,
+	7567,
+	7567,
+	7567,
+	7567,
+	7567,
+	7567,
+	7567,
+	13438,
+	7567,
+	7567,
+	7438,
+	5966,
+	7438,
+	5966,
+	7567,
+	5966,
+	4422,
+	7567,
+	5966,
+	7567,
+	7567,
+	7567,
+	7567,
+	7567,
+	7567,
+	5966,
+	7567,
+	7567,
+	7567,
+	7567,
+	7567,
+	7567,
+	7567,
+	7567,
+	7567,
+	7567,
+	7567,
+	7567,
+	7567,
+	5966,
+	1621,
+	7567,
+	7567,
+	7567,
+	7567,
+	7567,
+	7567,
+	7498,
+	7567,
+	4427,
+	7567,
+	7567,
+	7567,
+	7567,
+	7567,
+	7567,
+	4429,
+	4429,
+	7567,
+	7438,
+	7567,
+	7567,
+	4429,
+	4429,
+	7567,
+	7567,
+	4429,
+	4429,
+	7567,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	109,
+	114,
 	s_methodPointers,
 	0,
 	NULL,

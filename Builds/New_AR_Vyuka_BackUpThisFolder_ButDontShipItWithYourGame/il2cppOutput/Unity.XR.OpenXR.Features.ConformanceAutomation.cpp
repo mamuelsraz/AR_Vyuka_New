@@ -25,6 +25,24 @@ IL2CPP_EXTERN_C RuntimeClass* ConformanceAutomationFeature_t0C2E5D391DBCC81F1B86
 IL2CPP_EXTERN_C RuntimeClass* Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C String_t* _stringLiteral1EE607E7A79DA3E992CB9CC9E1EC0D01EA835E3A;
 IL2CPP_EXTERN_C String_t* _stringLiteralB104C514D9981ACAB60EEF204DC3FF686A2B283E;
+IL2CPP_EXTERN_C const RuntimeMethod* ConformanceAutomationFeature_ConformanceAutomationSetActive_m4B9C78D5A5392CE9A3888BD8DC06101182A7093D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ConformanceAutomationFeature_ConformanceAutomationSetBool_mB08ABE711391DAC2D60B5FDB9A269A5DE598551D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ConformanceAutomationFeature_ConformanceAutomationSetFloat_m9C88888E2357389D4A9C88E085CFCD75BAA2C298_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ConformanceAutomationFeature_ConformanceAutomationSetPose_m214405327D9C9F0E8DE9D818BED40230CFE49510_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ConformanceAutomationFeature_ConformanceAutomationSetVec2_mFB96A38446284FF9C4030191B5D4A7954D3F96D4_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ConformanceAutomationFeature_ConformanceAutomationSetVelocity_m4F3D74A4D9E8DE9384201A9CBAFF526E7151FF7B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ConformanceAutomationFeature_OnInstanceCreate_m2FE4E5849C89EB442F5B56B7D3A62FFC7A3833FB_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ConformanceAutomationFeature_OnInstanceDestroy_m96D8F96B35E8B653A502EB0DF784399E4136A12A_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ConformanceAutomationFeature_OnSessionCreate_m2979BF91B65F60D1B0C00F1B65B26B894E8F6BAF_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ConformanceAutomationFeature_OnSessionDestroy_mC7E3A6C106E0079A0AE636DF7B419A9FBA609724_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ConformanceAutomationFeature__ctor_mD56EBF29667C1232A5456B17D69A475FFC18BAC4_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ConformanceAutomationFeature_initialize_m35A8F939548BAC343990513C851A74792B83FA01_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ConformanceAutomationFeature_xrSetInputDeviceActiveEXT_m2760BB99AD57646C1451038BA6E4B2FC392A8F75_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ConformanceAutomationFeature_xrSetInputDeviceLocationEXT_m66A16F9A7ED4FBE8F123DFEFA9EF2800D7647BFE_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ConformanceAutomationFeature_xrSetInputDeviceStateBoolEXT_m53C2A6F8223CDBAD355D5190D05F50FFD56ED3A6_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ConformanceAutomationFeature_xrSetInputDeviceStateFloatEXT_m30E36B3EFCF8428F091CA17F59CCDA80A268572C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ConformanceAutomationFeature_xrSetInputDeviceStateVector2fEXT_m7605F78A24819005AECAD474C3FF83B0F69904AA_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ConformanceAutomationFeature_xrSetInputDeviceVelocityUNITY_mC831B22D69E784B934131BB96220BC34327D2A92_RuntimeMethod_var;
 
 
 IL2CPP_EXTERN_C_BEGIN
@@ -416,19 +434,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_OnInstanceC
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ConformanceAutomationFeature_OnInstanceCreate_m2FE4E5849C89EB442F5B56B7D3A62FFC7A3833FB_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ConformanceAutomationFeature_t0C2E5D391DBCC81F1B86F2D7E34719B7D292BFF7_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral1EE607E7A79DA3E992CB9CC9E1EC0D01EA835E3A);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB104C514D9981ACAB60EEF204DC3FF686A2B283E);
 		s_Il2CppMethodInitialized = true;
 	}
+	ProfilerMethodSentry _profilerMethodSentry(ConformanceAutomationFeature_OnInstanceCreate_m2FE4E5849C89EB442F5B56B7D3A62FFC7A3833FB_RuntimeMethod_var);
+	bool V_0 = false;
+	bool V_1 = false;
 	{
 		// if (!OpenXRRuntime.IsExtensionEnabled("XR_EXT_conformance_automation"))
 		bool L_0;
 		L_0 = OpenXRRuntime_IsExtensionEnabled_m843EDD466C2EFA0E1C1350621411522290C74716(_stringLiteralB104C514D9981ACAB60EEF204DC3FF686A2B283E, NULL);
-		if (L_0)
+		V_0 = (bool)((((int32_t)L_0) == ((int32_t)0))? 1 : 0);
+		bool L_1 = V_0;
+		if (!L_1)
 		{
-			goto IL_0018;
+			goto IL_0022;
 		}
 	}
 	{
@@ -436,23 +460,32 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_OnInstanceC
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_m059825802BB6AF7EA9693FEBEEB0D85F59A3E38E(_stringLiteral1EE607E7A79DA3E992CB9CC9E1EC0D01EA835E3A, NULL);
 		// return false;
-		return (bool)0;
+		V_1 = (bool)0;
+		goto IL_0043;
 	}
 
-IL_0018:
+IL_0022:
 	{
 		// xrInstance = instance;
-		uint64_t L_1 = ___instance0;
-		((ConformanceAutomationFeature_t0C2E5D391DBCC81F1B86F2D7E34719B7D292BFF7_StaticFields*)il2cpp_codegen_static_fields_for(ConformanceAutomationFeature_t0C2E5D391DBCC81F1B86F2D7E34719B7D292BFF7_il2cpp_TypeInfo_var))->___xrInstance_16 = L_1;
+		uint64_t L_2 = ___instance0;
+		((ConformanceAutomationFeature_t0C2E5D391DBCC81F1B86F2D7E34719B7D292BFF7_StaticFields*)il2cpp_codegen_static_fields_for(ConformanceAutomationFeature_t0C2E5D391DBCC81F1B86F2D7E34719B7D292BFF7_il2cpp_TypeInfo_var))->___xrInstance_16 = L_2;
 		// xrSession = 0ul;
 		((ConformanceAutomationFeature_t0C2E5D391DBCC81F1B86F2D7E34719B7D292BFF7_StaticFields*)il2cpp_codegen_static_fields_for(ConformanceAutomationFeature_t0C2E5D391DBCC81F1B86F2D7E34719B7D292BFF7_il2cpp_TypeInfo_var))->___xrSession_17 = ((int64_t)0);
 		// initialize(xrGetInstanceProcAddr, xrInstance);
-		intptr_t L_2;
-		L_2 = OpenXRFeature_get_xrGetInstanceProcAddr_m616F5709A63844DA12D409E8FEF4929EFA9F5B22(NULL);
-		uint64_t L_3 = ((ConformanceAutomationFeature_t0C2E5D391DBCC81F1B86F2D7E34719B7D292BFF7_StaticFields*)il2cpp_codegen_static_fields_for(ConformanceAutomationFeature_t0C2E5D391DBCC81F1B86F2D7E34719B7D292BFF7_il2cpp_TypeInfo_var))->___xrInstance_16;
-		ConformanceAutomationFeature_initialize_m35A8F939548BAC343990513C851A74792B83FA01(L_2, L_3, NULL);
+		intptr_t L_3;
+		L_3 = OpenXRFeature_get_xrGetInstanceProcAddr_m616F5709A63844DA12D409E8FEF4929EFA9F5B22(NULL);
+		uint64_t L_4 = ((ConformanceAutomationFeature_t0C2E5D391DBCC81F1B86F2D7E34719B7D292BFF7_StaticFields*)il2cpp_codegen_static_fields_for(ConformanceAutomationFeature_t0C2E5D391DBCC81F1B86F2D7E34719B7D292BFF7_il2cpp_TypeInfo_var))->___xrInstance_16;
+		ConformanceAutomationFeature_initialize_m35A8F939548BAC343990513C851A74792B83FA01(L_3, L_4, NULL);
 		// return true;
-		return (bool)1;
+		V_1 = (bool)1;
+		goto IL_0043;
+	}
+
+IL_0043:
+	{
+		// }
+		bool L_5 = V_1;
+		return L_5;
 	}
 }
 // System.Void UnityEngine.XR.OpenXR.Features.ConformanceAutomation.ConformanceAutomationFeature::OnInstanceDestroy(System.UInt64)
@@ -461,9 +494,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConformanceAutomationFeature_OnInstanceD
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ConformanceAutomationFeature_OnInstanceDestroy_m96D8F96B35E8B653A502EB0DF784399E4136A12A_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ConformanceAutomationFeature_t0C2E5D391DBCC81F1B86F2D7E34719B7D292BFF7_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	ProfilerMethodSentry _profilerMethodSentry(ConformanceAutomationFeature_OnInstanceDestroy_m96D8F96B35E8B653A502EB0DF784399E4136A12A_RuntimeMethod_var);
 	{
 		// base.OnInstanceDestroy(xrInstance);
 		uint64_t L_0 = ___xrInstance0;
@@ -480,9 +515,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConformanceAutomationFeature_OnSessionCr
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ConformanceAutomationFeature_OnSessionCreate_m2979BF91B65F60D1B0C00F1B65B26B894E8F6BAF_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ConformanceAutomationFeature_t0C2E5D391DBCC81F1B86F2D7E34719B7D292BFF7_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	ProfilerMethodSentry _profilerMethodSentry(ConformanceAutomationFeature_OnSessionCreate_m2979BF91B65F60D1B0C00F1B65B26B894E8F6BAF_RuntimeMethod_var);
 	{
 		// ConformanceAutomationFeature.xrSession = xrSessionId;
 		uint64_t L_0 = ___xrSessionId0;
@@ -500,9 +537,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConformanceAutomationFeature_OnSessionDe
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ConformanceAutomationFeature_OnSessionDestroy_mC7E3A6C106E0079A0AE636DF7B419A9FBA609724_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ConformanceAutomationFeature_t0C2E5D391DBCC81F1B86F2D7E34719B7D292BFF7_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	ProfilerMethodSentry _profilerMethodSentry(ConformanceAutomationFeature_OnSessionDestroy_mC7E3A6C106E0079A0AE636DF7B419A9FBA609724_RuntimeMethod_var);
 	{
 		// base.OnSessionDestroy(xrSessionId);
 		uint64_t L_0 = ___xrSessionId0;
@@ -519,9 +558,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_Conformance
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ConformanceAutomationFeature_ConformanceAutomationSetActive_m4B9C78D5A5392CE9A3888BD8DC06101182A7093D_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ConformanceAutomationFeature_t0C2E5D391DBCC81F1B86F2D7E34719B7D292BFF7_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	ProfilerMethodSentry _profilerMethodSentry(ConformanceAutomationFeature_ConformanceAutomationSetActive_m4B9C78D5A5392CE9A3888BD8DC06101182A7093D_RuntimeMethod_var);
+	bool V_0 = false;
 	{
 		// return xrSetInputDeviceActiveEXT(
 		//     xrSession,
@@ -538,7 +580,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_Conformance
 		bool L_5 = ___isActive2;
 		bool L_6;
 		L_6 = ConformanceAutomationFeature_xrSetInputDeviceActiveEXT_m2760BB99AD57646C1451038BA6E4B2FC392A8F75(L_0, L_2, L_4, L_5, NULL);
-		return L_6;
+		V_0 = L_6;
+		goto IL_001b;
+	}
+
+IL_001b:
+	{
+		// }
+		bool L_7 = V_0;
+		return L_7;
 	}
 }
 // System.Boolean UnityEngine.XR.OpenXR.Features.ConformanceAutomation.ConformanceAutomationFeature::ConformanceAutomationSetBool(System.String,System.String,System.Boolean)
@@ -547,9 +597,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_Conformance
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ConformanceAutomationFeature_ConformanceAutomationSetBool_mB08ABE711391DAC2D60B5FDB9A269A5DE598551D_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ConformanceAutomationFeature_t0C2E5D391DBCC81F1B86F2D7E34719B7D292BFF7_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	ProfilerMethodSentry _profilerMethodSentry(ConformanceAutomationFeature_ConformanceAutomationSetBool_mB08ABE711391DAC2D60B5FDB9A269A5DE598551D_RuntimeMethod_var);
+	bool V_0 = false;
 	{
 		// return xrSetInputDeviceStateBoolEXT(
 		//     xrSession,
@@ -566,7 +619,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_Conformance
 		bool L_5 = ___state2;
 		bool L_6;
 		L_6 = ConformanceAutomationFeature_xrSetInputDeviceStateBoolEXT_m53C2A6F8223CDBAD355D5190D05F50FFD56ED3A6(L_0, L_2, L_4, L_5, NULL);
-		return L_6;
+		V_0 = L_6;
+		goto IL_001b;
+	}
+
+IL_001b:
+	{
+		// }
+		bool L_7 = V_0;
+		return L_7;
 	}
 }
 // System.Boolean UnityEngine.XR.OpenXR.Features.ConformanceAutomation.ConformanceAutomationFeature::ConformanceAutomationSetFloat(System.String,System.String,System.Single)
@@ -575,9 +636,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_Conformance
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ConformanceAutomationFeature_ConformanceAutomationSetFloat_m9C88888E2357389D4A9C88E085CFCD75BAA2C298_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ConformanceAutomationFeature_t0C2E5D391DBCC81F1B86F2D7E34719B7D292BFF7_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	ProfilerMethodSentry _profilerMethodSentry(ConformanceAutomationFeature_ConformanceAutomationSetFloat_m9C88888E2357389D4A9C88E085CFCD75BAA2C298_RuntimeMethod_var);
+	bool V_0 = false;
 	{
 		// return xrSetInputDeviceStateFloatEXT(
 		//     xrSession,
@@ -594,7 +658,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_Conformance
 		float L_5 = ___state2;
 		bool L_6;
 		L_6 = ConformanceAutomationFeature_xrSetInputDeviceStateFloatEXT_m30E36B3EFCF8428F091CA17F59CCDA80A268572C(L_0, L_2, L_4, L_5, NULL);
-		return L_6;
+		V_0 = L_6;
+		goto IL_001b;
+	}
+
+IL_001b:
+	{
+		// }
+		bool L_7 = V_0;
+		return L_7;
 	}
 }
 // System.Boolean UnityEngine.XR.OpenXR.Features.ConformanceAutomation.ConformanceAutomationFeature::ConformanceAutomationSetVec2(System.String,System.String,UnityEngine.Vector2)
@@ -603,9 +675,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_Conformance
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ConformanceAutomationFeature_ConformanceAutomationSetVec2_mFB96A38446284FF9C4030191B5D4A7954D3F96D4_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ConformanceAutomationFeature_t0C2E5D391DBCC81F1B86F2D7E34719B7D292BFF7_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	ProfilerMethodSentry _profilerMethodSentry(ConformanceAutomationFeature_ConformanceAutomationSetVec2_mFB96A38446284FF9C4030191B5D4A7954D3F96D4_RuntimeMethod_var);
+	bool V_0 = false;
 	{
 		// return xrSetInputDeviceStateVector2fEXT(
 		//     xrSession,
@@ -625,7 +700,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_Conformance
 		XrVector2f__ctor_m51B575C8D2A82F268115665EA11EA19F94626D12((&L_6), L_5, /*hidden argument*/NULL);
 		bool L_7;
 		L_7 = ConformanceAutomationFeature_xrSetInputDeviceStateVector2fEXT_m7605F78A24819005AECAD474C3FF83B0F69904AA(L_0, L_2, L_4, L_6, NULL);
-		return L_7;
+		V_0 = L_7;
+		goto IL_0020;
+	}
+
+IL_0020:
+	{
+		// }
+		bool L_8 = V_0;
+		return L_8;
 	}
 }
 // System.Boolean UnityEngine.XR.OpenXR.Features.ConformanceAutomation.ConformanceAutomationFeature::ConformanceAutomationSetPose(System.String,System.String,UnityEngine.Vector3,UnityEngine.Quaternion)
@@ -634,9 +717,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_Conformance
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ConformanceAutomationFeature_ConformanceAutomationSetPose_m214405327D9C9F0E8DE9D818BED40230CFE49510_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ConformanceAutomationFeature_t0C2E5D391DBCC81F1B86F2D7E34719B7D292BFF7_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	ProfilerMethodSentry _profilerMethodSentry(ConformanceAutomationFeature_ConformanceAutomationSetPose_m214405327D9C9F0E8DE9D818BED40230CFE49510_RuntimeMethod_var);
+	bool V_0 = false;
 	{
 		// return xrSetInputDeviceLocationEXT(
 		//     xrSession,
@@ -660,7 +746,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_Conformance
 		XrPosef__ctor_m94BB8C6A2509884C414CD9145C43B8566F44A5B8((&L_8), L_6, L_7, /*hidden argument*/NULL);
 		bool L_9;
 		L_9 = ConformanceAutomationFeature_xrSetInputDeviceLocationEXT_m66A16F9A7ED4FBE8F123DFEFA9EF2800D7647BFE(L_0, L_2, L_4, L_5, L_8, NULL);
-		return L_9;
+		V_0 = L_9;
+		goto IL_0026;
+	}
+
+IL_0026:
+	{
+		// }
+		bool L_10 = V_0;
+		return L_10;
 	}
 }
 // System.Boolean UnityEngine.XR.OpenXR.Features.ConformanceAutomation.ConformanceAutomationFeature::ConformanceAutomationSetVelocity(System.String,System.String,System.Boolean,UnityEngine.Vector3,System.Boolean,UnityEngine.Vector3)
@@ -669,9 +763,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_Conformance
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ConformanceAutomationFeature_ConformanceAutomationSetVelocity_m4F3D74A4D9E8DE9384201A9CBAFF526E7151FF7B_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ConformanceAutomationFeature_t0C2E5D391DBCC81F1B86F2D7E34719B7D292BFF7_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	ProfilerMethodSentry _profilerMethodSentry(ConformanceAutomationFeature_ConformanceAutomationSetVelocity_m4F3D74A4D9E8DE9384201A9CBAFF526E7151FF7B_RuntimeMethod_var);
+	bool V_0 = false;
 	{
 		// return xrSetInputDeviceVelocityUNITY(
 		//     xrSession,
@@ -703,12 +800,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_Conformance
 		XrVector3f__ctor_mB3C25EDC634180520CE65E7926952976E469CBC6((&L_11), L_10, /*hidden argument*/NULL);
 		bool L_12;
 		L_12 = ConformanceAutomationFeature_xrSetInputDeviceVelocityUNITY_mC831B22D69E784B934131BB96220BC34327D2A92(L_0, L_2, L_4, L_5, L_7, L_8, L_11, NULL);
-		return L_12;
+		V_0 = L_12;
+		goto IL_0034;
+	}
+
+IL_0034:
+	{
+		// }
+		bool L_13 = V_0;
+		return L_13;
 	}
 }
 // System.Void UnityEngine.XR.OpenXR.Features.ConformanceAutomation.ConformanceAutomationFeature::initialize(System.IntPtr,System.UInt64)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConformanceAutomationFeature_initialize_m35A8F939548BAC343990513C851A74792B83FA01 (intptr_t ___xrGetInstanceProcAddr0, uint64_t ___xrInstance1, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ConformanceAutomationFeature_initialize_m35A8F939548BAC343990513C851A74792B83FA01_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(ConformanceAutomationFeature_initialize_m35A8F939548BAC343990513C851A74792B83FA01_RuntimeMethod_var);
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint64_t);
 	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_ConformanceAutomationExt_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
@@ -731,6 +843,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConformanceAutomationFeature_initialize_
 // System.Boolean UnityEngine.XR.OpenXR.Features.ConformanceAutomation.ConformanceAutomationFeature::xrSetInputDeviceActiveEXT(System.UInt64,System.UInt64,System.UInt64,System.Boolean)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_xrSetInputDeviceActiveEXT_m2760BB99AD57646C1451038BA6E4B2FC392A8F75 (uint64_t ___xrSession0, uint64_t ___interactionProfile1, uint64_t ___topLevelPath2, bool ___isActive3, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ConformanceAutomationFeature_xrSetInputDeviceActiveEXT_m2760BB99AD57646C1451038BA6E4B2FC392A8F75_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(ConformanceAutomationFeature_xrSetInputDeviceActiveEXT_m2760BB99AD57646C1451038BA6E4B2FC392A8F75_RuntimeMethod_var);
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint64_t, uint64_t, uint64_t, int32_t);
 	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_ConformanceAutomationExt_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
@@ -754,6 +873,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_xrSetInputD
 // System.Boolean UnityEngine.XR.OpenXR.Features.ConformanceAutomation.ConformanceAutomationFeature::xrSetInputDeviceStateBoolEXT(System.UInt64,System.UInt64,System.UInt64,System.Boolean)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_xrSetInputDeviceStateBoolEXT_m53C2A6F8223CDBAD355D5190D05F50FFD56ED3A6 (uint64_t ___xrSession0, uint64_t ___topLevelPath1, uint64_t ___inputSourcePath2, bool ___state3, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ConformanceAutomationFeature_xrSetInputDeviceStateBoolEXT_m53C2A6F8223CDBAD355D5190D05F50FFD56ED3A6_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(ConformanceAutomationFeature_xrSetInputDeviceStateBoolEXT_m53C2A6F8223CDBAD355D5190D05F50FFD56ED3A6_RuntimeMethod_var);
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint64_t, uint64_t, uint64_t, int32_t);
 	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_ConformanceAutomationExt_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
@@ -777,6 +903,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_xrSetInputD
 // System.Boolean UnityEngine.XR.OpenXR.Features.ConformanceAutomation.ConformanceAutomationFeature::xrSetInputDeviceStateFloatEXT(System.UInt64,System.UInt64,System.UInt64,System.Single)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_xrSetInputDeviceStateFloatEXT_m30E36B3EFCF8428F091CA17F59CCDA80A268572C (uint64_t ___xrSession0, uint64_t ___topLevelPath1, uint64_t ___inputSourcePath2, float ___state3, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ConformanceAutomationFeature_xrSetInputDeviceStateFloatEXT_m30E36B3EFCF8428F091CA17F59CCDA80A268572C_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(ConformanceAutomationFeature_xrSetInputDeviceStateFloatEXT_m30E36B3EFCF8428F091CA17F59CCDA80A268572C_RuntimeMethod_var);
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint64_t, uint64_t, uint64_t, float);
 	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_ConformanceAutomationExt_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
@@ -800,6 +933,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_xrSetInputD
 // System.Boolean UnityEngine.XR.OpenXR.Features.ConformanceAutomation.ConformanceAutomationFeature::xrSetInputDeviceStateVector2fEXT(System.UInt64,System.UInt64,System.UInt64,UnityEngine.XR.OpenXR.NativeTypes.XrVector2f)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_xrSetInputDeviceStateVector2fEXT_m7605F78A24819005AECAD474C3FF83B0F69904AA (uint64_t ___xrSession0, uint64_t ___topLevelPath1, uint64_t ___inputSourcePath2, XrVector2f_t347E48BCFE5F37AFA86233510BC67C246F868188 ___state3, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ConformanceAutomationFeature_xrSetInputDeviceStateVector2fEXT_m7605F78A24819005AECAD474C3FF83B0F69904AA_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(ConformanceAutomationFeature_xrSetInputDeviceStateVector2fEXT_m7605F78A24819005AECAD474C3FF83B0F69904AA_RuntimeMethod_var);
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint64_t, uint64_t, uint64_t, XrVector2f_t347E48BCFE5F37AFA86233510BC67C246F868188);
 	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_ConformanceAutomationExt_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
@@ -823,6 +963,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_xrSetInputD
 // System.Boolean UnityEngine.XR.OpenXR.Features.ConformanceAutomation.ConformanceAutomationFeature::xrSetInputDeviceLocationEXT(System.UInt64,System.UInt64,System.UInt64,System.UInt64,UnityEngine.XR.OpenXR.NativeTypes.XrPosef)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_xrSetInputDeviceLocationEXT_m66A16F9A7ED4FBE8F123DFEFA9EF2800D7647BFE (uint64_t ___xrSession0, uint64_t ___topLevelPath1, uint64_t ___inputSourcePath2, uint64_t ___space3, XrPosef_t30CFD88924941CAA7DB413CD1AFF423530A90DD0 ___pose4, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ConformanceAutomationFeature_xrSetInputDeviceLocationEXT_m66A16F9A7ED4FBE8F123DFEFA9EF2800D7647BFE_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(ConformanceAutomationFeature_xrSetInputDeviceLocationEXT_m66A16F9A7ED4FBE8F123DFEFA9EF2800D7647BFE_RuntimeMethod_var);
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint64_t, uint64_t, uint64_t, uint64_t, XrPosef_t30CFD88924941CAA7DB413CD1AFF423530A90DD0);
 	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_ConformanceAutomationExt_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
@@ -846,6 +993,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_xrSetInputD
 // System.Boolean UnityEngine.XR.OpenXR.Features.ConformanceAutomation.ConformanceAutomationFeature::xrSetInputDeviceVelocityUNITY(System.UInt64,System.UInt64,System.UInt64,System.Boolean,UnityEngine.XR.OpenXR.NativeTypes.XrVector3f,System.Boolean,UnityEngine.XR.OpenXR.NativeTypes.XrVector3f)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_xrSetInputDeviceVelocityUNITY_mC831B22D69E784B934131BB96220BC34327D2A92 (uint64_t ___xrSession0, uint64_t ___topLevelPath1, uint64_t ___inputSourcePath2, bool ___linearValid3, XrVector3f_t63DECBA2AFC7771B19C164A533925A5E20386F2A ___linear4, bool ___angularValid5, XrVector3f_t63DECBA2AFC7771B19C164A533925A5E20386F2A ___angular6, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ConformanceAutomationFeature_xrSetInputDeviceVelocityUNITY_mC831B22D69E784B934131BB96220BC34327D2A92_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(ConformanceAutomationFeature_xrSetInputDeviceVelocityUNITY_mC831B22D69E784B934131BB96220BC34327D2A92_RuntimeMethod_var);
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint64_t, uint64_t, uint64_t, int32_t, XrVector3f_t63DECBA2AFC7771B19C164A533925A5E20386F2A, int32_t, XrVector3f_t63DECBA2AFC7771B19C164A533925A5E20386F2A);
 	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_ConformanceAutomationExt_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
@@ -869,6 +1023,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_xrSetInputD
 // System.Void UnityEngine.XR.OpenXR.Features.ConformanceAutomation.ConformanceAutomationFeature::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConformanceAutomationFeature__ctor_mD56EBF29667C1232A5456B17D69A475FFC18BAC4 (ConformanceAutomationFeature_t0C2E5D391DBCC81F1B86F2D7E34719B7D292BFF7* __this, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ConformanceAutomationFeature__ctor_mD56EBF29667C1232A5456B17D69A475FFC18BAC4_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(ConformanceAutomationFeature__ctor_mD56EBF29667C1232A5456B17D69A475FFC18BAC4_RuntimeMethod_var);
 	{
 		OpenXRFeature__ctor_m120460E34ECC22ED2DB96797A6DCB5C870E78852(__this, NULL);
 		return;

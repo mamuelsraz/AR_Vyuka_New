@@ -28,10 +28,12 @@ public class SelectedArObjectManager : MonoBehaviour
         //selectedObject.SetActive(true);
     }
 
-    public void SpawnCurrent(Transform parent) {
+    public GameObject SpawnCurrent(Transform parent) {
         selectedObject.transform.parent = parent;
         selectedObject.transform.localPosition = Vector3.zero;
         selectedObject.transform.localScale = Vector3.one;
         selectedObject.transform.localRotation = Quaternion.identity;
+        selectedObject.SetActive(true);
+        return selectedObject;
     }
 }

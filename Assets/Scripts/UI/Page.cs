@@ -7,16 +7,16 @@ using UnityEngine.Events;
 [RequireComponent(typeof(RectTransform))]
 public class Page : MonoBehaviour
 {
-    [HideInInspector] RectTransform rect;
+    [HideInInspector] public RectTransform rect;
     public Transition transition;
     public bool active;
 
-    public UnityEvent onPreShow;
-    public UnityEvent onPostShow;
-    public UnityEvent onPreHide;
-    public UnityEvent onPostHide;
+    [HideInInspector] public UnityEvent onPreShow;
+    [HideInInspector] public UnityEvent onPostShow;
+    [HideInInspector] public UnityEvent onPreHide;
+    [HideInInspector] public UnityEvent onPostHide;
 
-    private void Awake()
+    protected virtual void Awake()
     {
         rect = GetComponent<RectTransform>();
         onPreShow.AddListener(ActivatePanel);
@@ -25,6 +25,8 @@ public class Page : MonoBehaviour
 
     public void GoTo(Page page) {
         transition.screenActions[0].transform = rect;
+        Debug.Log(rect);
+        Debug.Log(page.gameObject.name);
         transition.screenActions[1].transform = page.rect;
         onPreHide.Invoke();
         page.onPreShow.Invoke();
@@ -55,6 +57,7 @@ public class Page : MonoBehaviour
     }
 
     void DeactivatePanel() {
+        Debug.LogError(gameObject.name + " " + active);
         active = false;
         gameObject.SetActive(false);
     }

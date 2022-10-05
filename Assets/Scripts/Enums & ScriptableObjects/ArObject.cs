@@ -9,5 +9,5 @@ public class ArObject : ScriptableObject
     public string nickName;
     public string bundle;
     public bool physics;
-    public ArObjCategories category;
+    public string category;
 }

@@ -6,7 +6,7 @@ using DG.Tweening;
 
 public class ArListBlock : MonoBehaviour
 {
-    [HideInInspector] public ArListPopulator populator;
+     public SelectPage page;
     public ArObject arObject;
     public Button button;
     public Image fillImage;
@@ -53,6 +53,6 @@ public class ArListBlock : MonoBehaviour
 
     void Place() {
         SelectedArObjectManager.instance.SelectNew(arObject);
-        populator.ChangePage();
+        page.ChangePage();
     }
 }

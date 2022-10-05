@@ -15,4 +15,5 @@ MonoBehaviour:
   obj: {fileID: 5612157172080107447, guid: 3cac4ef5c35adfd4fb40b35176d0b1bb, type: 3}
   nickName: b
   bundle: test_3
-  category: 0
+  physics: 0
+  category: language

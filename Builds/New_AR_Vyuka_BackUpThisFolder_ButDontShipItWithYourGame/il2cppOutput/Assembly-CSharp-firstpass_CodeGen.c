@@ -422,67 +422,79 @@ extern void U3CU3Ec__DisplayClass9_0__ctor_m1E2466F9751381E5A3C76E5E297097295774
 extern void U3CU3Ec__DisplayClass9_0_U3CDOTilingU3Eb__0_m049884D699FDEDD9B8CE44EC9104A8055F7E4DD8 (void);
 // 0x000000CD System.Void DG.Tweening.DOTweenModuleUnityVersion/<>c__DisplayClass9_0::<DOTiling>b__1(UnityEngine.Vector2)
 extern void U3CU3Ec__DisplayClass9_0_U3CDOTilingU3Eb__1_m5C1495C9398445575DA1139EF2967F0C6535992D (void);
-// 0x000000CE System.Void DG.Tweening.DOTweenModuleUnityVersion/<AsyncWaitForCompletion>d__10::MoveNext()
+// 0x000000CE System.Void DG.Tweening.DOTweenModuleUnityVersion/<AsyncWaitForCompletion>d__10::.ctor()
+extern void U3CAsyncWaitForCompletionU3Ed__10__ctor_m5513E72EECCE9B3690B9EB8A6B571C784EDABDC6 (void);
+// 0x000000CF System.Void DG.Tweening.DOTweenModuleUnityVersion/<AsyncWaitForCompletion>d__10::MoveNext()
 extern void U3CAsyncWaitForCompletionU3Ed__10_MoveNext_m7AE96D202005CC27A2EBEB47057FADA081D6DCDA (void);
-// 0x000000CF System.Void DG.Tweening.DOTweenModuleUnityVersion/<AsyncWaitForCompletion>d__10::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+// 0x000000D0 System.Void DG.Tweening.DOTweenModuleUnityVersion/<AsyncWaitForCompletion>d__10::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
 extern void U3CAsyncWaitForCompletionU3Ed__10_SetStateMachine_m6240E5A12BCFEF8EA8588C4C18B3BB48BBA71FBB (void);
-// 0x000000D0 System.Void DG.Tweening.DOTweenModuleUnityVersion/<AsyncWaitForRewind>d__11::MoveNext()
+// 0x000000D1 System.Void DG.Tweening.DOTweenModuleUnityVersion/<AsyncWaitForRewind>d__11::.ctor()
+extern void U3CAsyncWaitForRewindU3Ed__11__ctor_mE9FEED4ED79F77135AF936F09AF2B4C44AB15D36 (void);
+// 0x000000D2 System.Void DG.Tweening.DOTweenModuleUnityVersion/<AsyncWaitForRewind>d__11::MoveNext()
 extern void U3CAsyncWaitForRewindU3Ed__11_MoveNext_m5E01823C6DBEFF1763AD6606972918D90935D340 (void);
-// 0x000000D1 System.Void DG.Tweening.DOTweenModuleUnityVersion/<AsyncWaitForRewind>d__11::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+// 0x000000D3 System.Void DG.Tweening.DOTweenModuleUnityVersion/<AsyncWaitForRewind>d__11::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
 extern void U3CAsyncWaitForRewindU3Ed__11_SetStateMachine_m3F25AF370573B0A32A25D5D01483AF62C16AD5C3 (void);
-// 0x000000D2 System.Void DG.Tweening.DOTweenModuleUnityVersion/<AsyncWaitForKill>d__12::MoveNext()
+// 0x000000D4 System.Void DG.Tweening.DOTweenModuleUnityVersion/<AsyncWaitForKill>d__12::.ctor()
+extern void U3CAsyncWaitForKillU3Ed__12__ctor_mB54CE8EEFCA8512F2C72EBA739ECAC661E615153 (void);
+// 0x000000D5 System.Void DG.Tweening.DOTweenModuleUnityVersion/<AsyncWaitForKill>d__12::MoveNext()
 extern void U3CAsyncWaitForKillU3Ed__12_MoveNext_mC10BB60238B855C88268AEE7DA0D7E8CF59AC885 (void);
-// 0x000000D3 System.Void DG.Tweening.DOTweenModuleUnityVersion/<AsyncWaitForKill>d__12::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+// 0x000000D6 System.Void DG.Tweening.DOTweenModuleUnityVersion/<AsyncWaitForKill>d__12::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
 extern void U3CAsyncWaitForKillU3Ed__12_SetStateMachine_m7BC3B905F4C08F129E4E6DFD12DDA73E5756DD0B (void);
-// 0x000000D4 System.Void DG.Tweening.DOTweenModuleUnityVersion/<AsyncWaitForElapsedLoops>d__13::MoveNext()
+// 0x000000D7 System.Void DG.Tweening.DOTweenModuleUnityVersion/<AsyncWaitForElapsedLoops>d__13::.ctor()
+extern void U3CAsyncWaitForElapsedLoopsU3Ed__13__ctor_mB59823823353645653F7E4CBE3D1F1EDF49FEB42 (void);
+// 0x000000D8 System.Void DG.Tweening.DOTweenModuleUnityVersion/<AsyncWaitForElapsedLoops>d__13::MoveNext()
 extern void U3CAsyncWaitForElapsedLoopsU3Ed__13_MoveNext_mF44348C1C974B48E1B0F6FE03AD1F713A4A6F8A2 (void);
-// 0x000000D5 System.Void DG.Tweening.DOTweenModuleUnityVersion/<AsyncWaitForElapsedLoops>d__13::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+// 0x000000D9 System.Void DG.Tweening.DOTweenModuleUnityVersion/<AsyncWaitForElapsedLoops>d__13::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
 extern void U3CAsyncWaitForElapsedLoopsU3Ed__13_SetStateMachine_m4D5053D74FA671E83FA48E11A3EE5C6534F995AB (void);
-// 0x000000D6 System.Void DG.Tweening.DOTweenModuleUnityVersion/<AsyncWaitForPosition>d__14::MoveNext()
+// 0x000000DA System.Void DG.Tweening.DOTweenModuleUnityVersion/<AsyncWaitForPosition>d__14::.ctor()
+extern void U3CAsyncWaitForPositionU3Ed__14__ctor_mB92C173D7381B6D99FDBEBA19F9790144B240108 (void);
+// 0x000000DB System.Void DG.Tweening.DOTweenModuleUnityVersion/<AsyncWaitForPosition>d__14::MoveNext()
 extern void U3CAsyncWaitForPositionU3Ed__14_MoveNext_mB726C581B4A8055414678A86C800C4A0525E5121 (void);
-// 0x000000D7 System.Void DG.Tweening.DOTweenModuleUnityVersion/<AsyncWaitForPosition>d__14::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+// 0x000000DC System.Void DG.Tweening.DOTweenModuleUnityVersion/<AsyncWaitForPosition>d__14::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
 extern void U3CAsyncWaitForPositionU3Ed__14_SetStateMachine_m060A3B894F6700B46D57FD2443F396C7C9CC7111 (void);
-// 0x000000D8 System.Void DG.Tweening.DOTweenModuleUnityVersion/<AsyncWaitForStart>d__15::MoveNext()
+// 0x000000DD System.Void DG.Tweening.DOTweenModuleUnityVersion/<AsyncWaitForStart>d__15::.ctor()
+extern void U3CAsyncWaitForStartU3Ed__15__ctor_m5BFA6E7D644AF7E278B686B8F9F268A77B011004 (void);
+// 0x000000DE System.Void DG.Tweening.DOTweenModuleUnityVersion/<AsyncWaitForStart>d__15::MoveNext()
 extern void U3CAsyncWaitForStartU3Ed__15_MoveNext_mDBD2BBC1B727D4C915B0E2AB910330411086BC12 (void);
-// 0x000000D9 System.Void DG.Tweening.DOTweenModuleUnityVersion/<AsyncWaitForStart>d__15::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+// 0x000000DF System.Void DG.Tweening.DOTweenModuleUnityVersion/<AsyncWaitForStart>d__15::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
 extern void U3CAsyncWaitForStartU3Ed__15_SetStateMachine_m3B0B96BE14F355F5A0AF74DD42C7774158140A41 (void);
-// 0x000000DA System.Boolean DG.Tweening.DOTweenCYInstruction/WaitForCompletion::get_keepWaiting()
+// 0x000000E0 System.Boolean DG.Tweening.DOTweenCYInstruction/WaitForCompletion::get_keepWaiting()
 extern void WaitForCompletion_get_keepWaiting_mD2C729ECA6B6F6BE57B718492953D588237F743D (void);
-// 0x000000DB System.Void DG.Tweening.DOTweenCYInstruction/WaitForCompletion::.ctor(DG.Tweening.Tween)
+// 0x000000E1 System.Void DG.Tweening.DOTweenCYInstruction/WaitForCompletion::.ctor(DG.Tweening.Tween)
 extern void WaitForCompletion__ctor_mE85B7CC8B7FE6A2AE84DB8210249A61018118C4D (void);
-// 0x000000DC System.Boolean DG.Tweening.DOTweenCYInstruction/WaitForRewind::get_keepWaiting()
+// 0x000000E2 System.Boolean DG.Tweening.DOTweenCYInstruction/WaitForRewind::get_keepWaiting()
 extern void WaitForRewind_get_keepWaiting_mF46CA00D1A5FDF140C0C027C4109C7373245A16C (void);
-// 0x000000DD System.Void DG.Tweening.DOTweenCYInstruction/WaitForRewind::.ctor(DG.Tweening.Tween)
+// 0x000000E3 System.Void DG.Tweening.DOTweenCYInstruction/WaitForRewind::.ctor(DG.Tweening.Tween)
 extern void WaitForRewind__ctor_mD79A34DBDAC1B30FBEBD36A8D749EC81935520B2 (void);
-// 0x000000DE System.Boolean DG.Tweening.DOTweenCYInstruction/WaitForKill::get_keepWaiting()
+// 0x000000E4 System.Boolean DG.Tweening.DOTweenCYInstruction/WaitForKill::get_keepWaiting()
 extern void WaitForKill_get_keepWaiting_m4C085E03853426F4D4F5C312334101AE9BA75E3F (void);
-// 0x000000DF System.Void DG.Tweening.DOTweenCYInstruction/WaitForKill::.ctor(DG.Tweening.Tween)
+// 0x000000E5 System.Void DG.Tweening.DOTweenCYInstruction/WaitForKill::.ctor(DG.Tweening.Tween)
 extern void WaitForKill__ctor_m75C2D3D54DBBBB35DE297B947C08C982CABF1BAF (void);
-// 0x000000E0 System.Boolean DG.Tweening.DOTweenCYInstruction/WaitForElapsedLoops::get_keepWaiting()
+// 0x000000E6 System.Boolean DG.Tweening.DOTweenCYInstruction/WaitForElapsedLoops::get_keepWaiting()
 extern void WaitForElapsedLoops_get_keepWaiting_mC2A906DBE9A06B7697041B76EC7C6AF58F928D6C (void);
-// 0x000000E1 System.Void DG.Tweening.DOTweenCYInstruction/WaitForElapsedLoops::.ctor(DG.Tweening.Tween,System.Int32)
+// 0x000000E7 System.Void DG.Tweening.DOTweenCYInstruction/WaitForElapsedLoops::.ctor(DG.Tweening.Tween,System.Int32)
 extern void WaitForElapsedLoops__ctor_mA0E7D5A115AB56AD618E24B320476B81B9CAEC7A (void);
-// 0x000000E2 System.Boolean DG.Tweening.DOTweenCYInstruction/WaitForPosition::get_keepWaiting()
+// 0x000000E8 System.Boolean DG.Tweening.DOTweenCYInstruction/WaitForPosition::get_keepWaiting()
 extern void WaitForPosition_get_keepWaiting_mA71AB7B7C269AB062BB6AF9CDF42E0F54EA6549F (void);
-// 0x000000E3 System.Void DG.Tweening.DOTweenCYInstruction/WaitForPosition::.ctor(DG.Tweening.Tween,System.Single)
+// 0x000000E9 System.Void DG.Tweening.DOTweenCYInstruction/WaitForPosition::.ctor(DG.Tweening.Tween,System.Single)
 extern void WaitForPosition__ctor_mB6CCFCE59F142931CF19AC3BA4FE5CAFF1CBA4AD (void);
-// 0x000000E4 System.Boolean DG.Tweening.DOTweenCYInstruction/WaitForStart::get_keepWaiting()
+// 0x000000EA System.Boolean DG.Tweening.DOTweenCYInstruction/WaitForStart::get_keepWaiting()
 extern void WaitForStart_get_keepWaiting_mA0B7858981A2CEDE516D5F2C5133629C6D537E0B (void);
-// 0x000000E5 System.Void DG.Tweening.DOTweenCYInstruction/WaitForStart::.ctor(DG.Tweening.Tween)
+// 0x000000EB System.Void DG.Tweening.DOTweenCYInstruction/WaitForStart::.ctor(DG.Tweening.Tween)
 extern void WaitForStart__ctor_m3AEC2F6E37815ED0D94C2FA5F3B784456C6E49D1 (void);
-// 0x000000E6 System.Void DG.Tweening.DOTweenModuleUtils::Init()
+// 0x000000EC System.Void DG.Tweening.DOTweenModuleUtils::Init()
 extern void DOTweenModuleUtils_Init_m58159847563008940580C19EB265D37EADC3DE6C (void);
-// 0x000000E7 System.Void DG.Tweening.DOTweenModuleUtils::Preserver()
+// 0x000000ED System.Void DG.Tweening.DOTweenModuleUtils::Preserver()
 extern void DOTweenModuleUtils_Preserver_m211177AD8866241B32B9BC40F805FB73B4C81E47 (void);
-// 0x000000E8 System.Void DG.Tweening.DOTweenModuleUtils/Physics::SetOrientationOnPath(DG.Tweening.Plugins.Options.PathOptions,DG.Tweening.Tween,UnityEngine.Quaternion,UnityEngine.Transform)
+// 0x000000EE System.Void DG.Tweening.DOTweenModuleUtils/Physics::SetOrientationOnPath(DG.Tweening.Plugins.Options.PathOptions,DG.Tweening.Tween,UnityEngine.Quaternion,UnityEngine.Transform)
 extern void Physics_SetOrientationOnPath_m4A7C7ABEF4300273D3E5B034D238BBCBAFD204E7 (void);
-// 0x000000E9 System.Boolean DG.Tweening.DOTweenModuleUtils/Physics::HasRigidbody2D(UnityEngine.Component)
+// 0x000000EF System.Boolean DG.Tweening.DOTweenModuleUtils/Physics::HasRigidbody2D(UnityEngine.Component)
 extern void Physics_HasRigidbody2D_mD68929FB5C63713DEF37AF14A2DB75969E877C6A (void);
-// 0x000000EA System.Boolean DG.Tweening.DOTweenModuleUtils/Physics::HasRigidbody(UnityEngine.Component)
+// 0x000000F0 System.Boolean DG.Tweening.DOTweenModuleUtils/Physics::HasRigidbody(UnityEngine.Component)
 extern void Physics_HasRigidbody_mCFBBEA121C0BAEBF6661FEAA9FF77C031DD4B929 (void);
-// 0x000000EB DG.Tweening.Core.TweenerCore`3<UnityEngine.Vector3,DG.Tweening.Plugins.Core.PathCore.Path,DG.Tweening.Plugins.Options.PathOptions> DG.Tweening.DOTweenModuleUtils/Physics::CreateDOTweenPathTween(UnityEngine.MonoBehaviour,System.Boolean,System.Boolean,DG.Tweening.Plugins.Core.PathCore.Path,System.Single,DG.Tweening.PathMode)
+// 0x000000F1 DG.Tweening.Core.TweenerCore`3<UnityEngine.Vector3,DG.Tweening.Plugins.Core.PathCore.Path,DG.Tweening.Plugins.Options.PathOptions> DG.Tweening.DOTweenModuleUtils/Physics::CreateDOTweenPathTween(UnityEngine.MonoBehaviour,System.Boolean,System.Boolean,DG.Tweening.Plugins.Core.PathCore.Path,System.Single,DG.Tweening.PathMode)
 extern void Physics_CreateDOTweenPathTween_mC8BAE19162259BD6D6DC345D07DF28C1963F15FE (void);
-static Il2CppMethodPointer s_methodPointers[235] = 
+static Il2CppMethodPointer s_methodPointers[241] = 
 {
 	DOTweenModuleSprite_DOColor_mD3A2F606C4537E96BC44068B12EFCF5F3719D7BC,
 	DOTweenModuleSprite_DOFade_m562660078CF2B15722383D73A54B446756C93127,
@@ -689,16 +701,22 @@ static Il2CppMethodPointer s_methodPointers[235] =
 	U3CU3Ec__DisplayClass9_0__ctor_m1E2466F9751381E5A3C76E5E2970972957741B9E,
 	U3CU3Ec__DisplayClass9_0_U3CDOTilingU3Eb__0_m049884D699FDEDD9B8CE44EC9104A8055F7E4DD8,
 	U3CU3Ec__DisplayClass9_0_U3CDOTilingU3Eb__1_m5C1495C9398445575DA1139EF2967F0C6535992D,
+	U3CAsyncWaitForCompletionU3Ed__10__ctor_m5513E72EECCE9B3690B9EB8A6B571C784EDABDC6,
 	U3CAsyncWaitForCompletionU3Ed__10_MoveNext_m7AE96D202005CC27A2EBEB47057FADA081D6DCDA,
 	U3CAsyncWaitForCompletionU3Ed__10_SetStateMachine_m6240E5A12BCFEF8EA8588C4C18B3BB48BBA71FBB,
+	U3CAsyncWaitForRewindU3Ed__11__ctor_mE9FEED4ED79F77135AF936F09AF2B4C44AB15D36,
 	U3CAsyncWaitForRewindU3Ed__11_MoveNext_m5E01823C6DBEFF1763AD6606972918D90935D340,
 	U3CAsyncWaitForRewindU3Ed__11_SetStateMachine_m3F25AF370573B0A32A25D5D01483AF62C16AD5C3,
+	U3CAsyncWaitForKillU3Ed__12__ctor_mB54CE8EEFCA8512F2C72EBA739ECAC661E615153,
 	U3CAsyncWaitForKillU3Ed__12_MoveNext_mC10BB60238B855C88268AEE7DA0D7E8CF59AC885,
 	U3CAsyncWaitForKillU3Ed__12_SetStateMachine_m7BC3B905F4C08F129E4E6DFD12DDA73E5756DD0B,
+	U3CAsyncWaitForElapsedLoopsU3Ed__13__ctor_mB59823823353645653F7E4CBE3D1F1EDF49FEB42,
 	U3CAsyncWaitForElapsedLoopsU3Ed__13_MoveNext_mF44348C1C974B48E1B0F6FE03AD1F713A4A6F8A2,
 	U3CAsyncWaitForElapsedLoopsU3Ed__13_SetStateMachine_m4D5053D74FA671E83FA48E11A3EE5C6534F995AB,
+	U3CAsyncWaitForPositionU3Ed__14__ctor_mB92C173D7381B6D99FDBEBA19F9790144B240108,
 	U3CAsyncWaitForPositionU3Ed__14_MoveNext_mB726C581B4A8055414678A86C800C4A0525E5121,
 	U3CAsyncWaitForPositionU3Ed__14_SetStateMachine_m060A3B894F6700B46D57FD2443F396C7C9CC7111,
+	U3CAsyncWaitForStartU3Ed__15__ctor_m5BFA6E7D644AF7E278B686B8F9F268A77B011004,
 	U3CAsyncWaitForStartU3Ed__15_MoveNext_mDBD2BBC1B727D4C915B0E2AB910330411086BC12,
 	U3CAsyncWaitForStartU3Ed__15_SetStateMachine_m3B0B96BE14F355F5A0AF74DD42C7774158140A41,
 	WaitForCompletion_get_keepWaiting_mD2C729ECA6B6F6BE57B718492953D588237F743D,
@@ -720,279 +738,258 @@ static Il2CppMethodPointer s_methodPointers[235] =
 	Physics_HasRigidbody_mCFBBEA121C0BAEBF6661FEAA9FF77C031DD4B929,
 	Physics_CreateDOTweenPathTween_mC8BAE19162259BD6D6DC345D07DF28C1963F15FE,
 };
-extern void U3CAsyncWaitForCompletionU3Ed__10_MoveNext_m7AE96D202005CC27A2EBEB47057FADA081D6DCDA_AdjustorThunk (void);
-extern void U3CAsyncWaitForCompletionU3Ed__10_SetStateMachine_m6240E5A12BCFEF8EA8588C4C18B3BB48BBA71FBB_AdjustorThunk (void);
-extern void U3CAsyncWaitForRewindU3Ed__11_MoveNext_m5E01823C6DBEFF1763AD6606972918D90935D340_AdjustorThunk (void);
-extern void U3CAsyncWaitForRewindU3Ed__11_SetStateMachine_m3F25AF370573B0A32A25D5D01483AF62C16AD5C3_AdjustorThunk (void);
-extern void U3CAsyncWaitForKillU3Ed__12_MoveNext_mC10BB60238B855C88268AEE7DA0D7E8CF59AC885_AdjustorThunk (void);
-extern void U3CAsyncWaitForKillU3Ed__12_SetStateMachine_m7BC3B905F4C08F129E4E6DFD12DDA73E5756DD0B_AdjustorThunk (void);
-extern void U3CAsyncWaitForElapsedLoopsU3Ed__13_MoveNext_mF44348C1C974B48E1B0F6FE03AD1F713A4A6F8A2_AdjustorThunk (void);
-extern void U3CAsyncWaitForElapsedLoopsU3Ed__13_SetStateMachine_m4D5053D74FA671E83FA48E11A3EE5C6534F995AB_AdjustorThunk (void);
-extern void U3CAsyncWaitForPositionU3Ed__14_MoveNext_mB726C581B4A8055414678A86C800C4A0525E5121_AdjustorThunk (void);
-extern void U3CAsyncWaitForPositionU3Ed__14_SetStateMachine_m060A3B894F6700B46D57FD2443F396C7C9CC7111_AdjustorThunk (void);
-extern void U3CAsyncWaitForStartU3Ed__15_MoveNext_mDBD2BBC1B727D4C915B0E2AB910330411086BC12_AdjustorThunk (void);
-extern void U3CAsyncWaitForStartU3Ed__15_SetStateMachine_m3B0B96BE14F355F5A0AF74DD42C7774158140A41_AdjustorThunk (void);
-static Il2CppTokenAdjustorThunkPair s_adjustorThunks[12] = 
+static const int32_t s_InvokerIndices[241] = 
 {
-	{ 0x060000CE, U3CAsyncWaitForCompletionU3Ed__10_MoveNext_m7AE96D202005CC27A2EBEB47057FADA081D6DCDA_AdjustorThunk },
-	{ 0x060000CF, U3CAsyncWaitForCompletionU3Ed__10_SetStateMachine_m6240E5A12BCFEF8EA8588C4C18B3BB48BBA71FBB_AdjustorThunk },
-	{ 0x060000D0, U3CAsyncWaitForRewindU3Ed__11_MoveNext_m5E01823C6DBEFF1763AD6606972918D90935D340_AdjustorThunk },
-	{ 0x060000D1, U3CAsyncWaitForRewindU3Ed__11_SetStateMachine_m3F25AF370573B0A32A25D5D01483AF62C16AD5C3_AdjustorThunk },
-	{ 0x060000D2, U3CAsyncWaitForKillU3Ed__12_MoveNext_mC10BB60238B855C88268AEE7DA0D7E8CF59AC885_AdjustorThunk },
-	{ 0x060000D3, U3CAsyncWaitForKillU3Ed__12_SetStateMachine_m7BC3B905F4C08F129E4E6DFD12DDA73E5756DD0B_AdjustorThunk },
-	{ 0x060000D4, U3CAsyncWaitForElapsedLoopsU3Ed__13_MoveNext_mF44348C1C974B48E1B0F6FE03AD1F713A4A6F8A2_AdjustorThunk },
-	{ 0x060000D5, U3CAsyncWaitForElapsedLoopsU3Ed__13_SetStateMachine_m4D5053D74FA671E83FA48E11A3EE5C6534F995AB_AdjustorThunk },
-	{ 0x060000D6, U3CAsyncWaitForPositionU3Ed__14_MoveNext_mB726C581B4A8055414678A86C800C4A0525E5121_AdjustorThunk },
-	{ 0x060000D7, U3CAsyncWaitForPositionU3Ed__14_SetStateMachine_m060A3B894F6700B46D57FD2443F396C7C9CC7111_AdjustorThunk },
-	{ 0x060000D8, U3CAsyncWaitForStartU3Ed__15_MoveNext_mDBD2BBC1B727D4C915B0E2AB910330411086BC12_AdjustorThunk },
-	{ 0x060000D9, U3CAsyncWaitForStartU3Ed__15_SetStateMachine_m3B0B96BE14F355F5A0AF74DD42C7774158140A41_AdjustorThunk },
-};
-static const int32_t s_InvokerIndices[235] = 
-{
-	9531,
-	9556,
-	9548,
-	9531,
-	7491,
-	7256,
-	5811,
-	7491,
-	7256,
-	5811,
-	7491,
-	7256,
-	5811,
-	9556,
-	9531,
-	9556,
-	9531,
-	9556,
-	9556,
-	9548,
-	8952,
-	8952,
-	8952,
-	9531,
-	9556,
-	9560,
-	8952,
-	8947,
-	8947,
-	8956,
-	8947,
-	8947,
-	8947,
-	8952,
-	8952,
-	9560,
-	9556,
-	9556,
-	8952,
-	7934,
-	7790,
-	7791,
-	7934,
-	8952,
-	8947,
-	8947,
-	8947,
-	9531,
-	7922,
-	9556,
-	7928,
-	9531,
-	9531,
-	9531,
-	7935,
-	10828,
-	7491,
-	7422,
-	5976,
-	7491,
-	7256,
-	5811,
-	7491,
-	7256,
-	5811,
-	7491,
-	7256,
-	5811,
-	7491,
-	7256,
-	5811,
-	7491,
-	7422,
-	5976,
-	7491,
-	7478,
-	6027,
-	7491,
-	7478,
-	6027,
-	7491,
-	7478,
-	6027,
-	7491,
-	7256,
-	5811,
-	7491,
-	7256,
-	5811,
-	7491,
-	7478,
-	6027,
-	7491,
-	7478,
-	6027,
-	7491,
-	7478,
-	6027,
-	7491,
-	7478,
-	6027,
-	7491,
-	7480,
-	6029,
-	7491,
-	7480,
-	6029,
-	7491,
-	7480,
-	6029,
-	7491,
-	7480,
-	6029,
-	7491,
-	7478,
-	6027,
-	7491,
-	7478,
-	6027,
-	7491,
-	7478,
-	6027,
-	7491,
-	7478,
-	6027,
-	7491,
-	7478,
-	6027,
-	7491,
-	7478,
-	6027,
-	7491,
-	7480,
-	6029,
-	7491,
-	7480,
-	6029,
-	7491,
-	7480,
-	6029,
-	7491,
-	7478,
-	6027,
-	7491,
-	7478,
-	6027,
-	7491,
-	7491,
-	7478,
-	6027,
-	7491,
-	7422,
-	5976,
-	7491,
-	7422,
-	5976,
-	7491,
-	7422,
-	5976,
-	7491,
-	7256,
-	5811,
-	7491,
+	9617,
+	9642,
+	9634,
+	9617,
+	7567,
 	7331,
-	5888,
-	7491,
-	7256,
-	5811,
-	7491,
-	7363,
-	5921,
-	7491,
-	7256,
-	5811,
-	7491,
-	7256,
-	5811,
-	7491,
-	7256,
-	5811,
-	7491,
-	7478,
-	6027,
-	9548,
-	8925,
-	10447,
-	10447,
-	10447,
-	9539,
-	9555,
-	10447,
-	8950,
-	8950,
-	12289,
-	12289,
-	12289,
-	10441,
-	10448,
-	12289,
-	7491,
-	7478,
-	6027,
-	7491,
-	7478,
-	6027,
-	7491,
-	5921,
-	7491,
-	5921,
-	7491,
-	5921,
-	7491,
-	5921,
-	7491,
-	5921,
-	7491,
-	5921,
-	7412,
-	5921,
-	7412,
-	5921,
-	7412,
-	5921,
-	7412,
-	3224,
-	7412,
-	3241,
-	7412,
-	5921,
-	13316,
-	13316,
-	9169,
-	12364,
-	12364,
-	7932,
+	5856,
+	7567,
+	7331,
+	5856,
+	7567,
+	7331,
+	5856,
+	9642,
+	9617,
+	9642,
+	9617,
+	9642,
+	9642,
+	9634,
+	9037,
+	9037,
+	9037,
+	9617,
+	9642,
+	9646,
+	9037,
+	9032,
+	9032,
+	9041,
+	9032,
+	9032,
+	9032,
+	9037,
+	9037,
+	9646,
+	9642,
+	9642,
+	9037,
+	8015,
+	7871,
+	7872,
+	8015,
+	9037,
+	9032,
+	9032,
+	9032,
+	9617,
+	8003,
+	9642,
+	8009,
+	9617,
+	9617,
+	9617,
+	8016,
+	10925,
+	7567,
+	7498,
+	6023,
+	7567,
+	7331,
+	5856,
+	7567,
+	7331,
+	5856,
+	7567,
+	7331,
+	5856,
+	7567,
+	7331,
+	5856,
+	7567,
+	7498,
+	6023,
+	7567,
+	7554,
+	6075,
+	7567,
+	7554,
+	6075,
+	7567,
+	7554,
+	6075,
+	7567,
+	7331,
+	5856,
+	7567,
+	7331,
+	5856,
+	7567,
+	7554,
+	6075,
+	7567,
+	7554,
+	6075,
+	7567,
+	7554,
+	6075,
+	7567,
+	7554,
+	6075,
+	7567,
+	7556,
+	6077,
+	7567,
+	7556,
+	6077,
+	7567,
+	7556,
+	6077,
+	7567,
+	7556,
+	6077,
+	7567,
+	7554,
+	6075,
+	7567,
+	7554,
+	6075,
+	7567,
+	7554,
+	6075,
+	7567,
+	7554,
+	6075,
+	7567,
+	7554,
+	6075,
+	7567,
+	7554,
+	6075,
+	7567,
+	7556,
+	6077,
+	7567,
+	7556,
+	6077,
+	7567,
+	7556,
+	6077,
+	7567,
+	7554,
+	6075,
+	7567,
+	7554,
+	6075,
+	7567,
+	7567,
+	7554,
+	6075,
+	7567,
+	7498,
+	6023,
+	7567,
+	7498,
+	6023,
+	7567,
+	7498,
+	6023,
+	7567,
+	7331,
+	5856,
+	7567,
+	7406,
+	5933,
+	7567,
+	7331,
+	5856,
+	7567,
+	7438,
+	5966,
+	7567,
+	7331,
+	5856,
+	7567,
+	7331,
+	5856,
+	7567,
+	7331,
+	5856,
+	7567,
+	7554,
+	6075,
+	9634,
+	9010,
+	10534,
+	10534,
+	10534,
+	9625,
+	9641,
+	10534,
+	9035,
+	9035,
+	12400,
+	12400,
+	12400,
+	10528,
+	10535,
+	12400,
+	7567,
+	7554,
+	6075,
+	7567,
+	7554,
+	6075,
+	7567,
+	7567,
+	5966,
+	7567,
+	7567,
+	5966,
+	7567,
+	7567,
+	5966,
+	7567,
+	7567,
+	5966,
+	7567,
+	7567,
+	5966,
+	7567,
+	7567,
+	5966,
+	7488,
+	5966,
+	7488,
+	5966,
+	7488,
+	5966,
+	7488,
+	3236,
+	7488,
+	3253,
+	7488,
+	5966,
+	13438,
+	13438,
+	9255,
+	12475,
+	12475,
+	8013,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharpU2Dfirstpass_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharpU2Dfirstpass_CodeGenModule = 
 {
 	"Assembly-CSharp-firstpass.dll",
-	235,
+	241,
 	s_methodPointers,
-	12,
-	s_adjustorThunks,
+	0,
+	NULL,
 	s_InvokerIndices,
 	0,
 	NULL,
