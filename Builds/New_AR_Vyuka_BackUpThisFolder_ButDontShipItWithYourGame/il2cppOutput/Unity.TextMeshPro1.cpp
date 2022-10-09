@@ -501,79 +501,6 @@ IL2CPP_EXTERN_C const RuntimeMethod* TMP_TextProcessingStack_1_SetDefault_mD74F2
 IL2CPP_EXTERN_C const RuntimeMethod* TMP_TextProcessingStack_1_SetDefault_mE117EC83B0E0DD13A62A2ACAE4FD90DDDE520C24_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* TMP_TextProcessingStack_1_get_Count_m9EAE0A093640CEAA2DB049AD6E89747865404C3A_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* TMP_TextProcessingStack_1_get_current_mB9F78A6BB15081298FB89C5AAD7FD69621E59086_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TextMeshProUGUI_Awake_mE225DF2C3511625374A16201302F4A8AD2A72B26_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TextMeshProUGUI_CalculateLayoutInputHorizontal_m96BF3C6C61F9B47F1C984A85921266E188151198_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TextMeshProUGUI_CalculateLayoutInputVertical_m478DA445BEBEFD266F26B53B172A415F11EA0D4E_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TextMeshProUGUI_ClearMesh_mE803C85017AAA2E8F6C47661A7F59078C83D7D73_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TextMeshProUGUI_ComputeMarginSize_m0647B2989C0A1098FFCCB9EA66810DAAE6C2E0D5_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TextMeshProUGUI_Cull_m28722BE62117D8666B334C1D98B0FDA31C801297_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TextMeshProUGUI_DelayedGraphicRebuild_m4FD11E5C4B9F5E1DFE4D361C78CDC849F7D53F8E_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TextMeshProUGUI_DelayedMaterialRebuild_m3D156CF49F99C2239E74AEC027473359A715397E_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TextMeshProUGUI_DestroySubMeshObjects_mBE2D8860515389A8AC3FDC37D184B03E38186F23_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TextMeshProUGUI_DisableMasking_m00E17B3141C80A2A15A8CF42FB9919563FBC9317_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TextMeshProUGUI_EnableMasking_m825DABEA53C5743CE0B4D896476BCB8B4D23CCA5_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TextMeshProUGUI_ForceMeshUpdate_mB5BCD2205BC620DC7AC4F00D7F21104D65FB90DE_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TextMeshProUGUI_GenerateTextMesh_m542C2DC0CA489C10BB3371B0114CD9ACED4E97D3_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TextMeshProUGUI_GetCanvasSpaceClippingRect_m1E7125B754E5B3935318B425847952E705DD5B6F_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TextMeshProUGUI_GetCanvas_mA62DCDC49EF734C76E2DCC33373AE38485267B07_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TextMeshProUGUI_GetCompoundBounds_m74366E456D195D8D2FEBB1E85D0FE5DCE4105DF0_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TextMeshProUGUI_GetMaterial_m2A3E0BA6B812DEF61F0FB90E9FC0D6C4BDCEBA0A_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TextMeshProUGUI_GetMaterials_m4C0D6622FD2BD30E4CE5F868F1CFDB64C1C1403D_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TextMeshProUGUI_GetModifiedMaterial_mF485112E8CD8B5466BC6F3F5C9EBB195B9DED181_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TextMeshProUGUI_GetSharedMaterials_mFC9F284B9D0F7588F7FBDCB8C98B221DCF8660F6_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TextMeshProUGUI_GetTextContainerLocalCorners_m2D6D185BC85A20431398BEC3EC258EBBD7D7C6AE_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TextMeshProUGUI_GetTextInfo_m0DF7D8487C0203268A4C62A67E1C4B7589ACC17E_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TextMeshProUGUI_InternalCrossFadeAlpha_m8F1403C1E5A7F3CC52DF054A11189D8E14353C63_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TextMeshProUGUI_InternalCrossFadeColor_mCAC46A6435D3D73F8138A4DF4125AF63D6197E93_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TextMeshProUGUI_InternalUpdate_mEA820FAC0E9C659AC8198ABD63AC8515FC2EEC75_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TextMeshProUGUI_LoadFontAsset_mD79574232A722B157F79A7D1430115829107B0D9_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TextMeshProUGUI_OnCanvasHierarchyChanged_mDF06442735F795DA1A2CEBF42542EF352A0AC2D4_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TextMeshProUGUI_OnDestroy_mF6F5098912944CBAEE8F9162CBC8513B6FCB4DCB_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TextMeshProUGUI_OnDidApplyAnimationProperties_m8ADE42C6DD519A08609CB526A983561DBACB7266_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TextMeshProUGUI_OnDisable_m55A5E45BD3538FECB646D245F23223C33C9C6CEE_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TextMeshProUGUI_OnEnable_m192C5020191F6DE0CDFD8D91BB1518496E841E98_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TextMeshProUGUI_OnPreRenderCanvas_mD208EA1BBA9D3A10B255322BABED2056A83BA2FC_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TextMeshProUGUI_OnRectTransformDimensionsChange_mE7B272E5EF1538872749F01C82CD28D4352F37FC_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TextMeshProUGUI_OnTransformParentChanged_m7B078BE5B1E69D3CA642D32F15204E7A7D2D7825_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TextMeshProUGUI_Rebuild_m81A0BB63EF4D157FB9DF14184DF198DAEC24A50D_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TextMeshProUGUI_RecalculateClipping_m6D9CD29782F2306FA411BE914F45C6E02D2438BA_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TextMeshProUGUI_SetActiveSubMeshes_m85AACB4166A13ACDC7E0F944BD37E1C771A90716_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TextMeshProUGUI_SetAllDirty_mBCABE23045A171B70D7C8AA1E9D0E197B24A9921_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TextMeshProUGUI_SetArraySizes_mAE0F66585903F33A1056D130213B5680D0951D42_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TextMeshProUGUI_SetCulling_m62AF94911CBF89A8ADDA8A21CEE391ED756360EF_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TextMeshProUGUI_SetFaceColor_m6A655C7FF042096CC71D943BCAFB98A42036EE1B_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TextMeshProUGUI_SetLayoutDirty_m7B98DD726DC1F539A829660218629BDCBC5D6EFE_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TextMeshProUGUI_SetMaterialDirty_m34D20F8ED0CEF3D4F335BA53CDFBA22D3638E24F_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TextMeshProUGUI_SetMeshArrays_mBB3809698124A9B2B65A4F57954CEFA790568C2A_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TextMeshProUGUI_SetOutlineColor_mFCA7A6D7F2BA52DB12239F9051D2BDF40F92ADA8_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TextMeshProUGUI_SetOutlineThickness_m1819530A5C28F978C80D6BA614595D900099D897_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TextMeshProUGUI_SetPerspectiveCorrection_mF547B8584EC083BAE1D3EFBD22CC5D9D78EDC48F_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TextMeshProUGUI_SetShaderDepth_m7A017149B97BAD6B9618750C0976729BD4740A70_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TextMeshProUGUI_SetSharedMaterial_m9F64130FA72B17A58824E3A40980C92013F4E0EB_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TextMeshProUGUI_SetSharedMaterials_m0E33EE522DBE0E2BA8464C455A9663327F9E34ED_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TextMeshProUGUI_SetVerticesDirty_m08925B150A0C61A9E62D6312094BEE4F2A085B35_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TextMeshProUGUI_UpdateCulling_mBBCAFB8FF0E605AA916782D723F605C7C5790E0F_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TextMeshProUGUI_UpdateEnvMapMatrix_mBB9F3DBD385A9CF38674F27B1265FEF0214A3BDB_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TextMeshProUGUI_UpdateFontAsset_m5A9C9C239F67AD02E0EE52BDDBBCA6B747AD5B3B_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TextMeshProUGUI_UpdateGeometry_m7877CE2E695637CFD480AF6D3A144A96F4B8DEAD_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TextMeshProUGUI_UpdateMask_m35565EC9D9C802C94BE4694B5B340B2B4577EF44_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TextMeshProUGUI_UpdateMaterial_m9342D18203EC31AF43B1F2FD179409825C9E246A_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TextMeshProUGUI_UpdateMeshPadding_mAD9B5590BB1C07BD9F26F9ACF31E3AD7D0375D52_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TextMeshProUGUI_UpdateSDFScale_m357367AFC5B9A2EBD11FA3C4D7FC99C5208044AE_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TextMeshProUGUI_UpdateSubObjectPivot_mF5A9ADE5A239AFC6C34BFC02FDE622DE14EAAF41_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TextMeshProUGUI_UpdateVertexData_mAFE22C7EF036C51A5DABECD97AA3294963B17B8A_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TextMeshProUGUI_UpdateVertexData_mDCD835F9897D4A1D1C3299F8610E10AAF9693621_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TextMeshProUGUI__cctor_m2640D093CD02847299314CFD387706497B1D2525_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TextMeshProUGUI__ctor_m3733FC98975BAD7C96BA932B8BE6A63602BA83B3_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TextMeshProUGUI_add_OnPreRenderText_m1F3D640166C47D5E8AC83392022A7A76F252882D_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TextMeshProUGUI_get_autoSizeTextContainer_mFB1F26E61C6D873940BE188D1E8B8C35324237C2_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TextMeshProUGUI_get_canvasRenderer_m74291CFD17F47B70F21F49C93058D2756A521887_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TextMeshProUGUI_get_maskOffset_m8B38AEB61B68ED587044250886FB3C3E6327711E_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TextMeshProUGUI_get_materialForRendering_mCB8AB4D6211E94B4A910E547A435BEDC8B5AA483_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TextMeshProUGUI_get_mesh_m9D7580B03E695D83EE9A7DB4B63CE0C570B4F404_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TextMeshProUGUI_remove_OnPreRenderText_m5580AE95B7FCDF054DCB9F30D545CD60B5F40049_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TextMeshProUGUI_set_autoSizeTextContainer_m2E04DBDF79EF2A70A84DC27204410F642A8F7E57_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TextMeshProUGUI_set_maskOffset_m4556A74663F0603718E533AD6469D5D2062D5814_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* UnityEvent_1_Invoke_m4810FCA7EC353CAA7770E91777A04496C5663653_RuntimeMethod_var;
 struct Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B;
 struct Delegate_t_marshaled_com;
@@ -5467,10 +5394,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Material_t18053F08F347D0DCA5E1140EC7EC4533DD8
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TMP_MaterialManager_t67E8437E12407A99A3E58F6033B8D3749A321A96_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextMeshProUGUI_get_materialForRendering_mCB8AB4D6211E94B4A910E547A435BEDC8B5AA483_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(TextMeshProUGUI_get_materialForRendering_mCB8AB4D6211E94B4A910E547A435BEDC8B5AA483_RuntimeMethod_var);
 	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* V_0 = NULL;
 	{
 		// get { return TMP_MaterialManager.GetMaterialForRendering(this, m_sharedMaterial); }
@@ -5492,13 +5417,6 @@ IL_0010:
 // System.Boolean TMPro.TextMeshProUGUI::get_autoSizeTextContainer()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TextMeshProUGUI_get_autoSizeTextContainer_mFB1F26E61C6D873940BE188D1E8B8C35324237C2 (TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextMeshProUGUI_get_autoSizeTextContainer_mFB1F26E61C6D873940BE188D1E8B8C35324237C2_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(TextMeshProUGUI_get_autoSizeTextContainer_mFB1F26E61C6D873940BE188D1E8B8C35324237C2_RuntimeMethod_var);
 	bool V_0 = false;
 	{
 		// get { return m_autoSizeTextContainer; }
@@ -5521,10 +5439,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextMeshProUGUI_set_autoSizeTextContaine
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CanvasUpdateRegistry_t7A4CC63D880F418DCDE83152B6FDB3259DF14DD1_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextMeshProUGUI_set_autoSizeTextContainer_m2E04DBDF79EF2A70A84DC27204410F642A8F7E57_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(TextMeshProUGUI_set_autoSizeTextContainer_m2E04DBDF79EF2A70A84DC27204410F642A8F7E57_RuntimeMethod_var);
 	bool V_0 = false;
 	bool V_1 = false;
 	{
@@ -5574,13 +5490,6 @@ IL_0031:
 // UnityEngine.Mesh TMPro.TextMeshProUGUI::get_mesh()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* TextMeshProUGUI_get_mesh_m9D7580B03E695D83EE9A7DB4B63CE0C570B4F404 (TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextMeshProUGUI_get_mesh_m9D7580B03E695D83EE9A7DB4B63CE0C570B4F404_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(TextMeshProUGUI_get_mesh_m9D7580B03E695D83EE9A7DB4B63CE0C570B4F404_RuntimeMethod_var);
 	Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* V_0 = NULL;
 	{
 		// get { return m_mesh; }
@@ -5604,10 +5513,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CanvasRenderer_tAB9A55A976C4E3B2B37D0CE5616E5
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisCanvasRenderer_tAB9A55A976C4E3B2B37D0CE5616E5685A8B43860_m87B02EAD04CE98F529A092DB84E1668C5B34D0DB_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextMeshProUGUI_get_canvasRenderer_m74291CFD17F47B70F21F49C93058D2756A521887_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(TextMeshProUGUI_get_canvasRenderer_m74291CFD17F47B70F21F49C93058D2756A521887_RuntimeMethod_var);
 	bool V_0 = false;
 	CanvasRenderer_tAB9A55A976C4E3B2B37D0CE5616E5685A8B43860* V_1 = NULL;
 	{
@@ -5649,13 +5556,6 @@ IL_0026:
 // System.Void TMPro.TextMeshProUGUI::CalculateLayoutInputHorizontal()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextMeshProUGUI_CalculateLayoutInputHorizontal_m96BF3C6C61F9B47F1C984A85921266E188151198 (TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextMeshProUGUI_CalculateLayoutInputHorizontal_m96BF3C6C61F9B47F1C984A85921266E188151198_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(TextMeshProUGUI_CalculateLayoutInputHorizontal_m96BF3C6C61F9B47F1C984A85921266E188151198_RuntimeMethod_var);
 	{
 		// }
 		return;
@@ -5664,13 +5564,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextMeshProUGUI_CalculateLayoutInputHori
 // System.Void TMPro.TextMeshProUGUI::CalculateLayoutInputVertical()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextMeshProUGUI_CalculateLayoutInputVertical_m478DA445BEBEFD266F26B53B172A415F11EA0D4E (TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextMeshProUGUI_CalculateLayoutInputVertical_m478DA445BEBEFD266F26B53B172A415F11EA0D4E_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(TextMeshProUGUI_CalculateLayoutInputVertical_m478DA445BEBEFD266F26B53B172A415F11EA0D4E_RuntimeMethod_var);
 	{
 		// }
 		return;
@@ -5684,10 +5577,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextMeshProUGUI_SetVerticesDirty_m08925B
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CanvasUpdateRegistry_t7A4CC63D880F418DCDE83152B6FDB3259DF14DD1_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextMeshProUGUI_SetVerticesDirty_m08925B150A0C61A9E62D6312094BEE4F2A085B35_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(TextMeshProUGUI_SetVerticesDirty_m08925B150A0C61A9E62D6312094BEE4F2A085B35_RuntimeMethod_var);
 	bool V_0 = false;
 	bool V_1 = false;
 	bool V_2 = false;
@@ -5781,10 +5672,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextMeshProUGUI_SetLayoutDirty_m7B98DD72
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&LayoutRebuilder_tD2269CCD93BD5A8C4A92188C66E212B976FA6564_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextMeshProUGUI_SetLayoutDirty_m7B98DD726DC1F539A829660218629BDCBC5D6EFE_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(TextMeshProUGUI_SetLayoutDirty_m7B98DD726DC1F539A829660218629BDCBC5D6EFE_RuntimeMethod_var);
 	bool V_0 = false;
 	bool V_1 = false;
 	int32_t G_B3_0 = 0;
@@ -5867,10 +5756,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextMeshProUGUI_SetMaterialDirty_m34D20F
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CanvasUpdateRegistry_t7A4CC63D880F418DCDE83152B6FDB3259DF14DD1_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextMeshProUGUI_SetMaterialDirty_m34D20F8ED0CEF3D4F335BA53CDFBA22D3638E24F_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(TextMeshProUGUI_SetMaterialDirty_m34D20F8ED0CEF3D4F335BA53CDFBA22D3638E24F_RuntimeMethod_var);
 	bool V_0 = false;
 	bool V_1 = false;
 	bool V_2 = false;
@@ -5961,13 +5848,6 @@ IL_004e:
 // System.Void TMPro.TextMeshProUGUI::SetAllDirty()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextMeshProUGUI_SetAllDirty_mBCABE23045A171B70D7C8AA1E9D0E197B24A9921 (TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextMeshProUGUI_SetAllDirty_mBCABE23045A171B70D7C8AA1E9D0E197B24A9921_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(TextMeshProUGUI_SetAllDirty_mBCABE23045A171B70D7C8AA1E9D0E197B24A9921_RuntimeMethod_var);
 	{
 		// SetLayoutDirty();
 		VirtualActionInvoker0::Invoke(27 /* System.Void UnityEngine.UI.Graphic::SetLayoutDirty() */, __this);
@@ -5985,11 +5865,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* TextMeshProUGUI_DelayedGraphic
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextMeshProUGUI_DelayedGraphicRebuild_m4FD11E5C4B9F5E1DFE4D361C78CDC849F7D53F8E_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CDelayedGraphicRebuildU3Ed__18_t576BA35BB19A4AE66F887A81CD049EC6E8153B76_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(TextMeshProUGUI_DelayedGraphicRebuild_m4FD11E5C4B9F5E1DFE4D361C78CDC849F7D53F8E_RuntimeMethod_var);
 	{
 		U3CDelayedGraphicRebuildU3Ed__18_t576BA35BB19A4AE66F887A81CD049EC6E8153B76* L_0 = (U3CDelayedGraphicRebuildU3Ed__18_t576BA35BB19A4AE66F887A81CD049EC6E8153B76*)il2cpp_codegen_object_new(U3CDelayedGraphicRebuildU3Ed__18_t576BA35BB19A4AE66F887A81CD049EC6E8153B76_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
@@ -6007,11 +5885,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* TextMeshProUGUI_DelayedMateria
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextMeshProUGUI_DelayedMaterialRebuild_m3D156CF49F99C2239E74AEC027473359A715397E_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CDelayedMaterialRebuildU3Ed__19_t861CD33D0F1735F4938A49DBEC83A7AA1AA0629E_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(TextMeshProUGUI_DelayedMaterialRebuild_m3D156CF49F99C2239E74AEC027473359A715397E_RuntimeMethod_var);
 	{
 		U3CDelayedMaterialRebuildU3Ed__19_t861CD33D0F1735F4938A49DBEC83A7AA1AA0629E* L_0 = (U3CDelayedMaterialRebuildU3Ed__19_t861CD33D0F1735F4938A49DBEC83A7AA1AA0629E*)il2cpp_codegen_object_new(U3CDelayedMaterialRebuildU3Ed__19_t861CD33D0F1735F4938A49DBEC83A7AA1AA0629E_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
@@ -6030,10 +5906,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextMeshProUGUI_Rebuild_m81A0BB63EF4D157
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextMeshProUGUI_Rebuild_m81A0BB63EF4D157FB9DF14184DF198DAEC24A50D_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(TextMeshProUGUI_Rebuild_m81A0BB63EF4D157FB9DF14184DF198DAEC24A50D_RuntimeMethod_var);
 	bool V_0 = false;
 	bool V_1 = false;
 	bool V_2 = false;
@@ -6140,10 +6014,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextMeshProUGUI_UpdateSubObjectPivot_mF5
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextMeshProUGUI_UpdateSubObjectPivot_mF5A9ADE5A239AFC6C34BFC02FDE622DE14EAAF41_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(TextMeshProUGUI_UpdateSubObjectPivot_mF5A9ADE5A239AFC6C34BFC02FDE622DE14EAAF41_RuntimeMethod_var);
 	bool V_0 = false;
 	int32_t V_1 = 0;
 	bool V_2 = false;
@@ -6237,10 +6109,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Material_t18053F08F347D0DCA5E1140EC7EC4533DD8
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StencilMaterial_t4118A758B726E5ADA91AE7674F44039B35AD29F9_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextMeshProUGUI_GetModifiedMaterial_mF485112E8CD8B5466BC6F3F5C9EBB195B9DED181_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(TextMeshProUGUI_GetModifiedMaterial_mF485112E8CD8B5466BC6F3F5C9EBB195B9DED181_RuntimeMethod_var);
 	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* V_0 = NULL;
 	bool V_1 = false;
 	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* V_2 = NULL;
@@ -6360,10 +6230,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextMeshProUGUI_UpdateMaterial_m9342D182
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextMeshProUGUI_UpdateMaterial_m9342D18203EC31AF43B1F2FD179409825C9E246A_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(TextMeshProUGUI_UpdateMaterial_m9342D18203EC31AF43B1F2FD179409825C9E246A_RuntimeMethod_var);
 	bool V_0 = false;
 	int32_t G_B3_0 = 0;
 	{
@@ -6429,13 +6297,6 @@ IL_0044:
 // UnityEngine.Vector4 TMPro.TextMeshProUGUI::get_maskOffset()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 TextMeshProUGUI_get_maskOffset_m8B38AEB61B68ED587044250886FB3C3E6327711E (TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextMeshProUGUI_get_maskOffset_m8B38AEB61B68ED587044250886FB3C3E6327711E_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(TextMeshProUGUI_get_maskOffset_m8B38AEB61B68ED587044250886FB3C3E6327711E_RuntimeMethod_var);
 	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
@@ -6455,13 +6316,6 @@ IL_000a:
 // System.Void TMPro.TextMeshProUGUI::set_maskOffset(UnityEngine.Vector4)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextMeshProUGUI_set_maskOffset_m4556A74663F0603718E533AD6469D5D2062D5814 (TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* __this, Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___value0, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextMeshProUGUI_set_maskOffset_m4556A74663F0603718E533AD6469D5D2062D5814_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(TextMeshProUGUI_set_maskOffset_m4556A74663F0603718E533AD6469D5D2062D5814_RuntimeMethod_var);
 	{
 		// set { m_maskOffset = value; UpdateMask(); m_havePropertiesChanged = true; }
 		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_0 = ___value0;
@@ -6477,13 +6331,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextMeshProUGUI_set_maskOffset_m4556A746
 // System.Void TMPro.TextMeshProUGUI::RecalculateClipping()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextMeshProUGUI_RecalculateClipping_m6D9CD29782F2306FA411BE914F45C6E02D2438BA (TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextMeshProUGUI_RecalculateClipping_m6D9CD29782F2306FA411BE914F45C6E02D2438BA_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(TextMeshProUGUI_RecalculateClipping_m6D9CD29782F2306FA411BE914F45C6E02D2438BA_RuntimeMethod_var);
 	{
 		// base.RecalculateClipping();
 		MaskableGraphic_RecalculateClipping_mFDD980F0A3AC1BEFF0BC9EDE95EF063AA9C282F7(__this, NULL);
@@ -6499,11 +6346,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextMeshProUGUI_Cull_m28722BE62117D8666B
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TMP_UpdateManager_tE9BFD4F61F3B94F860D7D3A6436162DA893BA2E2_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextMeshProUGUI_Cull_m28722BE62117D8666B334C1D98B0FDA31C801297_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityEvent_1_Invoke_m4810FCA7EC353CAA7770E91777A04496C5663653_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(TextMeshProUGUI_Cull_m28722BE62117D8666B334C1D98B0FDA31C801297_RuntimeMethod_var);
 	Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	bool V_1 = false;
@@ -6709,11 +6554,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextMeshProUGUI_UpdateCulling_mBBCAFB8FF
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextMeshProUGUI_UpdateCulling_mBBCAFB8FF0E605AA916782D723F605C7C5790E0F_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityEvent_1_Invoke_m4810FCA7EC353CAA7770E91777A04496C5663653_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(TextMeshProUGUI_UpdateCulling_mBBCAFB8FF0E605AA916782D723F605C7C5790E0F_RuntimeMethod_var);
 	Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	bool V_1 = false;
@@ -6894,10 +6737,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextMeshProUGUI_UpdateMeshPadding_mAD9B5
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ShaderUtilities_t9BE0345DF949745FC0EB9A1119E204F2F129298F_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextMeshProUGUI_UpdateMeshPadding_mAD9B5590BB1C07BD9F26F9ACF31E3AD7D0375D52_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(TextMeshProUGUI_UpdateMeshPadding_mAD9B5590BB1C07BD9F26F9ACF31E3AD7D0375D52_RuntimeMethod_var);
 	bool V_0 = false;
 	int32_t V_1 = 0;
 	bool V_2 = false;
@@ -6981,13 +6822,6 @@ IL_0080:
 // System.Void TMPro.TextMeshProUGUI::InternalCrossFadeColor(UnityEngine.Color,System.Single,System.Boolean,System.Boolean)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextMeshProUGUI_InternalCrossFadeColor_mCAC46A6435D3D73F8138A4DF4125AF63D6197E93 (TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* __this, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___targetColor0, float ___duration1, bool ___ignoreTimeScale2, bool ___useAlpha3, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextMeshProUGUI_InternalCrossFadeColor_mCAC46A6435D3D73F8138A4DF4125AF63D6197E93_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(TextMeshProUGUI_InternalCrossFadeColor_mCAC46A6435D3D73F8138A4DF4125AF63D6197E93_RuntimeMethod_var);
 	int32_t V_0 = 0;
 	bool V_1 = false;
 	int32_t V_2 = 0;
@@ -7060,13 +6894,6 @@ IL_0041:
 // System.Void TMPro.TextMeshProUGUI::InternalCrossFadeAlpha(System.Single,System.Single,System.Boolean)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextMeshProUGUI_InternalCrossFadeAlpha_m8F1403C1E5A7F3CC52DF054A11189D8E14353C63 (TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* __this, float ___alpha0, float ___duration1, bool ___ignoreTimeScale2, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextMeshProUGUI_InternalCrossFadeAlpha_m8F1403C1E5A7F3CC52DF054A11189D8E14353C63_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(TextMeshProUGUI_InternalCrossFadeAlpha_m8F1403C1E5A7F3CC52DF054A11189D8E14353C63_RuntimeMethod_var);
 	int32_t V_0 = 0;
 	bool V_1 = false;
 	int32_t V_2 = 0;
@@ -7143,10 +6970,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextMeshProUGUI_ForceMeshUpdate_mB5BCD22
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponentInParent_TisCanvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26_m5FB554DD7C0F662DAB84C0F292B221CAE3F0A5B3_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextMeshProUGUI_ForceMeshUpdate_mB5BCD2205BC620DC7AC4F00D7F21104D65FB90DE_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(TextMeshProUGUI_ForceMeshUpdate_mB5BCD2205BC620DC7AC4F00D7F21104D65FB90DE_RuntimeMethod_var);
 	bool V_0 = false;
 	{
 		// m_havePropertiesChanged = true;
@@ -7189,10 +7014,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TMP_TextInfo_t09A8E906329422C3F0C059876801DD6
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextMeshProUGUI_GetTextInfo_m0DF7D8487C0203268A4C62A67E1C4B7589ACC17E_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(TextMeshProUGUI_GetTextInfo_m0DF7D8487C0203268A4C62A67E1C4B7589ACC17E_RuntimeMethod_var);
 	bool V_0 = false;
 	TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* V_1 = NULL;
 	{
@@ -7254,10 +7077,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextMeshProUGUI_ClearMesh_mE803C85017AAA
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextMeshProUGUI_ClearMesh_mE803C85017AAA2E8F6C47661A7F59078C83D7D73_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(TextMeshProUGUI_ClearMesh_mE803C85017AAA2E8F6C47661A7F59078C83D7D73_RuntimeMethod_var);
 	int32_t V_0 = 0;
 	bool V_1 = false;
 	int32_t G_B5_0 = 0;
@@ -7339,10 +7160,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextMeshProUGUI_add_OnPreRenderText_m1F3
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_tB93AB717F9D419A1BEC832FF76E74EAA32184CC1_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextMeshProUGUI_add_OnPreRenderText_m1F3D640166C47D5E8AC83392022A7A76F252882D_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(TextMeshProUGUI_add_OnPreRenderText_m1F3D640166C47D5E8AC83392022A7A76F252882D_RuntimeMethod_var);
 	Action_1_tB93AB717F9D419A1BEC832FF76E74EAA32184CC1* V_0 = NULL;
 	Action_1_tB93AB717F9D419A1BEC832FF76E74EAA32184CC1* V_1 = NULL;
 	Action_1_tB93AB717F9D419A1BEC832FF76E74EAA32184CC1* V_2 = NULL;
@@ -7384,10 +7203,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextMeshProUGUI_remove_OnPreRenderText_m
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_tB93AB717F9D419A1BEC832FF76E74EAA32184CC1_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextMeshProUGUI_remove_OnPreRenderText_m5580AE95B7FCDF054DCB9F30D545CD60B5F40049_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(TextMeshProUGUI_remove_OnPreRenderText_m5580AE95B7FCDF054DCB9F30D545CD60B5F40049_RuntimeMethod_var);
 	Action_1_tB93AB717F9D419A1BEC832FF76E74EAA32184CC1* V_0 = NULL;
 	Action_1_tB93AB717F9D419A1BEC832FF76E74EAA32184CC1* V_1 = NULL;
 	Action_1_tB93AB717F9D419A1BEC832FF76E74EAA32184CC1* V_2 = NULL;
@@ -7425,13 +7242,6 @@ IL_0007:
 // System.Void TMPro.TextMeshProUGUI::UpdateGeometry(UnityEngine.Mesh,System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextMeshProUGUI_UpdateGeometry_m7877CE2E695637CFD480AF6D3A144A96F4B8DEAD (TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* __this, Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* ___mesh0, int32_t ___index1, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextMeshProUGUI_UpdateGeometry_m7877CE2E695637CFD480AF6D3A144A96F4B8DEAD_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(TextMeshProUGUI_UpdateGeometry_m7877CE2E695637CFD480AF6D3A144A96F4B8DEAD_RuntimeMethod_var);
 	bool V_0 = false;
 	{
 		// mesh.RecalculateBounds();
@@ -7481,13 +7291,6 @@ IL_0037:
 // System.Void TMPro.TextMeshProUGUI::UpdateVertexData(TMPro.TMP_VertexDataUpdateFlags)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextMeshProUGUI_UpdateVertexData_mAFE22C7EF036C51A5DABECD97AA3294963B17B8A (TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* __this, int32_t ___flags0, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextMeshProUGUI_UpdateVertexData_mAFE22C7EF036C51A5DABECD97AA3294963B17B8A_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(TextMeshProUGUI_UpdateVertexData_mAFE22C7EF036C51A5DABECD97AA3294963B17B8A_RuntimeMethod_var);
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
 	Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* V_2 = NULL;
@@ -7704,13 +7507,6 @@ IL_0115:
 // System.Void TMPro.TextMeshProUGUI::UpdateVertexData()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextMeshProUGUI_UpdateVertexData_mDCD835F9897D4A1D1C3299F8610E10AAF9693621 (TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextMeshProUGUI_UpdateVertexData_mDCD835F9897D4A1D1C3299F8610E10AAF9693621_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(TextMeshProUGUI_UpdateVertexData_mDCD835F9897D4A1D1C3299F8610E10AAF9693621_RuntimeMethod_var);
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
 	Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* V_2 = NULL;
@@ -7874,13 +7670,6 @@ IL_00fa:
 // System.Void TMPro.TextMeshProUGUI::UpdateFontAsset()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextMeshProUGUI_UpdateFontAsset_m5A9C9C239F67AD02E0EE52BDDBBCA6B747AD5B3B (TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextMeshProUGUI_UpdateFontAsset_m5A9C9C239F67AD02E0EE52BDDBBCA6B747AD5B3B_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(TextMeshProUGUI_UpdateFontAsset_m5A9C9C239F67AD02E0EE52BDDBBCA6B747AD5B3B_RuntimeMethod_var);
 	{
 		// LoadFontAsset();
 		VirtualActionInvoker0::Invoke(89 /* System.Void TMPro.TMP_Text::LoadFontAsset() */, __this);
@@ -7904,12 +7693,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextMeshProUGUI_Awake_mE225DF2C351162537
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TMP_Character_t7D37A55EF1A9FF6D0BFE6D50E86A00F80E7FAF35_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextMeshProUGUI_Awake_mE225DF2C3511625374A16201302F4A8AD2A72B26_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnicodeCharU5BU5D_t67F27D09F8EB28D2C42DFF16FE60054F157012F5_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralFD4F86E3E72DB28D4578AAA4C1DDFB667D1A3005);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(TextMeshProUGUI_Awake_mE225DF2C3511625374A16201302F4A8AD2A72B26_RuntimeMethod_var);
 	TMP_SubMeshUIU5BU5D_tC77B263183A59A75345C26152457207EAC3BBF29* V_0 = NULL;
 	bool V_1 = false;
 	bool V_2 = false;
@@ -8154,10 +7941,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextMeshProUGUI_OnEnable_m192C5020191F6D
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GraphicRegistry_t374118CCD6DBB47209C783A4BF2F4EF9EA78A326_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TMP_UpdateManager_tE9BFD4F61F3B94F860D7D3A6436162DA893BA2E2_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextMeshProUGUI_OnEnable_m192C5020191F6DE0CDFD8D91BB1518496E841E98_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(TextMeshProUGUI_OnEnable_m192C5020191F6DE0CDFD8D91BB1518496E841E98_RuntimeMethod_var);
 	bool V_0 = false;
 	bool V_1 = false;
 	bool V_2 = false;
@@ -8249,10 +8034,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextMeshProUGUI_OnDisable_m55A5E45BD3538
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&LayoutRebuilder_tD2269CCD93BD5A8C4A92188C66E212B976FA6564_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TMP_UpdateManager_tE9BFD4F61F3B94F860D7D3A6436162DA893BA2E2_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextMeshProUGUI_OnDisable_m55A5E45BD3538FECB646D245F23223C33C9C6CEE_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(TextMeshProUGUI_OnDisable_m55A5E45BD3538FECB646D245F23223C33C9C6CEE_RuntimeMethod_var);
 	bool V_0 = false;
 	bool V_1 = false;
 	{
@@ -8331,10 +8114,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextMeshProUGUI_OnDestroy_mF6F5098912944
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TMP_MaterialManager_t67E8437E12407A99A3E58F6033B8D3749A321A96_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TMP_UpdateManager_tE9BFD4F61F3B94F860D7D3A6436162DA893BA2E2_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextMeshProUGUI_OnDestroy_mF6F5098912944CBAEE8F9162CBC8513B6FCB4DCB_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(TextMeshProUGUI_OnDestroy_mF6F5098912944CBAEE8F9162CBC8513B6FCB4DCB_RuntimeMethod_var);
 	bool V_0 = false;
 	bool V_1 = false;
 	{
@@ -8407,7 +8188,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextMeshProUGUI_LoadFontAsset_mD79574232
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Resources_Load_TisTMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160_m4C7F47B73C641ED180784E089759867A85127C13_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ShaderUtilities_t9BE0345DF949745FC0EB9A1119E204F2F129298F_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextMeshProUGUI_LoadFontAsset_mD79574232A722B157F79A7D1430115829107B0D9_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral1C48E768A4CCD036AD57810A58C70F51040E48D7);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral32B32090F6DC502433AC0FE812D0021DE0262F16);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral36E8CEF51D9599029A7C56151D63FC08FF2EF9F4);
@@ -8417,7 +8197,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextMeshProUGUI_LoadFontAsset_mD79574232
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF3E84B722399601AD7E281754E917478AA9AD48D);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(TextMeshProUGUI_LoadFontAsset_mD79574232A722B157F79A7D1430115829107B0D9_RuntimeMethod_var);
 	bool V_0 = false;
 	bool V_1 = false;
 	bool V_2 = false;
@@ -8767,10 +8546,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FF
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TMP_ListPool_1_Get_m88CF3C5315579006E60C477AAED6C4917B5D8453_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TMP_ListPool_1_Release_mB87F7EA80FD75AD1059D1CF74AFDFCC9C3E2C375_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TMP_ListPool_1_tA4DA336D6A1069422BB73BB4F945ECEAE3174F41_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextMeshProUGUI_GetCanvas_mA62DCDC49EF734C76E2DCC33373AE38485267B07_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(TextMeshProUGUI_GetCanvas_mA62DCDC49EF734C76E2DCC33373AE38485267B07_RuntimeMethod_var);
 	Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* V_0 = NULL;
 	List_1_t5421B2468AFFE816206B49B3A6E589B74E5C6C94* V_1 = NULL;
 	bool V_2 = false;
@@ -8894,10 +8671,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextMeshProUGUI_UpdateEnvMapMatrix_mBB9F
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ShaderUtilities_t9BE0345DF949745FC0EB9A1119E204F2F129298F_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextMeshProUGUI_UpdateEnvMapMatrix_mBB9F3DBD385A9CF38674F27B1265FEF0214A3BDB_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(TextMeshProUGUI_UpdateEnvMapMatrix_mBB9F3DBD385A9CF38674F27B1265FEF0214A3BDB_RuntimeMethod_var);
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	bool V_1 = false;
@@ -8993,10 +8768,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextMeshProUGUI_EnableMasking_m825DABEA5
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ShaderUtilities_t9BE0345DF949745FC0EB9A1119E204F2F129298F_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextMeshProUGUI_EnableMasking_m825DABEA53C5743CE0B4D896476BCB8B4D23CCA5_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(TextMeshProUGUI_EnableMasking_m825DABEA53C5743CE0B4D896476BCB8B4D23CCA5_RuntimeMethod_var);
 	bool V_0 = false;
 	bool V_1 = false;
 	{
@@ -9084,13 +8857,6 @@ IL_00a3:
 // System.Void TMPro.TextMeshProUGUI::DisableMasking()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextMeshProUGUI_DisableMasking_m00E17B3141C80A2A15A8CF42FB9919563FBC9317 (TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextMeshProUGUI_DisableMasking_m00E17B3141C80A2A15A8CF42FB9919563FBC9317_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(TextMeshProUGUI_DisableMasking_m00E17B3141C80A2A15A8CF42FB9919563FBC9317_RuntimeMethod_var);
 	{
 		// }
 		return;
@@ -9104,10 +8870,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextMeshProUGUI_UpdateMask_m35565EC9D9C8
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ShaderUtilities_t9BE0345DF949745FC0EB9A1119E204F2F129298F_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextMeshProUGUI_UpdateMask_m35565EC9D9C802C94BE4694B5B340B2B4577EF44_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(TextMeshProUGUI_UpdateMask_m35565EC9D9C802C94BE4694B5B340B2B4577EF44_RuntimeMethod_var);
 	bool V_0 = false;
 	float V_1 = 0.0f;
 	float V_2 = 0.0f;
@@ -9349,10 +9113,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Material_t18053F08F347D0DCA5E1140EC7EC4533DD8
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ShaderUtilities_t9BE0345DF949745FC0EB9A1119E204F2F129298F_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextMeshProUGUI_GetMaterial_m2A3E0BA6B812DEF61F0FB90E9FC0D6C4BDCEBA0A_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(TextMeshProUGUI_GetMaterial_m2A3E0BA6B812DEF61F0FB90E9FC0D6C4BDCEBA0A_RuntimeMethod_var);
 	bool V_0 = false;
 	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* V_1 = NULL;
 	int32_t G_B3_0 = 0;
@@ -9444,10 +9206,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TMP_TextInfo_Resize_TisMaterial_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3_m37DDA235E5EA2BEA97E91AA9E903EE0D4AD31328_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextMeshProUGUI_GetMaterials_m4C0D6622FD2BD30E4CE5F868F1CFDB64C1C1403D_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(TextMeshProUGUI_GetMaterials_m4C0D6622FD2BD30E4CE5F868F1CFDB64C1C1403D_RuntimeMethod_var);
 	int32_t V_0 = 0;
 	bool V_1 = false;
 	bool V_2 = false;
@@ -9588,13 +9348,6 @@ IL_00a1:
 // System.Void TMPro.TextMeshProUGUI::SetSharedMaterial(UnityEngine.Material)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextMeshProUGUI_SetSharedMaterial_m9F64130FA72B17A58824E3A40980C92013F4E0EB (TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* __this, Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___mat0, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextMeshProUGUI_SetSharedMaterial_m9F64130FA72B17A58824E3A40980C92013F4E0EB_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(TextMeshProUGUI_SetSharedMaterial_m9F64130FA72B17A58824E3A40980C92013F4E0EB_RuntimeMethod_var);
 	{
 		// m_sharedMaterial = mat;
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0 = ___mat0;
@@ -9619,10 +9372,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TMP_TextInfo_Resize_TisMaterial_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3_m37DDA235E5EA2BEA97E91AA9E903EE0D4AD31328_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextMeshProUGUI_GetSharedMaterials_mFC9F284B9D0F7588F7FBDCB8C98B221DCF8660F6_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(TextMeshProUGUI_GetSharedMaterials_mFC9F284B9D0F7588F7FBDCB8C98B221DCF8660F6_RuntimeMethod_var);
 	int32_t V_0 = 0;
 	bool V_1 = false;
 	bool V_2 = false;
@@ -9766,10 +9517,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextMeshProUGUI_SetSharedMaterials_m0E33
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ShaderUtilities_t9BE0345DF949745FC0EB9A1119E204F2F129298F_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TMP_TextInfo_Resize_TisMaterial_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3_m37DDA235E5EA2BEA97E91AA9E903EE0D4AD31328_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextMeshProUGUI_SetSharedMaterials_m0E33EE522DBE0E2BA8464C455A9663327F9E34ED_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(TextMeshProUGUI_SetSharedMaterials_m0E33EE522DBE0E2BA8464C455A9663327F9E34ED_RuntimeMethod_var);
 	int32_t V_0 = 0;
 	bool V_1 = false;
 	bool V_2 = false;
@@ -10091,10 +9840,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextMeshProUGUI_SetOutlineThickness_m181
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ShaderUtilities_t9BE0345DF949745FC0EB9A1119E204F2F129298F_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextMeshProUGUI_SetOutlineThickness_m1819530A5C28F978C80D6BA614595D900099D897_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(TextMeshProUGUI_SetOutlineThickness_m1819530A5C28F978C80D6BA614595D900099D897_RuntimeMethod_var);
 	bool V_0 = false;
 	bool V_1 = false;
 	int32_t G_B3_0 = 0;
@@ -10223,10 +9970,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextMeshProUGUI_SetFaceColor_m6A655C7FF0
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ShaderUtilities_t9BE0345DF949745FC0EB9A1119E204F2F129298F_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextMeshProUGUI_SetFaceColor_m6A655C7FF042096CC71D943BCAFB98A42036EE1B_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(TextMeshProUGUI_SetFaceColor_m6A655C7FF042096CC71D943BCAFB98A42036EE1B_RuntimeMethod_var);
 	bool V_0 = false;
 	{
 		// if (m_fontMaterial == null)
@@ -10281,10 +10026,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextMeshProUGUI_SetOutlineColor_mFCA7A6D
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ShaderUtilities_t9BE0345DF949745FC0EB9A1119E204F2F129298F_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextMeshProUGUI_SetOutlineColor_mFCA7A6D7F2BA52DB12239F9051D2BDF40F92ADA8_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(TextMeshProUGUI_SetOutlineColor_mFCA7A6D7F2BA52DB12239F9051D2BDF40F92ADA8_RuntimeMethod_var);
 	bool V_0 = false;
 	{
 		// if (m_fontMaterial == null)
@@ -10339,10 +10082,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextMeshProUGUI_SetShaderDepth_m7A017149
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ShaderUtilities_t9BE0345DF949745FC0EB9A1119E204F2F129298F_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextMeshProUGUI_SetShaderDepth_m7A017149B97BAD6B9618750C0976729BD4740A70_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(TextMeshProUGUI_SetShaderDepth_m7A017149B97BAD6B9618750C0976729BD4740A70_RuntimeMethod_var);
 	bool V_0 = false;
 	bool V_1 = false;
 	int32_t G_B3_0 = 0;
@@ -10452,11 +10193,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextMeshProUGUI_SetCulling_m62AF94911CBF
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ShaderUtilities_t9BE0345DF949745FC0EB9A1119E204F2F129298F_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextMeshProUGUI_SetCulling_m62AF94911CBF89A8ADDA8A21CEE391ED756360EF_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral59B259A263D1796F7617C20534034F94A19001FE);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(TextMeshProUGUI_SetCulling_m62AF94911CBF89A8ADDA8A21CEE391ED756360EF_RuntimeMethod_var);
 	bool V_0 = false;
 	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* V_1 = NULL;
 	bool V_2 = false;
@@ -10719,10 +10458,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextMeshProUGUI_SetPerspectiveCorrection
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ShaderUtilities_t9BE0345DF949745FC0EB9A1119E204F2F129298F_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextMeshProUGUI_SetPerspectiveCorrection_mF547B8584EC083BAE1D3EFBD22CC5D9D78EDC48F_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(TextMeshProUGUI_SetPerspectiveCorrection_mF547B8584EC083BAE1D3EFBD22CC5D9D78EDC48F_RuntimeMethod_var);
 	bool V_0 = false;
 	{
 		// if (m_isOrthographic)
@@ -10763,13 +10500,6 @@ IL_0039:
 // System.Void TMPro.TextMeshProUGUI::SetMeshArrays(System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextMeshProUGUI_SetMeshArrays_mBB3809698124A9B2B65A4F57954CEFA790568C2A (TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* __this, int32_t ___size0, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextMeshProUGUI_SetMeshArrays_mBB3809698124A9B2B65A4F57954CEFA790568C2A_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(TextMeshProUGUI_SetMeshArrays_mBB3809698124A9B2B65A4F57954CEFA790568C2A_RuntimeMethod_var);
 	{
 		// m_textInfo.meshInfo[0].ResizeMeshInfo(size);
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_0 = ((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_textInfo_152;
@@ -10819,7 +10549,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TextMeshProUGUI_SetArraySizes_mAE0F66
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TMP_TextProcessingStack_1_SetDefault_m7CE06332FBA28EFF7BD420B215587317648C1EB8_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TMP_TextProcessingStack_1_SetDefault_mD74F2EC88853554B15ED9D90188D88B23C2F52A3_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextMeshProUGUI_SetArraySizes_mAE0F66585903F33A1056D130213B5680D0951D42_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UInt32_t1833D51FFA667B18A5AA4B8D34DE284F8495D29B_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral20080904EA14A8FCD6F091490B19C143BAC22866);
@@ -10828,7 +10557,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TextMeshProUGUI_SetArraySizes_mAE0F66
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF72C398728BAD79DCC8B4220ED83B2DF7C8329CF);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(TextMeshProUGUI_SetArraySizes_mAE0F66585903F33A1056D130213B5680D0951D42_RuntimeMethod_var);
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
 	bool V_2 = false;
@@ -13361,10 +13089,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextMeshProUGUI_ComputeMarginSize_m0647B
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextMeshProUGUI_ComputeMarginSize_m0647B2989C0A1098FFCCB9EA66810DAAE6C2E0D5_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(TextMeshProUGUI_ComputeMarginSize_m0647B2989C0A1098FFCCB9EA66810DAAE6C2E0D5_RuntimeMethod_var);
 	bool V_0 = false;
 	Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D V_1;
 	memset((&V_1), 0, sizeof(V_1));
@@ -13431,13 +13157,6 @@ IL_0096:
 // System.Void TMPro.TextMeshProUGUI::OnDidApplyAnimationProperties()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextMeshProUGUI_OnDidApplyAnimationProperties_m8ADE42C6DD519A08609CB526A983561DBACB7266 (TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextMeshProUGUI_OnDidApplyAnimationProperties_m8ADE42C6DD519A08609CB526A983561DBACB7266_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(TextMeshProUGUI_OnDidApplyAnimationProperties_m8ADE42C6DD519A08609CB526A983561DBACB7266_RuntimeMethod_var);
 	{
 		// m_havePropertiesChanged = true;
 		((TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)__this)->___m_havePropertiesChanged_153 = (bool)1;
@@ -13457,10 +13176,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextMeshProUGUI_OnCanvasHierarchyChanged
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TMP_UpdateManager_tE9BFD4F61F3B94F860D7D3A6436162DA893BA2E2_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextMeshProUGUI_OnCanvasHierarchyChanged_mDF06442735F795DA1A2CEBF42542EF352A0AC2D4_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(TextMeshProUGUI_OnCanvasHierarchyChanged_mDF06442735F795DA1A2CEBF42542EF352A0AC2D4_RuntimeMethod_var);
 	bool V_0 = false;
 	bool V_1 = false;
 	bool V_2 = false;
@@ -13575,13 +13292,6 @@ IL_006e:
 // System.Void TMPro.TextMeshProUGUI::OnTransformParentChanged()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextMeshProUGUI_OnTransformParentChanged_m7B078BE5B1E69D3CA642D32F15204E7A7D2D7825 (TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextMeshProUGUI_OnTransformParentChanged_m7B078BE5B1E69D3CA642D32F15204E7A7D2D7825_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(TextMeshProUGUI_OnTransformParentChanged_m7B078BE5B1E69D3CA642D32F15204E7A7D2D7825_RuntimeMethod_var);
 	{
 		// base.OnTransformParentChanged();
 		MaskableGraphic_OnTransformParentChanged_mE5ABE137F670FBA7E6FCD2A67616E4A8097AD876(__this, NULL);
@@ -13605,10 +13315,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextMeshProUGUI_OnRectTransformDimension
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextMeshProUGUI_OnRectTransformDimensionsChange_mE7B272E5EF1538872749F01C82CD28D4352F37FC_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(TextMeshProUGUI_OnRectTransformDimensionsChange_mE7B272E5EF1538872749F01C82CD28D4352F37FC_RuntimeMethod_var);
 	bool V_0 = false;
 	bool V_1 = false;
 	bool V_2 = false;
@@ -13811,13 +13519,6 @@ IL_013f:
 // System.Void TMPro.TextMeshProUGUI::InternalUpdate()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextMeshProUGUI_InternalUpdate_mEA820FAC0E9C659AC8198ABD63AC8515FC2EEC75 (TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextMeshProUGUI_InternalUpdate_mEA820FAC0E9C659AC8198ABD63AC8515FC2EEC75_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(TextMeshProUGUI_InternalUpdate_mEA820FAC0E9C659AC8198ABD63AC8515FC2EEC75_RuntimeMethod_var);
 	bool V_0 = false;
 	float V_1 = 0.0f;
 	bool V_2 = false;
@@ -13924,12 +13625,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextMeshProUGUI_OnPreRenderCanvas_mD208E
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextMeshProUGUI_OnPreRenderCanvas_mD208EA1BBA9D3A10B255322BABED2056A83BA2FC_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral7010ED9D2F851B464775E2116BC00D51ECDE54D6);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral79476CC2476B24324F66F64EC422DCD554895097);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(TextMeshProUGUI_OnPreRenderCanvas_mD208EA1BBA9D3A10B255322BABED2056A83BA2FC_RuntimeMethod_var);
 	bool V_0 = false;
 	bool V_1 = false;
 	bool V_2 = false;
@@ -14226,7 +13925,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextMeshProUGUI_GenerateTextMesh_m542C2D
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TMP_TextProcessingStack_1_get_current_mB9F78A6BB15081298FB89C5AAD7FD69621E59086_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TMPro_EventManager_t0234DB5BF625FC164B395C5C3B6F2CB8C89A3BA9_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextMeshProUGUI_GenerateTextMesh_m542C2DC0CA489C10BB3371B0114CD9ACED4E97D3_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral205DE2CB7E86A79B6B3940AFB5A0EC8F490142CE);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral41BB69D2BDF9A4541A716BE07E74D1ED0DEADD05);
@@ -14236,7 +13934,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextMeshProUGUI_GenerateTextMesh_m542C2D
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralFE37C361B118D899F298E7DBBEDF126B8808060D);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(TextMeshProUGUI_GenerateTextMesh_m542C2DC0CA489C10BB3371B0114CD9ACED4E97D3_RuntimeMethod_var);
 	int32_t V_0 = 0;
 	float V_1 = 0.0f;
 	float V_2 = 0.0f;
@@ -30500,10 +30197,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3U5BU5D_tFF1859CCE176131B909E2044F76443
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextMeshProUGUI_GetTextContainerLocalCorners_m2D6D185BC85A20431398BEC3EC258EBBD7D7C6AE_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(TextMeshProUGUI_GetTextContainerLocalCorners_m2D6D185BC85A20431398BEC3EC258EBBD7D7C6AE_RuntimeMethod_var);
 	bool V_0 = false;
 	Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* V_1 = NULL;
 	{
@@ -30554,10 +30249,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextMeshProUGUI_SetActiveSubMeshes_m85AA
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextMeshProUGUI_SetActiveSubMeshes_m85AACB4166A13ACDC7E0F944BD37E1C771A90716_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(TextMeshProUGUI_SetActiveSubMeshes_m85AACB4166A13ACDC7E0F944BD37E1C771A90716_RuntimeMethod_var);
 	int32_t V_0 = 0;
 	bool V_1 = false;
 	bool V_2 = false;
@@ -30656,10 +30349,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextMeshProUGUI_DestroySubMeshObjects_mB
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextMeshProUGUI_DestroySubMeshObjects_mBE2D8860515389A8AC3FDC37D184B03E38186F23_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(TextMeshProUGUI_DestroySubMeshObjects_mBE2D8860515389A8AC3FDC37D184B03E38186F23_RuntimeMethod_var);
 	int32_t V_0 = 0;
 	bool V_1 = false;
 	int32_t G_B5_0 = 0;
@@ -30734,10 +30425,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD3
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextMeshProUGUI_GetCompoundBounds_m74366E456D195D8D2FEBB1E85D0FE5DCE4105DF0_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(TextMeshProUGUI_GetCompoundBounds_m74366E456D195D8D2FEBB1E85D0FE5DCE4105DF0_RuntimeMethod_var);
 	Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_1;
@@ -31024,10 +30713,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextMeshProUGUI_GetCanvasSpaceClippingRect_m1E7125B754E5B3935318B425847952E705DD5B6F_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(TextMeshProUGUI_GetCanvasSpaceClippingRect_m1E7125B754E5B3935318B425847952E705DD5B6F_RuntimeMethod_var);
 	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* V_0 = NULL;
 	Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3 V_1;
 	memset((&V_1), 0, sizeof(V_1));
@@ -31177,13 +30864,6 @@ IL_00cb:
 // System.Void TMPro.TextMeshProUGUI::UpdateSDFScale(System.Single)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextMeshProUGUI_UpdateSDFScale_m357367AFC5B9A2EBD11FA3C4D7FC99C5208044AE (TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* __this, float ___scaleDelta0, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextMeshProUGUI_UpdateSDFScale_m357367AFC5B9A2EBD11FA3C4D7FC99C5208044AE_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(TextMeshProUGUI_UpdateSDFScale_m357367AFC5B9A2EBD11FA3C4D7FC99C5208044AE_RuntimeMethod_var);
 	bool V_0 = false;
 	int32_t V_1 = 0;
 	TMP_MeshInfo_t320C52212E9D672EBB5F5C18C3E0700AA33DD76B V_2;
@@ -31426,11 +31106,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextMeshProUGUI__ctor_m3733FC98975BAD7C9
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TMP_SubMeshUIU5BU5D_tC77B263183A59A75345C26152457207EAC3BBF29_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextMeshProUGUI__ctor_m3733FC98975BAD7C96BA932B8BE6A63602BA83B3_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(TextMeshProUGUI__ctor_m3733FC98975BAD7C96BA932B8BE6A63602BA83B3_RuntimeMethod_var);
 	{
 		// private bool m_isRebuildingLayout = false;
 		__this->___m_isRebuildingLayout_265 = (bool)0;
@@ -31462,7 +31140,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextMeshProUGUI__cctor_m2640D093CD028472
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextMeshProUGUI__cctor_m2640D093CD02847299314CFD387706497B1D2525_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral06B2DAFD0196486F2B4EC63F759B3BEF4CCBE3FD);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral1CA5096A878C656BAB74BC3F157653EDBC0F16EC);
@@ -31486,7 +31163,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextMeshProUGUI__cctor_m2640D093CD028472
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralFC157A6645E204F3A9037FC27DC680EAA756DC7A);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(TextMeshProUGUI__cctor_m2640D093CD02847299314CFD387706497B1D2525_RuntimeMethod_var);
 	{
 		// private static ProfilerMarker k_GenerateTextMarker = new ProfilerMarker("TMP.GenerateText");
 		ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD L_0;

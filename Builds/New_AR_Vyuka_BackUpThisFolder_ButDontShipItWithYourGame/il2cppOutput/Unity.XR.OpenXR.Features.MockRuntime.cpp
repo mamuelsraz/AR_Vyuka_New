@@ -140,14 +140,6 @@ IL2CPP_EXTERN_C RuntimeClass* ScriptEventDelegate_t0DE50F0234F04B68173703087BFCB
 IL2CPP_EXTERN_C RuntimeClass* ScriptEvent_t98D7BEA7A83AEC5AC0316FCED0B85028D4E75DAD_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* UInt64_t8F12534CC8FC4B5860F2A2CD1EE79D322E7A41AF_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* XrResult_tC6E780422C0CF27153FB9B0ED7D1F60015608195_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C const RuntimeMethod* AfterFunctionDelegate_BeginInvoke_m8850000FC36D01D205D12C3C496C66A4282322AA_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* AfterFunctionDelegate_EndInvoke_m1F7F16FB2CF9927443DA7257E47A5418DABD7B58_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* AfterFunctionDelegate_Invoke_mF8B0A0BF8DCC84E37AB367200F2D081B9706A115_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* AfterFunctionDelegate__ctor_m70B1A5F67C275B7064C9E1731B27326B97913F96_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* BeforeFunctionDelegate_BeginInvoke_m55800A4146677D7A22524810CA5559EF881F59C0_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* BeforeFunctionDelegate_EndInvoke_m680B2FC2866E4A959B218584FCEC8811CE46A4B1_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* BeforeFunctionDelegate_Invoke_mAA46B0A8103DF4E9C729D21D736BB9E6A38C70CA_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* BeforeFunctionDelegate__ctor_m42A11E8DDD8B3706497D8CF87F6853D961D0C832_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_Remove_m1D16C2805D2C90CE9E9F75DD087A02771665799C_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_Remove_m786082F7C7C48014E4310D38AEC2BEB53FD2869C_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_TryGetValue_m18B2157D65C4F2FC765F9AF4B4EBF7B8FF174E4F_RuntimeMethod_var;
@@ -158,40 +150,9 @@ IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_get_Count_m53A2E81E4273B7F2374
 IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_get_Count_m9C89607F22DE5CBC0F10E446E79188543493C0E1_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_set_Item_m17C6500F4A39584F230E69E055B6EDCF7CE4032E_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_set_Item_mEB67AD45031F043BBC4B9E563EC2D2518BAFDE22_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* MockRuntime_ActivateSecondaryView_mF7420192192C3BAEBBF009ED56D07BC556FA15A7_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* MockRuntime_AfterFunctionCallback_m6812E36D77CB5E9AC4BA21547ECB1A7CC8130188_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* MockRuntime_BeforeFunctionCallback_mC2015035328001D9FC22DC73D38518A1146ED728_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* MockRuntime_CauseInstanceLoss_m61AB63D783A75EBDF3FB7B3C1DE245AF05153076_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* MockRuntime_ClearFunctionCallbacks_mD7EFA7D5F744B560F6AE1414DC6D20FA6AFD8598_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* MockRuntime_GetAfterFunctionCallback_m40ABECA2B33292B0E9FA41AA594A5E682339EC44_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* MockRuntime_GetBeforeFunctionCallback_mC6DF44DDDC972164DAF20C5FCB2D2C8DD1937B32_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* MockRuntime_GetEndFrameStats_m618966C4B72707899EE838FE1AA1B6B3441F3CFB_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* MockRuntime_Internal_GetSessionState_m6B755956ADDA78C98438458893188E63398B16BC_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* MockRuntime_Internal_RegisterScriptEventCallback_m2B81D5FE7365699AE4C48B481FB4D75A2EE65D95_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* MockRuntime_Internal_TransitionToState_mE336F5F83100704EC10256F8B886FF1F78236558_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* MockRuntime_MockRuntime_RegisterFunctionCallbacks_mD56D8B54058443DF664EFB70C073008BDFD18B9C_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* MockRuntime_OnInstanceDestroy_m87D9042CA7DCD7E262D932C110546CB4458847BD_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* MockRuntime_ReceiveScriptEvent_mF60E011CE8C239703723E35BB000CEE934CAC267_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* MockRuntime_RequestExitSession_m3D1898810AE563EF5643979E37B3F61BB552D3B0_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* MockRuntime_ResetDefaults_m698F8466797E10FE398D686AA53276D52C42A35E_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* MockRuntime_SetEnvironmentBlendMode_m032FF21F59BDE5E5ECE9DD49CBDC08A278B4AEE4_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* MockRuntime_SetFunctionCallback_m85C0B354BD4E4815AD39B8F34F2D9096ADBD53ED_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* MockRuntime_SetFunctionCallback_m9E6CFC9535D27447649ED3892688016533AFF832_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* MockRuntime_SetFunctionCallback_mB26073BAA260892E982CD536CE09C3863F0C7CF5_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* MockRuntime_SetReferenceSpaceBounds_mC2B8DA0F5E3CCD406C5B76C6B099F968274F8BA8_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* MockRuntime_SetSpace_m8621F28AEDB10199503BDD00A74A2EA7A789FFC2_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* MockRuntime_SetSpace_mE14677D206494B4ED6D11376DA9BD11DA63961CD_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* MockRuntime_SetViewPose_mF1B2E370C087DCE67AC48EB271D6961E986400CB_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* MockRuntime_SetViewState_mD0BFEAE2401F55ABDADD9F11B22F122EBE840CC5_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* MockRuntime__ctor_mB159112DF9A71505BB0C77424F107CCF5906699F_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* MockRuntime_add_onScriptEvent_m40EF877249C65A83DE2BFFA396DCB823C80C6BE6_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* MockRuntime_get_Instance_m8E121E9352DAB8B36A0BCA89060CC5E20E64ABB6_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* MockRuntime_remove_onScriptEvent_m48CF329E755B35B4A6B0C09EB778450A7035FC59_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* OpenXRSettings_GetFeature_TisMockRuntime_tC5F1019CA2D3E89010E3A3BFC89834251257B2AF_m87DF2AA7C62867FE357F972E35BD6E581BC7210F_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* ScriptEventDelegate_BeginInvoke_mA01E16330527DD2C2E43DEA25B1E766572ED28B6_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* ScriptEventDelegate_EndInvoke_m25145EDD65EE5A0A801F0DE45587B47D73CFC353_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* ScriptEventDelegate_Invoke_m41274335D95A563973BC60763CF3853920443403_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* ScriptEventDelegate__ctor_mE05196985541B485AA1A5D7C97EE6370162597C6_RuntimeMethod_var;
 struct Delegate_t_marshaled_com;
 struct Delegate_t_marshaled_pinvoke;
 
@@ -978,12 +939,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MockRuntime_add_onScriptEvent_m40EF87724
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MockRuntime_add_onScriptEvent_m40EF877249C65A83DE2BFFA396DCB823C80C6BE6_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MockRuntime_tC5F1019CA2D3E89010E3A3BFC89834251257B2AF_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ScriptEventDelegate_t0DE50F0234F04B68173703087BFCB08BB4922E20_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(MockRuntime_add_onScriptEvent_m40EF877249C65A83DE2BFFA396DCB823C80C6BE6_RuntimeMethod_var);
 	ScriptEventDelegate_t0DE50F0234F04B68173703087BFCB08BB4922E20* V_0 = NULL;
 	ScriptEventDelegate_t0DE50F0234F04B68173703087BFCB08BB4922E20* V_1 = NULL;
 	ScriptEventDelegate_t0DE50F0234F04B68173703087BFCB08BB4922E20* V_2 = NULL;
@@ -1023,12 +982,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MockRuntime_remove_onScriptEvent_m48CF32
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MockRuntime_remove_onScriptEvent_m48CF329E755B35B4A6B0C09EB778450A7035FC59_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MockRuntime_tC5F1019CA2D3E89010E3A3BFC89834251257B2AF_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ScriptEventDelegate_t0DE50F0234F04B68173703087BFCB08BB4922E20_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(MockRuntime_remove_onScriptEvent_m48CF329E755B35B4A6B0C09EB778450A7035FC59_RuntimeMethod_var);
 	ScriptEventDelegate_t0DE50F0234F04B68173703087BFCB08BB4922E20* V_0 = NULL;
 	ScriptEventDelegate_t0DE50F0234F04B68173703087BFCB08BB4922E20* V_1 = NULL;
 	ScriptEventDelegate_t0DE50F0234F04B68173703087BFCB08BB4922E20* V_2 = NULL;
@@ -1068,11 +1025,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MockRuntime_tC5F1019CA2D3E89010E3A3BFC8983425
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MockRuntime_get_Instance_m8E121E9352DAB8B36A0BCA89060CC5E20E64ABB6_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OpenXRSettings_GetFeature_TisMockRuntime_tC5F1019CA2D3E89010E3A3BFC89834251257B2AF_m87DF2AA7C62867FE357F972E35BD6E581BC7210F_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(MockRuntime_get_Instance_m8E121E9352DAB8B36A0BCA89060CC5E20E64ABB6_RuntimeMethod_var);
 	{
 		// public static MockRuntime Instance => OpenXRSettings.Instance.GetFeature<MockRuntime>();
 		OpenXRSettings_tC785370EE9F65516FED2B31400BF71DC84F94B55* L_0;
@@ -1089,11 +1044,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MockRuntime_ReceiveScriptEvent_mF60E011C
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MockRuntime_ReceiveScriptEvent_mF60E011CE8C239703723E35BB000CEE934CAC267_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MockRuntime_tC5F1019CA2D3E89010E3A3BFC89834251257B2AF_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(MockRuntime_ReceiveScriptEvent_mF60E011CE8C239703723E35BB000CEE934CAC267_RuntimeMethod_var);
 	ScriptEventDelegate_t0DE50F0234F04B68173703087BFCB08BB4922E20* G_B2_0 = NULL;
 	ScriptEventDelegate_t0DE50F0234F04B68173703087BFCB08BB4922E20* G_B1_0 = NULL;
 	{
@@ -1127,13 +1080,6 @@ IL_0013:
 // UnityEngine.XR.OpenXR.NativeTypes.XrResult UnityEngine.XR.OpenXR.Features.Mock.MockRuntime::BeforeFunctionCallback(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MockRuntime_BeforeFunctionCallback_mC2015035328001D9FC22DC73D38518A1146ED728 (String_t* ___function0, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MockRuntime_BeforeFunctionCallback_mC2015035328001D9FC22DC73D38518A1146ED728_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(MockRuntime_BeforeFunctionCallback_mC2015035328001D9FC22DC73D38518A1146ED728_RuntimeMethod_var);
 	BeforeFunctionDelegate_t767D515AE77977BF5EA389123E37EB685DDADDDA* V_0 = NULL;
 	bool V_1 = false;
 	int32_t V_2 = 0;
@@ -1180,13 +1126,6 @@ IL_001e:
 // System.Void UnityEngine.XR.OpenXR.Features.Mock.MockRuntime::AfterFunctionCallback(System.String,UnityEngine.XR.OpenXR.NativeTypes.XrResult)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MockRuntime_AfterFunctionCallback_m6812E36D77CB5E9AC4BA21547ECB1A7CC8130188 (String_t* ___function0, int32_t ___result1, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MockRuntime_AfterFunctionCallback_m6812E36D77CB5E9AC4BA21547ECB1A7CC8130188_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(MockRuntime_AfterFunctionCallback_m6812E36D77CB5E9AC4BA21547ECB1A7CC8130188_RuntimeMethod_var);
 	AfterFunctionDelegate_t2794658426C2B81F53841DCC65EED4E864522552* V_0 = NULL;
 	bool V_1 = false;
 	{
@@ -1245,11 +1184,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MockRuntime_SetFunctionCallback_m85C0B35
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_tE800B4C2237603A792FFCCFB9BFC21EA79CB7F3F_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MockRuntime_AfterFunctionCallback_m6812E36D77CB5E9AC4BA21547ECB1A7CC8130188_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MockRuntime_BeforeFunctionCallback_mC2015035328001D9FC22DC73D38518A1146ED728_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MockRuntime_SetFunctionCallback_m85C0B354BD4E4815AD39B8F34F2D9096ADBD53ED_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MockRuntime_tC5F1019CA2D3E89010E3A3BFC89834251257B2AF_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(MockRuntime_SetFunctionCallback_m85C0B354BD4E4815AD39B8F34F2D9096ADBD53ED_RuntimeMethod_var);
 	bool V_0 = false;
 	bool V_1 = false;
 	bool V_2 = false;
@@ -1483,13 +1420,6 @@ IL_00f5:
 // System.Void UnityEngine.XR.OpenXR.Features.Mock.MockRuntime::SetFunctionCallback(System.String,UnityEngine.XR.OpenXR.Features.Mock.MockRuntime/BeforeFunctionDelegate)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MockRuntime_SetFunctionCallback_mB26073BAA260892E982CD536CE09C3863F0C7CF5 (String_t* ___function0, BeforeFunctionDelegate_t767D515AE77977BF5EA389123E37EB685DDADDDA* ___beforeCallback1, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MockRuntime_SetFunctionCallback_mB26073BAA260892E982CD536CE09C3863F0C7CF5_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(MockRuntime_SetFunctionCallback_mB26073BAA260892E982CD536CE09C3863F0C7CF5_RuntimeMethod_var);
 	{
 		// SetFunctionCallback(function, beforeCallback, GetAfterFunctionCallback(function));
 		String_t* L_0 = ___function0;
@@ -1504,13 +1434,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MockRuntime_SetFunctionCallback_mB26073B
 // System.Void UnityEngine.XR.OpenXR.Features.Mock.MockRuntime::SetFunctionCallback(System.String,UnityEngine.XR.OpenXR.Features.Mock.MockRuntime/AfterFunctionDelegate)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MockRuntime_SetFunctionCallback_m9E6CFC9535D27447649ED3892688016533AFF832 (String_t* ___function0, AfterFunctionDelegate_t2794658426C2B81F53841DCC65EED4E864522552* ___afterCallback1, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MockRuntime_SetFunctionCallback_m9E6CFC9535D27447649ED3892688016533AFF832_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(MockRuntime_SetFunctionCallback_m9E6CFC9535D27447649ED3892688016533AFF832_RuntimeMethod_var);
 	{
 		// SetFunctionCallback(function, GetBeforeFunctionCallback(function), afterCallback);
 		String_t* L_0 = ___function0;
@@ -1529,11 +1452,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR BeforeFunctionDelegate_t767D515AE77977BF5EA38
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_TryGetValue_m18B2157D65C4F2FC765F9AF4B4EBF7B8FF174E4F_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MockRuntime_GetBeforeFunctionCallback_mC6DF44DDDC972164DAF20C5FCB2D2C8DD1937B32_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MockRuntime_tC5F1019CA2D3E89010E3A3BFC89834251257B2AF_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(MockRuntime_GetBeforeFunctionCallback_mC6DF44DDDC972164DAF20C5FCB2D2C8DD1937B32_RuntimeMethod_var);
 	BeforeFunctionDelegate_t767D515AE77977BF5EA389123E37EB685DDADDDA* V_0 = NULL;
 	bool V_1 = false;
 	BeforeFunctionDelegate_t767D515AE77977BF5EA389123E37EB685DDADDDA* V_2 = NULL;
@@ -1597,11 +1518,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AfterFunctionDelegate_t2794658426C2B81F53841D
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_TryGetValue_mC24ED42B1D62F196005DEF99454A30DCEF6E0A5F_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MockRuntime_GetAfterFunctionCallback_m40ABECA2B33292B0E9FA41AA594A5E682339EC44_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MockRuntime_tC5F1019CA2D3E89010E3A3BFC89834251257B2AF_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(MockRuntime_GetAfterFunctionCallback_m40ABECA2B33292B0E9FA41AA594A5E682339EC44_RuntimeMethod_var);
 	AfterFunctionDelegate_t2794658426C2B81F53841DCC65EED4E864522552* V_0 = NULL;
 	bool V_1 = false;
 	AfterFunctionDelegate_t2794658426C2B81F53841DCC65EED4E864522552* V_2 = NULL;
@@ -1664,11 +1583,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MockRuntime_ClearFunctionCallbacks_mD7EF
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MockRuntime_ClearFunctionCallbacks_mD7EFA7D5F744B560F6AE1414DC6D20FA6AFD8598_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MockRuntime_tC5F1019CA2D3E89010E3A3BFC89834251257B2AF_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(MockRuntime_ClearFunctionCallbacks_mD7EFA7D5F744B560F6AE1414DC6D20FA6AFD8598_RuntimeMethod_var);
 	{
 		// s_BeforeFunctionCallbacks = null;
 		((MockRuntime_tC5F1019CA2D3E89010E3A3BFC89834251257B2AF_StaticFields*)il2cpp_codegen_static_fields_for(MockRuntime_tC5F1019CA2D3E89010E3A3BFC89834251257B2AF_il2cpp_TypeInfo_var))->___s_BeforeFunctionCallbacks_16 = (Dictionary_2_tE800B4C2237603A792FFCCFB9BFC21EA79CB7F3F*)NULL;
@@ -1688,11 +1605,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MockRuntime_ResetDefaults_m698F8466797E1
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MockRuntime_ResetDefaults_m698F8466797E10FE398D686AA53276D52C42A35E_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MockRuntime_tC5F1019CA2D3E89010E3A3BFC89834251257B2AF_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(MockRuntime_ResetDefaults_m698F8466797E10FE398D686AA53276D52C42A35E_RuntimeMethod_var);
 	{
 		// onScriptEvent = null;
 		((MockRuntime_tC5F1019CA2D3E89010E3A3BFC89834251257B2AF_StaticFields*)il2cpp_codegen_static_fields_for(MockRuntime_tC5F1019CA2D3E89010E3A3BFC89834251257B2AF_il2cpp_TypeInfo_var))->___onScriptEvent_17 = (ScriptEventDelegate_t0DE50F0234F04B68173703087BFCB08BB4922E20*)NULL;
@@ -1706,13 +1621,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MockRuntime_ResetDefaults_m698F8466797E1
 // System.Void UnityEngine.XR.OpenXR.Features.Mock.MockRuntime::OnInstanceDestroy(System.UInt64)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MockRuntime_OnInstanceDestroy_m87D9042CA7DCD7E262D932C110546CB4458847BD (MockRuntime_tC5F1019CA2D3E89010E3A3BFC89834251257B2AF* __this, uint64_t ___instance0, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MockRuntime_OnInstanceDestroy_m87D9042CA7DCD7E262D932C110546CB4458847BD_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(MockRuntime_OnInstanceDestroy_m87D9042CA7DCD7E262D932C110546CB4458847BD_RuntimeMethod_var);
 	{
 		// ClearFunctionCallbacks();
 		MockRuntime_ClearFunctionCallbacks_mD7EFA7D5F744B560F6AE1414DC6D20FA6AFD8598(NULL);
@@ -1723,13 +1631,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MockRuntime_OnInstanceDestroy_m87D9042CA
 // System.Void UnityEngine.XR.OpenXR.Features.Mock.MockRuntime::SetViewPose(UnityEngine.XR.OpenXR.NativeTypes.XrViewConfigurationType,System.Int32,UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Vector4)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MockRuntime_SetViewPose_mF1B2E370C087DCE67AC48EB271D6961E986400CB (int32_t ___viewConfigurationType0, int32_t ___viewIndex1, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___position2, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___orientation3, Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___fov4, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MockRuntime_SetViewPose_mF1B2E370C087DCE67AC48EB271D6961E986400CB_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(MockRuntime_SetViewPose_mF1B2E370C087DCE67AC48EB271D6961E986400CB_RuntimeMethod_var);
 	typedef void (DEFAULT_CALL *PInvokeFunc) (int32_t, int32_t, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974, Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3);
 	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_mock_runtime_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
@@ -1752,13 +1653,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MockRuntime_SetViewPose_mF1B2E370C087DCE
 // System.Void UnityEngine.XR.OpenXR.Features.Mock.MockRuntime::SetViewState(UnityEngine.XR.OpenXR.NativeTypes.XrViewConfigurationType,UnityEngine.XR.OpenXR.NativeTypes.XrViewStateFlags)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MockRuntime_SetViewState_mD0BFEAE2401F55ABDADD9F11B22F122EBE840CC5 (int32_t ___viewConfigurationType0, int32_t ___viewStateFlags1, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MockRuntime_SetViewState_mD0BFEAE2401F55ABDADD9F11B22F122EBE840CC5_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(MockRuntime_SetViewState_mD0BFEAE2401F55ABDADD9F11B22F122EBE840CC5_RuntimeMethod_var);
 	typedef void (DEFAULT_CALL *PInvokeFunc) (int32_t, int32_t);
 	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_mock_runtime_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
@@ -1781,13 +1675,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MockRuntime_SetViewState_mD0BFEAE2401F55
 // System.Void UnityEngine.XR.OpenXR.Features.Mock.MockRuntime::SetSpace(UnityEngine.XR.OpenXR.NativeTypes.XrReferenceSpaceType,UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.XR.OpenXR.NativeTypes.XrSpaceLocationFlags)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MockRuntime_SetSpace_m8621F28AEDB10199503BDD00A74A2EA7A789FFC2 (int32_t ___referenceSpace0, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___position1, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___orientation2, int32_t ___locationFlags3, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MockRuntime_SetSpace_m8621F28AEDB10199503BDD00A74A2EA7A789FFC2_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(MockRuntime_SetSpace_m8621F28AEDB10199503BDD00A74A2EA7A789FFC2_RuntimeMethod_var);
 	typedef void (DEFAULT_CALL *PInvokeFunc) (int32_t, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974, int32_t);
 	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_mock_runtime_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
@@ -1810,13 +1697,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MockRuntime_SetSpace_m8621F28AEDB1019950
 // System.Void UnityEngine.XR.OpenXR.Features.Mock.MockRuntime::SetSpace(System.UInt64,UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.XR.OpenXR.NativeTypes.XrSpaceLocationFlags)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MockRuntime_SetSpace_mE14677D206494B4ED6D11376DA9BD11DA63961CD (uint64_t ___actionHandle0, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___position1, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___orientation2, int32_t ___locationFlags3, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MockRuntime_SetSpace_mE14677D206494B4ED6D11376DA9BD11DA63961CD_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(MockRuntime_SetSpace_mE14677D206494B4ED6D11376DA9BD11DA63961CD_RuntimeMethod_var);
 	typedef void (DEFAULT_CALL *PInvokeFunc) (uint64_t, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974, int32_t);
 	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_mock_runtime_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
@@ -1839,13 +1719,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MockRuntime_SetSpace_mE14677D206494B4ED6
 // UnityEngine.XR.OpenXR.NativeTypes.XrResult UnityEngine.XR.OpenXR.Features.Mock.MockRuntime::Internal_RegisterScriptEventCallback(UnityEngine.XR.OpenXR.Features.Mock.MockRuntime/ScriptEventDelegate)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MockRuntime_Internal_RegisterScriptEventCallback_m2B81D5FE7365699AE4C48B481FB4D75A2EE65D95 (ScriptEventDelegate_t0DE50F0234F04B68173703087BFCB08BB4922E20* ___callback0, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MockRuntime_Internal_RegisterScriptEventCallback_m2B81D5FE7365699AE4C48B481FB4D75A2EE65D95_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(MockRuntime_Internal_RegisterScriptEventCallback_m2B81D5FE7365699AE4C48B481FB4D75A2EE65D95_RuntimeMethod_var);
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (Il2CppMethodPointer);
 	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_mock_runtime_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
@@ -1873,13 +1746,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MockRuntime_Internal_RegisterScriptEv
 // System.Boolean UnityEngine.XR.OpenXR.Features.Mock.MockRuntime::Internal_TransitionToState(UnityEngine.XR.OpenXR.NativeTypes.XrSessionState,System.Boolean)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MockRuntime_Internal_TransitionToState_mE336F5F83100704EC10256F8B886FF1F78236558 (int32_t ___state0, bool ___forceTransition1, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MockRuntime_Internal_TransitionToState_mE336F5F83100704EC10256F8B886FF1F78236558_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(MockRuntime_Internal_TransitionToState_mE336F5F83100704EC10256F8B886FF1F78236558_RuntimeMethod_var);
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, int32_t);
 	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_mock_runtime_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
@@ -1903,13 +1769,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MockRuntime_Internal_TransitionToState_m
 // UnityEngine.XR.OpenXR.NativeTypes.XrSessionState UnityEngine.XR.OpenXR.Features.Mock.MockRuntime::Internal_GetSessionState()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MockRuntime_Internal_GetSessionState_m6B755956ADDA78C98438458893188E63398B16BC (const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MockRuntime_Internal_GetSessionState_m6B755956ADDA78C98438458893188E63398B16BC_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(MockRuntime_Internal_GetSessionState_m6B755956ADDA78C98438458893188E63398B16BC_RuntimeMethod_var);
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) ();
 	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_mock_runtime_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
@@ -1933,13 +1792,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MockRuntime_Internal_GetSessionState_
 // System.Void UnityEngine.XR.OpenXR.Features.Mock.MockRuntime::RequestExitSession()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MockRuntime_RequestExitSession_m3D1898810AE563EF5643979E37B3F61BB552D3B0 (const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MockRuntime_RequestExitSession_m3D1898810AE563EF5643979E37B3F61BB552D3B0_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(MockRuntime_RequestExitSession_m3D1898810AE563EF5643979E37B3F61BB552D3B0_RuntimeMethod_var);
 	typedef void (DEFAULT_CALL *PInvokeFunc) ();
 	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_mock_runtime_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
@@ -1962,13 +1814,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MockRuntime_RequestExitSession_m3D189881
 // System.Void UnityEngine.XR.OpenXR.Features.Mock.MockRuntime::CauseInstanceLoss()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MockRuntime_CauseInstanceLoss_m61AB63D783A75EBDF3FB7B3C1DE245AF05153076 (const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MockRuntime_CauseInstanceLoss_m61AB63D783A75EBDF3FB7B3C1DE245AF05153076_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(MockRuntime_CauseInstanceLoss_m61AB63D783A75EBDF3FB7B3C1DE245AF05153076_RuntimeMethod_var);
 	typedef void (DEFAULT_CALL *PInvokeFunc) ();
 	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_mock_runtime_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
@@ -1991,13 +1836,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MockRuntime_CauseInstanceLoss_m61AB63D78
 // System.Void UnityEngine.XR.OpenXR.Features.Mock.MockRuntime::SetEnvironmentBlendMode(UnityEngine.XR.OpenXR.NativeTypes.XrEnvironmentBlendMode)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MockRuntime_SetEnvironmentBlendMode_m032FF21F59BDE5E5ECE9DD49CBDC08A278B4AEE4 (int32_t ___environmentBlendMode0, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MockRuntime_SetEnvironmentBlendMode_m032FF21F59BDE5E5ECE9DD49CBDC08A278B4AEE4_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(MockRuntime_SetEnvironmentBlendMode_m032FF21F59BDE5E5ECE9DD49CBDC08A278B4AEE4_RuntimeMethod_var);
 	typedef void (DEFAULT_CALL *PInvokeFunc) (int32_t);
 	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_mock_runtime_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
@@ -2020,13 +1858,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MockRuntime_SetEnvironmentBlendMode_m032
 // System.Void UnityEngine.XR.OpenXR.Features.Mock.MockRuntime::SetReferenceSpaceBounds(UnityEngine.XR.OpenXR.NativeTypes.XrReferenceSpaceType,UnityEngine.Vector2)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MockRuntime_SetReferenceSpaceBounds_mC2B8DA0F5E3CCD406C5B76C6B099F968274F8BA8 (int32_t ___referenceSpace0, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___bounds1, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MockRuntime_SetReferenceSpaceBounds_mC2B8DA0F5E3CCD406C5B76C6B099F968274F8BA8_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(MockRuntime_SetReferenceSpaceBounds_mC2B8DA0F5E3CCD406C5B76C6B099F968274F8BA8_RuntimeMethod_var);
 	typedef void (DEFAULT_CALL *PInvokeFunc) (int32_t, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7);
 	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_mock_runtime_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
@@ -2049,13 +1880,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MockRuntime_SetReferenceSpaceBounds_mC2B
 // System.Void UnityEngine.XR.OpenXR.Features.Mock.MockRuntime::GetEndFrameStats(System.Int32&,System.Int32&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MockRuntime_GetEndFrameStats_m618966C4B72707899EE838FE1AA1B6B3441F3CFB (int32_t* ___primaryLayerCount0, int32_t* ___secondaryLayerCount1, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MockRuntime_GetEndFrameStats_m618966C4B72707899EE838FE1AA1B6B3441F3CFB_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(MockRuntime_GetEndFrameStats_m618966C4B72707899EE838FE1AA1B6B3441F3CFB_RuntimeMethod_var);
 	typedef void (DEFAULT_CALL *PInvokeFunc) (int32_t*, int32_t*);
 	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_mock_runtime_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
@@ -2078,13 +1902,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MockRuntime_GetEndFrameStats_m618966C4B7
 // System.Void UnityEngine.XR.OpenXR.Features.Mock.MockRuntime::ActivateSecondaryView(UnityEngine.XR.OpenXR.NativeTypes.XrViewConfigurationType,System.Boolean)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MockRuntime_ActivateSecondaryView_mF7420192192C3BAEBBF009ED56D07BC556FA15A7 (int32_t ___viewConfigurationType0, bool ___activate1, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MockRuntime_ActivateSecondaryView_mF7420192192C3BAEBBF009ED56D07BC556FA15A7_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(MockRuntime_ActivateSecondaryView_mF7420192192C3BAEBBF009ED56D07BC556FA15A7_RuntimeMethod_var);
 	typedef void (DEFAULT_CALL *PInvokeFunc) (int32_t, int32_t);
 	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_mock_runtime_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
@@ -2107,13 +1924,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MockRuntime_ActivateSecondaryView_mF7420
 // System.Void UnityEngine.XR.OpenXR.Features.Mock.MockRuntime::MockRuntime_RegisterFunctionCallbacks(UnityEngine.XR.OpenXR.Features.Mock.MockRuntime/BeforeFunctionDelegate,UnityEngine.XR.OpenXR.Features.Mock.MockRuntime/AfterFunctionDelegate)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MockRuntime_MockRuntime_RegisterFunctionCallbacks_mD56D8B54058443DF664EFB70C073008BDFD18B9C (BeforeFunctionDelegate_t767D515AE77977BF5EA389123E37EB685DDADDDA* ___hookBefore0, AfterFunctionDelegate_t2794658426C2B81F53841DCC65EED4E864522552* ___hookAfter1, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MockRuntime_MockRuntime_RegisterFunctionCallbacks_mD56D8B54058443DF664EFB70C073008BDFD18B9C_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(MockRuntime_MockRuntime_RegisterFunctionCallbacks_mD56D8B54058443DF664EFB70C073008BDFD18B9C_RuntimeMethod_var);
 	typedef void (DEFAULT_CALL *PInvokeFunc) (Il2CppMethodPointer, Il2CppMethodPointer);
 	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_mock_runtime_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
@@ -2144,13 +1954,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MockRuntime_MockRuntime_RegisterFunction
 // System.Void UnityEngine.XR.OpenXR.Features.Mock.MockRuntime::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MockRuntime__ctor_mB159112DF9A71505BB0C77424F107CCF5906699F (MockRuntime_tC5F1019CA2D3E89010E3A3BFC89834251257B2AF* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MockRuntime__ctor_mB159112DF9A71505BB0C77424F107CCF5906699F_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(MockRuntime__ctor_mB159112DF9A71505BB0C77424F107CCF5906699F_RuntimeMethod_var);
 	{
 		// public bool ignoreValidationErrors = false;
 		__this->___ignoreValidationErrors_19 = (bool)0;
@@ -2214,13 +2017,6 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_ScriptEventDelegate_t0DE50F0234F04B
 // System.Void UnityEngine.XR.OpenXR.Features.Mock.MockRuntime/ScriptEventDelegate::.ctor(System.Object,System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScriptEventDelegate__ctor_mE05196985541B485AA1A5D7C97EE6370162597C6 (ScriptEventDelegate_t0DE50F0234F04B68173703087BFCB08BB4922E20* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ScriptEventDelegate__ctor_mE05196985541B485AA1A5D7C97EE6370162597C6_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(ScriptEventDelegate__ctor_mE05196985541B485AA1A5D7C97EE6370162597C6_RuntimeMethod_var);
 	__this->___method_ptr_0 = il2cpp_codegen_get_virtual_call_method_pointer((RuntimeMethod*)___method1);
 	__this->___method_3 = ___method1;
 	__this->___m_target_2 = ___object0;
@@ -2249,13 +2045,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScriptEventDelegate__ctor_mE05196985541B
 // System.Void UnityEngine.XR.OpenXR.Features.Mock.MockRuntime/ScriptEventDelegate::Invoke(UnityEngine.XR.OpenXR.Features.Mock.MockRuntime/ScriptEvent,System.UInt64)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScriptEventDelegate_Invoke_m41274335D95A563973BC60763CF3853920443403 (ScriptEventDelegate_t0DE50F0234F04B68173703087BFCB08BB4922E20* __this, int32_t ___evt0, uint64_t ___param1, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ScriptEventDelegate_Invoke_m41274335D95A563973BC60763CF3853920443403_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(ScriptEventDelegate_Invoke_m41274335D95A563973BC60763CF3853920443403_RuntimeMethod_var);
 	typedef void (*FunctionPointerType) (ScriptEventDelegate_t0DE50F0234F04B68173703087BFCB08BB4922E20* __this, int32_t ___evt0, uint64_t ___param1, const RuntimeMethod* method);
 	((FunctionPointerType)__this->___invoke_impl_1)(__this, ___evt0, ___param1, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
 }
@@ -2265,12 +2054,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ScriptEventDelegate_BeginInvok
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ScriptEventDelegate_BeginInvoke_mA01E16330527DD2C2E43DEA25B1E766572ED28B6_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ScriptEvent_t98D7BEA7A83AEC5AC0316FCED0B85028D4E75DAD_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UInt64_t8F12534CC8FC4B5860F2A2CD1EE79D322E7A41AF_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(ScriptEventDelegate_BeginInvoke_mA01E16330527DD2C2E43DEA25B1E766572ED28B6_RuntimeMethod_var);
 	void *__d_args[3] = {0};
 	__d_args[0] = Box(ScriptEvent_t98D7BEA7A83AEC5AC0316FCED0B85028D4E75DAD_il2cpp_TypeInfo_var, &___evt0);
 	__d_args[1] = Box(UInt64_t8F12534CC8FC4B5860F2A2CD1EE79D322E7A41AF_il2cpp_TypeInfo_var, &___param1);
@@ -2279,13 +2066,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ScriptEventDelegate_BeginInvok
 // System.Void UnityEngine.XR.OpenXR.Features.Mock.MockRuntime/ScriptEventDelegate::EndInvoke(System.IAsyncResult)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScriptEventDelegate_EndInvoke_m25145EDD65EE5A0A801F0DE45587B47D73CFC353 (ScriptEventDelegate_t0DE50F0234F04B68173703087BFCB08BB4922E20* __this, RuntimeObject* ___result0, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ScriptEventDelegate_EndInvoke_m25145EDD65EE5A0A801F0DE45587B47D73CFC353_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(ScriptEventDelegate_EndInvoke_m25145EDD65EE5A0A801F0DE45587B47D73CFC353_RuntimeMethod_var);
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
 }
 #ifdef __clang__
@@ -2347,13 +2127,6 @@ IL2CPP_EXTERN_C  int32_t DelegatePInvokeWrapper_BeforeFunctionDelegate_t767D515A
 // System.Void UnityEngine.XR.OpenXR.Features.Mock.MockRuntime/BeforeFunctionDelegate::.ctor(System.Object,System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BeforeFunctionDelegate__ctor_m42A11E8DDD8B3706497D8CF87F6853D961D0C832 (BeforeFunctionDelegate_t767D515AE77977BF5EA389123E37EB685DDADDDA* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BeforeFunctionDelegate__ctor_m42A11E8DDD8B3706497D8CF87F6853D961D0C832_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(BeforeFunctionDelegate__ctor_m42A11E8DDD8B3706497D8CF87F6853D961D0C832_RuntimeMethod_var);
 	__this->___method_ptr_0 = il2cpp_codegen_get_virtual_call_method_pointer((RuntimeMethod*)___method1);
 	__this->___method_3 = ___method1;
 	__this->___m_target_2 = ___object0;
@@ -2390,26 +2163,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BeforeFunctionDelegate__ctor_m42A11E8DDD
 // UnityEngine.XR.OpenXR.NativeTypes.XrResult UnityEngine.XR.OpenXR.Features.Mock.MockRuntime/BeforeFunctionDelegate::Invoke(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BeforeFunctionDelegate_Invoke_mAA46B0A8103DF4E9C729D21D736BB9E6A38C70CA (BeforeFunctionDelegate_t767D515AE77977BF5EA389123E37EB685DDADDDA* __this, String_t* ___functionName0, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BeforeFunctionDelegate_Invoke_mAA46B0A8103DF4E9C729D21D736BB9E6A38C70CA_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(BeforeFunctionDelegate_Invoke_mAA46B0A8103DF4E9C729D21D736BB9E6A38C70CA_RuntimeMethod_var);
 	typedef int32_t (*FunctionPointerType) (BeforeFunctionDelegate_t767D515AE77977BF5EA389123E37EB685DDADDDA* __this, String_t* ___functionName0, const RuntimeMethod* method);
 	return ((FunctionPointerType)__this->___invoke_impl_1)(__this, ___functionName0, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
 }
 // System.IAsyncResult UnityEngine.XR.OpenXR.Features.Mock.MockRuntime/BeforeFunctionDelegate::BeginInvoke(System.String,System.AsyncCallback,System.Object)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* BeforeFunctionDelegate_BeginInvoke_m55800A4146677D7A22524810CA5559EF881F59C0 (BeforeFunctionDelegate_t767D515AE77977BF5EA389123E37EB685DDADDDA* __this, String_t* ___functionName0, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___callback1, RuntimeObject* ___object2, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BeforeFunctionDelegate_BeginInvoke_m55800A4146677D7A22524810CA5559EF881F59C0_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(BeforeFunctionDelegate_BeginInvoke_m55800A4146677D7A22524810CA5559EF881F59C0_RuntimeMethod_var);
 	void *__d_args[2] = {0};
 	__d_args[0] = ___functionName0;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___callback1, (RuntimeObject*)___object2);;
@@ -2417,13 +2176,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* BeforeFunctionDelegate_BeginIn
 // UnityEngine.XR.OpenXR.NativeTypes.XrResult UnityEngine.XR.OpenXR.Features.Mock.MockRuntime/BeforeFunctionDelegate::EndInvoke(System.IAsyncResult)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BeforeFunctionDelegate_EndInvoke_m680B2FC2866E4A959B218584FCEC8811CE46A4B1 (BeforeFunctionDelegate_t767D515AE77977BF5EA389123E37EB685DDADDDA* __this, RuntimeObject* ___result0, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BeforeFunctionDelegate_EndInvoke_m680B2FC2866E4A959B218584FCEC8811CE46A4B1_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(BeforeFunctionDelegate_EndInvoke_m680B2FC2866E4A959B218584FCEC8811CE46A4B1_RuntimeMethod_var);
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
 	return *(int32_t*)UnBox ((RuntimeObject*)__result);;
 }
@@ -2483,13 +2235,6 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_AfterFunctionDelegate_t2794658426C2
 // System.Void UnityEngine.XR.OpenXR.Features.Mock.MockRuntime/AfterFunctionDelegate::.ctor(System.Object,System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AfterFunctionDelegate__ctor_m70B1A5F67C275B7064C9E1731B27326B97913F96 (AfterFunctionDelegate_t2794658426C2B81F53841DCC65EED4E864522552* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AfterFunctionDelegate__ctor_m70B1A5F67C275B7064C9E1731B27326B97913F96_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(AfterFunctionDelegate__ctor_m70B1A5F67C275B7064C9E1731B27326B97913F96_RuntimeMethod_var);
 	__this->___method_ptr_0 = il2cpp_codegen_get_virtual_call_method_pointer((RuntimeMethod*)___method1);
 	__this->___method_3 = ___method1;
 	__this->___m_target_2 = ___object0;
@@ -2526,13 +2271,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AfterFunctionDelegate__ctor_m70B1A5F67C2
 // System.Void UnityEngine.XR.OpenXR.Features.Mock.MockRuntime/AfterFunctionDelegate::Invoke(System.String,UnityEngine.XR.OpenXR.NativeTypes.XrResult)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AfterFunctionDelegate_Invoke_mF8B0A0BF8DCC84E37AB367200F2D081B9706A115 (AfterFunctionDelegate_t2794658426C2B81F53841DCC65EED4E864522552* __this, String_t* ___functionName0, int32_t ___result1, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AfterFunctionDelegate_Invoke_mF8B0A0BF8DCC84E37AB367200F2D081B9706A115_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(AfterFunctionDelegate_Invoke_mF8B0A0BF8DCC84E37AB367200F2D081B9706A115_RuntimeMethod_var);
 	typedef void (*FunctionPointerType) (AfterFunctionDelegate_t2794658426C2B81F53841DCC65EED4E864522552* __this, String_t* ___functionName0, int32_t ___result1, const RuntimeMethod* method);
 	((FunctionPointerType)__this->___invoke_impl_1)(__this, ___functionName0, ___result1, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
 }
@@ -2542,11 +2280,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* AfterFunctionDelegate_BeginInv
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AfterFunctionDelegate_BeginInvoke_m8850000FC36D01D205D12C3C496C66A4282322AA_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XrResult_tC6E780422C0CF27153FB9B0ED7D1F60015608195_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(AfterFunctionDelegate_BeginInvoke_m8850000FC36D01D205D12C3C496C66A4282322AA_RuntimeMethod_var);
 	void *__d_args[3] = {0};
 	__d_args[0] = ___functionName0;
 	__d_args[1] = Box(XrResult_tC6E780422C0CF27153FB9B0ED7D1F60015608195_il2cpp_TypeInfo_var, &___result1);
@@ -2555,13 +2291,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* AfterFunctionDelegate_BeginInv
 // System.Void UnityEngine.XR.OpenXR.Features.Mock.MockRuntime/AfterFunctionDelegate::EndInvoke(System.IAsyncResult)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AfterFunctionDelegate_EndInvoke_m1F7F16FB2CF9927443DA7257E47A5418DABD7B58 (AfterFunctionDelegate_t2794658426C2B81F53841DCC65EED4E864522552* __this, RuntimeObject* ___result0, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AfterFunctionDelegate_EndInvoke_m1F7F16FB2CF9927443DA7257E47A5418DABD7B58_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(AfterFunctionDelegate_EndInvoke_m1F7F16FB2CF9927443DA7257E47A5418DABD7B58_RuntimeMethod_var);
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
 }
 #ifdef __clang__

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: CubeAsset 1
   m_EditorClassIdentifier: 
   obj: {fileID: 5612157172080107447, guid: 356980574aebaf44fa5fd3e280a3d88a, type: 3}
-  nickName: c
+  nickName: Karel
   bundle: test_2
   physics: 1
-  category: physics
+  category: "Testovac\xED kategorie"

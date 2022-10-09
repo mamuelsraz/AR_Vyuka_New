@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: CubeAsset 2
   m_EditorClassIdentifier: 
   obj: {fileID: 5612157172080107447, guid: 3cac4ef5c35adfd4fb40b35176d0b1bb, type: 3}
-  nickName: b
+  nickName: "Ani\u010Dka"
   bundle: test_3
-  physics: 0
-  category: language
+  physics: 1
+  category: "Jin\xE1 testovac\xED kategorie"

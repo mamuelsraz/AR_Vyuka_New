@@ -19,7 +19,6 @@ struct CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB;
 // System.String
 struct String_t;
 
-IL2CPP_EXTERN_C const RuntimeMethod* U3CPrivateImplementationDetailsU3E_ComputeStringHash_m782905D005B9F23E65F027133B50E5CCAA150BF1_RuntimeMethod_var;
 
 
 IL2CPP_EXTERN_C_BEGIN
@@ -188,13 +187,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t String_get_Length_m42625D
 // System.UInt32 <PrivateImplementationDetails>::ComputeStringHash(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t U3CPrivateImplementationDetailsU3E_ComputeStringHash_m782905D005B9F23E65F027133B50E5CCAA150BF1 (String_t* ___s0, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_ComputeStringHash_m782905D005B9F23E65F027133B50E5CCAA150BF1_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(U3CPrivateImplementationDetailsU3E_ComputeStringHash_m782905D005B9F23E65F027133B50E5CCAA150BF1_RuntimeMethod_var);
 	uint32_t V_0 = 0;
 	int32_t V_1 = 0;
 	{

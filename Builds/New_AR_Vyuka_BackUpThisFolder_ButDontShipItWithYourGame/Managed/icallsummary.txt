@@ -255,7 +255,9 @@ UnityEngine.Camera::get_fieldOfView
 UnityEngine.Camera::get_nearClipPlane
 UnityEngine.Camera::get_orthographicSize
 UnityEngine.Camera::AddCommandBufferImpl
+UnityEngine.Camera::CopyFrom
 UnityEngine.Camera::RemoveCommandBufferImpl
+UnityEngine.Camera::Render
 UnityEngine.Camera::ResetProjectionMatrix
 UnityEngine.Camera::ResetStereoProjectionMatrices
 UnityEngine.Camera::ResetStereoViewMatrices
@@ -275,6 +277,7 @@ UnityEngine.Camera::get_worldToCameraMatrix_Injected
 UnityEngine.Camera::set_aspect
 UnityEngine.Camera::set_backgroundColor_Injected
 UnityEngine.Camera::set_clearFlags
+UnityEngine.Camera::set_cullingMask
 UnityEngine.Camera::set_depthTextureMode
 UnityEngine.Camera::set_farClipPlane
 UnityEngine.Camera::set_fieldOfView
@@ -284,6 +287,7 @@ UnityEngine.Camera::set_orthographicSize
 UnityEngine.Camera::set_pixelRect_Injected
 UnityEngine.Camera::set_projectionMatrix_Injected
 UnityEngine.Camera::set_rect_Injected
+UnityEngine.Camera::set_targetTexture
 UnityEngine.Camera::set_worldToCameraMatrix_Injected
 UnityEngine.Camera::get_current
 UnityEngine.Camera::get_main
@@ -394,6 +398,7 @@ UnityEngine.Cursor::SetCursor_Injected
 UnityEngine.Cursor::get_lockState
 UnityEngine.Debug::get_isDebugBuild
 UnityEngine.Debug::ExtractStackTraceNoAlloc
+UnityEngine.Debug::DrawLine_Injected
 UnityEngine.DebugLogHandler::Internal_Log
 UnityEngine.DebugLogHandler::Internal_LogException
 UnityEngine.Display::RequiresSrgbBlitToBackbufferImpl
@@ -471,6 +476,7 @@ UnityEngine.GameObject::GetComponent
 UnityEngine.GameObject::GetComponentInChildren
 UnityEngine.GameObject::GetComponentInParent
 UnityEngine.GameObject::Internal_AddComponentWithType
+UnityEngine.GameObject::CreatePrimitive
 UnityEngine.GameObject::Find
 UnityEngine.GameObject::get_transform
 UnityEngine.GeometryUtility::TestPlanesAABB_Injected
@@ -532,9 +538,11 @@ UnityEngine.GUIClip::Internal_Pop
 UnityEngine.GUIClip::Internal_PopParentClip
 UnityEngine.GUIClip::Internal_PushParentClip_Injected
 UnityEngine.GUIClip::SetMatrix_Injected
+UnityEngine.GUIClip::UnclipToWindow_Vector2_Injected
 UnityEngine.GUIClip::get_visibleRect_Injected
 UnityEngine.GUILayoutUtility::Internal_GetWindowRect_Injected
 UnityEngine.GUILayoutUtility::Internal_MoveWindow_Injected
+UnityEngine.GUISettings::Internal_GetCursorFlashSpeed
 UnityEngine.GUIStyle::IsTooltipActive
 UnityEngine.GUIStyle::get_stretchHeight
 UnityEngine.GUIStyle::get_stretchWidth
@@ -545,6 +553,7 @@ UnityEngine.GUIStyle::GetStyleStatePtr
 UnityEngine.GUIStyle::Internal_Copy
 UnityEngine.GUIStyle::Internal_Create
 UnityEngine.GUIStyle::Internal_CalcHeight
+UnityEngine.GUIStyle::Internal_GetCursorFlashOffset
 UnityEngine.GUIStyle::Internal_GetLineHeight
 UnityEngine.GUIStyle::get_fixedHeight
 UnityEngine.GUIStyle::get_fixedWidth
@@ -555,12 +564,17 @@ UnityEngine.GUIStyle::Internal_CalcSizeWithConstraints_Injected
 UnityEngine.GUIStyle::Internal_CalcSize_Injected
 UnityEngine.GUIStyle::Internal_Destroy
 UnityEngine.GUIStyle::Internal_Draw2_Injected
+UnityEngine.GUIStyle::Internal_DrawCursor_Injected
+UnityEngine.GUIStyle::Internal_DrawWithTextSelection_Injected
 UnityEngine.GUIStyle::Internal_Draw_Injected
 UnityEngine.GUIStyle::Internal_GetCursorPixelPosition_Injected
 UnityEngine.GUIStyle::SetDefaultFont
 UnityEngine.GUIStyle::SetMouseTooltip_Injected
+UnityEngine.GUIStyle::get_contentOffset_Injected
+UnityEngine.GUIStyle::set_Internal_clipOffset_Injected
 UnityEngine.GUIStyle::set_alignment
 UnityEngine.GUIStyle::set_clipping
+UnityEngine.GUIStyle::set_contentOffset_Injected
 UnityEngine.GUIStyle::set_font
 UnityEngine.GUIStyle::set_fontSize
 UnityEngine.GUIStyle::set_fontStyle
@@ -597,6 +611,7 @@ UnityEngine.GUIUtility::SetKeyboardControlToLastControlId
 UnityEngine.GUIUtility::set_compositionCursorPos_Injected
 UnityEngine.GUIUtility::set_imeCompositionMode
 UnityEngine.GUIUtility::set_systemCopyBuffer
+UnityEngine.GUIUtility::set_textFieldInput
 UnityEngine.Hash128::Hash128ToStringImpl_Injected
 UnityEngine.Input::GetButtonDown
 UnityEngine.Input::GetMouseButton
@@ -1193,10 +1208,12 @@ UnityEngine.Texture2D::GetRawImageDataSize
 UnityEngine.Texture2D::GetWritableImageData
 UnityEngine.Texture2D::ApplyImpl
 UnityEngine.Texture2D::GetPixelBilinearImpl_Injected
+UnityEngine.Texture2D::ReadPixelsImpl_Injected
 UnityEngine.Texture2D::SetAllPixels32
 UnityEngine.Texture2D::SetPixelImpl_Injected
 UnityEngine.Texture2D::SetPixelsImpl
 UnityEngine.Texture2D::UpdateExternalTexture
+UnityEngine.Texture2D::GetPixels32
 UnityEngine.Texture2D::get_blackTexture
 UnityEngine.Texture2D::get_whiteTexture
 UnityEngine.Texture2D::get_format
@@ -1216,9 +1233,11 @@ UnityEngine.Time::get_realtimeSinceStartup
 UnityEngine.Time::get_smoothDeltaTime
 UnityEngine.Time::get_time
 UnityEngine.Time::get_timeScale
+UnityEngine.Time::get_timeSinceLevelLoad
 UnityEngine.Time::get_unscaledDeltaTime
 UnityEngine.Time::get_unscaledTime
 UnityEngine.TouchScreenKeyboard::IsInPlaceEditingAllowed
+UnityEngine.TouchScreenKeyboard::IsRequiredToForceOpen
 UnityEngine.TouchScreenKeyboard::get_active
 UnityEngine.TouchScreenKeyboard::get_canGetSelection
 UnityEngine.TouchScreenKeyboard::get_canSetSelection
@@ -1263,6 +1282,7 @@ UnityEngine.Transform::set_localRotation_Injected
 UnityEngine.Transform::set_localScale_Injected
 UnityEngine.Transform::set_position_Injected
 UnityEngine.Transform::set_rotation_Injected
+UnityEngine.Transform::FindRelativeTransformWithPath
 UnityEngine.Transform::GetChild
 UnityEngine.Transform::GetParent
 UnityEngine.U2D.PixelPerfectRendering::set_pixelSnapSpacing

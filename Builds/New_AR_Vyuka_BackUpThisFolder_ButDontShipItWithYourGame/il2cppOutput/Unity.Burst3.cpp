@@ -26,35 +26,6 @@ struct SkipLocalsInitAttribute_t0BFA1401AAC4A4C1394E9A230202C7B9E55FAD45;
 struct String_t;
 
 IL2CPP_EXTERN_C RuntimeClass* Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Aliasing_ExpectAliased_mEDCAABEEE3668B9ACE7270339BA5EDADE204E56D_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Aliasing_ExpectNotAliased_m6ECA2CFE3CF2888700B3FDAA1A957FE332EA8197_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* AssumeRangeAttribute__ctor_m079EDF7E5EEC31A177E1B9825784AB0C8192ECE7_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* AssumeRangeAttribute__ctor_mD238E80790A2C125D92C4FA8D57C59174B8768C1_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Constant_IsConstantExpression_m8F206D25BAC33D9E0E61847FC2BED798AAD73DEB_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Hint_Assume_m53194A6670104182903EA8797DDA6248AF7724FE_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Hint_Likely_m5956F3037CEECBA9A2B688A5870A35D433E574FA_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Hint_Unlikely_m4F04088C2990F79534A329648B3303B214782B52_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* IgnoreWarningAttribute__ctor_m1C6CA1B6C6272E76F5AA1C9955A0D6D26CB03CB3_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* SkipLocalsInitAttribute__ctor_m375F500C468A753DCA94330FB8D4FB1E1D13A5B1_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Ssse3_abs_epi16_m9A4B9EDD0970B5C26CBEE01B97E45AA936D71400_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Ssse3_abs_epi32_mB696BBF5E879A552410E58CD6AB9A03FEE39B94F_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Ssse3_abs_epi8_m055AD2AC6B09D1863499D4ED24AB5E75D356A3E0_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Ssse3_alignr_epi8_mC64594BB5E05FDAA2524FAF3887A07B99D914AED_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Ssse3_get_IsSsse3Supported_m07E3AC7834097993CA548197B1485EEF597532B5_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Ssse3_hadd_epi16_m4EAD94C456E677F0A5270EB3A9A3D34CD3B7E83F_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Ssse3_hadd_epi32_m468AE2293CBB3E17BD9ECB21FA90794D1C814527_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Ssse3_hadds_epi16_m76AF2ECD6E136C3CFD1FD11E7B577AC129EE63ED_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Ssse3_hsub_epi16_mCD33989F2264FD2DED3C154F13A0AC76DEA88145_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Ssse3_hsub_epi32_m4B14CE1F105EB66651F02F2F95BABBBBAEBAB99A_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Ssse3_hsubs_epi16_m91F172C67F13DA450E9DFAB5175A53F99B4EF210_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Ssse3_maddubs_epi16_m11EF3A0BD94BC07E4F15A5DE06A0EA6676E8C3B8_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Ssse3_mulhrs_epi16_mA5A9AE7CD6A6451B0038832908F7F14683EAEFE8_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Ssse3_shuffle_epi8_mED3C6202D1D8C81EF00792EC2003895AEB9BDB62_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Ssse3_sign_epi16_mA3540180AC6EDBE19642086C09DBFBFD8CA3E848_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Ssse3_sign_epi32_m1D21388DA0D07CF4FF7D6DCA4148AAD33D8E4535_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Ssse3_sign_epi8_m76A793A77FAB886DFC78B82126F14F89AE715210_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* StrBoolArray_GetBit_mCA50A9F3A3FA5C552305C9B762264A6058F33E78_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* StrBoolArray_SetBit_m212C6D1A8A4C422AF979D6B3BC7CD5B9BD0F3F01_RuntimeMethod_var;
 
 
 IL2CPP_EXTERN_C_BEGIN
@@ -1664,13 +1635,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Attribute__ctor_m79ED1BF1EE36D1E417BA89A
 // System.Void Unity.Burst.Intrinsics.X86/Sse4_2/StrBoolArray::SetBit(System.Int32,System.Int32,System.Boolean)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StrBoolArray_SetBit_m212C6D1A8A4C422AF979D6B3BC7CD5B9BD0F3F01 (StrBoolArray_tCA66E1F688A4BC6FA749195F867F59E523508DD6* __this, int32_t ___aindex0, int32_t ___bindex1, bool ___val2, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StrBoolArray_SetBit_m212C6D1A8A4C422AF979D6B3BC7CD5B9BD0F3F01_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(StrBoolArray_SetBit_m212C6D1A8A4C422AF979D6B3BC7CD5B9BD0F3F01_RuntimeMethod_var);
 	uint16_t* V_0 = NULL;
 	uint16_t* V_1 = NULL;
 	bool V_2 = false;
@@ -1729,13 +1693,6 @@ IL2CPP_EXTERN_C  void StrBoolArray_SetBit_m212C6D1A8A4C422AF979D6B3BC7CD5B9BD0F3
 // System.Boolean Unity.Burst.Intrinsics.X86/Sse4_2/StrBoolArray::GetBit(System.Int32,System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool StrBoolArray_GetBit_mCA50A9F3A3FA5C552305C9B762264A6058F33E78 (StrBoolArray_tCA66E1F688A4BC6FA749195F867F59E523508DD6* __this, int32_t ___aindex0, int32_t ___bindex1, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StrBoolArray_GetBit_mCA50A9F3A3FA5C552305C9B762264A6058F33E78_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(StrBoolArray_GetBit_mCA50A9F3A3FA5C552305C9B762264A6058F33E78_RuntimeMethod_var);
 	uint16_t* V_0 = NULL;
 	uint16_t* V_1 = NULL;
 	bool V_2 = false;
@@ -1790,13 +1747,6 @@ IL2CPP_EXTERN_C  bool StrBoolArray_GetBit_mCA50A9F3A3FA5C552305C9B762264A6058F33
 // System.Boolean Unity.Burst.Intrinsics.X86/Ssse3::get_IsSsse3Supported()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Ssse3_get_IsSsse3Supported_m07E3AC7834097993CA548197B1485EEF597532B5 (const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Ssse3_get_IsSsse3Supported_m07E3AC7834097993CA548197B1485EEF597532B5_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(Ssse3_get_IsSsse3Supported_m07E3AC7834097993CA548197B1485EEF597532B5_RuntimeMethod_var);
 	bool V_0 = false;
 	{
 		// public static bool IsSsse3Supported { get { return false; } }
@@ -1818,10 +1768,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B6
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Ssse3_abs_epi8_m055AD2AC6B09D1863499D4ED24AB5E75D356A3E0_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(Ssse3_abs_epi8_m055AD2AC6B09D1863499D4ED24AB5E75D356A3E0_RuntimeMethod_var);
 	v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	uint8_t* V_1 = NULL;
@@ -1893,10 +1841,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B6
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Ssse3_abs_epi16_m9A4B9EDD0970B5C26CBEE01B97E45AA936D71400_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(Ssse3_abs_epi16_m9A4B9EDD0970B5C26CBEE01B97E45AA936D71400_RuntimeMethod_var);
 	v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	uint16_t* V_1 = NULL;
@@ -1968,10 +1914,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B6
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Ssse3_abs_epi32_mB696BBF5E879A552410E58CD6AB9A03FEE39B94F_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(Ssse3_abs_epi32_mB696BBF5E879A552410E58CD6AB9A03FEE39B94F_RuntimeMethod_var);
 	v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	uint32_t* V_1 = NULL;
@@ -2039,13 +1983,6 @@ IL_004c:
 // Unity.Burst.Intrinsics.v128 Unity.Burst.Intrinsics.X86/Ssse3::shuffle_epi8(Unity.Burst.Intrinsics.v128,Unity.Burst.Intrinsics.v128)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 Ssse3_shuffle_epi8_mED3C6202D1D8C81EF00792EC2003895AEB9BDB62 (v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 ___a0, v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 ___b1, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Ssse3_shuffle_epi8_mED3C6202D1D8C81EF00792EC2003895AEB9BDB62_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(Ssse3_shuffle_epi8_mED3C6202D1D8C81EF00792EC2003895AEB9BDB62_RuntimeMethod_var);
 	v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	uint8_t* V_1 = NULL;
@@ -2142,13 +2079,6 @@ IL_0075:
 // Unity.Burst.Intrinsics.v128 Unity.Burst.Intrinsics.X86/Ssse3::alignr_epi8(Unity.Burst.Intrinsics.v128,Unity.Burst.Intrinsics.v128,System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 Ssse3_alignr_epi8_mC64594BB5E05FDAA2524FAF3887A07B99D914AED (v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 ___a0, v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 ___b1, int32_t ___count2, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Ssse3_alignr_epi8_mC64594BB5E05FDAA2524FAF3887A07B99D914AED_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(Ssse3_alignr_epi8_mC64594BB5E05FDAA2524FAF3887A07B99D914AED_RuntimeMethod_var);
 	v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	uint8_t* V_1 = NULL;
@@ -2253,13 +2183,6 @@ IL_0074:
 // Unity.Burst.Intrinsics.v128 Unity.Burst.Intrinsics.X86/Ssse3::hadd_epi16(Unity.Burst.Intrinsics.v128,Unity.Burst.Intrinsics.v128)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 Ssse3_hadd_epi16_m4EAD94C456E677F0A5270EB3A9A3D34CD3B7E83F (v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 ___a0, v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 ___b1, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Ssse3_hadd_epi16_m4EAD94C456E677F0A5270EB3A9A3D34CD3B7E83F_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(Ssse3_hadd_epi16_m4EAD94C456E677F0A5270EB3A9A3D34CD3B7E83F_RuntimeMethod_var);
 	v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	int16_t* V_1 = NULL;
@@ -2341,13 +2264,6 @@ IL_0086:
 // Unity.Burst.Intrinsics.v128 Unity.Burst.Intrinsics.X86/Ssse3::hadds_epi16(Unity.Burst.Intrinsics.v128,Unity.Burst.Intrinsics.v128)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 Ssse3_hadds_epi16_m76AF2ECD6E136C3CFD1FD11E7B577AC129EE63ED (v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 ___a0, v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 ___b1, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Ssse3_hadds_epi16_m76AF2ECD6E136C3CFD1FD11E7B577AC129EE63ED_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(Ssse3_hadds_epi16_m76AF2ECD6E136C3CFD1FD11E7B577AC129EE63ED_RuntimeMethod_var);
 	v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	int16_t* V_1 = NULL;
@@ -2433,13 +2349,6 @@ IL_008e:
 // Unity.Burst.Intrinsics.v128 Unity.Burst.Intrinsics.X86/Ssse3::hadd_epi32(Unity.Burst.Intrinsics.v128,Unity.Burst.Intrinsics.v128)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 Ssse3_hadd_epi32_m468AE2293CBB3E17BD9ECB21FA90794D1C814527 (v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 ___a0, v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 ___b1, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Ssse3_hadd_epi32_m468AE2293CBB3E17BD9ECB21FA90794D1C814527_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(Ssse3_hadd_epi32_m468AE2293CBB3E17BD9ECB21FA90794D1C814527_RuntimeMethod_var);
 	v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 V_1;
@@ -2487,13 +2396,6 @@ IL_005d:
 // Unity.Burst.Intrinsics.v128 Unity.Burst.Intrinsics.X86/Ssse3::hsub_epi16(Unity.Burst.Intrinsics.v128,Unity.Burst.Intrinsics.v128)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 Ssse3_hsub_epi16_mCD33989F2264FD2DED3C154F13A0AC76DEA88145 (v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 ___a0, v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 ___b1, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Ssse3_hsub_epi16_mCD33989F2264FD2DED3C154F13A0AC76DEA88145_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(Ssse3_hsub_epi16_mCD33989F2264FD2DED3C154F13A0AC76DEA88145_RuntimeMethod_var);
 	v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	int16_t* V_1 = NULL;
@@ -2575,13 +2477,6 @@ IL_0086:
 // Unity.Burst.Intrinsics.v128 Unity.Burst.Intrinsics.X86/Ssse3::hsubs_epi16(Unity.Burst.Intrinsics.v128,Unity.Burst.Intrinsics.v128)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 Ssse3_hsubs_epi16_m91F172C67F13DA450E9DFAB5175A53F99B4EF210 (v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 ___a0, v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 ___b1, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Ssse3_hsubs_epi16_m91F172C67F13DA450E9DFAB5175A53F99B4EF210_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(Ssse3_hsubs_epi16_m91F172C67F13DA450E9DFAB5175A53F99B4EF210_RuntimeMethod_var);
 	v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	int16_t* V_1 = NULL;
@@ -2667,13 +2562,6 @@ IL_008e:
 // Unity.Burst.Intrinsics.v128 Unity.Burst.Intrinsics.X86/Ssse3::hsub_epi32(Unity.Burst.Intrinsics.v128,Unity.Burst.Intrinsics.v128)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 Ssse3_hsub_epi32_m4B14CE1F105EB66651F02F2F95BABBBBAEBAB99A (v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 ___a0, v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 ___b1, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Ssse3_hsub_epi32_m4B14CE1F105EB66651F02F2F95BABBBBAEBAB99A_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(Ssse3_hsub_epi32_m4B14CE1F105EB66651F02F2F95BABBBBAEBAB99A_RuntimeMethod_var);
 	v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 V_1;
@@ -2721,13 +2609,6 @@ IL_005d:
 // Unity.Burst.Intrinsics.v128 Unity.Burst.Intrinsics.X86/Ssse3::maddubs_epi16(Unity.Burst.Intrinsics.v128,Unity.Burst.Intrinsics.v128)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 Ssse3_maddubs_epi16_m11EF3A0BD94BC07E4F15A5DE06A0EA6676E8C3B8 (v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 ___a0, v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 ___b1, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Ssse3_maddubs_epi16_m11EF3A0BD94BC07E4F15A5DE06A0EA6676E8C3B8_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(Ssse3_maddubs_epi16_m11EF3A0BD94BC07E4F15A5DE06A0EA6676E8C3B8_RuntimeMethod_var);
 	v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	int16_t* V_1 = NULL;
@@ -2811,13 +2692,6 @@ IL_0078:
 // Unity.Burst.Intrinsics.v128 Unity.Burst.Intrinsics.X86/Ssse3::mulhrs_epi16(Unity.Burst.Intrinsics.v128,Unity.Burst.Intrinsics.v128)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 Ssse3_mulhrs_epi16_mA5A9AE7CD6A6451B0038832908F7F14683EAEFE8 (v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 ___a0, v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 ___b1, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Ssse3_mulhrs_epi16_mA5A9AE7CD6A6451B0038832908F7F14683EAEFE8_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(Ssse3_mulhrs_epi16_mA5A9AE7CD6A6451B0038832908F7F14683EAEFE8_RuntimeMethod_var);
 	v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	int16_t* V_1 = NULL;
@@ -2902,13 +2776,6 @@ IL_0075:
 // Unity.Burst.Intrinsics.v128 Unity.Burst.Intrinsics.X86/Ssse3::sign_epi8(Unity.Burst.Intrinsics.v128,Unity.Burst.Intrinsics.v128)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 Ssse3_sign_epi8_m76A793A77FAB886DFC78B82126F14F89AE715210 (v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 ___a0, v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 ___b1, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Ssse3_sign_epi8_m76A793A77FAB886DFC78B82126F14F89AE715210_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(Ssse3_sign_epi8_m76A793A77FAB886DFC78B82126F14F89AE715210_RuntimeMethod_var);
 	v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	int8_t* V_1 = NULL;
@@ -3028,13 +2895,6 @@ IL_0087:
 // Unity.Burst.Intrinsics.v128 Unity.Burst.Intrinsics.X86/Ssse3::sign_epi16(Unity.Burst.Intrinsics.v128,Unity.Burst.Intrinsics.v128)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 Ssse3_sign_epi16_mA3540180AC6EDBE19642086C09DBFBFD8CA3E848 (v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 ___a0, v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 ___b1, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Ssse3_sign_epi16_mA3540180AC6EDBE19642086C09DBFBFD8CA3E848_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(Ssse3_sign_epi16_mA3540180AC6EDBE19642086C09DBFBFD8CA3E848_RuntimeMethod_var);
 	v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	int16_t* V_1 = NULL;
@@ -3154,13 +3014,6 @@ IL_009b:
 // Unity.Burst.Intrinsics.v128 Unity.Burst.Intrinsics.X86/Ssse3::sign_epi32(Unity.Burst.Intrinsics.v128,Unity.Burst.Intrinsics.v128)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 Ssse3_sign_epi32_m1D21388DA0D07CF4FF7D6DCA4148AAD33D8E4535 (v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 ___a0, v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 ___b1, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Ssse3_sign_epi32_m1D21388DA0D07CF4FF7D6DCA4148AAD33D8E4535_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(Ssse3_sign_epi32_m1D21388DA0D07CF4FF7D6DCA4148AAD33D8E4535_RuntimeMethod_var);
 	v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	int32_t* V_1 = NULL;
@@ -3288,13 +3141,6 @@ IL_009a:
 // System.Void Unity.Burst.CompilerServices.Aliasing::ExpectAliased(System.Void*,System.Void*)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Aliasing_ExpectAliased_mEDCAABEEE3668B9ACE7270339BA5EDADE204E56D (void* ___a0, void* ___b1, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Aliasing_ExpectAliased_mEDCAABEEE3668B9ACE7270339BA5EDADE204E56D_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(Aliasing_ExpectAliased_mEDCAABEEE3668B9ACE7270339BA5EDADE204E56D_RuntimeMethod_var);
 	{
 		// public static unsafe void ExpectAliased(void* a, void* b) { }
 		return;
@@ -3303,13 +3149,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Aliasing_ExpectAliased_mEDCAABEEE3668B9A
 // System.Void Unity.Burst.CompilerServices.Aliasing::ExpectNotAliased(System.Void*,System.Void*)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Aliasing_ExpectNotAliased_m6ECA2CFE3CF2888700B3FDAA1A957FE332EA8197 (void* ___a0, void* ___b1, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Aliasing_ExpectNotAliased_m6ECA2CFE3CF2888700B3FDAA1A957FE332EA8197_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(Aliasing_ExpectNotAliased_m6ECA2CFE3CF2888700B3FDAA1A957FE332EA8197_RuntimeMethod_var);
 	{
 		// public static unsafe void ExpectNotAliased(void* a, void* b) { }
 		return;
@@ -3326,13 +3165,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Aliasing_ExpectNotAliased_m6ECA2CFE3CF28
 // System.Void Unity.Burst.CompilerServices.AssumeRangeAttribute::.ctor(System.Int64,System.Int64)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AssumeRangeAttribute__ctor_m079EDF7E5EEC31A177E1B9825784AB0C8192ECE7 (AssumeRangeAttribute_t06ACC8EEDB5AB2CE78FDE39A4F36B674A1CE06CA* __this, int64_t ___min0, int64_t ___max1, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AssumeRangeAttribute__ctor_m079EDF7E5EEC31A177E1B9825784AB0C8192ECE7_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(AssumeRangeAttribute__ctor_m079EDF7E5EEC31A177E1B9825784AB0C8192ECE7_RuntimeMethod_var);
 	{
 		// public AssumeRangeAttribute(long min, long max) { }
 		Attribute__ctor_m79ED1BF1EE36D1E417BA89A0D9F91F8AAD8D19E2(__this, NULL);
@@ -3343,13 +3175,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AssumeRangeAttribute__ctor_m079EDF7E5EEC
 // System.Void Unity.Burst.CompilerServices.AssumeRangeAttribute::.ctor(System.UInt64,System.UInt64)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AssumeRangeAttribute__ctor_mD238E80790A2C125D92C4FA8D57C59174B8768C1 (AssumeRangeAttribute_t06ACC8EEDB5AB2CE78FDE39A4F36B674A1CE06CA* __this, uint64_t ___min0, uint64_t ___max1, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AssumeRangeAttribute__ctor_mD238E80790A2C125D92C4FA8D57C59174B8768C1_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(AssumeRangeAttribute__ctor_mD238E80790A2C125D92C4FA8D57C59174B8768C1_RuntimeMethod_var);
 	{
 		// public AssumeRangeAttribute(ulong min, ulong max) { }
 		Attribute__ctor_m79ED1BF1EE36D1E417BA89A0D9F91F8AAD8D19E2(__this, NULL);
@@ -3368,13 +3193,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AssumeRangeAttribute__ctor_mD238E80790A2
 // System.Boolean Unity.Burst.CompilerServices.Constant::IsConstantExpression(System.Void*)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Constant_IsConstantExpression_m8F206D25BAC33D9E0E61847FC2BED798AAD73DEB (void* ___t0, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Constant_IsConstantExpression_m8F206D25BAC33D9E0E61847FC2BED798AAD73DEB_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(Constant_IsConstantExpression_m8F206D25BAC33D9E0E61847FC2BED798AAD73DEB_RuntimeMethod_var);
 	{
 		// public static unsafe bool IsConstantExpression(void* t) => false;
 		return (bool)0;
@@ -3391,13 +3209,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Constant_IsConstantExpression_m8F206D25B
 // System.Boolean Unity.Burst.CompilerServices.Hint::Likely(System.Boolean)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Hint_Likely_m5956F3037CEECBA9A2B688A5870A35D433E574FA (bool ___condition0, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Hint_Likely_m5956F3037CEECBA9A2B688A5870A35D433E574FA_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(Hint_Likely_m5956F3037CEECBA9A2B688A5870A35D433E574FA_RuntimeMethod_var);
 	{
 		// public static bool Likely(bool condition) => condition;
 		bool L_0 = ___condition0;
@@ -3407,13 +3218,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Hint_Likely_m5956F3037CEECBA9A2B688A5870
 // System.Boolean Unity.Burst.CompilerServices.Hint::Unlikely(System.Boolean)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Hint_Unlikely_m4F04088C2990F79534A329648B3303B214782B52 (bool ___condition0, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Hint_Unlikely_m4F04088C2990F79534A329648B3303B214782B52_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(Hint_Unlikely_m4F04088C2990F79534A329648B3303B214782B52_RuntimeMethod_var);
 	{
 		// public static bool Unlikely(bool condition) => condition;
 		bool L_0 = ___condition0;
@@ -3423,13 +3227,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Hint_Unlikely_m4F04088C2990F79534A329648
 // System.Void Unity.Burst.CompilerServices.Hint::Assume(System.Boolean)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Hint_Assume_m53194A6670104182903EA8797DDA6248AF7724FE (bool ___condition0, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Hint_Assume_m53194A6670104182903EA8797DDA6248AF7724FE_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(Hint_Assume_m53194A6670104182903EA8797DDA6248AF7724FE_RuntimeMethod_var);
 	{
 		// public static void Assume(bool condition) { }
 		return;
@@ -3446,13 +3243,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Hint_Assume_m53194A6670104182903EA8797DD
 // System.Void Unity.Burst.CompilerServices.IgnoreWarningAttribute::.ctor(System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IgnoreWarningAttribute__ctor_m1C6CA1B6C6272E76F5AA1C9955A0D6D26CB03CB3 (IgnoreWarningAttribute_t76B2348F881718AA549586D6B796CBD66DF77C14* __this, int32_t ___warning0, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IgnoreWarningAttribute__ctor_m1C6CA1B6C6272E76F5AA1C9955A0D6D26CB03CB3_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(IgnoreWarningAttribute__ctor_m1C6CA1B6C6272E76F5AA1C9955A0D6D26CB03CB3_RuntimeMethod_var);
 	{
 		// public IgnoreWarningAttribute(int warning) { }
 		Attribute__ctor_m79ED1BF1EE36D1E417BA89A0D9F91F8AAD8D19E2(__this, NULL);
@@ -3471,13 +3261,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IgnoreWarningAttribute__ctor_m1C6CA1B6C6
 // System.Void Unity.Burst.CompilerServices.SkipLocalsInitAttribute::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SkipLocalsInitAttribute__ctor_m375F500C468A753DCA94330FB8D4FB1E1D13A5B1 (SkipLocalsInitAttribute_t0BFA1401AAC4A4C1394E9A230202C7B9E55FAD45* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SkipLocalsInitAttribute__ctor_m375F500C468A753DCA94330FB8D4FB1E1D13A5B1_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(SkipLocalsInitAttribute__ctor_m375F500C468A753DCA94330FB8D4FB1E1D13A5B1_RuntimeMethod_var);
 	{
 		Attribute__ctor_m79ED1BF1EE36D1E417BA89A0D9F91F8AAD8D19E2(__this, NULL);
 		return;

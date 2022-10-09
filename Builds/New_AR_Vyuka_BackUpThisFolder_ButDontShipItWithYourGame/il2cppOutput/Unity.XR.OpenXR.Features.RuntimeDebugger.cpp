@@ -49,14 +49,7 @@ IL2CPP_EXTERN_C RuntimeClass* RuntimeDebuggerOpenXRFeature_t1E3C60D2636DEC25D95E
 IL2CPP_EXTERN_C RuntimeClass* UnityAction_1_tE32574C71B51DFED36AB235C69E2777243DCB5D2_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C String_t* _stringLiteral0C4D8B78C38556768ABD90B69B3BB93D7DFF216A;
 IL2CPP_EXTERN_C String_t* _stringLiteral2053E64587E878DEE03C6909450B26302F145C7D;
-IL2CPP_EXTERN_C const RuntimeMethod* RuntimeDebuggerOpenXRFeature_HookGetInstanceProcAddr_m07B1D4EC990E11D9C93C633FA0AC92376B89C069_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* RuntimeDebuggerOpenXRFeature_Native_EndDataAccess_m7DCBDD8245A3090FA4609FB69DD1F04595EC4B14_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* RuntimeDebuggerOpenXRFeature_Native_GetDataForRead_mB4B6D4D94B05795FA00E599CDD8754B5F9C719D1_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* RuntimeDebuggerOpenXRFeature_Native_HookGetInstanceProcAddr_m82D21C1EA80D9D8DC177318B3D1477B4E8023C7A_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* RuntimeDebuggerOpenXRFeature_Native_StartDataAccess_m448D36F6CD27D7F2C3EEE48D4CFAE378434EC4E9_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* RuntimeDebuggerOpenXRFeature_RecvMsg_m537C6529B33C9B9FFE3149ADE159E9F043597461_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* RuntimeDebuggerOpenXRFeature__cctor_m4693FD75E794424D0C4DAA0DEAAF3D62BED6679F_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* RuntimeDebuggerOpenXRFeature__ctor_m2DC84C4F7091238BD265B1B96D5719203C46C393_RuntimeMethod_var;
 struct Delegate_t_marshaled_com;
 struct Delegate_t_marshaled_pinvoke;
 
@@ -492,13 +485,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t RuntimeDebuggerOpenXRFeature_HookGet
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RuntimeDebuggerOpenXRFeature_HookGetInstanceProcAddr_m07B1D4EC990E11D9C93C633FA0AC92376B89C069_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RuntimeDebuggerOpenXRFeature_RecvMsg_m537C6529B33C9B9FFE3149ADE159E9F043597461_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RuntimeDebuggerOpenXRFeature_t1E3C60D2636DEC25D95E63BB3300DBFC5E9057BA_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityAction_1_tE32574C71B51DFED36AB235C69E2777243DCB5D2_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(RuntimeDebuggerOpenXRFeature_HookGetInstanceProcAddr_m07B1D4EC990E11D9C93C633FA0AC92376B89C069_RuntimeMethod_var);
 	intptr_t V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
@@ -541,11 +532,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeDebuggerOpenXRFeature_RecvMsg_m53
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Marshal_tD976A56A90263C3CE2B780D4B1CADADE2E70B4A7_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RuntimeDebuggerOpenXRFeature_RecvMsg_m537C6529B33C9B9FFE3149ADE159E9F043597461_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RuntimeDebuggerOpenXRFeature_t1E3C60D2636DEC25D95E63BB3300DBFC5E9057BA_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(RuntimeDebuggerOpenXRFeature_RecvMsg_m537C6529B33C9B9FFE3149ADE159E9F043597461_RuntimeMethod_var);
 	intptr_t V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	uint32_t V_1 = 0;
@@ -613,13 +602,6 @@ IL_0045:
 // System.IntPtr UnityEngine.XR.OpenXR.Features.RuntimeDebugger.RuntimeDebuggerOpenXRFeature::Native_HookGetInstanceProcAddr(System.IntPtr,System.UInt32,System.UInt32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t RuntimeDebuggerOpenXRFeature_Native_HookGetInstanceProcAddr_m82D21C1EA80D9D8DC177318B3D1477B4E8023C7A (intptr_t ___func0, uint32_t ___cacheSize1, uint32_t ___perThreadCacheSize2, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RuntimeDebuggerOpenXRFeature_Native_HookGetInstanceProcAddr_m82D21C1EA80D9D8DC177318B3D1477B4E8023C7A_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(RuntimeDebuggerOpenXRFeature_Native_HookGetInstanceProcAddr_m82D21C1EA80D9D8DC177318B3D1477B4E8023C7A_RuntimeMethod_var);
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint32_t, uint32_t);
 	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_openxr_runtime_debugger_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
@@ -643,13 +625,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t RuntimeDebuggerOpenXRFeature_Native_
 // System.Boolean UnityEngine.XR.OpenXR.Features.RuntimeDebugger.RuntimeDebuggerOpenXRFeature::Native_GetDataForRead(System.IntPtr&,System.UInt32&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool RuntimeDebuggerOpenXRFeature_Native_GetDataForRead_mB4B6D4D94B05795FA00E599CDD8754B5F9C719D1 (intptr_t* ___ptr0, uint32_t* ___size1, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RuntimeDebuggerOpenXRFeature_Native_GetDataForRead_mB4B6D4D94B05795FA00E599CDD8754B5F9C719D1_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(RuntimeDebuggerOpenXRFeature_Native_GetDataForRead_mB4B6D4D94B05795FA00E599CDD8754B5F9C719D1_RuntimeMethod_var);
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t*, uint32_t*);
 	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_openxr_runtime_debugger_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
@@ -673,13 +648,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool RuntimeDebuggerOpenXRFeature_Native_GetD
 // System.Void UnityEngine.XR.OpenXR.Features.RuntimeDebugger.RuntimeDebuggerOpenXRFeature::Native_StartDataAccess()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeDebuggerOpenXRFeature_Native_StartDataAccess_m448D36F6CD27D7F2C3EEE48D4CFAE378434EC4E9 (const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RuntimeDebuggerOpenXRFeature_Native_StartDataAccess_m448D36F6CD27D7F2C3EEE48D4CFAE378434EC4E9_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(RuntimeDebuggerOpenXRFeature_Native_StartDataAccess_m448D36F6CD27D7F2C3EEE48D4CFAE378434EC4E9_RuntimeMethod_var);
 	typedef void (DEFAULT_CALL *PInvokeFunc) ();
 	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_openxr_runtime_debugger_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
@@ -702,13 +670,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeDebuggerOpenXRFeature_Native_Star
 // System.Void UnityEngine.XR.OpenXR.Features.RuntimeDebugger.RuntimeDebuggerOpenXRFeature::Native_EndDataAccess()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeDebuggerOpenXRFeature_Native_EndDataAccess_m7DCBDD8245A3090FA4609FB69DD1F04595EC4B14 (const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RuntimeDebuggerOpenXRFeature_Native_EndDataAccess_m7DCBDD8245A3090FA4609FB69DD1F04595EC4B14_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(RuntimeDebuggerOpenXRFeature_Native_EndDataAccess_m7DCBDD8245A3090FA4609FB69DD1F04595EC4B14_RuntimeMethod_var);
 	typedef void (DEFAULT_CALL *PInvokeFunc) ();
 	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_openxr_runtime_debugger_INTERNAL
 	static PInvokeFunc il2cppPInvokeFunc;
@@ -731,13 +692,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeDebuggerOpenXRFeature_Native_EndD
 // System.Void UnityEngine.XR.OpenXR.Features.RuntimeDebugger.RuntimeDebuggerOpenXRFeature::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeDebuggerOpenXRFeature__ctor_m2DC84C4F7091238BD265B1B96D5719203C46C393 (RuntimeDebuggerOpenXRFeature_t1E3C60D2636DEC25D95E63BB3300DBFC5E9057BA* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RuntimeDebuggerOpenXRFeature__ctor_m2DC84C4F7091238BD265B1B96D5719203C46C393_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(RuntimeDebuggerOpenXRFeature__ctor_m2DC84C4F7091238BD265B1B96D5719203C46C393_RuntimeMethod_var);
 	{
 		// public UInt32 cacheSize=1024*1024;
 		__this->___cacheSize_17 = ((int32_t)1048576);
@@ -753,13 +707,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeDebuggerOpenXRFeature__cctor_m469
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RuntimeDebuggerOpenXRFeature__cctor_m4693FD75E794424D0C4DAA0DEAAF3D62BED6679F_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RuntimeDebuggerOpenXRFeature_t1E3C60D2636DEC25D95E63BB3300DBFC5E9057BA_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral0C4D8B78C38556768ABD90B69B3BB93D7DFF216A);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral2053E64587E878DEE03C6909450B26302F145C7D);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(RuntimeDebuggerOpenXRFeature__cctor_m4693FD75E794424D0C4DAA0DEAAF3D62BED6679F_RuntimeMethod_var);
 	{
 		// internal static readonly Guid kEditorToPlayerRequestDebuggerOutput = new Guid("B3E6DED1-C6C7-411C-BE58-86031A0877E7");
 		Guid_t L_0;

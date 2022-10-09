@@ -36,21 +36,6 @@ struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
 struct CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD;
 
 IL2CPP_EXTERN_C RuntimeClass* XRDevice_tD076A68EFE413B3EEEEA362BE0364A488B58F194_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C const RuntimeMethod* XRDevice_DisableAutoXRCameraTracking_mDFDDD1D32A4D623A5448533B5E8E02B9536A25DC_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* XRDevice_InvokeDeviceLoaded_m07DEE6645B38728C7B8615DAAD6BE592C1DC59F9_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* XRSettings_get_enabled_m5ECD63DA0B306F7A3FBFD6B67A5B0702F8AEFB54_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* XRSettings_get_eyeTextureDesc_Injected_m34E7723D7493113CDE5A18D5C7A9F051E5C9DDC3_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* XRSettings_get_eyeTextureDesc_m5E3192C4B94BF8173315571B335444CB4644D324_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* XRSettings_get_eyeTextureHeight_m8EE6F89E72068B09B75DCCD94AC9438136507C28_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* XRSettings_get_eyeTextureResolutionScale_m9B345E4B64424D6CEC0D15873B9777245EFADCE9_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* XRSettings_get_eyeTextureWidth_m3CE183B84E67605E54A6BEABB74B40B7088F2F45_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* XRSettings_get_isDeviceActive_m05C0035E5985667632BBE1BD972C611A674039DC_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* XRSettings_get_loadedDeviceName_m0EC0BC3BFBF1483DBC766D882A54677F2DBFC4BA_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* XRSettings_get_renderViewportScaleInternal_mE412E2A5E856CCDCA89D5A92DBC9E78F226922ED_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* XRSettings_get_renderViewportScale_m0EAE782A08AAE8C031FB3E5A78FD32ADE8664CF0_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* XRSettings_get_stereoRenderingMode_mB194A58846A080153AC66A75F422600EE1BF1C8C_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* XRSettings_get_supportedDevices_mEF86DEEEEBBE9CABC4372C707C0A3D6D958E9FAF_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* XRSettings_set_eyeTextureResolutionScale_m7D440D57C061891E31935BD6382B8AFB4EEDDE84_RuntimeMethod_var;
 struct Delegate_t_marshaled_com;
 struct Delegate_t_marshaled_pinvoke;
 
@@ -475,13 +460,6 @@ inline void Action_1_Invoke_m690438AAE38F9762172E3AE0A33D0B42ACD35790_inline (Ac
 // System.Boolean UnityEngine.XR.XRSettings::get_enabled()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRSettings_get_enabled_m5ECD63DA0B306F7A3FBFD6B67A5B0702F8AEFB54 (const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRSettings_get_enabled_m5ECD63DA0B306F7A3FBFD6B67A5B0702F8AEFB54_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(XRSettings_get_enabled_m5ECD63DA0B306F7A3FBFD6B67A5B0702F8AEFB54_RuntimeMethod_var);
 	typedef bool (*XRSettings_get_enabled_m5ECD63DA0B306F7A3FBFD6B67A5B0702F8AEFB54_ftn) ();
 	static XRSettings_get_enabled_m5ECD63DA0B306F7A3FBFD6B67A5B0702F8AEFB54_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
@@ -492,13 +470,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRSettings_get_enabled_m5ECD63DA0B306F7A
 // System.Boolean UnityEngine.XR.XRSettings::get_isDeviceActive()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRSettings_get_isDeviceActive_m05C0035E5985667632BBE1BD972C611A674039DC (const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRSettings_get_isDeviceActive_m05C0035E5985667632BBE1BD972C611A674039DC_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(XRSettings_get_isDeviceActive_m05C0035E5985667632BBE1BD972C611A674039DC_RuntimeMethod_var);
 	typedef bool (*XRSettings_get_isDeviceActive_m05C0035E5985667632BBE1BD972C611A674039DC_ftn) ();
 	static XRSettings_get_isDeviceActive_m05C0035E5985667632BBE1BD972C611A674039DC_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
@@ -509,13 +480,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRSettings_get_isDeviceActive_m05C0035E5
 // System.Single UnityEngine.XR.XRSettings::get_eyeTextureResolutionScale()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float XRSettings_get_eyeTextureResolutionScale_m9B345E4B64424D6CEC0D15873B9777245EFADCE9 (const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRSettings_get_eyeTextureResolutionScale_m9B345E4B64424D6CEC0D15873B9777245EFADCE9_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(XRSettings_get_eyeTextureResolutionScale_m9B345E4B64424D6CEC0D15873B9777245EFADCE9_RuntimeMethod_var);
 	typedef float (*XRSettings_get_eyeTextureResolutionScale_m9B345E4B64424D6CEC0D15873B9777245EFADCE9_ftn) ();
 	static XRSettings_get_eyeTextureResolutionScale_m9B345E4B64424D6CEC0D15873B9777245EFADCE9_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
@@ -526,13 +490,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float XRSettings_get_eyeTextureResolutionScal
 // System.Void UnityEngine.XR.XRSettings::set_eyeTextureResolutionScale(System.Single)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRSettings_set_eyeTextureResolutionScale_m7D440D57C061891E31935BD6382B8AFB4EEDDE84 (float ___value0, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRSettings_set_eyeTextureResolutionScale_m7D440D57C061891E31935BD6382B8AFB4EEDDE84_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(XRSettings_set_eyeTextureResolutionScale_m7D440D57C061891E31935BD6382B8AFB4EEDDE84_RuntimeMethod_var);
 	typedef void (*XRSettings_set_eyeTextureResolutionScale_m7D440D57C061891E31935BD6382B8AFB4EEDDE84_ftn) (float);
 	static XRSettings_set_eyeTextureResolutionScale_m7D440D57C061891E31935BD6382B8AFB4EEDDE84_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
@@ -542,13 +499,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRSettings_set_eyeTextureResolutionScale
 // System.Int32 UnityEngine.XR.XRSettings::get_eyeTextureWidth()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t XRSettings_get_eyeTextureWidth_m3CE183B84E67605E54A6BEABB74B40B7088F2F45 (const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRSettings_get_eyeTextureWidth_m3CE183B84E67605E54A6BEABB74B40B7088F2F45_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(XRSettings_get_eyeTextureWidth_m3CE183B84E67605E54A6BEABB74B40B7088F2F45_RuntimeMethod_var);
 	typedef int32_t (*XRSettings_get_eyeTextureWidth_m3CE183B84E67605E54A6BEABB74B40B7088F2F45_ftn) ();
 	static XRSettings_get_eyeTextureWidth_m3CE183B84E67605E54A6BEABB74B40B7088F2F45_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
@@ -559,13 +509,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t XRSettings_get_eyeTextureWidth_m3CE18
 // System.Int32 UnityEngine.XR.XRSettings::get_eyeTextureHeight()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t XRSettings_get_eyeTextureHeight_m8EE6F89E72068B09B75DCCD94AC9438136507C28 (const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRSettings_get_eyeTextureHeight_m8EE6F89E72068B09B75DCCD94AC9438136507C28_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(XRSettings_get_eyeTextureHeight_m8EE6F89E72068B09B75DCCD94AC9438136507C28_RuntimeMethod_var);
 	typedef int32_t (*XRSettings_get_eyeTextureHeight_m8EE6F89E72068B09B75DCCD94AC9438136507C28_ftn) ();
 	static XRSettings_get_eyeTextureHeight_m8EE6F89E72068B09B75DCCD94AC9438136507C28_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
@@ -576,13 +519,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t XRSettings_get_eyeTextureHeight_m8EE6
 // UnityEngine.RenderTextureDescriptor UnityEngine.XR.XRSettings::get_eyeTextureDesc()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RenderTextureDescriptor_t69845881CE6437E4E61F92074F2F84079F23FA46 XRSettings_get_eyeTextureDesc_m5E3192C4B94BF8173315571B335444CB4644D324 (const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRSettings_get_eyeTextureDesc_m5E3192C4B94BF8173315571B335444CB4644D324_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(XRSettings_get_eyeTextureDesc_m5E3192C4B94BF8173315571B335444CB4644D324_RuntimeMethod_var);
 	RenderTextureDescriptor_t69845881CE6437E4E61F92074F2F84079F23FA46 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
@@ -594,13 +530,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RenderTextureDescriptor_t69845881CE6437E4E61F
 // System.Single UnityEngine.XR.XRSettings::get_renderViewportScale()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float XRSettings_get_renderViewportScale_m0EAE782A08AAE8C031FB3E5A78FD32ADE8664CF0 (const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRSettings_get_renderViewportScale_m0EAE782A08AAE8C031FB3E5A78FD32ADE8664CF0_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(XRSettings_get_renderViewportScale_m0EAE782A08AAE8C031FB3E5A78FD32ADE8664CF0_RuntimeMethod_var);
 	float V_0 = 0.0f;
 	{
 		float L_0;
@@ -618,13 +547,6 @@ IL_0009:
 // System.Single UnityEngine.XR.XRSettings::get_renderViewportScaleInternal()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float XRSettings_get_renderViewportScaleInternal_mE412E2A5E856CCDCA89D5A92DBC9E78F226922ED (const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRSettings_get_renderViewportScaleInternal_mE412E2A5E856CCDCA89D5A92DBC9E78F226922ED_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(XRSettings_get_renderViewportScaleInternal_mE412E2A5E856CCDCA89D5A92DBC9E78F226922ED_RuntimeMethod_var);
 	typedef float (*XRSettings_get_renderViewportScaleInternal_mE412E2A5E856CCDCA89D5A92DBC9E78F226922ED_ftn) ();
 	static XRSettings_get_renderViewportScaleInternal_mE412E2A5E856CCDCA89D5A92DBC9E78F226922ED_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
@@ -635,13 +557,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float XRSettings_get_renderViewportScaleInter
 // System.String UnityEngine.XR.XRSettings::get_loadedDeviceName()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* XRSettings_get_loadedDeviceName_m0EC0BC3BFBF1483DBC766D882A54677F2DBFC4BA (const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRSettings_get_loadedDeviceName_m0EC0BC3BFBF1483DBC766D882A54677F2DBFC4BA_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(XRSettings_get_loadedDeviceName_m0EC0BC3BFBF1483DBC766D882A54677F2DBFC4BA_RuntimeMethod_var);
 	typedef String_t* (*XRSettings_get_loadedDeviceName_m0EC0BC3BFBF1483DBC766D882A54677F2DBFC4BA_ftn) ();
 	static XRSettings_get_loadedDeviceName_m0EC0BC3BFBF1483DBC766D882A54677F2DBFC4BA_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
@@ -652,13 +567,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* XRSettings_get_loadedDeviceName_m0E
 // System.String[] UnityEngine.XR.XRSettings::get_supportedDevices()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* XRSettings_get_supportedDevices_mEF86DEEEEBBE9CABC4372C707C0A3D6D958E9FAF (const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRSettings_get_supportedDevices_mEF86DEEEEBBE9CABC4372C707C0A3D6D958E9FAF_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(XRSettings_get_supportedDevices_mEF86DEEEEBBE9CABC4372C707C0A3D6D958E9FAF_RuntimeMethod_var);
 	typedef StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* (*XRSettings_get_supportedDevices_mEF86DEEEEBBE9CABC4372C707C0A3D6D958E9FAF_ftn) ();
 	static XRSettings_get_supportedDevices_mEF86DEEEEBBE9CABC4372C707C0A3D6D958E9FAF_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
@@ -669,13 +577,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F
 // UnityEngine.XR.XRSettings/StereoRenderingMode UnityEngine.XR.XRSettings::get_stereoRenderingMode()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t XRSettings_get_stereoRenderingMode_mB194A58846A080153AC66A75F422600EE1BF1C8C (const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRSettings_get_stereoRenderingMode_mB194A58846A080153AC66A75F422600EE1BF1C8C_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(XRSettings_get_stereoRenderingMode_mB194A58846A080153AC66A75F422600EE1BF1C8C_RuntimeMethod_var);
 	typedef int32_t (*XRSettings_get_stereoRenderingMode_mB194A58846A080153AC66A75F422600EE1BF1C8C_ftn) ();
 	static XRSettings_get_stereoRenderingMode_mB194A58846A080153AC66A75F422600EE1BF1C8C_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
@@ -686,13 +587,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t XRSettings_get_stereoRenderingMode_mB
 // System.Void UnityEngine.XR.XRSettings::get_eyeTextureDesc_Injected(UnityEngine.RenderTextureDescriptor&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRSettings_get_eyeTextureDesc_Injected_m34E7723D7493113CDE5A18D5C7A9F051E5C9DDC3 (RenderTextureDescriptor_t69845881CE6437E4E61F92074F2F84079F23FA46* ___ret0, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRSettings_get_eyeTextureDesc_Injected_m34E7723D7493113CDE5A18D5C7A9F051E5C9DDC3_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(XRSettings_get_eyeTextureDesc_Injected_m34E7723D7493113CDE5A18D5C7A9F051E5C9DDC3_RuntimeMethod_var);
 	typedef void (*XRSettings_get_eyeTextureDesc_Injected_m34E7723D7493113CDE5A18D5C7A9F051E5C9DDC3_ftn) (RenderTextureDescriptor_t69845881CE6437E4E61F92074F2F84079F23FA46*);
 	static XRSettings_get_eyeTextureDesc_Injected_m34E7723D7493113CDE5A18D5C7A9F051E5C9DDC3_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
@@ -718,13 +612,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRSettings_get_eyeTextureDesc_Injected_m
 // System.Void UnityEngine.XR.XRDevice::DisableAutoXRCameraTracking(UnityEngine.Camera,System.Boolean)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRDevice_DisableAutoXRCameraTracking_mDFDDD1D32A4D623A5448533B5E8E02B9536A25DC (Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ___camera0, bool ___disabled1, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRDevice_DisableAutoXRCameraTracking_mDFDDD1D32A4D623A5448533B5E8E02B9536A25DC_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(XRDevice_DisableAutoXRCameraTracking_mDFDDD1D32A4D623A5448533B5E8E02B9536A25DC_RuntimeMethod_var);
 	typedef void (*XRDevice_DisableAutoXRCameraTracking_mDFDDD1D32A4D623A5448533B5E8E02B9536A25DC_ftn) (Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184*, bool);
 	static XRDevice_DisableAutoXRCameraTracking_mDFDDD1D32A4D623A5448533B5E8E02B9536A25DC_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
@@ -737,11 +624,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRDevice_InvokeDeviceLoaded_m07DEE6645B3
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRDevice_InvokeDeviceLoaded_m07DEE6645B38728C7B8615DAAD6BE592C1DC59F9_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRDevice_tD076A68EFE413B3EEEEA362BE0364A488B58F194_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(XRDevice_InvokeDeviceLoaded_m07DEE6645B38728C7B8615DAAD6BE592C1DC59F9_RuntimeMethod_var);
 	bool V_0 = false;
 	{
 		Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* L_0 = ((XRDevice_tD076A68EFE413B3EEEEA362BE0364A488B58F194_StaticFields*)il2cpp_codegen_static_fields_for(XRDevice_tD076A68EFE413B3EEEEA362BE0364A488B58F194_il2cpp_TypeInfo_var))->___deviceLoaded_0;

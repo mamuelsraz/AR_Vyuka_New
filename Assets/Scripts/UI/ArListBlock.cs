@@ -6,7 +6,7 @@ using DG.Tweening;
 
 public class ArListBlock : MonoBehaviour
 {
-     public SelectPage page;
+    public SelectPage page;
     public ArObject arObject;
     public Button button;
     public Image fillImage;
@@ -22,6 +22,18 @@ public class ArListBlock : MonoBehaviour
         else Place();
     }
 
+    private void Start()
+    {
+        if (AssetStreamingManager.instance.cachedArObjects.ContainsKey(arObject))
+        {
+            button.enabled = true;
+            fillImage.color = new Color(fillImage.color.r, fillImage.color.g, fillImage.color.b, 0);
+            button.transform.DORotate(new Vector3(0, 0, 0), 0.25f);
+            button.transform.eulerAngles = new Vector3(0, 0, 0);
+            downloaded = true;
+        }
+    }
+
     private void Update()
     {
         if (handle != null)
@@ -31,10 +43,17 @@ public class ArListBlock : MonoBehaviour
         }
     }
 
-    void Download() {
+    void Download()
+    {
         button.enabled = false;
         handle = AssetStreamingManager.instance.LoadArObj(arObject, AssetStreamingManager.path);
-        handle.Complete += (StreamingHandleResponse response) =>
+        if (handle == null)
+        {
+            fillImage.DOFade(0, 0.25f);
+            button.transform.DORotate(new Vector3(0, 0, 0), 0.25f);
+            downloaded = true;
+        }
+        else handle.Complete += (StreamingHandleResponse response) =>
         {
             button.enabled = true;
             fillImage.DOFade(0, 0.25f);
@@ -51,7 +70,8 @@ public class ArListBlock : MonoBehaviour
         };
     }
 
-    void Place() {
+    void Place()
+    {
         SelectedArObjectManager.instance.SelectNew(arObject);
         page.ChangePage();
     }

@@ -23,42 +23,49 @@ public class Page : MonoBehaviour
         onPostHide.AddListener(DeactivatePanel);
     }
 
-    public void GoTo(Page page) {
+    public void GoBack(Page page) {
+        transition.screenActions[0].transform = page.rect;
+        transition.screenActions[1].transform = rect;
+        onPreHide?.Invoke();
+        page.onPreShow?.Invoke();
+
+        var handle = transition.StartTransition(true);
+        SubToHandle(handle, this, page);
+    }
+
+
+    public void GoTo(Page page)
+    {
         transition.screenActions[0].transform = rect;
-        Debug.Log(rect);
-        Debug.Log(page.gameObject.name);
         transition.screenActions[1].transform = page.rect;
-        onPreHide.Invoke();
-        page.onPreShow.Invoke();
+        onPreHide?.Invoke();
+        page.onPreShow?.Invoke();
 
         var handle = transition.StartTransition();
         SubToHandle(handle, this, page);
     }
 
     public void SubToHandle(TransitionHandle handle, Page from, Page to) {
-        //recursive, crash incoming?
         handle.OnFinish += () =>
         {
-            from.onPostHide.Invoke();
-            to.onPostShow.Invoke();
+            onPostHide?.Invoke();
+            to.onPostShow?.Invoke();
         };
-        handle.OnCancel += () =>
+        handle.OnCancel += (TransitionHandle handle) =>
         {
-            to.onPreHide.Invoke();
-            from.onPreShow.Invoke();
-            SubToHandle(handle.cancelHandle, to, from);
+            to.onPreHide?.Invoke();
+            from.onPreShow?.Invoke();
+            SubToHandle(handle, to, from);
         };
     }
 
     void ActivatePanel() {
-        Debug.Log(gameObject.name);
         active = true;
         gameObject.SetActive(true);
     }
 
     void DeactivatePanel() {
-        Debug.LogError(gameObject.name + " " + active);
         active = false;
-        gameObject.SetActive(false);
+        //gameObject.SetActive(false);
     }
 }

@@ -6,6 +6,7 @@ public class TouchControls : MonoBehaviour
 {
     float initialDistance = 0f;
     Vector2 initialRotatePos = Vector2.one;
+    Vector3 initialScale = Vector3.one;
     public void RotateAndScaleObj(Transform obj)
     {
         if (Input.touchCount == 1)
@@ -16,6 +17,7 @@ public class TouchControls : MonoBehaviour
             if (touchZero.phase == TouchPhase.Began)
             {
                 initialRotatePos = touchZero.position;
+                initialScale = obj.localScale;
             }
             else
             {
@@ -49,7 +51,7 @@ public class TouchControls : MonoBehaviour
                 }
 
                 var factor = currentDistance / initialDistance;
-                obj.localScale = Vector3.one * factor; // scale multiplied by the factor we calculated
+                obj.localScale = initialScale * factor; // scale multiplied by the factor we calculated
             }
         }
     }

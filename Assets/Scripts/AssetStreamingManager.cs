@@ -31,9 +31,10 @@ public class AssetStreamingManager : MonoBehaviour
         if (cachedArObjects.ContainsKey(obj))
         {
             var loadedObj = cachedArObjects[obj];
-            handle.Complete.Invoke(new StreamingHandleResponse(StreamingStatus.AlreadyDownloaded, loadedObj));
+            Debug.Log(loadedObj);
+            return null;
         }
-        StartCoroutine(DownloadArObject(handle, path, obj));
+        else StartCoroutine(DownloadArObject(handle, path, obj));
         return handle;
     }
 

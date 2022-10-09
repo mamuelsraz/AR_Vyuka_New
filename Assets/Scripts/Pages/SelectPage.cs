@@ -11,7 +11,7 @@ public class SelectPage : Page
     private void Awake()
     {
         base.Awake();
-        onPostShow.AddListener(Initialize);
+        onPreShow.AddListener(Initialize);
     }
 
     private void Initialize()

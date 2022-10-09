@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: LanguageAsset
   m_EditorClassIdentifier: 
   obj: {fileID: 5612157172080107447, guid: 7c4f400367d645245a43b414c0961721, type: 3}
-  nickName: c
+  nickName: Pavel
   bundle: test_1
   physics: 0
-  category: AAAAA
+  category: "Testovac\xED kategorie t\u0159i"
   nameInLanguage:
   - language: cs-CS
     word: Krychle

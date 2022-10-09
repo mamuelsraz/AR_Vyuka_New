@@ -53,56 +53,6 @@ IL2CPP_EXTERN_C String_t* _stringLiteralD78A7BBB42C0B3DA05AC02E0AABB5E0765462D84
 IL2CPP_EXTERN_C String_t* _stringLiteralD81EFB7B653AC118C2D1B850D9F6D2FFEB225821;
 IL2CPP_EXTERN_C String_t* _stringLiteralE0C5D7D5DD5695D97E4EDCB4705E9F1AF10AF695;
 IL2CPP_EXTERN_C String_t* _stringLiteralE69C6A3A0BD2A9030375061C78273B2EABD411D0;
-IL2CPP_EXTERN_C const RuntimeMethod* CameraRaycastHelper_RaycastTry2D_Injected_m4F8B8225BE5825419E285C7542D791CA75D5809D_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* CameraRaycastHelper_RaycastTry2D_m8D43C72EF888A0CB6C44BB7668427D7FA34EC560_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* CameraRaycastHelper_RaycastTry_Injected_mD79FD83465A07F435AF67976A366AA33C93BB2C9_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* CameraRaycastHelper_RaycastTry_m4CB22F45E752EC0ED9D97BE4887E960FD2589DDD_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* HitInfo_Compare_m96C748D312D26A3333E37553940DAAA11D0AA8F2_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* HitInfo_SendMessage_m7834418ACE250BBCBA38ADCF0892E475BD1AD541_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* HitInfo_op_Implicit_m61283E88B22AAF13DE05C7A8A3A6CA195F16C6FE_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Input_GetAxisRaw_m86E17FE275E361C5DFB7CD42C3C404177B6689AA_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Input_GetAxis_m1F49B26F24032F45FB4583C95FB24E6771A161D4_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Input_GetButtonDown_m0419DAA8F0BB0FF6C040248A74BED52DB0A44677_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Input_GetMouseButtonDown_m33522C56A54C402FE6DED802DD7E53435C27A5DE_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Input_GetMouseButtonUp_m69FCCF4E6D2F0E4E9B310D1ED2AD5A6927A8C081_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Input_GetMouseButton_mE545CF4B790C6E202808B827E3141BEC3330DB70_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Input_GetTouch_Injected_m5779DCAC4D6055BF7641FE4862B7A7AE383BD44F_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Input_GetTouch_m37572A728DAE284D3ED1272690E635A61D167AD4_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Input_get_compositionCursorPos_Injected_m3B033ACD8286AEB0A319D79525D3F37C03096825_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Input_get_compositionCursorPos_m786FFD0E3EDC73ED5ED7F8B53D96A45F3B0C83D0_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Input_get_compositionString_mA071FFBF890F501012D2906ADCE49398922AA470_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Input_get_imeCompositionMode_m598BE283381B9F893770A29D6A03DE2D2A7CA07E_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Input_get_mousePosition_Injected_mCBD97B0298BAC155AA7E987E29857142A13D2041_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Input_get_mousePosition_m2414B43222ED0C5FAB960D393964189AFD21EEAD_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Input_get_mousePresent_m7636BF18F4329EA82F264DA4D87B9B25A8A4923C_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Input_get_mouseScrollDelta_Injected_mDB890FFFE7A09E94245B15E8A17E35819D69BE94_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Input_get_mouseScrollDelta_m41C6379183734C5061C6E8C9B6DEFFC9C084A0CE_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Input_get_touchCount_m7B8EAAB3449A6DC2D90AF3BA36AF226D97C020CF_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Input_get_touchSupported_m941C82FC6E66A263CDAD12283DF87CDF15A06FD4_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Input_set_compositionCursorPos_Injected_m09E851911609A84F1B16F6B8DBAF3CC32FFA4246_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Input_set_compositionCursorPos_mD31F3E4581D2453BD4E27DA575AF131A4CEB1128_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Input_set_imeCompositionMode_m6DACD42C324A19775E09B77DD7A6816816A3D5BD_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* SendMouseEvents_DoSendMouseEvents_m6ED386F607BB79BE62E0C3A523F7D8551B5B4F2C_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* SendMouseEvents_SendEvents_mB4970ECB0198E490463A9DA84B3926F10652D72C_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* SendMouseEvents_SetMouseMoved_m0B2D1A29ED92D3F769C0592036C2228EB85C5EC8_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* SendMouseEvents__cctor_mBA2FA1153AF7CB9F3550B83A8ABE8EB734BC1B82_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Touch_get_altitudeAngle_m26DEF010E2CDC23F4FADE8E49A986D557C07D391_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Touch_get_azimuthAngle_m2F11532183492E608922A2F9D9EC9AC31D34F490_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Touch_get_deltaPosition_m2D51F960B74C94821ED0F6A09E44C80FD796D299_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Touch_get_deltaTime_mD07672B54CBA02C226097B54E286C1DFE96EC3BC_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Touch_get_fingerId_mC1DCE93BFA0574960A3AE5329AE6C5F7E06962BD_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Touch_get_maximumPossiblePressure_m2D147A58465EB39B397722D8597CF9E06AC85FAE_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Touch_get_phase_mB82409FB2BE1C32ABDBA6A72E52A099D28AB70B0_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Touch_get_position_m41B9EB0F3F3E1BE98CEB388253A9E31979CB964A_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Touch_get_pressure_mB8214D0E920156CA4679BAC03E86106E8E4BDA5C_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Touch_get_radiusVariance_m6F54BE964B91C3B2F8FA2A483E1FDB644B282B21_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Touch_get_radius_m5BC9C50DABBB17B07742BAFC6CC36A6736AE7960_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Touch_get_rawPosition_m15F230BC7B4B672380BF221E9BA1DC275180863D_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Touch_get_tapCount_mE75D2783AC38FCF536C99F36AB9F76AFA3EB7EB6_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Touch_get_type_mB505EF2DCF13160DFA0C6AAF406DCB4CBED20745_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Touch_set_deltaPosition_mD2323B6E679DA9CE9FE1E3F4D3E2D12A33328E7A_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Touch_set_position_mF024C46352D1CB82991022138D48BC84D9248E6B_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Touch_set_rawPosition_m734916CD0826F5CD242A0C6647AC55E53272590B_RuntimeMethod_var;
 
 struct CameraU5BU5D_t1506EBA524A07AD1066D6DD4D7DFC6721F1AC26B;
 struct DisplayU5BU5D_tAD77D7EE2B839E3EDA0D1C0028B64F867F400C7F;
@@ -808,13 +758,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Max_mA9DCA91E87D6D270
 // System.Int32 UnityEngine.Touch::get_fingerId()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Touch_get_fingerId_mC1DCE93BFA0574960A3AE5329AE6C5F7E06962BD (Touch_t03E51455ED508492B3F278903A0114FA0E87B417* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Touch_get_fingerId_mC1DCE93BFA0574960A3AE5329AE6C5F7E06962BD_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(Touch_get_fingerId_mC1DCE93BFA0574960A3AE5329AE6C5F7E06962BD_RuntimeMethod_var);
 	int32_t V_0 = 0;
 	{
 		int32_t L_0 = __this->___m_FingerId_0;
@@ -840,13 +783,6 @@ IL2CPP_EXTERN_C  int32_t Touch_get_fingerId_mC1DCE93BFA0574960A3AE5329AE6C5F7E06
 // UnityEngine.Vector2 UnityEngine.Touch::get_position()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Touch_get_position_m41B9EB0F3F3E1BE98CEB388253A9E31979CB964A (Touch_t03E51455ED508492B3F278903A0114FA0E87B417* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Touch_get_position_m41B9EB0F3F3E1BE98CEB388253A9E31979CB964A_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(Touch_get_position_m41B9EB0F3F3E1BE98CEB388253A9E31979CB964A_RuntimeMethod_var);
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
@@ -873,13 +809,6 @@ IL2CPP_EXTERN_C  Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Touch_get_pos
 // System.Void UnityEngine.Touch::set_position(UnityEngine.Vector2)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Touch_set_position_mF024C46352D1CB82991022138D48BC84D9248E6B (Touch_t03E51455ED508492B3F278903A0114FA0E87B417* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___value0, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Touch_set_position_mF024C46352D1CB82991022138D48BC84D9248E6B_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(Touch_set_position_mF024C46352D1CB82991022138D48BC84D9248E6B_RuntimeMethod_var);
 	{
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = ___value0;
 		__this->___m_Position_1 = L_0;
@@ -896,13 +825,6 @@ IL2CPP_EXTERN_C  void Touch_set_position_mF024C46352D1CB82991022138D48BC84D9248E
 // UnityEngine.Vector2 UnityEngine.Touch::get_rawPosition()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Touch_get_rawPosition_m15F230BC7B4B672380BF221E9BA1DC275180863D (Touch_t03E51455ED508492B3F278903A0114FA0E87B417* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Touch_get_rawPosition_m15F230BC7B4B672380BF221E9BA1DC275180863D_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(Touch_get_rawPosition_m15F230BC7B4B672380BF221E9BA1DC275180863D_RuntimeMethod_var);
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
@@ -929,13 +851,6 @@ IL2CPP_EXTERN_C  Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Touch_get_raw
 // System.Void UnityEngine.Touch::set_rawPosition(UnityEngine.Vector2)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Touch_set_rawPosition_m734916CD0826F5CD242A0C6647AC55E53272590B (Touch_t03E51455ED508492B3F278903A0114FA0E87B417* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___value0, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Touch_set_rawPosition_m734916CD0826F5CD242A0C6647AC55E53272590B_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(Touch_set_rawPosition_m734916CD0826F5CD242A0C6647AC55E53272590B_RuntimeMethod_var);
 	{
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = ___value0;
 		__this->___m_RawPosition_2 = L_0;
@@ -952,13 +867,6 @@ IL2CPP_EXTERN_C  void Touch_set_rawPosition_m734916CD0826F5CD242A0C6647AC55E5327
 // UnityEngine.Vector2 UnityEngine.Touch::get_deltaPosition()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Touch_get_deltaPosition_m2D51F960B74C94821ED0F6A09E44C80FD796D299 (Touch_t03E51455ED508492B3F278903A0114FA0E87B417* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Touch_get_deltaPosition_m2D51F960B74C94821ED0F6A09E44C80FD796D299_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(Touch_get_deltaPosition_m2D51F960B74C94821ED0F6A09E44C80FD796D299_RuntimeMethod_var);
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
@@ -985,13 +893,6 @@ IL2CPP_EXTERN_C  Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Touch_get_del
 // System.Void UnityEngine.Touch::set_deltaPosition(UnityEngine.Vector2)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Touch_set_deltaPosition_mD2323B6E679DA9CE9FE1E3F4D3E2D12A33328E7A (Touch_t03E51455ED508492B3F278903A0114FA0E87B417* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___value0, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Touch_set_deltaPosition_mD2323B6E679DA9CE9FE1E3F4D3E2D12A33328E7A_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(Touch_set_deltaPosition_mD2323B6E679DA9CE9FE1E3F4D3E2D12A33328E7A_RuntimeMethod_var);
 	{
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = ___value0;
 		__this->___m_PositionDelta_3 = L_0;
@@ -1008,13 +909,6 @@ IL2CPP_EXTERN_C  void Touch_set_deltaPosition_mD2323B6E679DA9CE9FE1E3F4D3E2D12A3
 // System.Single UnityEngine.Touch::get_deltaTime()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Touch_get_deltaTime_mD07672B54CBA02C226097B54E286C1DFE96EC3BC (Touch_t03E51455ED508492B3F278903A0114FA0E87B417* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Touch_get_deltaTime_mD07672B54CBA02C226097B54E286C1DFE96EC3BC_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(Touch_get_deltaTime_mD07672B54CBA02C226097B54E286C1DFE96EC3BC_RuntimeMethod_var);
 	float V_0 = 0.0f;
 	{
 		float L_0 = __this->___m_TimeDelta_4;
@@ -1040,13 +934,6 @@ IL2CPP_EXTERN_C  float Touch_get_deltaTime_mD07672B54CBA02C226097B54E286C1DFE96E
 // System.Int32 UnityEngine.Touch::get_tapCount()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Touch_get_tapCount_mE75D2783AC38FCF536C99F36AB9F76AFA3EB7EB6 (Touch_t03E51455ED508492B3F278903A0114FA0E87B417* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Touch_get_tapCount_mE75D2783AC38FCF536C99F36AB9F76AFA3EB7EB6_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(Touch_get_tapCount_mE75D2783AC38FCF536C99F36AB9F76AFA3EB7EB6_RuntimeMethod_var);
 	int32_t V_0 = 0;
 	{
 		int32_t L_0 = __this->___m_TapCount_5;
@@ -1072,13 +959,6 @@ IL2CPP_EXTERN_C  int32_t Touch_get_tapCount_mE75D2783AC38FCF536C99F36AB9F76AFA3E
 // UnityEngine.TouchPhase UnityEngine.Touch::get_phase()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Touch_get_phase_mB82409FB2BE1C32ABDBA6A72E52A099D28AB70B0 (Touch_t03E51455ED508492B3F278903A0114FA0E87B417* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Touch_get_phase_mB82409FB2BE1C32ABDBA6A72E52A099D28AB70B0_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(Touch_get_phase_mB82409FB2BE1C32ABDBA6A72E52A099D28AB70B0_RuntimeMethod_var);
 	int32_t V_0 = 0;
 	{
 		int32_t L_0 = __this->___m_Phase_6;
@@ -1104,13 +984,6 @@ IL2CPP_EXTERN_C  int32_t Touch_get_phase_mB82409FB2BE1C32ABDBA6A72E52A099D28AB70
 // System.Single UnityEngine.Touch::get_pressure()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Touch_get_pressure_mB8214D0E920156CA4679BAC03E86106E8E4BDA5C (Touch_t03E51455ED508492B3F278903A0114FA0E87B417* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Touch_get_pressure_mB8214D0E920156CA4679BAC03E86106E8E4BDA5C_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(Touch_get_pressure_mB8214D0E920156CA4679BAC03E86106E8E4BDA5C_RuntimeMethod_var);
 	float V_0 = 0.0f;
 	{
 		float L_0 = __this->___m_Pressure_8;
@@ -1136,13 +1009,6 @@ IL2CPP_EXTERN_C  float Touch_get_pressure_mB8214D0E920156CA4679BAC03E86106E8E4BD
 // System.Single UnityEngine.Touch::get_maximumPossiblePressure()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Touch_get_maximumPossiblePressure_m2D147A58465EB39B397722D8597CF9E06AC85FAE (Touch_t03E51455ED508492B3F278903A0114FA0E87B417* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Touch_get_maximumPossiblePressure_m2D147A58465EB39B397722D8597CF9E06AC85FAE_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(Touch_get_maximumPossiblePressure_m2D147A58465EB39B397722D8597CF9E06AC85FAE_RuntimeMethod_var);
 	float V_0 = 0.0f;
 	{
 		float L_0 = __this->___m_maximumPossiblePressure_9;
@@ -1168,13 +1034,6 @@ IL2CPP_EXTERN_C  float Touch_get_maximumPossiblePressure_m2D147A58465EB39B397722
 // UnityEngine.TouchType UnityEngine.Touch::get_type()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Touch_get_type_mB505EF2DCF13160DFA0C6AAF406DCB4CBED20745 (Touch_t03E51455ED508492B3F278903A0114FA0E87B417* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Touch_get_type_mB505EF2DCF13160DFA0C6AAF406DCB4CBED20745_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(Touch_get_type_mB505EF2DCF13160DFA0C6AAF406DCB4CBED20745_RuntimeMethod_var);
 	int32_t V_0 = 0;
 	{
 		int32_t L_0 = __this->___m_Type_7;
@@ -1200,13 +1059,6 @@ IL2CPP_EXTERN_C  int32_t Touch_get_type_mB505EF2DCF13160DFA0C6AAF406DCB4CBED2074
 // System.Single UnityEngine.Touch::get_altitudeAngle()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Touch_get_altitudeAngle_m26DEF010E2CDC23F4FADE8E49A986D557C07D391 (Touch_t03E51455ED508492B3F278903A0114FA0E87B417* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Touch_get_altitudeAngle_m26DEF010E2CDC23F4FADE8E49A986D557C07D391_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(Touch_get_altitudeAngle_m26DEF010E2CDC23F4FADE8E49A986D557C07D391_RuntimeMethod_var);
 	float V_0 = 0.0f;
 	{
 		float L_0 = __this->___m_AltitudeAngle_12;
@@ -1232,13 +1084,6 @@ IL2CPP_EXTERN_C  float Touch_get_altitudeAngle_m26DEF010E2CDC23F4FADE8E49A986D55
 // System.Single UnityEngine.Touch::get_azimuthAngle()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Touch_get_azimuthAngle_m2F11532183492E608922A2F9D9EC9AC31D34F490 (Touch_t03E51455ED508492B3F278903A0114FA0E87B417* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Touch_get_azimuthAngle_m2F11532183492E608922A2F9D9EC9AC31D34F490_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(Touch_get_azimuthAngle_m2F11532183492E608922A2F9D9EC9AC31D34F490_RuntimeMethod_var);
 	float V_0 = 0.0f;
 	{
 		float L_0 = __this->___m_AzimuthAngle_13;
@@ -1264,13 +1109,6 @@ IL2CPP_EXTERN_C  float Touch_get_azimuthAngle_m2F11532183492E608922A2F9D9EC9AC31
 // System.Single UnityEngine.Touch::get_radius()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Touch_get_radius_m5BC9C50DABBB17B07742BAFC6CC36A6736AE7960 (Touch_t03E51455ED508492B3F278903A0114FA0E87B417* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Touch_get_radius_m5BC9C50DABBB17B07742BAFC6CC36A6736AE7960_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(Touch_get_radius_m5BC9C50DABBB17B07742BAFC6CC36A6736AE7960_RuntimeMethod_var);
 	float V_0 = 0.0f;
 	{
 		float L_0 = __this->___m_Radius_10;
@@ -1296,13 +1134,6 @@ IL2CPP_EXTERN_C  float Touch_get_radius_m5BC9C50DABBB17B07742BAFC6CC36A6736AE796
 // System.Single UnityEngine.Touch::get_radiusVariance()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Touch_get_radiusVariance_m6F54BE964B91C3B2F8FA2A483E1FDB644B282B21 (Touch_t03E51455ED508492B3F278903A0114FA0E87B417* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Touch_get_radiusVariance_m6F54BE964B91C3B2F8FA2A483E1FDB644B282B21_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(Touch_get_radiusVariance_m6F54BE964B91C3B2F8FA2A483E1FDB644B282B21_RuntimeMethod_var);
 	float V_0 = 0.0f;
 	{
 		float L_0 = __this->___m_RadiusVariance_11;
@@ -1336,13 +1167,6 @@ IL2CPP_EXTERN_C  float Touch_get_radiusVariance_m6F54BE964B91C3B2F8FA2A483E1FDB6
 // UnityEngine.GameObject UnityEngine.CameraRaycastHelper::RaycastTry(UnityEngine.Camera,UnityEngine.Ray,System.Single,System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* CameraRaycastHelper_RaycastTry_m4CB22F45E752EC0ED9D97BE4887E960FD2589DDD (Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ___cam0, Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 ___ray1, float ___distance2, int32_t ___layerMask3, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CameraRaycastHelper_RaycastTry_m4CB22F45E752EC0ED9D97BE4887E960FD2589DDD_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(CameraRaycastHelper_RaycastTry_m4CB22F45E752EC0ED9D97BE4887E960FD2589DDD_RuntimeMethod_var);
 	{
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_0 = ___cam0;
 		float L_1 = ___distance2;
@@ -1355,13 +1179,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651
 // UnityEngine.GameObject UnityEngine.CameraRaycastHelper::RaycastTry2D(UnityEngine.Camera,UnityEngine.Ray,System.Single,System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* CameraRaycastHelper_RaycastTry2D_m8D43C72EF888A0CB6C44BB7668427D7FA34EC560 (Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ___cam0, Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 ___ray1, float ___distance2, int32_t ___layerMask3, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CameraRaycastHelper_RaycastTry2D_m8D43C72EF888A0CB6C44BB7668427D7FA34EC560_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(CameraRaycastHelper_RaycastTry2D_m8D43C72EF888A0CB6C44BB7668427D7FA34EC560_RuntimeMethod_var);
 	{
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_0 = ___cam0;
 		float L_1 = ___distance2;
@@ -1374,13 +1191,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651
 // UnityEngine.GameObject UnityEngine.CameraRaycastHelper::RaycastTry_Injected(UnityEngine.Camera,UnityEngine.Ray&,System.Single,System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* CameraRaycastHelper_RaycastTry_Injected_mD79FD83465A07F435AF67976A366AA33C93BB2C9 (Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ___cam0, Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00* ___ray1, float ___distance2, int32_t ___layerMask3, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CameraRaycastHelper_RaycastTry_Injected_mD79FD83465A07F435AF67976A366AA33C93BB2C9_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(CameraRaycastHelper_RaycastTry_Injected_mD79FD83465A07F435AF67976A366AA33C93BB2C9_RuntimeMethod_var);
 	typedef GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* (*CameraRaycastHelper_RaycastTry_Injected_mD79FD83465A07F435AF67976A366AA33C93BB2C9_ftn) (Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184*, Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00*, float, int32_t);
 	static CameraRaycastHelper_RaycastTry_Injected_mD79FD83465A07F435AF67976A366AA33C93BB2C9_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
@@ -1391,13 +1201,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651
 // UnityEngine.GameObject UnityEngine.CameraRaycastHelper::RaycastTry2D_Injected(UnityEngine.Camera,UnityEngine.Ray&,System.Single,System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* CameraRaycastHelper_RaycastTry2D_Injected_m4F8B8225BE5825419E285C7542D791CA75D5809D (Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ___cam0, Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00* ___ray1, float ___distance2, int32_t ___layerMask3, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CameraRaycastHelper_RaycastTry2D_Injected_m4F8B8225BE5825419E285C7542D791CA75D5809D_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(CameraRaycastHelper_RaycastTry2D_Injected_m4F8B8225BE5825419E285C7542D791CA75D5809D_RuntimeMethod_var);
 	typedef GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* (*CameraRaycastHelper_RaycastTry2D_Injected_m4F8B8225BE5825419E285C7542D791CA75D5809D_ftn) (Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184*, Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00*, float, int32_t);
 	static CameraRaycastHelper_RaycastTry2D_Injected_m4F8B8225BE5825419E285C7542D791CA75D5809D_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
@@ -1416,13 +1219,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651
 // System.Single UnityEngine.Input::GetAxis(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Input_GetAxis_m1F49B26F24032F45FB4583C95FB24E6771A161D4 (String_t* ___axisName0, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Input_GetAxis_m1F49B26F24032F45FB4583C95FB24E6771A161D4_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(Input_GetAxis_m1F49B26F24032F45FB4583C95FB24E6771A161D4_RuntimeMethod_var);
 	typedef float (*Input_GetAxis_m1F49B26F24032F45FB4583C95FB24E6771A161D4_ftn) (String_t*);
 	static Input_GetAxis_m1F49B26F24032F45FB4583C95FB24E6771A161D4_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
@@ -1433,13 +1229,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Input_GetAxis_m1F49B26F24032F45FB4583C9
 // System.Single UnityEngine.Input::GetAxisRaw(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Input_GetAxisRaw_m86E17FE275E361C5DFB7CD42C3C404177B6689AA (String_t* ___axisName0, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Input_GetAxisRaw_m86E17FE275E361C5DFB7CD42C3C404177B6689AA_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(Input_GetAxisRaw_m86E17FE275E361C5DFB7CD42C3C404177B6689AA_RuntimeMethod_var);
 	typedef float (*Input_GetAxisRaw_m86E17FE275E361C5DFB7CD42C3C404177B6689AA_ftn) (String_t*);
 	static Input_GetAxisRaw_m86E17FE275E361C5DFB7CD42C3C404177B6689AA_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
@@ -1450,13 +1239,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Input_GetAxisRaw_m86E17FE275E361C5DFB7C
 // System.Boolean UnityEngine.Input::GetButtonDown(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Input_GetButtonDown_m0419DAA8F0BB0FF6C040248A74BED52DB0A44677 (String_t* ___buttonName0, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Input_GetButtonDown_m0419DAA8F0BB0FF6C040248A74BED52DB0A44677_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(Input_GetButtonDown_m0419DAA8F0BB0FF6C040248A74BED52DB0A44677_RuntimeMethod_var);
 	typedef bool (*Input_GetButtonDown_m0419DAA8F0BB0FF6C040248A74BED52DB0A44677_ftn) (String_t*);
 	static Input_GetButtonDown_m0419DAA8F0BB0FF6C040248A74BED52DB0A44677_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
@@ -1467,13 +1249,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Input_GetButtonDown_m0419DAA8F0BB0FF6C04
 // System.Boolean UnityEngine.Input::GetMouseButton(System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Input_GetMouseButton_mE545CF4B790C6E202808B827E3141BEC3330DB70 (int32_t ___button0, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Input_GetMouseButton_mE545CF4B790C6E202808B827E3141BEC3330DB70_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(Input_GetMouseButton_mE545CF4B790C6E202808B827E3141BEC3330DB70_RuntimeMethod_var);
 	typedef bool (*Input_GetMouseButton_mE545CF4B790C6E202808B827E3141BEC3330DB70_ftn) (int32_t);
 	static Input_GetMouseButton_mE545CF4B790C6E202808B827E3141BEC3330DB70_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
@@ -1484,13 +1259,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Input_GetMouseButton_mE545CF4B790C6E2028
 // System.Boolean UnityEngine.Input::GetMouseButtonDown(System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Input_GetMouseButtonDown_m33522C56A54C402FE6DED802DD7E53435C27A5DE (int32_t ___button0, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Input_GetMouseButtonDown_m33522C56A54C402FE6DED802DD7E53435C27A5DE_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(Input_GetMouseButtonDown_m33522C56A54C402FE6DED802DD7E53435C27A5DE_RuntimeMethod_var);
 	typedef bool (*Input_GetMouseButtonDown_m33522C56A54C402FE6DED802DD7E53435C27A5DE_ftn) (int32_t);
 	static Input_GetMouseButtonDown_m33522C56A54C402FE6DED802DD7E53435C27A5DE_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
@@ -1501,13 +1269,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Input_GetMouseButtonDown_m33522C56A54C40
 // System.Boolean UnityEngine.Input::GetMouseButtonUp(System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Input_GetMouseButtonUp_m69FCCF4E6D2F0E4E9B310D1ED2AD5A6927A8C081 (int32_t ___button0, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Input_GetMouseButtonUp_m69FCCF4E6D2F0E4E9B310D1ED2AD5A6927A8C081_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(Input_GetMouseButtonUp_m69FCCF4E6D2F0E4E9B310D1ED2AD5A6927A8C081_RuntimeMethod_var);
 	typedef bool (*Input_GetMouseButtonUp_m69FCCF4E6D2F0E4E9B310D1ED2AD5A6927A8C081_ftn) (int32_t);
 	static Input_GetMouseButtonUp_m69FCCF4E6D2F0E4E9B310D1ED2AD5A6927A8C081_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
@@ -1518,13 +1279,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Input_GetMouseButtonUp_m69FCCF4E6D2F0E4E
 // UnityEngine.Touch UnityEngine.Input::GetTouch(System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Touch_t03E51455ED508492B3F278903A0114FA0E87B417 Input_GetTouch_m37572A728DAE284D3ED1272690E635A61D167AD4 (int32_t ___index0, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Input_GetTouch_m37572A728DAE284D3ED1272690E635A61D167AD4_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(Input_GetTouch_m37572A728DAE284D3ED1272690E635A61D167AD4_RuntimeMethod_var);
 	Touch_t03E51455ED508492B3F278903A0114FA0E87B417 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
@@ -1537,13 +1291,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Touch_t03E51455ED508492B3F278903A0114FA0E87B4
 // UnityEngine.Vector3 UnityEngine.Input::get_mousePosition()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Input_get_mousePosition_m2414B43222ED0C5FAB960D393964189AFD21EEAD (const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Input_get_mousePosition_m2414B43222ED0C5FAB960D393964189AFD21EEAD_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(Input_get_mousePosition_m2414B43222ED0C5FAB960D393964189AFD21EEAD_RuntimeMethod_var);
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
@@ -1555,13 +1302,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 // UnityEngine.Vector2 UnityEngine.Input::get_mouseScrollDelta()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Input_get_mouseScrollDelta_m41C6379183734C5061C6E8C9B6DEFFC9C084A0CE (const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Input_get_mouseScrollDelta_m41C6379183734C5061C6E8C9B6DEFFC9C084A0CE_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(Input_get_mouseScrollDelta_m41C6379183734C5061C6E8C9B6DEFFC9C084A0CE_RuntimeMethod_var);
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
@@ -1573,13 +1313,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D
 // UnityEngine.IMECompositionMode UnityEngine.Input::get_imeCompositionMode()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Input_get_imeCompositionMode_m598BE283381B9F893770A29D6A03DE2D2A7CA07E (const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Input_get_imeCompositionMode_m598BE283381B9F893770A29D6A03DE2D2A7CA07E_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(Input_get_imeCompositionMode_m598BE283381B9F893770A29D6A03DE2D2A7CA07E_RuntimeMethod_var);
 	typedef int32_t (*Input_get_imeCompositionMode_m598BE283381B9F893770A29D6A03DE2D2A7CA07E_ftn) ();
 	static Input_get_imeCompositionMode_m598BE283381B9F893770A29D6A03DE2D2A7CA07E_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
@@ -1590,13 +1323,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Input_get_imeCompositionMode_m598BE28
 // System.Void UnityEngine.Input::set_imeCompositionMode(UnityEngine.IMECompositionMode)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Input_set_imeCompositionMode_m6DACD42C324A19775E09B77DD7A6816816A3D5BD (int32_t ___value0, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Input_set_imeCompositionMode_m6DACD42C324A19775E09B77DD7A6816816A3D5BD_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(Input_set_imeCompositionMode_m6DACD42C324A19775E09B77DD7A6816816A3D5BD_RuntimeMethod_var);
 	typedef void (*Input_set_imeCompositionMode_m6DACD42C324A19775E09B77DD7A6816816A3D5BD_ftn) (int32_t);
 	static Input_set_imeCompositionMode_m6DACD42C324A19775E09B77DD7A6816816A3D5BD_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
@@ -1606,13 +1332,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Input_set_imeCompositionMode_m6DACD42C32
 // System.String UnityEngine.Input::get_compositionString()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Input_get_compositionString_mA071FFBF890F501012D2906ADCE49398922AA470 (const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Input_get_compositionString_mA071FFBF890F501012D2906ADCE49398922AA470_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(Input_get_compositionString_mA071FFBF890F501012D2906ADCE49398922AA470_RuntimeMethod_var);
 	typedef String_t* (*Input_get_compositionString_mA071FFBF890F501012D2906ADCE49398922AA470_ftn) ();
 	static Input_get_compositionString_mA071FFBF890F501012D2906ADCE49398922AA470_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
@@ -1623,13 +1342,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Input_get_compositionString_mA071FF
 // UnityEngine.Vector2 UnityEngine.Input::get_compositionCursorPos()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Input_get_compositionCursorPos_m786FFD0E3EDC73ED5ED7F8B53D96A45F3B0C83D0 (const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Input_get_compositionCursorPos_m786FFD0E3EDC73ED5ED7F8B53D96A45F3B0C83D0_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(Input_get_compositionCursorPos_m786FFD0E3EDC73ED5ED7F8B53D96A45F3B0C83D0_RuntimeMethod_var);
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
@@ -1641,13 +1353,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D
 // System.Void UnityEngine.Input::set_compositionCursorPos(UnityEngine.Vector2)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Input_set_compositionCursorPos_mD31F3E4581D2453BD4E27DA575AF131A4CEB1128 (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___value0, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Input_set_compositionCursorPos_mD31F3E4581D2453BD4E27DA575AF131A4CEB1128_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(Input_set_compositionCursorPos_mD31F3E4581D2453BD4E27DA575AF131A4CEB1128_RuntimeMethod_var);
 	{
 		Input_set_compositionCursorPos_Injected_m09E851911609A84F1B16F6B8DBAF3CC32FFA4246((&___value0), NULL);
 		return;
@@ -1656,13 +1361,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Input_set_compositionCursorPos_mD31F3E45
 // System.Boolean UnityEngine.Input::get_mousePresent()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Input_get_mousePresent_m7636BF18F4329EA82F264DA4D87B9B25A8A4923C (const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Input_get_mousePresent_m7636BF18F4329EA82F264DA4D87B9B25A8A4923C_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(Input_get_mousePresent_m7636BF18F4329EA82F264DA4D87B9B25A8A4923C_RuntimeMethod_var);
 	typedef bool (*Input_get_mousePresent_m7636BF18F4329EA82F264DA4D87B9B25A8A4923C_ftn) ();
 	static Input_get_mousePresent_m7636BF18F4329EA82F264DA4D87B9B25A8A4923C_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
@@ -1673,13 +1371,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Input_get_mousePresent_m7636BF18F4329EA8
 // System.Int32 UnityEngine.Input::get_touchCount()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Input_get_touchCount_m7B8EAAB3449A6DC2D90AF3BA36AF226D97C020CF (const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Input_get_touchCount_m7B8EAAB3449A6DC2D90AF3BA36AF226D97C020CF_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(Input_get_touchCount_m7B8EAAB3449A6DC2D90AF3BA36AF226D97C020CF_RuntimeMethod_var);
 	typedef int32_t (*Input_get_touchCount_m7B8EAAB3449A6DC2D90AF3BA36AF226D97C020CF_ftn) ();
 	static Input_get_touchCount_m7B8EAAB3449A6DC2D90AF3BA36AF226D97C020CF_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
@@ -1690,13 +1381,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Input_get_touchCount_m7B8EAAB3449A6DC
 // System.Boolean UnityEngine.Input::get_touchSupported()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Input_get_touchSupported_m941C82FC6E66A263CDAD12283DF87CDF15A06FD4 (const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Input_get_touchSupported_m941C82FC6E66A263CDAD12283DF87CDF15A06FD4_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(Input_get_touchSupported_m941C82FC6E66A263CDAD12283DF87CDF15A06FD4_RuntimeMethod_var);
 	typedef bool (*Input_get_touchSupported_m941C82FC6E66A263CDAD12283DF87CDF15A06FD4_ftn) ();
 	static Input_get_touchSupported_m941C82FC6E66A263CDAD12283DF87CDF15A06FD4_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
@@ -1707,13 +1391,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Input_get_touchSupported_m941C82FC6E66A2
 // System.Void UnityEngine.Input::GetTouch_Injected(System.Int32,UnityEngine.Touch&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Input_GetTouch_Injected_m5779DCAC4D6055BF7641FE4862B7A7AE383BD44F (int32_t ___index0, Touch_t03E51455ED508492B3F278903A0114FA0E87B417* ___ret1, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Input_GetTouch_Injected_m5779DCAC4D6055BF7641FE4862B7A7AE383BD44F_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(Input_GetTouch_Injected_m5779DCAC4D6055BF7641FE4862B7A7AE383BD44F_RuntimeMethod_var);
 	typedef void (*Input_GetTouch_Injected_m5779DCAC4D6055BF7641FE4862B7A7AE383BD44F_ftn) (int32_t, Touch_t03E51455ED508492B3F278903A0114FA0E87B417*);
 	static Input_GetTouch_Injected_m5779DCAC4D6055BF7641FE4862B7A7AE383BD44F_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
@@ -1723,13 +1400,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Input_GetTouch_Injected_m5779DCAC4D6055B
 // System.Void UnityEngine.Input::get_mousePosition_Injected(UnityEngine.Vector3&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Input_get_mousePosition_Injected_mCBD97B0298BAC155AA7E987E29857142A13D2041 (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___ret0, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Input_get_mousePosition_Injected_mCBD97B0298BAC155AA7E987E29857142A13D2041_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(Input_get_mousePosition_Injected_mCBD97B0298BAC155AA7E987E29857142A13D2041_RuntimeMethod_var);
 	typedef void (*Input_get_mousePosition_Injected_mCBD97B0298BAC155AA7E987E29857142A13D2041_ftn) (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*);
 	static Input_get_mousePosition_Injected_mCBD97B0298BAC155AA7E987E29857142A13D2041_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
@@ -1739,13 +1409,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Input_get_mousePosition_Injected_mCBD97B
 // System.Void UnityEngine.Input::get_mouseScrollDelta_Injected(UnityEngine.Vector2&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Input_get_mouseScrollDelta_Injected_mDB890FFFE7A09E94245B15E8A17E35819D69BE94 (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* ___ret0, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Input_get_mouseScrollDelta_Injected_mDB890FFFE7A09E94245B15E8A17E35819D69BE94_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(Input_get_mouseScrollDelta_Injected_mDB890FFFE7A09E94245B15E8A17E35819D69BE94_RuntimeMethod_var);
 	typedef void (*Input_get_mouseScrollDelta_Injected_mDB890FFFE7A09E94245B15E8A17E35819D69BE94_ftn) (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*);
 	static Input_get_mouseScrollDelta_Injected_mDB890FFFE7A09E94245B15E8A17E35819D69BE94_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
@@ -1755,13 +1418,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Input_get_mouseScrollDelta_Injected_mDB8
 // System.Void UnityEngine.Input::get_compositionCursorPos_Injected(UnityEngine.Vector2&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Input_get_compositionCursorPos_Injected_m3B033ACD8286AEB0A319D79525D3F37C03096825 (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* ___ret0, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Input_get_compositionCursorPos_Injected_m3B033ACD8286AEB0A319D79525D3F37C03096825_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(Input_get_compositionCursorPos_Injected_m3B033ACD8286AEB0A319D79525D3F37C03096825_RuntimeMethod_var);
 	typedef void (*Input_get_compositionCursorPos_Injected_m3B033ACD8286AEB0A319D79525D3F37C03096825_ftn) (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*);
 	static Input_get_compositionCursorPos_Injected_m3B033ACD8286AEB0A319D79525D3F37C03096825_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
@@ -1771,13 +1427,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Input_get_compositionCursorPos_Injected_
 // System.Void UnityEngine.Input::set_compositionCursorPos_Injected(UnityEngine.Vector2&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Input_set_compositionCursorPos_Injected_m09E851911609A84F1B16F6B8DBAF3CC32FFA4246 (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* ___value0, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Input_set_compositionCursorPos_Injected_m09E851911609A84F1B16F6B8DBAF3CC32FFA4246_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(Input_set_compositionCursorPos_Injected_m09E851911609A84F1B16F6B8DBAF3CC32FFA4246_RuntimeMethod_var);
 	typedef void (*Input_set_compositionCursorPos_Injected_m09E851911609A84F1B16F6B8DBAF3CC32FFA4246_ftn) (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*);
 	static Input_set_compositionCursorPos_Injected_m09E851911609A84F1B16F6B8DBAF3CC32FFA4246_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
@@ -1798,11 +1447,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SendMouseEvents_SetMouseMoved_m0B2D1A29E
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SendMouseEvents_SetMouseMoved_m0B2D1A29ED92D3F769C0592036C2228EB85C5EC8_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SendMouseEvents_t30F6848ABBD277C51340A02CF6664B8D6183EC39_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(SendMouseEvents_SetMouseMoved_m0B2D1A29ED92D3F769C0592036C2228EB85C5EC8_RuntimeMethod_var);
 	{
 		il2cpp_codegen_runtime_class_init_inline(SendMouseEvents_t30F6848ABBD277C51340A02CF6664B8D6183EC39_il2cpp_TypeInfo_var);
 		((SendMouseEvents_t30F6848ABBD277C51340A02CF6664B8D6183EC39_StaticFields*)il2cpp_codegen_static_fields_for(SendMouseEvents_t30F6848ABBD277C51340A02CF6664B8D6183EC39_il2cpp_TypeInfo_var))->___s_MouseUsed_0 = (bool)1;
@@ -1818,11 +1465,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SendMouseEvents_DoSendMouseEvents_m6ED38
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CameraU5BU5D_t1506EBA524A07AD1066D6DD4D7DFC6721F1AC26B_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Display_t06A3B0F5169CA3C02A4D5171F27499A23D3581D1_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SendMouseEvents_DoSendMouseEvents_m6ED386F607BB79BE62E0C3A523F7D8551B5B4F2C_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SendMouseEvents_t30F6848ABBD277C51340A02CF6664B8D6183EC39_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(SendMouseEvents_DoSendMouseEvents_m6ED386F607BB79BE62E0C3A523F7D8551B5B4F2C_RuntimeMethod_var);
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	int32_t V_1 = 0;
@@ -2524,7 +2169,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SendMouseEvents_SendEvents_mB4970ECB0198
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SendMouseEvents_SendEvents_mB4970ECB0198E490463A9DA84B3926F10652D72C_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SendMouseEvents_t30F6848ABBD277C51340A02CF6664B8D6183EC39_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral0B3DC20068778C16024297CC44E2C2A73D5B296D);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral3C6F094A63750A8BD369D8A9138F0648FB74B3C4);
@@ -2535,7 +2179,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SendMouseEvents_SendEvents_mB4970ECB0198
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE69C6A3A0BD2A9030375061C78273B2EABD411D0);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(SendMouseEvents_SendEvents_mB4970ECB0198E490463A9DA84B3926F10652D72C_RuntimeMethod_var);
 	bool V_0 = false;
 	bool V_1 = false;
 	bool V_2 = false;
@@ -2788,11 +2431,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SendMouseEvents__cctor_mBA2FA1153AF7CB9F
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HitInfoU5BU5D_tDAE7DF0D2B0BE3EB2FD25FB4418704E27A2BF1D5_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SendMouseEvents__cctor_mBA2FA1153AF7CB9F3550B83A8ABE8EB734BC1B82_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SendMouseEvents_t30F6848ABBD277C51340A02CF6664B8D6183EC39_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(SendMouseEvents__cctor_mBA2FA1153AF7CB9F3550B83A8ABE8EB734BC1B82_RuntimeMethod_var);
 	{
 		((SendMouseEvents_t30F6848ABBD277C51340A02CF6664B8D6183EC39_StaticFields*)il2cpp_codegen_static_fields_for(SendMouseEvents_t30F6848ABBD277C51340A02CF6664B8D6183EC39_il2cpp_TypeInfo_var))->___s_MouseUsed_0 = (bool)0;
 		HitInfoU5BU5D_tDAE7DF0D2B0BE3EB2FD25FB4418704E27A2BF1D5* L_0 = (HitInfoU5BU5D_tDAE7DF0D2B0BE3EB2FD25FB4418704E27A2BF1D5*)(HitInfoU5BU5D_tDAE7DF0D2B0BE3EB2FD25FB4418704E27A2BF1D5*)SZArrayNew(HitInfoU5BU5D_tDAE7DF0D2B0BE3EB2FD25FB4418704E27A2BF1D5_il2cpp_TypeInfo_var, (uint32_t)3);
@@ -2848,13 +2489,6 @@ IL2CPP_EXTERN_C void HitInfo_t34AF939575E1C059D581AB7ED8F039BCFFC70314_marshal_c
 // System.Void UnityEngine.SendMouseEvents/HitInfo::SendMessage(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HitInfo_SendMessage_m7834418ACE250BBCBA38ADCF0892E475BD1AD541 (HitInfo_t34AF939575E1C059D581AB7ED8F039BCFFC70314* __this, String_t* ___name0, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HitInfo_SendMessage_m7834418ACE250BBCBA38ADCF0892E475BD1AD541_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(HitInfo_SendMessage_m7834418ACE250BBCBA38ADCF0892E475BD1AD541_RuntimeMethod_var);
 	{
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___target_0;
 		String_t* L_1 = ___name0;
@@ -2876,11 +2510,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool HitInfo_op_Implicit_m61283E88B22AAF13DE0
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HitInfo_op_Implicit_m61283E88B22AAF13DE05C7A8A3A6CA195F16C6FE_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(HitInfo_op_Implicit_m61283E88B22AAF13DE05C7A8A3A6CA195F16C6FE_RuntimeMethod_var);
 	bool V_0 = false;
 	int32_t G_B3_0 = 0;
 	{
@@ -2927,11 +2559,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool HitInfo_Compare_m96C748D312D26A3333E3755
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HitInfo_Compare_m96C748D312D26A3333E37553940DAAA11D0AA8F2_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(HitInfo_Compare_m96C748D312D26A3333E37553940DAAA11D0AA8F2_RuntimeMethod_var);
 	bool V_0 = false;
 	int32_t G_B3_0 = 0;
 	{

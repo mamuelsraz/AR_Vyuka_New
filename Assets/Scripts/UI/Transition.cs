@@ -69,8 +69,7 @@ public class Transition : MonoBehaviour
 
         if (currentHandle != null)
         {
-            currentHandle.cancelHandle = transitionHandle;
-            currentHandle.OnCancel.Invoke();
+            currentHandle.OnCancel.Invoke(transitionHandle);
         }
         currentHandle = transitionHandle;
 
@@ -97,6 +96,7 @@ public class Transition : MonoBehaviour
     {
         started = false;
         currentHandle.OnFinish.Invoke();
+        currentHandle = null;
     }
 
     protected virtual void UpdateTransition()
@@ -117,7 +117,6 @@ public class Transition : MonoBehaviour
 
 public class TransitionHandle
 {
-    public TransitionHandle cancelHandle;
-    public Action OnCancel;
+    public Action<TransitionHandle> OnCancel;
     public Action OnFinish;
 }
