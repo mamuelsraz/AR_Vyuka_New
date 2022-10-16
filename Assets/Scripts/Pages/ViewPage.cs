@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using TextSpeech;
+using UnityEngine.UI;
 
 public class ViewPage : Page
 {
@@ -30,11 +32,17 @@ public class ViewPage : Page
             {
                 GameObject.Destroy(child.gameObject);
             }
+            int i = 1;
             foreach (var preposition in languageArObject.nameInLanguage[0].prepositions)
             {
-                var text = Instantiate(prepositionPrefab, prepositionsParent).GetComponentInChildren<TextMeshProUGUI>();
+                var obj = Instantiate(prepositionPrefab, prepositionsParent);
+                var text = obj.GetComponentInChildren<TextMeshProUGUI>();
                 text.text = preposition;
-                //tts
+                int ii = i;
+                obj.GetComponentInChildren<Button>().onClick.AddListener(() => {
+                    Speak(ii);
+                });
+                i++;
             }
         }
         else languagePanel.SetActive(false);
@@ -48,5 +56,26 @@ public class ViewPage : Page
         }
     }
 
+    public void Speak(int mode)
+    {
+        Debug.Log(mode);
+        LanguageBlock block = LanguageManager.instance.GetCurrentLanguageBlock();
+        if (block == null) return;
+        TextToSpeech.instance.Setting(block.language, 1, 1);
+        switch (mode)
+        {
+            case 0:
+                TextToSpeech.instance.StartSpeak(block.word);
+                break;
+            case 1:
+                TextToSpeech.instance.StartSpeak($"{block.prepositions[0]} {block.word}");
+                break;
+            case 2:
+                TextToSpeech.instance.StartSpeak($"{block.prepositions[1]} {block.word}");
+                break;
+            default:
+                break;
+        }
+    }
    
 }

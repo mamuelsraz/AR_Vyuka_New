@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class MenuPage : Page
 {
-    public SelectPage page;
-    public void Show(bool chemistry) {
-        page.loadChemie = chemistry;
+    public Page page;
+    public void Show(string area) {
+        SelectedArObjectManager.instance.selectedArea = area; 
         GoTo(page);
     }
 }

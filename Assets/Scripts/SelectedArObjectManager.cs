@@ -5,7 +5,7 @@ using UnityEngine;
 public class SelectedArObjectManager : MonoBehaviour
 {
     public static SelectedArObjectManager instance;
-
+    public string selectedArea;
     [HideInInspector] public ArObject selectedArObject { get; private set; }
     [HideInInspector] public GameObject selectedObject { get; private set; }
 

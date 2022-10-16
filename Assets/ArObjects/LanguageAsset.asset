@@ -15,7 +15,7 @@ MonoBehaviour:
   obj: {fileID: 5612157172080107447, guid: 7c4f400367d645245a43b414c0961721, type: 3}
   nickName: Pavel
   bundle: test_1
-  physics: 0
+  area: Jazyky
   category: "Testovac\xED kategorie t\u0159i"
   nameInLanguage:
   - language: cs-CS
@@ -23,3 +23,8 @@ MonoBehaviour:
     prepositions:
     - ta
     - ona
+  - language: en-EN
+    word: Cube
+    prepositions:
+    - the
+    - a

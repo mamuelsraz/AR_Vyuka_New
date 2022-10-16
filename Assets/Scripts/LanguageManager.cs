@@ -5,12 +5,13 @@ using UnityEngine;
 
 public class LanguageManager : MonoBehaviour
 {
-    public LanguageManager instance;
+    public static LanguageManager instance;
     public string currentLanguage { get; private set; }
     public Action onChangedLanguage;
 
     private void Awake()
     {
+        currentLanguage = "cz-CZ";
         if (instance == null) instance = this;
         else Destroy(this);
     }
@@ -18,5 +19,25 @@ public class LanguageManager : MonoBehaviour
     public void ChangeLanguage(string language) {
         currentLanguage = language;
         onChangedLanguage?.Invoke();
+    }
+
+    public LanguageBlock GetCurrentLanguageBlock() {
+        string language = currentLanguage;
+        LanguageBlock block = null;
+        var ARObject = SelectedArObjectManager.instance.selectedArObject;
+        if (ARObject is LanguageArObject) {
+            var langARObject = (LanguageArObject)ARObject;
+            foreach (var item in langARObject.nameInLanguage)
+            {
+                if (language.Equals(item.language)) {
+                    block = item;
+                    break;
+                }
+            }
+            if (block != null) {
+                return block;
+            }
+        }
+        return null;
     }
 }

@@ -8,6 +8,6 @@ public class ArObject : ScriptableObject
     public GameObject obj;
     public string nickName;
     public string bundle;
-    public bool physics;
+    public string area;
     public string category;
 }

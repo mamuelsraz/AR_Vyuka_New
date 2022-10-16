@@ -51,11 +51,6 @@ public class Transition : MonoBehaviour
         }
         backwardsActionsInTime = new List<TransitionAction>(actionsInTime);
         backwardsActionsInTime.Reverse();
-
-        foreach (var item in actionsInTime)
-        {
-            Debug.Log(item);
-        }
     }
 
     public virtual TransitionHandle StartTransition(bool back = false)

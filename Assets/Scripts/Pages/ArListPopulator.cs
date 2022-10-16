@@ -21,7 +21,7 @@ public class ArListPopulator : MonoBehaviour
         Dictionary<string, List<ArObject>> sortedCategories = new();
         foreach (var item in AssetStreamingManager.instance.ArObjectList)
         {
-            if (item.physics != chemie) continue;
+            if (item.area != SelectedArObjectManager.instance.selectedArea) continue;
             if (!sortedCategories.ContainsKey(item.category))
                 sortedCategories.Add(item.category, new List<ArObject>());
             sortedCategories[item.category].Add(item);

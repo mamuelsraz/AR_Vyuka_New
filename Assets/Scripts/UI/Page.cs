@@ -21,6 +21,7 @@ public class Page : MonoBehaviour
         rect = GetComponent<RectTransform>();
         onPreShow.AddListener(ActivatePanel);
         onPostHide.AddListener(DeactivatePanel);
+        gameObject.SetActive(active);
     }
 
     public void GoBack(Page page) {
@@ -66,6 +67,6 @@ public class Page : MonoBehaviour
 
     void DeactivatePanel() {
         active = false;
-        //gameObject.SetActive(false);
+        gameObject.SetActive(false);
     }
 }

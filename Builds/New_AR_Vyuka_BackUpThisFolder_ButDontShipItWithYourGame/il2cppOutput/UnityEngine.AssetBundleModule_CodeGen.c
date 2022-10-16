@@ -33,28 +33,32 @@ static Il2CppMethodPointer s_methodPointers[6] =
 };
 static const int32_t s_InvokerIndices[6] = 
 {
-	7714,
+	2923,
 	0,
 	0,
-	4532,
-	6139,
-	2258,
+	1926,
+	2505,
+	1322,
 };
 static const Il2CppTokenRangePair s_rgctxIndices[2] = 
 {
-	{ 0x06000002, { 0, 2 } },
-	{ 0x06000003, { 2, 2 } },
+	{ 0x06000002, { 0, 3 } },
+	{ 0x06000003, { 3, 3 } },
 };
 extern const uint32_t g_rgctx_TU5BU5D_t66821A3C7E718EFDF5FC3BD2288BAE38816F4985;
 extern const uint32_t g_rgctx_T_t3CB4386B71D70DC2B596DFC25E9D2A155CD509E6;
+extern const uint32_t g_rgctx_TU5BU5D_t66821A3C7E718EFDF5FC3BD2288BAE38816F4985;
 extern const uint32_t g_rgctx_T_t4DDCDE7720DB1E953B03BAB314A225D5D5780ED5;
 extern const uint32_t g_rgctx_AssetBundle_ConvertObjects_TisT_t4DDCDE7720DB1E953B03BAB314A225D5D5780ED5_mB47003AA600C23C9DD0DAC0CB36B45856654B7A9;
-static const Il2CppRGCTXDefinition s_rgctxValues[4] = 
+extern const uint32_t g_rgctx_TU5BU5D_tBAC463FFCA4BD4AF85453A8FA9F8A8C54AC90A4F;
+static const Il2CppRGCTXDefinition s_rgctxValues[6] = 
 {
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TU5BU5D_t66821A3C7E718EFDF5FC3BD2288BAE38816F4985 },
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_T_t3CB4386B71D70DC2B596DFC25E9D2A155CD509E6 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TU5BU5D_t66821A3C7E718EFDF5FC3BD2288BAE38816F4985 },
 	{ (Il2CppRGCTXDataType)1, (const void *)&g_rgctx_T_t4DDCDE7720DB1E953B03BAB314A225D5D5780ED5 },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AssetBundle_ConvertObjects_TisT_t4DDCDE7720DB1E953B03BAB314A225D5D5780ED5_mB47003AA600C23C9DD0DAC0CB36B45856654B7A9 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TU5BU5D_tBAC463FFCA4BD4AF85453A8FA9F8A8C54AC90A4F },
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_UnityEngine_AssetBundleModule_CodeGenModule;
 const Il2CppCodeGenModule g_UnityEngine_AssetBundleModule_CodeGenModule = 
@@ -69,7 +73,7 @@ const Il2CppCodeGenModule g_UnityEngine_AssetBundleModule_CodeGenModule =
 	NULL,
 	2,
 	s_rgctxIndices,
-	4,
+	6,
 	s_rgctxValues,
 	NULL,
 	NULL, // module initializer,
