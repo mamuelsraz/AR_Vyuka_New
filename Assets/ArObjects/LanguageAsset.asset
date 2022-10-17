@@ -16,7 +16,7 @@ MonoBehaviour:
   nickName: Pavel
   bundle: test_1
   area: Jazyky
-  category: "Testovac\xED kategorie t\u0159i"
+  category: Zahrada
   nameInLanguage:
   - language: cs-CS
     word: Krychle

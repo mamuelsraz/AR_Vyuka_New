@@ -9,6 +9,7 @@ public class ArListBlock : MonoBehaviour
     public SelectPage page;
     public ArObject arObject;
     public Button button;
+    public Transform buttonTransform;
     public Image fillImage;
     bool downloaded;
     StreamingHandle handle;
@@ -28,8 +29,8 @@ public class ArListBlock : MonoBehaviour
         {
             button.enabled = true;
             fillImage.color = new Color(fillImage.color.r, fillImage.color.g, fillImage.color.b, 0);
-            button.transform.DORotate(new Vector3(0, 0, 0), 0.25f);
-            button.transform.eulerAngles = new Vector3(0, 0, 0);
+            buttonTransform.DORotate(new Vector3(0, 0, 90), 0.25f);
+            buttonTransform.eulerAngles = new Vector3(0, 0, 0);
             downloaded = true;
         }
     }
@@ -50,7 +51,7 @@ public class ArListBlock : MonoBehaviour
         if (handle == null)
         {
             fillImage.DOFade(0, 0.25f);
-            button.transform.DORotate(new Vector3(0, 0, 0), 0.25f);
+            buttonTransform.DORotate(new Vector3(0, 0, 180), 0.25f);
             downloaded = true;
         }
         else handle.Complete += (StreamingHandleResponse response) =>
@@ -60,7 +61,7 @@ public class ArListBlock : MonoBehaviour
             handle = null;
             if (response.status != StreamingStatus.Failed)
             {
-                button.transform.DORotate(new Vector3(0, 0, 0), 0.25f);
+                buttonTransform.DORotate(new Vector3(0, 0, 180), 0.25f);
                 downloaded = true;
             }
             else

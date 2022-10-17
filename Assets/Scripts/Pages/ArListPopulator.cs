@@ -2,16 +2,42 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
-using UnityEngine.UI;
 
 public class ArListPopulator : MonoBehaviour
 {
     public SelectPage page;
     public Transform parent;
-    public GameObject categoryPrefab;
     public GameObject blockPrefab;
+    public TMP_Dropdown dropdown;
+    List<string> categories;
 
-    public void Populate(bool chemie)
+    private void Start()
+    {
+        dropdown.onValueChanged.AddListener(OnValueChanged);
+    }
+
+    public void Init()
+    {
+
+        categories = new List<string>();
+        categories.Add("vše");
+        foreach (var item in AssetStreamingManager.instance.ArObjectList)
+        {
+            if (item.area != SelectedArObjectManager.instance.selectedArea) continue;
+            if (!categories.Contains(item.category)) categories.Add(item.category);
+        }
+        dropdown.ClearOptions();
+        dropdown.AddOptions(categories);
+
+        Populate();
+    }
+
+    void OnValueChanged(int i)
+    {
+        Populate();
+    }
+
+    void Populate()
     {
         foreach (Transform child in parent)
         {
@@ -19,25 +45,15 @@ public class ArListPopulator : MonoBehaviour
         }
 
         Dictionary<string, List<ArObject>> sortedCategories = new();
+
         foreach (var item in AssetStreamingManager.instance.ArObjectList)
         {
             if (item.area != SelectedArObjectManager.instance.selectedArea) continue;
-            if (!sortedCategories.ContainsKey(item.category))
-                sortedCategories.Add(item.category, new List<ArObject>());
-            sortedCategories[item.category].Add(item);
-        }
-        foreach (var category in sortedCategories)
-        {
-            var obj = Instantiate(categoryPrefab, parent);
-            obj.name = category.Key.ToString();
-            obj.GetComponentInChildren<TextMeshProUGUI>().text = category.Key.ToString(); // zmenit
-            foreach (var arObj in category.Value)
-            {
-                var block = Instantiate(blockPrefab, obj.transform);
-                block.GetComponentInChildren<TextMeshProUGUI>().text = arObj.nickName;
-                block.GetComponent<ArListBlock>().arObject = arObj;
-                block.GetComponent<ArListBlock>().page = page;
-            }
+            if (dropdown.value != 0 && categories[dropdown.value] != item.category) continue;
+            var block = Instantiate(blockPrefab, parent);
+            block.GetComponentInChildren<TextMeshProUGUI>().text = item.nickName;
+            block.GetComponent<ArListBlock>().arObject = item;
+            block.GetComponent<ArListBlock>().page = page;
         }
     }
 }

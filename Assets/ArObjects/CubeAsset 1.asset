@@ -16,4 +16,4 @@ MonoBehaviour:
   nickName: Karel
   bundle: test_2
   area: Chemie
-  category: "Testovac\xED kategorie"
+  category: "Ba\u0148ky"
