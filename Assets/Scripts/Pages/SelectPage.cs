@@ -40,7 +40,7 @@ public class SelectPage : Page
 
             else
             {
-                NativeDialog.OpenDialog("Info popup", "Nepovedlo se stáhnout seznam, jste připojeni k internetu? Aplikace se restartuje", "Ok",
+                NativeDialog.OpenDialog("Nepovedlo se stáhnout seznam!", "Zkontrolujte prosím, zda máte stálé připojení k internetu. Aplikace se po stisknutí [ok] restartuje.", "Ok",
                 () =>
                 {
                     SceneManager.LoadScene(0);

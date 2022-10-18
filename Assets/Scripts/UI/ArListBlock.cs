@@ -1,8 +1,10 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using DG.Tweening;
+using pingak9;
+using UnityEngine.SceneManagement;
 
 public class ArListBlock : MonoBehaviour
 {
@@ -29,8 +31,7 @@ public class ArListBlock : MonoBehaviour
         {
             button.enabled = true;
             fillImage.color = new Color(fillImage.color.r, fillImage.color.g, fillImage.color.b, 0);
-            buttonTransform.DORotate(new Vector3(0, 0, 90), 0.25f);
-            buttonTransform.eulerAngles = new Vector3(0, 0, 0);
+            buttonTransform.localEulerAngles = new Vector3(0, 0, 180);
             downloaded = true;
         }
     }
@@ -65,9 +66,11 @@ public class ArListBlock : MonoBehaviour
                 downloaded = true;
             }
             else
-            {
-                Debug.LogError("Something bad happened");
-            }
+                NativeDialog.OpenDialog("Nepovedlo se stáhnout model!", "Zkontrolujte prosím, zda máte stálé připojení k internetu. Aplikace se po stisknutí [ok] restartuje.", "Ok",
+                () =>
+                {
+                    SceneManager.LoadScene(0);
+                });
         };
     }
 
