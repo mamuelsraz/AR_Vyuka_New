@@ -60,6 +60,7 @@ public class MoveTransitionAction : TransitionAction
 public class ScreenTransitionAction : TransitionAction
 {
     public RectTransform transform;
+    public RectTransform canvas;
     public Vector2 pos;
     public Vector2 startPos;
     public override void Initialize()
@@ -69,16 +70,16 @@ public class ScreenTransitionAction : TransitionAction
 
     public override TweenCallback Forward(float duration)
     {
-        Vector2 pos = new Vector2(this.pos.x * Screen.width, this.pos.y / Screen.height);
-        Vector2 startPos = new Vector2(this.startPos.x * Screen.width, this.startPos.y / Screen.height);
+        Vector2 pos = new Vector2(this.pos.x * canvas.sizeDelta.x, this.pos.y / canvas.sizeDelta.y);
+        Vector2 startPos = new Vector2(this.startPos.x * canvas.sizeDelta.x, this.startPos.y / canvas.sizeDelta.y);
         transform.anchoredPosition = toGoal ? startPos : pos;
         return transform.DOAnchorPos(toGoal ? pos : startPos, duration).onComplete;
     }
 
     public override TweenCallback Back(float duration)
     {
-        Vector2 pos = new Vector2(this.pos.x * Screen.width, this.pos.y / Screen.height);
-        Vector2 startPos = new Vector2(this.startPos.x * Screen.width, this.startPos.y / Screen.height);
+        Vector2 pos = new Vector2(this.pos.x * canvas.sizeDelta.x, this.pos.y / canvas.sizeDelta.y);
+        Vector2 startPos = new Vector2(this.startPos.x * canvas.sizeDelta.x, this.startPos.y / canvas.sizeDelta.y);
         transform.anchoredPosition = toGoal ? pos : startPos;
         return transform.DOAnchorPos(toGoal ? startPos : pos, duration).onComplete;
     }

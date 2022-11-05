@@ -12,11 +12,17 @@ public class SelectPage : Page
     public ArListPopulator populator;
     public Page placePage;
     [HideInInspector] public bool loadChemie;
-
-    private void Awake()
+    public LanguageChangeUI languageChangeUI;
+    protected override void Awake()
     {
         base.Awake();
         onPreShow.AddListener(Initialize);
+        onPreHide.AddListener(OnPreHide);
+    }
+
+    void OnPreHide()
+    {
+        languageChangeUI.Hide();
     }
 
     private void Start()
@@ -26,6 +32,10 @@ public class SelectPage : Page
 
     private void Initialize()
     {
+        if (SelectedArObjectManager.instance.selectedArea == "Jazyky")
+        {
+            languageChangeUI.Show();
+        }
         if (AssetStreamingManager.instance.ArObjectList.Length > 0) populator.Init();
         else AssetStreamingManager.instance.LoadList(AssetStreamingManager.path, "list").Complete += (StreamingHandleResponse response) =>
         {

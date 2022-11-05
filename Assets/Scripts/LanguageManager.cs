@@ -11,7 +11,7 @@ public class LanguageManager : MonoBehaviour
 
     private void Awake()
     {
-        currentLanguage = "cz-CZ";
+        currentLanguage = "en-EN";
         if (instance == null) instance = this;
         else Destroy(this);
     }

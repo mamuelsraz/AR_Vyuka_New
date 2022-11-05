@@ -178,640 +178,692 @@ extern void PlacePage_PlaceObject_mA44E3B303CEF45D3348C2DEFFBF7C184F9296210 (voi
 extern void PlacePage__ctor_mD7F3549681E4D205409FE059B70A475B3D12DC09 (void);
 // 0x00000053 System.Void PlacePage::.cctor()
 extern void PlacePage__cctor_m2EEF8F776DB3FF233D1C2451AD58FF5940AFE7A0 (void);
-// 0x00000054 System.Void SelectPage::Awake()
+// 0x00000054 System.Void QRPlacePage::Awake()
+extern void QRPlacePage_Awake_m5CE21B24A2222C334FC7288E8FB2A6DA2557BEB6 (void);
+// 0x00000055 System.Void QRPlacePage::Start()
+extern void QRPlacePage_Start_m571124FD5FBA2C94E8F40769346590C733E12C0D (void);
+// 0x00000056 System.Void QRPlacePage::Initialize()
+extern void QRPlacePage_Initialize_mC5D15BE6259537757E4E11C9C4AB07EDB3265F3E (void);
+// 0x00000057 System.Void QRPlacePage::OnCodeDetected(QRCodeMarker)
+extern void QRPlacePage_OnCodeDetected_m26EFFD71667CDF99E46B24B111030D793FDC983B (void);
+// 0x00000058 System.Void QRPlacePage::ArObjectDownloaded()
+extern void QRPlacePage_ArObjectDownloaded_m22305A2F66E0347D5D0AEAA1E05B5F4A29EBD313 (void);
+// 0x00000059 System.Void QRPlacePage::SetScanning(System.Boolean)
+extern void QRPlacePage_SetScanning_m414B9CBCF478B8B58A00046A425E4D1FCDBD8C95 (void);
+// 0x0000005A System.Void QRPlacePage::.ctor()
+extern void QRPlacePage__ctor_mD921626950F665FDE64BA5B5E30D59F692B178F4 (void);
+// 0x0000005B System.Void QRPlacePage::<Initialize>b__7_0(StreamingHandleResponse)
+extern void QRPlacePage_U3CInitializeU3Eb__7_0_mC5CC0C5FF251DE02D41A6E9F5A45BE6C787F119E (void);
+// 0x0000005C System.Void QRPlacePage::<Initialize>b__7_1()
+extern void QRPlacePage_U3CInitializeU3Eb__7_1_m9CA56D6170D973B2222B48F1EE90FB6C8CF247CC (void);
+// 0x0000005D System.Void QRPlacePage/<>c__DisplayClass8_0::.ctor()
+extern void U3CU3Ec__DisplayClass8_0__ctor_mEC36C56EDFC004B2EFCB9000F2DACCC8997FBD39 (void);
+// 0x0000005E System.Void QRPlacePage/<>c__DisplayClass8_0::<OnCodeDetected>b__0(StreamingHandleResponse)
+extern void U3CU3Ec__DisplayClass8_0_U3COnCodeDetectedU3Eb__0_mCFF40FE00F6870A5151EE6FC371AAFF143C632F7 (void);
+// 0x0000005F System.Void QRPlacePage/<>c::.cctor()
+extern void U3CU3Ec__cctor_m13431BBEEEF76F1893DC241F49CDD3EB893928D6 (void);
+// 0x00000060 System.Void QRPlacePage/<>c::.ctor()
+extern void U3CU3Ec__ctor_m26D912D9AAF4D7767527116FE1F5D9C33EE1913F (void);
+// 0x00000061 System.Void QRPlacePage/<>c::<OnCodeDetected>b__8_1()
+extern void U3CU3Ec_U3COnCodeDetectedU3Eb__8_1_m645FA607FBE8BCA7D3BAD626DEE191F1A119251E (void);
+// 0x00000062 System.Void SelectPage::Awake()
 extern void SelectPage_Awake_m1E8A844C3403A686B9D87F5A98FE80F9512E3823 (void);
-// 0x00000055 System.Void SelectPage::Start()
+// 0x00000063 System.Void SelectPage::Start()
 extern void SelectPage_Start_mBE859DD125CC34ED4F570643A2D2C6EC721C954D (void);
-// 0x00000056 System.Void SelectPage::Initialize()
+// 0x00000064 System.Void SelectPage::Initialize()
 extern void SelectPage_Initialize_mDC5A04629F7E743D48FC1A01BFE0EA364F1EB398 (void);
-// 0x00000057 System.Void SelectPage::ChangePage()
+// 0x00000065 System.Void SelectPage::ChangePage()
 extern void SelectPage_ChangePage_mDAA8B9823AE2DA4B69D91373E8E405E947D321DA (void);
-// 0x00000058 System.Void SelectPage::.ctor()
+// 0x00000066 System.Void SelectPage::.ctor()
 extern void SelectPage__ctor_m35D15B82954C7E04F538A5F1480C03600B80727F (void);
-// 0x00000059 System.Void SelectPage::<Initialize>b__6_0(StreamingHandleResponse)
+// 0x00000067 System.Void SelectPage::<Initialize>b__6_0(StreamingHandleResponse)
 extern void SelectPage_U3CInitializeU3Eb__6_0_m8E86ACCB0F524943C5E0DBEEF822D584423C60E5 (void);
-// 0x0000005A System.Void SelectPage::<Initialize>b__6_2()
+// 0x00000068 System.Void SelectPage::<Initialize>b__6_2()
 extern void SelectPage_U3CInitializeU3Eb__6_2_mC5D5D9035996D4A5DEBC898D77D2953C4B30C0B8 (void);
-// 0x0000005B System.Void SelectPage/<>c::.cctor()
+// 0x00000069 System.Void SelectPage/<>c::.cctor()
 extern void U3CU3Ec__cctor_mAB214E8ADE5D2FB458D6E5621A8DF1707801CF86 (void);
-// 0x0000005C System.Void SelectPage/<>c::.ctor()
+// 0x0000006A System.Void SelectPage/<>c::.ctor()
 extern void U3CU3Ec__ctor_m16E0328056395826FD5AC56DEB26A6038646A783 (void);
-// 0x0000005D System.Void SelectPage/<>c::<Initialize>b__6_1()
+// 0x0000006B System.Void SelectPage/<>c::<Initialize>b__6_1()
 extern void U3CU3Ec_U3CInitializeU3Eb__6_1_m8F28F49E54F8ED96D5C39C6D102DA107BEED373D (void);
-// 0x0000005E System.Void ViewPage::Awake()
+// 0x0000006C System.Void ViewPage::Awake()
 extern void ViewPage_Awake_m4F5C9C729CE681F1EF428562F3130BE6076629D8 (void);
-// 0x0000005F System.Void ViewPage::Initialize()
+// 0x0000006D System.Void ViewPage::Deselect()
+extern void ViewPage_Deselect_mFA7043EBCA385FC5C82B610E72C9431C1471591C (void);
+// 0x0000006E System.Void ViewPage::Initialize()
 extern void ViewPage_Initialize_mA04EDF0735A8139C23C4F0F5418D0E98F9F854AB (void);
-// 0x00000060 System.Void ViewPage::Update()
+// 0x0000006F System.Void ViewPage::Update()
 extern void ViewPage_Update_mE80DED5FDF1E16786B61B3FB6DE6B16BD0383D11 (void);
-// 0x00000061 System.Void ViewPage::Speak(System.Int32)
+// 0x00000070 System.Void ViewPage::Speak(System.Int32)
 extern void ViewPage_Speak_m94EE69432CAF3EBAF42EFB53DC8BAFCA5035CEFA (void);
-// 0x00000062 System.Void ViewPage::.ctor()
+// 0x00000071 System.Void ViewPage::.ctor()
 extern void ViewPage__ctor_mC57C06F37E9EBAF72FCAF760D7FD56B2EF17892E (void);
-// 0x00000063 System.Void ViewPage/<>c__DisplayClass6_0::.ctor()
-extern void U3CU3Ec__DisplayClass6_0__ctor_m2E931FEC856C0E3FFFB02A1D35BAE7D905B476D1 (void);
-// 0x00000064 System.Void ViewPage/<>c__DisplayClass6_0::<Initialize>b__0()
-extern void U3CU3Ec__DisplayClass6_0_U3CInitializeU3Eb__0_m0E1F3F0F482F7AB1391067F7AFDDF4326E00BF88 (void);
-// 0x00000065 ArObject SelectedArObjectManager::get_selectedArObject()
+// 0x00000072 System.Void ViewPage/<>c__DisplayClass7_0::.ctor()
+extern void U3CU3Ec__DisplayClass7_0__ctor_m988A19DBF5080608D9D1716CD820B4308491B1BF (void);
+// 0x00000073 System.Void ViewPage/<>c__DisplayClass7_0::<Initialize>b__0()
+extern void U3CU3Ec__DisplayClass7_0_U3CInitializeU3Eb__0_m5366E7225931266C9A2829BCC398C8F04898A1FA (void);
+// 0x00000074 System.Void QRCodeMarker::.ctor(System.String,System.Single)
+extern void QRCodeMarker__ctor_m493F667B8C9A899E0102C2359648091F1CA595F0 (void);
+// 0x00000075 UnityEngine.Vector3[] QRCodeMarker::GetWorldCorners()
+extern void QRCodeMarker_GetWorldCorners_m6C95121A278F1A0032051F1EAF1B0888A3361558 (void);
+// 0x00000076 System.Void CachedCodeEvent::.ctor()
+extern void CachedCodeEvent__ctor_m8AAD77404A8326EF8EC7C26B508C67BB887DA180 (void);
+// 0x00000077 System.Void QRTrackerHandler::Start()
+extern void QRTrackerHandler_Start_m18E78B3E5444D2760A0AE7FC835BB869919EEC2F (void);
+// 0x00000078 System.Void QRTrackerHandler::Update()
+extern void QRTrackerHandler_Update_m2C9354500BB508816FFB6000F91BDA711DE68A5B (void);
+// 0x00000079 System.Void QRTrackerHandler::OnCodeRegistered(System.String,UnityEngine.GameObject)
+extern void QRTrackerHandler_OnCodeRegistered_mC91A9E79192B166615FA2697215862C284FB0F71 (void);
+// 0x0000007A System.Void QRTrackerHandler::OnCodeLost()
+extern void QRTrackerHandler_OnCodeLost_m51A93C98B1649FE312C97A8E2DF7BD69BAA87E72 (void);
+// 0x0000007B System.Void QRTrackerHandler::RemoveCode(System.String)
+extern void QRTrackerHandler_RemoveCode_mD35C256A15C431225FC7867A4ECB8C2E0B585A19 (void);
+// 0x0000007C System.Void QRTrackerHandler::OnDisable()
+extern void QRTrackerHandler_OnDisable_m055359B37820085B1D331B8C6A34B5A28060C68C (void);
+// 0x0000007D System.Void QRTrackerHandler::ResetTransform(UnityEngine.Transform)
+extern void QRTrackerHandler_ResetTransform_mE348D317AA078E872929A676A1E2F2CFD0378468 (void);
+// 0x0000007E System.Void QRTrackerHandler::.ctor()
+extern void QRTrackerHandler__ctor_m459B87A55CA8C73CFC22F03065BE31555D4F61DE (void);
+// 0x0000007F ArObject SelectedArObjectManager::get_selectedArObject()
 extern void SelectedArObjectManager_get_selectedArObject_m4FCC514196A392187F1AB91C82F36BC6214E12A5 (void);
-// 0x00000066 System.Void SelectedArObjectManager::set_selectedArObject(ArObject)
+// 0x00000080 System.Void SelectedArObjectManager::set_selectedArObject(ArObject)
 extern void SelectedArObjectManager_set_selectedArObject_m7820FE55ABF090EAE26DDB87BEA90F995234D509 (void);
-// 0x00000067 UnityEngine.GameObject SelectedArObjectManager::get_selectedObject()
+// 0x00000081 UnityEngine.GameObject SelectedArObjectManager::get_selectedObject()
 extern void SelectedArObjectManager_get_selectedObject_m5743EE70DFDC9C54B9C82C5E378D6D9085948729 (void);
-// 0x00000068 System.Void SelectedArObjectManager::set_selectedObject(UnityEngine.GameObject)
+// 0x00000082 System.Void SelectedArObjectManager::set_selectedObject(UnityEngine.GameObject)
 extern void SelectedArObjectManager_set_selectedObject_mB6EB8EF9D6F5FEA51BAAE08F2FBEE2455943817B (void);
-// 0x00000069 System.Void SelectedArObjectManager::Awake()
+// 0x00000083 System.Void SelectedArObjectManager::Awake()
 extern void SelectedArObjectManager_Awake_mACD3A8415903D311C2EBA38D383B4A542E9F0B34 (void);
-// 0x0000006A System.Void SelectedArObjectManager::SelectNew(ArObject)
+// 0x00000084 System.Void SelectedArObjectManager::SelectNew(ArObject)
 extern void SelectedArObjectManager_SelectNew_mA293588D09043FCCEC520A0672C0660C7F38C422 (void);
-// 0x0000006B UnityEngine.GameObject SelectedArObjectManager::SpawnCurrent(UnityEngine.Transform)
+// 0x00000085 UnityEngine.GameObject SelectedArObjectManager::SpawnCurrent(UnityEngine.Transform)
 extern void SelectedArObjectManager_SpawnCurrent_m9DB2E5C86D486967E3F7770B817F9381EBF8F236 (void);
-// 0x0000006C System.Void SelectedArObjectManager::.ctor()
+// 0x00000086 System.Void SelectedArObjectManager::.ctor()
 extern void SelectedArObjectManager__ctor_mA6FA781E941365032FF0554B7C9788C06B941BFF (void);
-// 0x0000006D System.Void TouchControls::RotateAndScaleObj(UnityEngine.Transform)
+// 0x00000087 System.Void TouchControls::RotateAndScaleObj(UnityEngine.Transform)
 extern void TouchControls_RotateAndScaleObj_mCC0ACEA972DC7165E80974E2310B59D942191C4A (void);
-// 0x0000006E System.Void TouchControls::.ctor()
+// 0x00000088 System.Void TouchControls::.ctor()
 extern void TouchControls__ctor_m22C3B30221CD426DF6C3396A0050B2DE326F61C6 (void);
-// 0x0000006F System.Void ArListBlock::Click()
+// 0x00000089 System.Void ArListBlock::Click()
 extern void ArListBlock_Click_mB91CC8EBF16FF056B5A25D06399C90B19A0FF247 (void);
-// 0x00000070 System.Void ArListBlock::Start()
+// 0x0000008A System.Void ArListBlock::Start()
 extern void ArListBlock_Start_m9ABF0C24D60839F9AF3190CE5477E5B6A909BDB2 (void);
-// 0x00000071 System.Void ArListBlock::Update()
+// 0x0000008B System.Void ArListBlock::Update()
 extern void ArListBlock_Update_m08ADD9DC5DE6844F1F603BFED75C5002C4290591 (void);
-// 0x00000072 System.Void ArListBlock::Download()
+// 0x0000008C System.Void ArListBlock::Download()
 extern void ArListBlock_Download_mE0D543104F84D509769FC299CCF60E8531ACE57B (void);
-// 0x00000073 System.Void ArListBlock::Place()
+// 0x0000008D System.Void ArListBlock::Place()
 extern void ArListBlock_Place_mB4346515A4B23A4586F66257CF1A5866BCC41EF8 (void);
-// 0x00000074 System.Void ArListBlock::.ctor()
+// 0x0000008E System.Void ArListBlock::.ctor()
 extern void ArListBlock__ctor_mA2C82AD9AD8CC8A996EA3D59EAEC5BB72764B3B6 (void);
-// 0x00000075 System.Void ArListBlock::<Download>b__10_0(StreamingHandleResponse)
+// 0x0000008F System.Void ArListBlock::<Download>b__10_0(StreamingHandleResponse)
 extern void ArListBlock_U3CDownloadU3Eb__10_0_mE586D7B8056C6DF771BEED6A836A27509C229E41 (void);
-// 0x00000076 System.Void ArListBlock/<>c::.cctor()
+// 0x00000090 System.Void ArListBlock/<>c::.cctor()
 extern void U3CU3Ec__cctor_mFA765DBDC9A2BA3BC809693FCEF10CEC43950DD7 (void);
-// 0x00000077 System.Void ArListBlock/<>c::.ctor()
+// 0x00000091 System.Void ArListBlock/<>c::.ctor()
 extern void U3CU3Ec__ctor_m6F4E8ABBE4FF13F74DA05608D6BE58D69C232060 (void);
-// 0x00000078 System.Void ArListBlock/<>c::<Download>b__10_1()
+// 0x00000092 System.Void ArListBlock/<>c::<Download>b__10_1()
 extern void U3CU3Ec_U3CDownloadU3Eb__10_1_m3D177A064D3F274C8A39C371B5B40FDCD3BCBDB9 (void);
-// 0x00000079 System.Void ArListSection::Start()
+// 0x00000093 System.Void ArListSection::Start()
 extern void ArListSection_Start_m1AC905359B439A69DCEBF9F1B7E8D464A432CC44 (void);
-// 0x0000007A System.Void ArListSection::Toggle()
+// 0x00000094 System.Void ArListSection::Toggle()
 extern void ArListSection_Toggle_m8CE05B3FFDC2605676F7B48FA8B4866F1E84A00F (void);
-// 0x0000007B System.Void ArListSection::Open()
+// 0x00000095 System.Void ArListSection::Open()
 extern void ArListSection_Open_m6082215939460E1B90E30BF94E3692B4BF568573 (void);
-// 0x0000007C System.Void ArListSection::Close()
+// 0x00000096 System.Void ArListSection::Close()
 extern void ArListSection_Close_m7580ADDC2D423447217262BD5BDD6E5A7684F0A6 (void);
-// 0x0000007D System.Void ArListSection::.ctor()
+// 0x00000097 System.Void ArListSection::.ctor()
 extern void ArListSection__ctor_mA9A0CA26264EAF02FE7F6266847F30728148B3ED (void);
-// 0x0000007E System.Void ArListSection::<Open>b__8_0()
+// 0x00000098 System.Void ArListSection::<Open>b__8_0()
 extern void ArListSection_U3COpenU3Eb__8_0_m49464EA326A3B6D7E6DC2D878697673071B8C6A9 (void);
-// 0x0000007F System.Void ArListSection::<Close>b__9_0()
+// 0x00000099 System.Void ArListSection::<Close>b__9_0()
 extern void ArListSection_U3CCloseU3Eb__9_0_m26256F049940B2ADC679638F1C013C887BED7176 (void);
-// 0x00000080 System.Void LoadingGraphic::Start()
+// 0x0000009A System.Void LoadingGraphic::Start()
 extern void LoadingGraphic_Start_mB9C93C0F7F6182BCD40C46A2F34E8ABC777BB91E (void);
-// 0x00000081 System.Void LoadingGraphic::Update()
+// 0x0000009B System.Void LoadingGraphic::Update()
 extern void LoadingGraphic_Update_m56721A1BBC3BDF4191C1A4E3A5EC3A80969F52B0 (void);
-// 0x00000082 System.Void LoadingGraphic::StartLoading()
+// 0x0000009C System.Void LoadingGraphic::StartLoading()
 extern void LoadingGraphic_StartLoading_m8DD302166947C09C4ABDC7C6B6DFC68DAF69CC2D (void);
-// 0x00000083 System.Void LoadingGraphic::StopLoading()
+// 0x0000009D System.Void LoadingGraphic::StopLoading()
 extern void LoadingGraphic_StopLoading_mC017826688D28AECC662300878C196BD97C80B64 (void);
-// 0x00000084 System.Void LoadingGraphic::.ctor()
+// 0x0000009E System.Void LoadingGraphic::.ctor()
 extern void LoadingGraphic__ctor_mF486845BA8F5290B6D33083CD2F189E68A0D6403 (void);
-// 0x00000085 System.Void Page::Awake()
+// 0x0000009F System.Void Page::Awake()
 extern void Page_Awake_m8D9E3415D8AC2540EB94662D2BB0D5197529668B (void);
-// 0x00000086 System.Void Page::GoBack(Page)
+// 0x000000A0 System.Void Page::GoBack(Page)
 extern void Page_GoBack_m5DB2408823359A2EC4F882036656DC8954CC37C2 (void);
-// 0x00000087 System.Void Page::GoTo(Page)
+// 0x000000A1 System.Void Page::GoTo(Page)
 extern void Page_GoTo_mDADF1A91723098CF31ED4665C33AC827FB9CCB60 (void);
-// 0x00000088 System.Void Page::SubToHandle(TransitionHandle,Page,Page)
+// 0x000000A2 System.Void Page::SubToHandle(TransitionHandle,Page,Page)
 extern void Page_SubToHandle_m87C48E184362A8452017A5500481B0D88C9008C6 (void);
-// 0x00000089 System.Void Page::ActivatePanel()
+// 0x000000A3 System.Void Page::ActivatePanel()
 extern void Page_ActivatePanel_m4329C1A33D7709F24D7F6F5C88090BE286631AEB (void);
-// 0x0000008A System.Void Page::DeactivatePanel()
+// 0x000000A4 System.Void Page::DeactivatePanel()
 extern void Page_DeactivatePanel_mA36168BCD02D3E4ED3105EC94870E7C6A9883EEC (void);
-// 0x0000008B System.Void Page::.ctor()
+// 0x000000A5 System.Void Page::.ctor()
 extern void Page__ctor_mCFBD15DF3FBC2869DD0328163E1F789546304D92 (void);
-// 0x0000008C System.Void Page/<>c__DisplayClass10_0::.ctor()
+// 0x000000A6 System.Void Page/<>c__DisplayClass10_0::.ctor()
 extern void U3CU3Ec__DisplayClass10_0__ctor_m7DFF83E68B65A88644DC0824677774D12BB49985 (void);
-// 0x0000008D System.Void Page/<>c__DisplayClass10_0::<SubToHandle>b__0()
+// 0x000000A7 System.Void Page/<>c__DisplayClass10_0::<SubToHandle>b__0()
 extern void U3CU3Ec__DisplayClass10_0_U3CSubToHandleU3Eb__0_m20D6B38D2929CA96EB074DC333E0B2DC991988FA (void);
-// 0x0000008E System.Void Page/<>c__DisplayClass10_0::<SubToHandle>b__1(TransitionHandle)
+// 0x000000A8 System.Void Page/<>c__DisplayClass10_0::<SubToHandle>b__1(TransitionHandle)
 extern void U3CU3Ec__DisplayClass10_0_U3CSubToHandleU3Eb__1_mBBEA235FFE1CAD55A4D1490AC75906FBF7DFF7CF (void);
-// 0x0000008F System.Void SafeZonePanel::Start()
+// 0x000000A9 System.Void SafeZonePanel::Start()
 extern void SafeZonePanel_Start_mF266CF8F6863618582C449C5C8F592381E00334B (void);
-// 0x00000090 System.Void SafeZonePanel::Update()
+// 0x000000AA System.Void SafeZonePanel::Update()
 extern void SafeZonePanel_Update_m6A80139DAD5EC3F15C6BC0610C29A855D77CA394 (void);
-// 0x00000091 System.Void SafeZonePanel::ApplySafeArea()
+// 0x000000AB System.Void SafeZonePanel::ApplySafeArea()
 extern void SafeZonePanel_ApplySafeArea_m5C88D23FA4F05778B1071CCBAF791EE19DD401E6 (void);
-// 0x00000092 System.Void SafeZonePanel::.ctor()
+// 0x000000AC System.Void SafeZonePanel::.ctor()
 extern void SafeZonePanel__ctor_mA447BE3247915F5D6BCE027893862279F2BF9AB3 (void);
-// 0x00000093 System.Single Transition::get_t()
+// 0x000000AD System.Single Transition::get_t()
 extern void Transition_get_t_m05DFCCDAF5AF126916013EE1199DCB0B85B4F456 (void);
-// 0x00000094 System.Void Transition::Awake()
+// 0x000000AE System.Void Transition::Awake()
 extern void Transition_Awake_m8ACE03C58DAED13C8F2F2ACE954AF37246CD5CC9 (void);
-// 0x00000095 TransitionHandle Transition::StartTransition(System.Boolean)
+// 0x000000AF TransitionHandle Transition::StartTransition(System.Boolean)
 extern void Transition_StartTransition_m491E5606F0F11F7254B82217DC277E47DE2952DC (void);
-// 0x00000096 System.Void Transition::ToggleAndStartTransition()
+// 0x000000B0 System.Void Transition::ToggleAndStartTransition()
 extern void Transition_ToggleAndStartTransition_mBE901013A39C97BD6594A3344073D1DF1571B8D2 (void);
-// 0x00000097 System.Void Transition::Update()
+// 0x000000B1 System.Void Transition::Update()
 extern void Transition_Update_m92BA0BCCA1DEB843C9840CFB87F43A9C59A9CEEA (void);
-// 0x00000098 System.Void Transition::EndTransition()
+// 0x000000B2 System.Void Transition::EndTransition()
 extern void Transition_EndTransition_mA6F36782035A04BDDA839B2CA9AFEBBB2D4083B2 (void);
-// 0x00000099 System.Void Transition::UpdateTransition()
+// 0x000000B3 System.Void Transition::UpdateTransition()
 extern void Transition_UpdateTransition_mF73B6CE6E3D8A0050B36397B9269AB3F7DEB1C37 (void);
-// 0x0000009A System.Void Transition::.ctor()
+// 0x000000B4 System.Void Transition::.ctor()
 extern void Transition__ctor_m641CBEB2CAC3DD257BAC609DE294488F9BF64768 (void);
-// 0x0000009B System.Void TransitionHandle::.ctor()
+// 0x000000B5 System.Void TransitionHandle::.ctor()
 extern void TransitionHandle__ctor_mCDD00F32A3E874197644497DB0FE4596776CD492 (void);
-// 0x0000009C DG.Tweening.TweenCallback TransitionAction::Forward(System.Single)
+// 0x000000B6 DG.Tweening.TweenCallback TransitionAction::Forward(System.Single)
 extern void TransitionAction_Forward_mDD03790F04EE78F14F8EBBD77AFB6F140BBEBCFA (void);
-// 0x0000009D DG.Tweening.TweenCallback TransitionAction::Back(System.Single)
+// 0x000000B7 DG.Tweening.TweenCallback TransitionAction::Back(System.Single)
 extern void TransitionAction_Back_mC605157BF3BD47F0864E5B15D9B312B793BCA773 (void);
-// 0x0000009E System.Void TransitionAction::Initialize()
+// 0x000000B8 System.Void TransitionAction::Initialize()
 extern void TransitionAction_Initialize_mFB7D55BB63B132AA2465ABAA4A7DBB0CAE1079FB (void);
-// 0x0000009F System.String TransitionAction::ToString()
+// 0x000000B9 System.String TransitionAction::ToString()
 extern void TransitionAction_ToString_m3131D507B18C42356E791D7017B220268D8C195D (void);
-// 0x000000A0 System.Void TransitionAction::.ctor()
+// 0x000000BA System.Void TransitionAction::.ctor()
 extern void TransitionAction__ctor_m51FAB9A08D9226D363D83D0E69D161833C057652 (void);
-// 0x000000A1 System.Void MoveTransitionAction::Initialize()
+// 0x000000BB System.Void MoveTransitionAction::Initialize()
 extern void MoveTransitionAction_Initialize_m53E8FE9DCFC3A1707A4836BE52803C8A9D840F85 (void);
-// 0x000000A2 DG.Tweening.TweenCallback MoveTransitionAction::Forward(System.Single)
+// 0x000000BC DG.Tweening.TweenCallback MoveTransitionAction::Forward(System.Single)
 extern void MoveTransitionAction_Forward_m5C302B6F851EDF9E09FEAAACA5125BA4B0689E33 (void);
-// 0x000000A3 DG.Tweening.TweenCallback MoveTransitionAction::Back(System.Single)
+// 0x000000BD DG.Tweening.TweenCallback MoveTransitionAction::Back(System.Single)
 extern void MoveTransitionAction_Back_m57C3ADDB405A34FB1991CBDA7175C7F14B7D7A75 (void);
-// 0x000000A4 System.Void MoveTransitionAction::.ctor()
+// 0x000000BE System.Void MoveTransitionAction::.ctor()
 extern void MoveTransitionAction__ctor_m1D04AE6719DCA408934C48DA9E018C1BBDE7D4CF (void);
-// 0x000000A5 System.Void ScreenTransitionAction::Initialize()
+// 0x000000BF System.Void ScreenTransitionAction::Initialize()
 extern void ScreenTransitionAction_Initialize_mEC7B236A0FCDD17F4D9187D9815653A75E23E330 (void);
-// 0x000000A6 DG.Tweening.TweenCallback ScreenTransitionAction::Forward(System.Single)
+// 0x000000C0 DG.Tweening.TweenCallback ScreenTransitionAction::Forward(System.Single)
 extern void ScreenTransitionAction_Forward_m467FA88D77223BF62437D6BB90A4DF01BF2CB48D (void);
-// 0x000000A7 DG.Tweening.TweenCallback ScreenTransitionAction::Back(System.Single)
+// 0x000000C1 DG.Tweening.TweenCallback ScreenTransitionAction::Back(System.Single)
 extern void ScreenTransitionAction_Back_m5212D8D85B5A6EA4E5DCBB3CE47FA95A8F3841BF (void);
-// 0x000000A8 System.Void ScreenTransitionAction::.ctor()
+// 0x000000C2 System.Void ScreenTransitionAction::.ctor()
 extern void ScreenTransitionAction__ctor_mE694387DB5343C9C0EE9B4733823BDCF6E23BE9E (void);
-// 0x000000A9 System.Void AndroidDebug::Start()
+// 0x000000C3 System.Void AndroidDebug::Start()
 extern void AndroidDebug_Start_m4822C284DF77837C5F7CCF2C249B512BE7E9A0DA (void);
-// 0x000000AA System.Void AndroidDebug::AddLog(System.String)
+// 0x000000C4 System.Void AndroidDebug::AddLog(System.String)
 extern void AndroidDebug_AddLog_mB37963CD21A7C3179928879836B47151B553207D (void);
-// 0x000000AB System.Void AndroidDebug::onResultCallback(System.String)
+// 0x000000C5 System.Void AndroidDebug::onResultCallback(System.String)
 extern void AndroidDebug_onResultCallback_mAD100BB8B969A1537D491A22ED15C0B467142862 (void);
-// 0x000000AC System.Void AndroidDebug::onReadyForSpeechCallback(System.String)
+// 0x000000C6 System.Void AndroidDebug::onReadyForSpeechCallback(System.String)
 extern void AndroidDebug_onReadyForSpeechCallback_m4965D3E224891C1250C1B6AF7AA3751659FEB0FE (void);
-// 0x000000AD System.Void AndroidDebug::onEndOfSpeechCallback()
+// 0x000000C7 System.Void AndroidDebug::onEndOfSpeechCallback()
 extern void AndroidDebug_onEndOfSpeechCallback_m43F57FDE9C6768A19411818D1855889CFC85C57A (void);
-// 0x000000AE System.Void AndroidDebug::onRmsChangedCallback(System.Single)
+// 0x000000C8 System.Void AndroidDebug::onRmsChangedCallback(System.Single)
 extern void AndroidDebug_onRmsChangedCallback_mF4D118FB9ADB5C2BDC1359F5EAA1E810F83EE827 (void);
-// 0x000000AF System.Void AndroidDebug::onBeginningOfSpeechCallback()
+// 0x000000C9 System.Void AndroidDebug::onBeginningOfSpeechCallback()
 extern void AndroidDebug_onBeginningOfSpeechCallback_mD61E1D1C870F83747C1B5BD442E3395C470812C7 (void);
-// 0x000000B0 System.Void AndroidDebug::onErrorCallback(System.String)
+// 0x000000CA System.Void AndroidDebug::onErrorCallback(System.String)
 extern void AndroidDebug_onErrorCallback_m0210A74AB99B237CA03C2A33306282BD15376480 (void);
-// 0x000000B1 System.Void AndroidDebug::onPartialResultsCallback(System.String)
+// 0x000000CB System.Void AndroidDebug::onPartialResultsCallback(System.String)
 extern void AndroidDebug_onPartialResultsCallback_m8B19C16D7AE6B1EA9BE3535418701C0EC05F77DF (void);
-// 0x000000B2 System.Void AndroidDebug::.ctor()
+// 0x000000CC System.Void AndroidDebug::.ctor()
 extern void AndroidDebug__ctor_m3A6795ADA5CB965D80A98D98A5BAE135F79EDB1E (void);
-// 0x000000B3 System.Void RotateAnim::Update()
+// 0x000000CD System.Void RotateAnim::Update()
 extern void RotateAnim_Update_m111DC060B09DC4ABABCE1E48EAC4B7925FA908C4 (void);
-// 0x000000B4 System.Void RotateAnim::.ctor()
+// 0x000000CE System.Void RotateAnim::.ctor()
 extern void RotateAnim__ctor_mDFD9F157B4A5B2C2FCC862FC4CFD592C0AA3488D (void);
-// 0x000000B5 System.Void SampleSpeechToText::Start()
+// 0x000000CF System.Void SampleSpeechToText::Start()
 extern void SampleSpeechToText_Start_m5E89302E144C48D9C1A1D2F93998A8316CF6D9A3 (void);
-// 0x000000B6 System.Void SampleSpeechToText::StartRecording()
+// 0x000000D0 System.Void SampleSpeechToText::StartRecording()
 extern void SampleSpeechToText_StartRecording_m059A3F1D01D2A8414FAA68A0A07D1523D29916C7 (void);
-// 0x000000B7 System.Void SampleSpeechToText::StopRecording()
+// 0x000000D1 System.Void SampleSpeechToText::StopRecording()
 extern void SampleSpeechToText_StopRecording_m362CD67DA4DD474FBB9A7047A43B9E778DA8481B (void);
-// 0x000000B8 System.Void SampleSpeechToText::OnResultSpeech(System.String)
+// 0x000000D2 System.Void SampleSpeechToText::OnResultSpeech(System.String)
 extern void SampleSpeechToText_OnResultSpeech_m65B1CF4F51224F5B6FD1FC76A35CC1650A657AC2 (void);
-// 0x000000B9 System.Void SampleSpeechToText::OnClickSpeak()
+// 0x000000D3 System.Void SampleSpeechToText::OnClickSpeak()
 extern void SampleSpeechToText_OnClickSpeak_m5D081F15A83024A65D1A83B926E61CF3E1699C86 (void);
-// 0x000000BA System.Void SampleSpeechToText::OnClickStopSpeak()
+// 0x000000D4 System.Void SampleSpeechToText::OnClickStopSpeak()
 extern void SampleSpeechToText_OnClickStopSpeak_m902678DC55BFA10920729F5EBD9A3DDE382FE2F9 (void);
-// 0x000000BB System.Void SampleSpeechToText::Setting(System.String)
+// 0x000000D5 System.Void SampleSpeechToText::Setting(System.String)
 extern void SampleSpeechToText_Setting_m90A675D5580BA4011341FBD301DCB13493C38ABC (void);
-// 0x000000BC System.Void SampleSpeechToText::OnClickApply()
+// 0x000000D6 System.Void SampleSpeechToText::OnClickApply()
 extern void SampleSpeechToText_OnClickApply_m62918FA0B17EF19ECDB4B2DEC81FFC6DFE0022B9 (void);
-// 0x000000BD System.Void SampleSpeechToText::.ctor()
+// 0x000000D7 System.Void SampleSpeechToText::.ctor()
 extern void SampleSpeechToText__ctor_mE1E3B8C96881BB2E726E13FA373E7F10ECD17A5C (void);
-// 0x000000BE System.Void SpeechButton::Start()
+// 0x000000D8 System.Void SpeechButton::Start()
 extern void SpeechButton_Start_m0A82F6028517705BAAA28B01A2F3C385EE4C08DF (void);
-// 0x000000BF System.Void SpeechButton::Update()
+// 0x000000D9 System.Void SpeechButton::Update()
 extern void SpeechButton_Update_mD076A40065B1FF1816C44E7A9D41FDB732B18529 (void);
-// 0x000000C0 System.Void SpeechButton::OnPointerDown(UnityEngine.EventSystems.PointerEventData)
+// 0x000000DA System.Void SpeechButton::OnPointerDown(UnityEngine.EventSystems.PointerEventData)
 extern void SpeechButton_OnPointerDown_m372F511219F4A37D3ACEE514926F91802B1A8AA1 (void);
-// 0x000000C1 System.Void SpeechButton::OnPointerUp(UnityEngine.EventSystems.PointerEventData)
+// 0x000000DB System.Void SpeechButton::OnPointerUp(UnityEngine.EventSystems.PointerEventData)
 extern void SpeechButton_OnPointerUp_m96CC945827D644DC454A3E249ED869D5BD39A58E (void);
-// 0x000000C2 System.Void SpeechButton::.ctor()
+// 0x000000DC System.Void SpeechButton::.ctor()
 extern void SpeechButton__ctor_m83CCA24A8022675FBE2F4E2E0EC5B5AF62F0F138 (void);
-// 0x000000C3 TextSpeech.SpeechToText TextSpeech.SpeechToText::get_instance()
+// 0x000000DD TextSpeech.SpeechToText TextSpeech.SpeechToText::get_instance()
 extern void SpeechToText_get_instance_mEBD205BF2F02505AEFF9DB6A0488C512451C82A0 (void);
-// 0x000000C4 System.Void TextSpeech.SpeechToText::Init()
+// 0x000000DE System.Void TextSpeech.SpeechToText::Init()
 extern void SpeechToText_Init_m17F2B19E53B1743C62A9475AFB70D2927E22D573 (void);
-// 0x000000C5 System.Void TextSpeech.SpeechToText::Awake()
+// 0x000000DF System.Void TextSpeech.SpeechToText::Awake()
 extern void SpeechToText_Awake_m37C3645316DA324CACBAD2DFBDEE9AB60EDB1FBA (void);
-// 0x000000C6 System.Void TextSpeech.SpeechToText::Setting(System.String)
+// 0x000000E0 System.Void TextSpeech.SpeechToText::Setting(System.String)
 extern void SpeechToText_Setting_mAE3E71A064942397E752B8890E9CB6A5519A6A17 (void);
-// 0x000000C7 System.Void TextSpeech.SpeechToText::StartRecording(System.String)
+// 0x000000E1 System.Void TextSpeech.SpeechToText::StartRecording(System.String)
 extern void SpeechToText_StartRecording_m37A075A9904FAD1AA81C61B975BB5B4BC2BCA38B (void);
-// 0x000000C8 System.Void TextSpeech.SpeechToText::StopRecording()
+// 0x000000E2 System.Void TextSpeech.SpeechToText::StopRecording()
 extern void SpeechToText_StopRecording_mD04397264A0D0EB68B7EDB340F34C236414D695E (void);
-// 0x000000C9 System.Void TextSpeech.SpeechToText::onMessage(System.String)
+// 0x000000E3 System.Void TextSpeech.SpeechToText::onMessage(System.String)
 extern void SpeechToText_onMessage_m41B2F4671E9CEF5E626B58AF9CD4E999FAE280AE (void);
-// 0x000000CA System.Void TextSpeech.SpeechToText::onErrorMessage(System.String)
+// 0x000000E4 System.Void TextSpeech.SpeechToText::onErrorMessage(System.String)
 extern void SpeechToText_onErrorMessage_mFC0FF16443D932A5A685778E671B05BB3ACA8DCB (void);
-// 0x000000CB System.Void TextSpeech.SpeechToText::onResults(System.String)
+// 0x000000E5 System.Void TextSpeech.SpeechToText::onResults(System.String)
 extern void SpeechToText_onResults_m9CDA0A1123A0540F6AFED6CF88E1F8AD0293749C (void);
-// 0x000000CC System.String TextSpeech.SpeechToText::getErrorText(System.Int32)
+// 0x000000E6 System.String TextSpeech.SpeechToText::getErrorText(System.Int32)
 extern void SpeechToText_getErrorText_mE45F06BC7ABD2F5A9A6F3D16A83370CFC1F58E6B (void);
-// 0x000000CD System.Void TextSpeech.SpeechToText::onReadyForSpeech(System.String)
+// 0x000000E7 System.Void TextSpeech.SpeechToText::onReadyForSpeech(System.String)
 extern void SpeechToText_onReadyForSpeech_mD72920CDFD7A6248451E6E6D28481A8770D38A67 (void);
-// 0x000000CE System.Void TextSpeech.SpeechToText::onEndOfSpeech(System.String)
+// 0x000000E8 System.Void TextSpeech.SpeechToText::onEndOfSpeech(System.String)
 extern void SpeechToText_onEndOfSpeech_m611D5EA0A232C245167E97ACED07DF15C3A0EDE2 (void);
-// 0x000000CF System.Void TextSpeech.SpeechToText::onRmsChanged(System.String)
+// 0x000000E9 System.Void TextSpeech.SpeechToText::onRmsChanged(System.String)
 extern void SpeechToText_onRmsChanged_mF37D058AA749490117C41C6F3F87957AACE8DE3F (void);
-// 0x000000D0 System.Void TextSpeech.SpeechToText::onBeginningOfSpeech(System.String)
+// 0x000000EA System.Void TextSpeech.SpeechToText::onBeginningOfSpeech(System.String)
 extern void SpeechToText_onBeginningOfSpeech_mE8AB820DF522553BD9CC205986C243F857E44CEE (void);
-// 0x000000D1 System.Void TextSpeech.SpeechToText::onError(System.String)
+// 0x000000EB System.Void TextSpeech.SpeechToText::onError(System.String)
 extern void SpeechToText_onError_mD8468F85BE2B0A1515620D602A4033966E3A0D30 (void);
-// 0x000000D2 System.Void TextSpeech.SpeechToText::onPartialResults(System.String)
+// 0x000000EC System.Void TextSpeech.SpeechToText::onPartialResults(System.String)
 extern void SpeechToText_onPartialResults_m5FC1238FE736D6ADE358859BD26D4410FCE3969D (void);
-// 0x000000D3 System.Void TextSpeech.SpeechToText::.ctor()
+// 0x000000ED System.Void TextSpeech.SpeechToText::.ctor()
 extern void SpeechToText__ctor_m58604FCB643B33D6CD5936816FA681391839276B (void);
-// 0x000000D4 TextSpeech.TextToSpeech TextSpeech.TextToSpeech::get_instance()
+// 0x000000EE TextSpeech.TextToSpeech TextSpeech.TextToSpeech::get_instance()
 extern void TextToSpeech_get_instance_m62D88655AD238EAFAAD1E96C320444AB8DE95A74 (void);
-// 0x000000D5 System.Void TextSpeech.TextToSpeech::Init()
+// 0x000000EF System.Void TextSpeech.TextToSpeech::Init()
 extern void TextToSpeech_Init_m3C24FD7C7EDF5CC8EDF74086892C3B45CF071BF5 (void);
-// 0x000000D6 System.Void TextSpeech.TextToSpeech::Awake()
+// 0x000000F0 System.Void TextSpeech.TextToSpeech::Awake()
 extern void TextToSpeech_Awake_mC2672FC332510129EAC57AC484C4F147FE6F26F3 (void);
-// 0x000000D7 System.Void TextSpeech.TextToSpeech::Setting(System.String,System.Single,System.Single)
+// 0x000000F1 System.Void TextSpeech.TextToSpeech::Setting(System.String,System.Single,System.Single)
 extern void TextToSpeech_Setting_m5AF9C828CD94717BC6ACE546CAB6E6CC6133A852 (void);
-// 0x000000D8 System.Void TextSpeech.TextToSpeech::StartSpeak(System.String)
+// 0x000000F2 System.Void TextSpeech.TextToSpeech::StartSpeak(System.String)
 extern void TextToSpeech_StartSpeak_mD4D83D1458D15CA29AB711881FFAADD9888A8B13 (void);
-// 0x000000D9 System.Void TextSpeech.TextToSpeech::StopSpeak()
+// 0x000000F3 System.Void TextSpeech.TextToSpeech::StopSpeak()
 extern void TextToSpeech_StopSpeak_m9C07C9237F4677C2D586769ACBEB9EE76F2AE4C7 (void);
-// 0x000000DA System.Void TextSpeech.TextToSpeech::onSpeechRange(System.String)
+// 0x000000F4 System.Void TextSpeech.TextToSpeech::onSpeechRange(System.String)
 extern void TextToSpeech_onSpeechRange_mE2CEDF8B552C4CD9B020A4A9CA9E8CCA211FB8BF (void);
-// 0x000000DB System.Void TextSpeech.TextToSpeech::onStart(System.String)
+// 0x000000F5 System.Void TextSpeech.TextToSpeech::onStart(System.String)
 extern void TextToSpeech_onStart_m5BE7ED24FFCC4B7156E602166E5C02E98A4B68E7 (void);
-// 0x000000DC System.Void TextSpeech.TextToSpeech::onDone(System.String)
+// 0x000000F6 System.Void TextSpeech.TextToSpeech::onDone(System.String)
 extern void TextToSpeech_onDone_m054A4EBB55738FACB0850D101DDCD75BAE75E4C6 (void);
-// 0x000000DD System.Void TextSpeech.TextToSpeech::onError(System.String)
+// 0x000000F7 System.Void TextSpeech.TextToSpeech::onError(System.String)
 extern void TextToSpeech_onError_mF8003FB4A687039E13C9651D32C4A282128DEDA0 (void);
-// 0x000000DE System.Void TextSpeech.TextToSpeech::onMessage(System.String)
+// 0x000000F8 System.Void TextSpeech.TextToSpeech::onMessage(System.String)
 extern void TextToSpeech_onMessage_m878989CF5FCA5B554EB70D8F4CA66D69CB53CD50 (void);
-// 0x000000DF System.Void TextSpeech.TextToSpeech::onSettingResult(System.String)
+// 0x000000F9 System.Void TextSpeech.TextToSpeech::onSettingResult(System.String)
 extern void TextToSpeech_onSettingResult_mFFA1CA90EFA4589AA8F1D4D17B22D0595E416B46 (void);
-// 0x000000E0 System.Void TextSpeech.TextToSpeech::.ctor()
+// 0x000000FA System.Void TextSpeech.TextToSpeech::.ctor()
 extern void TextToSpeech__ctor_mCDBD004B621E2A1386AFDC13416A115CCE2A9F49 (void);
-// 0x000000E1 System.Void QRFoundation.WidthMapping::.ctor()
+// 0x000000FB System.Void QRFoundation.WidthMapping::.ctor()
 extern void WidthMapping__ctor_m943441D289FEA816C6D6FC259784BBDE54D838E6 (void);
-// 0x000000E2 System.Void QRFoundation.OnCodeDetectedEvent::.ctor()
+// 0x000000FC System.Void QRFoundation.OnCodeDetectedEvent::.ctor()
 extern void OnCodeDetectedEvent__ctor_m64F963122604FAFCC3B46D3208FB05A4F605CF43 (void);
-// 0x000000E3 System.Void QRFoundation.OnCodeLostEvent::.ctor()
+// 0x000000FD System.Void QRFoundation.OnCodeLostEvent::.ctor()
 extern void OnCodeLostEvent__ctor_m6693D65B5F035436F039D2D5E8B1B7D02A26E1CF (void);
-// 0x000000E4 System.Void QRFoundation.OnStabilizeFailure::.ctor()
+// 0x000000FE System.Void QRFoundation.OnStabilizeFailure::.ctor()
 extern void OnStabilizeFailure__ctor_m683309C1D00B5234986589A4415A0BCB13292A20 (void);
-// 0x000000E5 System.Void QRFoundation.OnCodeRegisteredEvent::.ctor()
+// 0x000000FF System.Void QRFoundation.OnCodeRegisteredEvent::.ctor()
 extern void OnCodeRegisteredEvent__ctor_mF2B90B7765EEBC6420B6D7C66F710BF11734EEB8 (void);
-// 0x000000E6 System.Void QRFoundation.OnPoseRegisteredEvent::.ctor()
+// 0x00000100 System.Void QRFoundation.OnPoseRegisteredEvent::.ctor()
 extern void OnPoseRegisteredEvent__ctor_m952076063BB4BC3E644231953E1059CF29FC1E10 (void);
-// 0x000000E7 System.Void QRFoundation.GetWidthDelegate::.ctor(System.Object,System.IntPtr)
+// 0x00000101 System.Void QRFoundation.GetWidthDelegate::.ctor(System.Object,System.IntPtr)
 extern void GetWidthDelegate__ctor_m1B7DCF78AF0473587C3D0AC2B71D69939A70F888 (void);
-// 0x000000E8 System.Single QRFoundation.GetWidthDelegate::Invoke(System.String)
+// 0x00000102 System.Single QRFoundation.GetWidthDelegate::Invoke(System.String)
 extern void GetWidthDelegate_Invoke_m61283252767EC08EEB459885D90B927FCF00D89C (void);
-// 0x000000E9 System.IAsyncResult QRFoundation.GetWidthDelegate::BeginInvoke(System.String,System.AsyncCallback,System.Object)
+// 0x00000103 System.IAsyncResult QRFoundation.GetWidthDelegate::BeginInvoke(System.String,System.AsyncCallback,System.Object)
 extern void GetWidthDelegate_BeginInvoke_m80C3FBC915F907B2782CD821D6BDF4F582F3B9FA (void);
-// 0x000000EA System.Single QRFoundation.GetWidthDelegate::EndInvoke(System.IAsyncResult)
+// 0x00000104 System.Single QRFoundation.GetWidthDelegate::EndInvoke(System.IAsyncResult)
 extern void GetWidthDelegate_EndInvoke_m99FADD0CE38479D3DE9A8BA4FED280CCA128B707 (void);
-// 0x000000EB System.Void QRFoundation.GetWidthAndOffsetDelegate::.ctor(System.Object,System.IntPtr)
+// 0x00000105 System.Void QRFoundation.GetWidthAndOffsetDelegate::.ctor(System.Object,System.IntPtr)
 extern void GetWidthAndOffsetDelegate__ctor_m62C5CBCC29A2CB8A3EE9A8C14C846FEDBFE34143 (void);
-// 0x000000EC System.Void QRFoundation.GetWidthAndOffsetDelegate::Invoke(System.String,UnityEngine.Pose&,System.Single&,System.Int32&,System.String&)
+// 0x00000106 System.Void QRFoundation.GetWidthAndOffsetDelegate::Invoke(System.String,UnityEngine.Pose&,System.Single&,System.Int32&,System.String&)
 extern void GetWidthAndOffsetDelegate_Invoke_m22CABF797DD6BC05EBE3CC74162DDD3AFE9B2027 (void);
-// 0x000000ED System.IAsyncResult QRFoundation.GetWidthAndOffsetDelegate::BeginInvoke(System.String,UnityEngine.Pose&,System.Single&,System.Int32&,System.String&,System.AsyncCallback,System.Object)
+// 0x00000107 System.IAsyncResult QRFoundation.GetWidthAndOffsetDelegate::BeginInvoke(System.String,UnityEngine.Pose&,System.Single&,System.Int32&,System.String&,System.AsyncCallback,System.Object)
 extern void GetWidthAndOffsetDelegate_BeginInvoke_m6D53C18F68B2C8CA74D5AAC84B09E648118CA4F6 (void);
-// 0x000000EE System.Void QRFoundation.GetWidthAndOffsetDelegate::EndInvoke(UnityEngine.Pose&,System.Single&,System.Int32&,System.String&,System.IAsyncResult)
+// 0x00000108 System.Void QRFoundation.GetWidthAndOffsetDelegate::EndInvoke(UnityEngine.Pose&,System.Single&,System.Int32&,System.String&,System.IAsyncResult)
 extern void GetWidthAndOffsetDelegate_EndInvoke_m30A0D1B5610236F200E5FBCC23D0C77B930B1447 (void);
-// 0x000000EF QRFoundation.TrackingState QRFoundation.QRCodeTracker::get_trackingState()
+// 0x00000109 QRFoundation.TrackingState QRFoundation.QRCodeTracker::get_trackingState()
 extern void QRCodeTracker_get_trackingState_m0721C290A99FB8C95CAE7343E31B03750CF722F2 (void);
-// 0x000000F0 System.Void QRFoundation.QRCodeTracker::set_trackingState(QRFoundation.TrackingState)
+// 0x0000010A System.Void QRFoundation.QRCodeTracker::set_trackingState(QRFoundation.TrackingState)
 extern void QRCodeTracker_set_trackingState_m4CBD76D03216602417EDD47A970109E8999A635D (void);
-// 0x000000F1 UnityEngine.Pose QRFoundation.QRCodeTracker::get_intermediate()
+// 0x0000010B UnityEngine.Pose QRFoundation.QRCodeTracker::get_intermediate()
 extern void QRCodeTracker_get_intermediate_mF4B96BCC3D1E7CF195B0F0E903FAB0EFDAE1D686 (void);
-// 0x000000F2 System.Void QRFoundation.QRCodeTracker::set_intermediate(UnityEngine.Pose)
+// 0x0000010C System.Void QRFoundation.QRCodeTracker::set_intermediate(UnityEngine.Pose)
 extern void QRCodeTracker_set_intermediate_m6D736B7AB0E77F6BC5B560EA629A9F581F26D211 (void);
-// 0x000000F3 UnityEngine.Pose QRFoundation.QRCodeTracker::get_intermediateSmoothed()
+// 0x0000010D UnityEngine.Pose QRFoundation.QRCodeTracker::get_intermediateSmoothed()
 extern void QRCodeTracker_get_intermediateSmoothed_mA0D0D93B5974328001405DB6BE7614496592886E (void);
-// 0x000000F4 System.Void QRFoundation.QRCodeTracker::set_intermediateSmoothed(UnityEngine.Pose)
+// 0x0000010E System.Void QRFoundation.QRCodeTracker::set_intermediateSmoothed(UnityEngine.Pose)
 extern void QRCodeTracker_set_intermediateSmoothed_m501E006F12024A6C9550FF9E75BB9A408FA17745 (void);
-// 0x000000F5 UnityEngine.Pose QRFoundation.QRCodeTracker::get_registeredPose()
+// 0x0000010F UnityEngine.Pose QRFoundation.QRCodeTracker::get_registeredPose()
 extern void QRCodeTracker_get_registeredPose_mE7C5ACA91BD3666FC4947CAC587A75BB92182C6E (void);
-// 0x000000F6 System.Void QRFoundation.QRCodeTracker::set_registeredPose(UnityEngine.Pose)
+// 0x00000110 System.Void QRFoundation.QRCodeTracker::set_registeredPose(UnityEngine.Pose)
 extern void QRCodeTracker_set_registeredPose_mAF34BB09B170DBA00706304714D1CA850DE32315 (void);
-// 0x000000F7 System.String QRFoundation.QRCodeTracker::get_registeredString()
+// 0x00000111 System.String QRFoundation.QRCodeTracker::get_registeredString()
 extern void QRCodeTracker_get_registeredString_m918BB26C6A6C52510A4CB8535F1FBBAFF3F2CC63 (void);
-// 0x000000F8 System.Void QRFoundation.QRCodeTracker::set_registeredString(System.String)
+// 0x00000112 System.Void QRFoundation.QRCodeTracker::set_registeredString(System.String)
 extern void QRCodeTracker_set_registeredString_m446529C9415993955ABA03BE5B4A23435A549F73 (void);
-// 0x000000F9 System.Single QRFoundation.QRCodeTracker::get_lastWidth()
+// 0x00000113 System.Single QRFoundation.QRCodeTracker::get_lastWidth()
 extern void QRCodeTracker_get_lastWidth_mCE24FDCC4BBF7CDB49C0142D30F6363A99EFD7BA (void);
-// 0x000000FA System.Void QRFoundation.QRCodeTracker::set_lastWidth(System.Single)
+// 0x00000114 System.Void QRFoundation.QRCodeTracker::set_lastWidth(System.Single)
 extern void QRCodeTracker_set_lastWidth_mC4BD9B2F4C7D95DB88366B3D387C77EE58BF0A20 (void);
-// 0x000000FB System.Void QRFoundation.QRCodeTracker::Start()
+// 0x00000115 System.Void QRFoundation.QRCodeTracker::Start()
 extern void QRCodeTracker_Start_mA48A7FC6E1B956B82348919D53730EE0CBDF2AB3 (void);
-// 0x000000FC System.Void QRFoundation.QRCodeTracker::Reset()
+// 0x00000116 System.Void QRFoundation.QRCodeTracker::Reset()
 extern void QRCodeTracker_Reset_m2CB4C726FAE6678281B9602D4F8F176B0F4414B5 (void);
-// 0x000000FD System.Void QRFoundation.QRCodeTracker::ResetSamples()
+// 0x00000117 System.Void QRFoundation.QRCodeTracker::ResetSamples()
 extern void QRCodeTracker_ResetSamples_m93F1D68CFA9D58601C74CB8578741052DC295FDE (void);
-// 0x000000FE System.Void QRFoundation.QRCodeTracker::Update()
+// 0x00000118 System.Void QRFoundation.QRCodeTracker::Update()
 extern void QRCodeTracker_Update_mD0821A635D423211E0E573680BDE43C6195A0EB4 (void);
-// 0x000000FF System.Void QRFoundation.QRCodeTracker::SearchStep()
+// 0x00000119 System.Void QRFoundation.QRCodeTracker::SearchStep()
 extern void QRCodeTracker_SearchStep_m5970E3F6666B91C9519C0CC6D40D727AAA108E7F (void);
-// 0x00000100 System.Void QRFoundation.QRCodeTracker::StabilizeStep()
+// 0x0000011A System.Void QRFoundation.QRCodeTracker::StabilizeStep()
 extern void QRCodeTracker_StabilizeStep_m929D04E376FB34D2FBFCC61B6E121BC79A539954 (void);
-// 0x00000101 System.Void QRFoundation.QRCodeTracker::RefineStep()
+// 0x0000011B System.Void QRFoundation.QRCodeTracker::RefineStep()
 extern void QRCodeTracker_RefineStep_m9380733287964DF2D38BFC3C537B268D1E702088 (void);
-// 0x00000102 System.Void QRFoundation.QRCodeTracker::RecordSample(System.Action`1<System.Boolean>)
+// 0x0000011C System.Void QRFoundation.QRCodeTracker::RecordSample(System.Action`1<System.Boolean>)
 extern void QRCodeTracker_RecordSample_m1F6D8828C349F0EE3E32C495EF068929417809CA (void);
-// 0x00000103 System.Void QRFoundation.QRCodeTracker::OnGUI()
+// 0x0000011D System.Void QRFoundation.QRCodeTracker::OnGUI()
 extern void QRCodeTracker_OnGUI_m973764E471CA9088721BFACE88CD08BDDEDA1875 (void);
-// 0x00000104 UnityEngine.Pose QRFoundation.QRCodeTracker::Smoothed(System.Single&)
+// 0x0000011E UnityEngine.Pose QRFoundation.QRCodeTracker::Smoothed(System.Single&)
 extern void QRCodeTracker_Smoothed_m21233D16F3F63D90022183498B29175BEA0C13CC (void);
-// 0x00000105 System.Void QRFoundation.QRCodeTracker::Unregister()
+// 0x0000011F System.Void QRFoundation.QRCodeTracker::Unregister()
 extern void QRCodeTracker_Unregister_mCCD031CDF5CC19DFB1D7BA5B3EEF848BB54C4249 (void);
-// 0x00000106 System.Void QRFoundation.QRCodeTracker::Register(UnityEngine.Pose,System.String)
+// 0x00000120 System.Void QRFoundation.QRCodeTracker::Register(UnityEngine.Pose,System.String)
 extern void QRCodeTracker_Register_m7AF4698BBCC3259A8404C6291968BDAC69AF0A1F (void);
-// 0x00000107 UnityEngine.Texture2D QRFoundation.QRCodeTracker::RTImage(QRFoundation.AABB,QRFoundation.AABB)
+// 0x00000121 UnityEngine.Texture2D QRFoundation.QRCodeTracker::RTImage(QRFoundation.AABB,QRFoundation.AABB)
 extern void QRCodeTracker_RTImage_m655E482E7946EE05605549E815BFD9A6BF7F8E8B (void);
-// 0x00000108 System.Void QRFoundation.QRCodeTracker::.ctor()
+// 0x00000122 System.Void QRFoundation.QRCodeTracker::.ctor()
 extern void QRCodeTracker__ctor_m88782F64998FEEFE8DB7D764648EE78A512C5B77 (void);
-// 0x00000109 System.Void QRFoundation.QRCodeTracker::<SearchStep>b__87_0(System.Boolean)
+// 0x00000123 System.Void QRFoundation.QRCodeTracker::<SearchStep>b__87_0(System.Boolean)
 extern void QRCodeTracker_U3CSearchStepU3Eb__87_0_mDC3C385BB2D5F122BD7F0FFBCD5B8A6D3D31D520 (void);
-// 0x0000010A System.Void QRFoundation.QRCodeTracker::<StabilizeStep>b__88_0(System.Boolean)
+// 0x00000124 System.Void QRFoundation.QRCodeTracker::<StabilizeStep>b__88_0(System.Boolean)
 extern void QRCodeTracker_U3CStabilizeStepU3Eb__88_0_mCE482C6DDBD0A43361DB9FFDD91D5811A4B901ED (void);
-// 0x0000010B System.Single QRFoundation.QRCodeTracker/PoseResult::Difference(QRFoundation.QRCodeTracker/PoseResult,QRFoundation.QRCodeTracker/PoseResult)
+// 0x00000125 System.Single QRFoundation.QRCodeTracker/PoseResult::Difference(QRFoundation.QRCodeTracker/PoseResult,QRFoundation.QRCodeTracker/PoseResult)
 extern void PoseResult_Difference_mD3629A16E3C296099AC5ED9A0E7298AAF67DEE5B (void);
-// 0x0000010C System.Void QRFoundation.QRCodeTracker/<>c__DisplayClass89_0::.ctor()
+// 0x00000126 System.Void QRFoundation.QRCodeTracker/<>c__DisplayClass89_0::.ctor()
 extern void U3CU3Ec__DisplayClass89_0__ctor_m2291AA015B76F7CAE53F46745E2C8A66C1686DE5 (void);
-// 0x0000010D System.Void QRFoundation.QRCodeTracker/<>c__DisplayClass89_0::<RefineStep>b__0(System.Boolean)
+// 0x00000127 System.Void QRFoundation.QRCodeTracker/<>c__DisplayClass89_0::<RefineStep>b__0(System.Boolean)
 extern void U3CU3Ec__DisplayClass89_0_U3CRefineStepU3Eb__0_mD78F359203DAD7CEAAC21CB3E5E537C4446B72CA (void);
-// 0x0000010E System.Void QRFoundation.QRCodeTracker/<>c__DisplayClass90_0::.ctor()
+// 0x00000128 System.Void QRFoundation.QRCodeTracker/<>c__DisplayClass90_0::.ctor()
 extern void U3CU3Ec__DisplayClass90_0__ctor_m27DFEE0BC193FBF35AB08E42DE280B28EF2C2688 (void);
-// 0x0000010F System.Void QRFoundation.QRCodeTracker/<>c__DisplayClass90_0::<RecordSample>b__0(CSQR.QRScanResult)
+// 0x00000129 System.Void QRFoundation.QRCodeTracker/<>c__DisplayClass90_0::<RecordSample>b__0(CSQR.QRScanResult)
 extern void U3CU3Ec__DisplayClass90_0_U3CRecordSampleU3Eb__0_m2E6D442D17B369F6BBA569AE59A34C374605CF32 (void);
-// 0x00000110 System.Void QRFoundation.QRCodeTracker/<>c__DisplayClass90_1::.ctor()
+// 0x0000012A System.Void QRFoundation.QRCodeTracker/<>c__DisplayClass90_1::.ctor()
 extern void U3CU3Ec__DisplayClass90_1__ctor_mD5B4601F4E0AD712E6765FAA06E96D52D6F25612 (void);
-// 0x00000111 System.Void QRFoundation.QRCodeTracker/<>c__DisplayClass90_1::<RecordSample>b__1()
+// 0x0000012B System.Void QRFoundation.QRCodeTracker/<>c__DisplayClass90_1::<RecordSample>b__1()
 extern void U3CU3Ec__DisplayClass90_1_U3CRecordSampleU3Eb__1_mCBBA2AFE1800DE361D08838E381C28499B266B56 (void);
-// 0x00000112 System.Void QRFoundation.QRCodeTracker/<>c::.cctor()
+// 0x0000012C System.Void QRFoundation.QRCodeTracker/<>c::.cctor()
 extern void U3CU3Ec__cctor_m054701E5919D5D7C730637E78456E76AF4C98AB5 (void);
-// 0x00000113 System.Void QRFoundation.QRCodeTracker/<>c::.ctor()
+// 0x0000012D System.Void QRFoundation.QRCodeTracker/<>c::.ctor()
 extern void U3CU3Ec__ctor_m8F8E437648EEE3E67C1E50FC018D7E32731ADEF9 (void);
-// 0x00000114 System.Int32 QRFoundation.QRCodeTracker/<>c::<RecordSample>b__90_2(QRFoundation.QRCodeTracker/PoseResult,QRFoundation.QRCodeTracker/PoseResult)
+// 0x0000012E System.Int32 QRFoundation.QRCodeTracker/<>c::<RecordSample>b__90_2(QRFoundation.QRCodeTracker/PoseResult,QRFoundation.QRCodeTracker/PoseResult)
 extern void U3CU3Ec_U3CRecordSampleU3Eb__90_2_mBF298C087BDEFCCCD952C7B719E056A0AB90F1AA (void);
-// 0x00000115 System.Int32 QRFoundation.AABB::get_w()
+// 0x0000012F System.Int32 QRFoundation.AABB::get_w()
 extern void AABB_get_w_mAA295D64064267E95000C9CFB96B80805981C032 (void);
-// 0x00000116 System.Int32 QRFoundation.AABB::get_h()
+// 0x00000130 System.Int32 QRFoundation.AABB::get_h()
 extern void AABB_get_h_m68180F951DCA916562C0779743F6F81AA9C5FE1F (void);
-// 0x00000117 System.Void QRFoundation.AABB::.ctor()
+// 0x00000131 System.Void QRFoundation.AABB::.ctor()
 extern void AABB__ctor_m3EB442531CEEACA1C6A1AF01A098813467C0DA70 (void);
-// 0x00000118 System.Void QRFoundation.AABB::.ctor(System.Int32,System.Int32)
+// 0x00000132 System.Void QRFoundation.AABB::.ctor(System.Int32,System.Int32)
 extern void AABB__ctor_m187FEA3FE7D700538C904AD956E64BF370052730 (void);
-// 0x00000119 System.Void QRFoundation.AABB::.ctor(System.Int32,System.Int32,System.Int32,System.Int32)
+// 0x00000133 System.Void QRFoundation.AABB::.ctor(System.Int32,System.Int32,System.Int32,System.Int32)
 extern void AABB__ctor_mE10D3364DB3AFF8C850D6D9C82CED4A06C1B0188 (void);
-// 0x0000011A System.Void QRFoundation.AABB::.ctor(QRFoundation.AABB)
+// 0x00000134 System.Void QRFoundation.AABB::.ctor(QRFoundation.AABB)
 extern void AABB__ctor_m0A09A85B24E1AD741C5CD24A6A169E094215CE47 (void);
-// 0x0000011B System.Void QRFoundation.AABB::Encapsulate(System.Int32,System.Int32)
+// 0x00000135 System.Void QRFoundation.AABB::Encapsulate(System.Int32,System.Int32)
 extern void AABB_Encapsulate_mCDF91947A58DC0D6F20D85CFB0B52823C0D55881 (void);
-// 0x0000011C UnityEngine.Rect QRFoundation.AABB::ToRect()
+// 0x00000136 UnityEngine.Rect QRFoundation.AABB::ToRect()
 extern void AABB_ToRect_mB4E0DBC65FBE28782C949DB7E6ACAD28729C89A6 (void);
-// 0x0000011D QRFoundation.AABB QRFoundation.AABB::op_Division(QRFoundation.AABB,System.Single)
+// 0x00000137 QRFoundation.AABB QRFoundation.AABB::op_Division(QRFoundation.AABB,System.Single)
 extern void AABB_op_Division_m95D58AE503543D3C298B754E590AEBF2A8275828 (void);
-// 0x0000011E QRFoundation.AABB QRFoundation.AABB::op_Multiply(QRFoundation.AABB,System.Single)
+// 0x00000138 QRFoundation.AABB QRFoundation.AABB::op_Multiply(QRFoundation.AABB,System.Single)
 extern void AABB_op_Multiply_mF1E92BA2B259991811D4637E4D4BAEAB36769DAB (void);
-// 0x0000011F System.String QRFoundation.AABB::ToString()
+// 0x00000139 System.String QRFoundation.AABB::ToString()
 extern void AABB_ToString_m4A861C04BCA2BA87381785714972FC6BC4503564 (void);
-// 0x00000120 UnityEngine.Vector3 QRFoundation.PNP::P3P(UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2,QRFoundation.ZOrder,UnityEngine.Camera)
+// 0x0000013A UnityEngine.Vector3 QRFoundation.PNP::P3P(UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2,QRFoundation.ZOrder,UnityEngine.Camera)
 extern void PNP_P3P_mCE7271FD6A38FA27755ED67575D66096144D516D (void);
-// 0x00000121 UnityEngine.Vector3 QRFoundation.PNP::P3PStabilized(UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Camera)
+// 0x0000013B UnityEngine.Vector3 QRFoundation.PNP::P3PStabilized(UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Camera)
 extern void PNP_P3PStabilized_mA5C88ED547E214843D86D937334805BD8DE355F7 (void);
-// 0x00000122 System.Collections.Generic.List`1<QRFoundation.QRCodeTracker/PoseResult> QRFoundation.PNP::PNPoses(CSQR.Sample[],System.Single,UnityEngine.Camera,UnityEngine.Pose)
+// 0x0000013C System.Collections.Generic.List`1<QRFoundation.QRCodeTracker/PoseResult> QRFoundation.PNP::PNPoses(CSQR.Sample[],System.Single,UnityEngine.Camera,UnityEngine.Pose)
 extern void PNP_PNPoses_m204F8D9D77F75AC740DB3843AD7F873DAC5DE43B (void);
-// 0x00000123 System.Collections.Generic.List`1<QRFoundation.QRCodeTracker/PoseResult> QRFoundation.PNP::RemoveOutliers(System.Collections.Generic.List`1<QRFoundation.QRCodeTracker/PoseResult>)
+// 0x0000013D System.Collections.Generic.List`1<QRFoundation.QRCodeTracker/PoseResult> QRFoundation.PNP::RemoveOutliers(System.Collections.Generic.List`1<QRFoundation.QRCodeTracker/PoseResult>)
 extern void PNP_RemoveOutliers_m6FBF74380A6A450D5624F28D91E6E92064C80C5B (void);
-// 0x00000124 System.Single QRFoundation.PNP::GetClusterDiameter(System.Collections.Generic.List`1<QRFoundation.QRCodeTracker/PoseResult>)
+// 0x0000013E System.Single QRFoundation.PNP::GetClusterDiameter(System.Collections.Generic.List`1<QRFoundation.QRCodeTracker/PoseResult>)
 extern void PNP_GetClusterDiameter_m598180326B80BF9AA9F79631B5236F433F38D953 (void);
-// 0x00000125 System.Boolean QRFoundation.PNP::ContainsMalformedCorner(UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2)
+// 0x0000013F System.Boolean QRFoundation.PNP::ContainsMalformedCorner(UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2)
 extern void PNP_ContainsMalformedCorner_m4EE7787049ECCAF13CDE7E068B3A6AB11C41D2D9 (void);
-// 0x00000126 CSQR.Sample QRFoundation.PNP::GetClosestSample(CSQR.Point,System.Collections.Generic.List`1<CSQR.Sample>,System.Single)
+// 0x00000140 CSQR.Sample QRFoundation.PNP::GetClosestSample(CSQR.Point,System.Collections.Generic.List`1<CSQR.Sample>,System.Single)
 extern void PNP_GetClosestSample_m3296983C1C4FC7B07E1C18C4792B257253B29C6D (void);
-// 0x00000127 QRFoundation.QRCodeTracker/PoseResult QRFoundation.PNP::CalcPose(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2,System.Single)
+// 0x00000141 QRFoundation.QRCodeTracker/PoseResult QRFoundation.PNP::CalcPose(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2,System.Single)
 extern void PNP_CalcPose_mEF1741002D5D7D0BB0A60188502CF0B2C3ADAF6E (void);
-// 0x00000128 QRFoundation.QRCodeTracker/PoseResult QRFoundation.PNP::ApplyOffset(QRFoundation.QRCodeTracker/PoseResult,UnityEngine.Pose)
+// 0x00000142 QRFoundation.QRCodeTracker/PoseResult QRFoundation.PNP::ApplyOffset(QRFoundation.QRCodeTracker/PoseResult,UnityEngine.Pose)
 extern void PNP_ApplyOffset_mB0591F77C4C251ADBDF0F3AA147BBF171924A644 (void);
-// 0x00000129 UnityEngine.Vector3 QRFoundation.PNP::Barycentric(UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2)
+// 0x00000143 UnityEngine.Vector3 QRFoundation.PNP::Barycentric(UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2)
 extern void PNP_Barycentric_mAA7DEE7723E0A7C4F2BC9CDEAFAA9CEC52DB5091 (void);
-// 0x0000012A System.Single QRFoundation.PNP::IntersectRaySphere(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,System.Single,System.Boolean)
+// 0x00000144 System.Single QRFoundation.PNP::IntersectRaySphere(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,System.Single,System.Boolean)
 extern void PNP_IntersectRaySphere_m7D2BEEDD664572C6B2109E2C8FB6AEF355622A87 (void);
-// 0x0000012B System.Void QRFoundation.PNP::.ctor()
+// 0x00000145 System.Void QRFoundation.PNP::.ctor()
 extern void PNP__ctor_m2A0834CDDA6ED11A462BDEB91C6D2236A52AC174 (void);
-// 0x0000012C System.Void QRFoundation.PNP::.cctor()
+// 0x00000146 System.Void QRFoundation.PNP::.cctor()
 extern void PNP__cctor_m79CADFC2FC60C6298E5BF73102CA434DAC583702 (void);
-// 0x0000012D System.Void CSQR.ScanFinishedCallback::.ctor(System.Object,System.IntPtr)
+// 0x00000147 System.Void CSQR.ScanFinishedCallback::.ctor(System.Object,System.IntPtr)
 extern void ScanFinishedCallback__ctor_m4E61D9E47A7B133F399D2BC37E5DE4409D0577A5 (void);
-// 0x0000012E System.Void CSQR.ScanFinishedCallback::Invoke(CSQR.QRScanResult)
+// 0x00000148 System.Void CSQR.ScanFinishedCallback::Invoke(CSQR.QRScanResult)
 extern void ScanFinishedCallback_Invoke_m96A9A04D45E7537EBFF0E7B8E6464593F8A2E731 (void);
-// 0x0000012F System.IAsyncResult CSQR.ScanFinishedCallback::BeginInvoke(CSQR.QRScanResult,System.AsyncCallback,System.Object)
+// 0x00000149 System.IAsyncResult CSQR.ScanFinishedCallback::BeginInvoke(CSQR.QRScanResult,System.AsyncCallback,System.Object)
 extern void ScanFinishedCallback_BeginInvoke_m20A832ECC3608FD67C61A06E20DF4CB4EB2CC329 (void);
-// 0x00000130 System.Void CSQR.ScanFinishedCallback::EndInvoke(System.IAsyncResult)
+// 0x0000014A System.Void CSQR.ScanFinishedCallback::EndInvoke(System.IAsyncResult)
 extern void ScanFinishedCallback_EndInvoke_m3CB34E4E4FD587EB2D0EBE5433FC6B4C34F05CF9 (void);
-// 0x00000131 System.Void CSQR.QRScanResult::.ctor(CSQR.QRLocation,CSQR.QRLocation,System.String,CSQR.Sample[],System.Boolean)
+// 0x0000014B System.Void CSQR.QRScanResult::.ctor(CSQR.QRLocation,CSQR.QRLocation,System.String,CSQR.Sample[],System.Boolean)
 extern void QRScanResult__ctor_m0EDC8B755DAEE44F34D79F83C6A4FC717079B0CD (void);
-// 0x00000132 CSQR.QRScanResult CSQR.CsQr::ScanZXing(UnityEngine.Color32[],System.Int32,System.Int32,System.Boolean)
+// 0x0000014C CSQR.QRScanResult CSQR.CsQr::ScanZXing(UnityEngine.Color32[],System.Int32,System.Int32,System.Boolean)
 extern void CsQr_ScanZXing_m026E2C4125FA12FBD0CE43F38F947D20C00A76A6 (void);
-// 0x00000133 System.Void CSQR.CsQr::ScanAsyncZXing(UnityEngine.Color32[],System.Int32,System.Int32,System.Boolean,CSQR.ScanFinishedCallback)
+// 0x0000014D System.Void CSQR.CsQr::ScanAsyncZXing(UnityEngine.Color32[],System.Int32,System.Int32,System.Boolean,CSQR.ScanFinishedCallback)
 extern void CsQr_ScanAsyncZXing_mF7278DBA9C921985AF071040E754D6233C2A150D (void);
-// 0x00000134 System.Void CSQR.CsQr::.ctor()
+// 0x0000014E System.Void CSQR.CsQr::.ctor()
 extern void CsQr__ctor_mC6AD06551A0A8445F17ED1A3CD3FD8AAC16B1FFC (void);
-// 0x00000135 System.Void CSQR.CsQr/<>c__DisplayClass0_0::.ctor()
+// 0x0000014F System.Void CSQR.CsQr/<>c__DisplayClass0_0::.ctor()
 extern void U3CU3Ec__DisplayClass0_0__ctor_m6B194BF5E9EF28F0EBB74AFB39469B69050EDE21 (void);
-// 0x00000136 ZXing.Binarizer CSQR.CsQr/<>c__DisplayClass0_0::<ScanZXing>b__1(ZXing.LuminanceSource)
+// 0x00000150 ZXing.Binarizer CSQR.CsQr/<>c__DisplayClass0_0::<ScanZXing>b__1(ZXing.LuminanceSource)
 extern void U3CU3Ec__DisplayClass0_0_U3CScanZXingU3Eb__1_mA798643AC0C24D3CCD6EC184A03FCBA9D4F78A51 (void);
-// 0x00000137 System.Void CSQR.CsQr/<>c::.cctor()
+// 0x00000151 System.Void CSQR.CsQr/<>c::.cctor()
 extern void U3CU3Ec__cctor_mEBC30F037E36F4A9D1BC1B8746929E8ED347B558 (void);
-// 0x00000138 System.Void CSQR.CsQr/<>c::.ctor()
+// 0x00000152 System.Void CSQR.CsQr/<>c::.ctor()
 extern void U3CU3Ec__ctor_m54F489F4F257ABFD7E417F5F1D7222FF2170EC64 (void);
-// 0x00000139 ZXing.LuminanceSource CSQR.CsQr/<>c::<ScanZXing>b__0_0(UnityEngine.Color32[],System.Int32,System.Int32)
+// 0x00000153 ZXing.LuminanceSource CSQR.CsQr/<>c::<ScanZXing>b__0_0(UnityEngine.Color32[],System.Int32,System.Int32)
 extern void U3CU3Ec_U3CScanZXingU3Eb__0_0_m260DD77971B0705960D0F3733C80A1A5FEBDDF8E (void);
-// 0x0000013A System.Void CSQR.CsQr/<>c__DisplayClass1_0::.ctor()
+// 0x00000154 System.Void CSQR.CsQr/<>c__DisplayClass1_0::.ctor()
 extern void U3CU3Ec__DisplayClass1_0__ctor_m98611B887E8C5B9877E1E6211BCC242AF3DBED87 (void);
-// 0x0000013B System.Void CSQR.CsQr/<>c__DisplayClass1_0::<ScanAsyncZXing>b__0()
+// 0x00000155 System.Void CSQR.CsQr/<>c__DisplayClass1_0::<ScanAsyncZXing>b__0()
 extern void U3CU3Ec__DisplayClass1_0_U3CScanAsyncZXingU3Eb__0_m05EF3171C7B41DB004FC132F9F50B614BD5615EE (void);
-// 0x0000013C System.Void CSQR.PerspectiveTransform::.ctor(System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double)
+// 0x00000156 System.Void CSQR.PerspectiveTransform::.ctor(System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double)
 extern void PerspectiveTransform__ctor_mAB0545DFFFAE86BB3E2258D0A34EB8178C22EFD6 (void);
-// 0x0000013D CSQR.PerspectiveTransform CSQR.Extractor::SquareToQuadrilateral(CSQR.Point,CSQR.Point,CSQR.Point,CSQR.Point)
+// 0x00000157 CSQR.PerspectiveTransform CSQR.Extractor::SquareToQuadrilateral(CSQR.Point,CSQR.Point,CSQR.Point,CSQR.Point)
 extern void Extractor_SquareToQuadrilateral_m48B5E9557F2C635E2737665B56E9BC6F9490FA94 (void);
-// 0x0000013E CSQR.PerspectiveTransform CSQR.Extractor::QuadrilateralToSquare(CSQR.Point,CSQR.Point,CSQR.Point,CSQR.Point)
+// 0x00000158 CSQR.PerspectiveTransform CSQR.Extractor::QuadrilateralToSquare(CSQR.Point,CSQR.Point,CSQR.Point,CSQR.Point)
 extern void Extractor_QuadrilateralToSquare_m2FE3C5AE0772FD904715B8A3A3B224B234352E46 (void);
-// 0x0000013F CSQR.PerspectiveTransform CSQR.Extractor::Times(CSQR.PerspectiveTransform,CSQR.PerspectiveTransform)
+// 0x00000159 CSQR.PerspectiveTransform CSQR.Extractor::Times(CSQR.PerspectiveTransform,CSQR.PerspectiveTransform)
 extern void Extractor_Times_m1A50099EBC3985587C968419213D43B6C273D012 (void);
-// 0x00000140 System.Void CSQR.Extractor::Extract(ZXing.Common.BitMatrix,CSQR.QRLocation,ZXing.Common.BitMatrix&,System.Func`2<CSQR.Point,CSQR.Point>&)
+// 0x0000015A System.Void CSQR.Extractor::Extract(ZXing.Common.BitMatrix,CSQR.QRLocation,ZXing.Common.BitMatrix&,System.Func`2<CSQR.Point,CSQR.Point>&)
 extern void Extractor_Extract_m7249770AFCDA3A4F95963341FDC31C7B8902E2AD (void);
-// 0x00000141 System.Void CSQR.Extractor::.ctor()
+// 0x0000015B System.Void CSQR.Extractor::.ctor()
 extern void Extractor__ctor_mBAF950B4B67C703887B1E4739879B97DA25A3796 (void);
-// 0x00000142 System.Void CSQR.Extractor/<>c__DisplayClass3_0::.ctor()
+// 0x0000015C System.Void CSQR.Extractor/<>c__DisplayClass3_0::.ctor()
 extern void U3CU3Ec__DisplayClass3_0__ctor_mDF7A52955C56B126EBF779E0152BC8589460391E (void);
-// 0x00000143 CSQR.Point CSQR.Extractor/<>c__DisplayClass3_0::<Extract>b__0(CSQR.Point)
+// 0x0000015D CSQR.Point CSQR.Extractor/<>c__DisplayClass3_0::<Extract>b__0(CSQR.Point)
 extern void U3CU3Ec__DisplayClass3_0_U3CExtractU3Eb__0_mF925884332074EB482111649902CB11899798FDF (void);
-// 0x00000144 System.Void CSQR.QRLocation::.ctor(CSQR.Point,CSQR.Point,CSQR.Point,CSQR.Point,System.Int32)
+// 0x0000015E System.Void CSQR.QRLocation::.ctor(CSQR.Point,CSQR.Point,CSQR.Point,CSQR.Point,System.Int32)
 extern void QRLocation__ctor_m324582263462D3F64ABB11B92516F4688BF82DCE (void);
-// 0x00000145 System.Void CSQR.Point::.ctor(System.Double,System.Double)
+// 0x0000015F System.Void CSQR.Point::.ctor(System.Double,System.Double)
 extern void Point__ctor_m7F5E86DED1C3D8BD36DA0DCF249CB6D90F675432 (void);
-// 0x00000146 System.Double CSQR.Point::Distance(CSQR.Point,CSQR.Point)
+// 0x00000160 System.Double CSQR.Point::Distance(CSQR.Point,CSQR.Point)
 extern void Point_Distance_m9F545DA03CCB9FE3447FFB5A7CDEE31B6B9D60D6 (void);
-// 0x00000147 System.String CSQR.Point::ToString()
+// 0x00000161 System.String CSQR.Point::ToString()
 extern void Point_ToString_mF55D2B55E40B0D33BB7FDBA15F1DBB077FB0C952 (void);
-// 0x00000148 System.Double CSQR.Locator::Sum(System.Double[])
+// 0x00000162 System.Double CSQR.Locator::Sum(System.Double[])
 extern void Locator_Sum_m9795930FB6125F55350C40F37FE92AFBBC359012 (void);
-// 0x00000149 System.Int32 CSQR.Locator::Sum(System.Int32[])
+// 0x00000163 System.Int32 CSQR.Locator::Sum(System.Int32[])
 extern void Locator_Sum_m03637A7D9817854FC8AE98FE1EE47D3F3299D7C1 (void);
-// 0x0000014A CSQR.Point[] CSQR.Locator::ReorderFinderPatterns(CSQR.Point,CSQR.Point,CSQR.Point)
+// 0x00000164 CSQR.Point[] CSQR.Locator::ReorderFinderPatterns(CSQR.Point,CSQR.Point,CSQR.Point)
 extern void Locator_ReorderFinderPatterns_mF983A21CA892CAF2A0FC058FB19F4D5DC7C01C0C (void);
-// 0x0000014B System.ValueTuple`2<System.Int32,System.Double> CSQR.Locator::ComputeDimension(CSQR.Point,CSQR.Point,CSQR.Point,ZXing.Common.BitMatrix)
+// 0x00000165 System.ValueTuple`2<System.Int32,System.Double> CSQR.Locator::ComputeDimension(CSQR.Point,CSQR.Point,CSQR.Point,ZXing.Common.BitMatrix)
 extern void Locator_ComputeDimension_m88195CDB8890040C5781777CE06A67A48F1CC20C (void);
-// 0x0000014C System.Collections.Generic.List`1<System.Double> CSQR.Locator::CountBlackWhiteRunTowardsPoint(CSQR.Point,CSQR.Point,ZXing.Common.BitMatrix,System.Int32)
+// 0x00000166 System.Collections.Generic.List`1<System.Double> CSQR.Locator::CountBlackWhiteRunTowardsPoint(CSQR.Point,CSQR.Point,ZXing.Common.BitMatrix,System.Int32)
 extern void Locator_CountBlackWhiteRunTowardsPoint_m8F497F7DD34578EA1393340B584363A507769750 (void);
-// 0x0000014D System.Double[] CSQR.Locator::CountBlackWhiteRun(CSQR.Point,CSQR.Point,ZXing.Common.BitMatrix,System.Int32)
+// 0x00000167 System.Double[] CSQR.Locator::CountBlackWhiteRun(CSQR.Point,CSQR.Point,ZXing.Common.BitMatrix,System.Int32)
 extern void Locator_CountBlackWhiteRun_m45AA1184F1188975CF385CA9BC8067C44F847158 (void);
-// 0x0000014E System.Double[] CSQR.Locator::ScoreBlackWhiteRun(System.Double[],System.Double[])
+// 0x00000168 System.Double[] CSQR.Locator::ScoreBlackWhiteRun(System.Double[],System.Double[])
 extern void Locator_ScoreBlackWhiteRun_m3C9C3DFE3405D3CFEFC63B4FB829518C4FB23CFF (void);
-// 0x0000014F System.Double CSQR.Locator::ScorePattern(CSQR.Point,System.Double[],ZXing.Common.BitMatrix)
+// 0x00000169 System.Double CSQR.Locator::ScorePattern(CSQR.Point,System.Double[],ZXing.Common.BitMatrix)
 extern void Locator_ScorePattern_mC463ED19C9362745AC2E77B2261AE09958EA2079 (void);
-// 0x00000150 CSQR.Point CSQR.Locator::EstimateAlignmentPattern(CSQR.Point,CSQR.Point,CSQR.Point,System.Double)
+// 0x0000016A CSQR.Point CSQR.Locator::EstimateAlignmentPattern(CSQR.Point,CSQR.Point,CSQR.Point,System.Double)
 extern void Locator_EstimateAlignmentPattern_mBAAD89E5F65086E16F1AB995202E953CB069FEC3 (void);
-// 0x00000151 System.Void CSQR.Locator::.ctor()
+// 0x0000016B System.Void CSQR.Locator::.ctor()
 extern void Locator__ctor_m4A3F2358FEBA4C597ECDB7C91CD05C70E1BECA50 (void);
-// 0x00000152 System.Void CSQR.Locator/Line::.ctor(System.Int32,System.Int32,System.Int32)
+// 0x0000016C System.Void CSQR.Locator/Line::.ctor(System.Int32,System.Int32,System.Int32)
 extern void Line__ctor_m91C72D6C71993F437B8F049FBDD6F96332716576 (void);
-// 0x00000153 System.Void CSQR.Locator/Quad::.ctor(CSQR.Locator/Line,CSQR.Locator/Line)
+// 0x0000016D System.Void CSQR.Locator/Quad::.ctor(CSQR.Locator/Line,CSQR.Locator/Line)
 extern void Quad__ctor_m4443837D74B8F6D317416ED36C299ECA2007D8D7 (void);
-// 0x00000154 System.Void CSQR.Locator/FinderPatternGroup::.ctor(System.Collections.Generic.List`1<CSQR.Locator/FinderPattern>,System.Double)
+// 0x0000016E System.Void CSQR.Locator/FinderPatternGroup::.ctor(System.Collections.Generic.List`1<CSQR.Locator/FinderPattern>,System.Double)
 extern void FinderPatternGroup__ctor_m070F80682E78F1D29B90D871BDE9EC5C28CAF353 (void);
-// 0x00000155 System.Void CSQR.Locator/FinderPattern::.ctor(System.Double,System.Double,System.Double,System.Double)
+// 0x0000016F System.Void CSQR.Locator/FinderPattern::.ctor(System.Double,System.Double,System.Double,System.Double)
 extern void FinderPattern__ctor_mD53EB182B90C7DD76272147D6F4E3DFAA9EAAA53 (void);
-// 0x00000156 System.Collections.Generic.List`1<T> CSQR.Extensions::Sorted(System.Collections.Generic.List`1<T>,System.Comparison`1<T>)
-// 0x00000157 T CSQR.Extensions::Min(System.Collections.Generic.List`1<T>,System.Comparison`1<T>)
-// 0x00000158 System.Collections.Generic.List`1<T> CSQR.Extensions::Snapshot(System.Collections.Generic.List`1<T>,System.Collections.Generic.List`1<T>&)
-// 0x00000159 T CSQR.LinkedListExtensions::Find(System.Collections.Generic.LinkedList`1<T>,System.Func`2<T,System.Boolean>)
-// 0x0000015A System.Collections.Generic.LinkedList`1<T> CSQR.LinkedListExtensions::FindAll(System.Collections.Generic.LinkedList`1<T>,System.Func`2<T,System.Boolean>)
-// 0x0000015B System.Void CSQR.LinkedListExtensions::DeleteAll(System.Collections.Generic.LinkedList`1<T>,System.Func`2<T,System.Boolean>)
-// 0x0000015C System.Void CSQR.LinkedListExtensions::ForEach(System.Collections.Generic.LinkedList`1<T>,System.Action`1<T>)
-// 0x0000015D System.Void CSQR.LinkedListExtensions::AppendRange(System.Collections.Generic.LinkedList`1<T>,System.Collections.Generic.IEnumerable`1<T>)
-// 0x0000015E System.Void CSQR.LinkedListExtensions::PrependRange(System.Collections.Generic.LinkedList`1<T>,System.Collections.Generic.IEnumerable`1<T>)
-// 0x0000015F System.Void CSQR.Sample::.ctor(CSQR.Point,CSQR.Point)
+// 0x00000170 System.Collections.Generic.List`1<T> CSQR.Extensions::Sorted(System.Collections.Generic.List`1<T>,System.Comparison`1<T>)
+// 0x00000171 T CSQR.Extensions::Min(System.Collections.Generic.List`1<T>,System.Comparison`1<T>)
+// 0x00000172 System.Collections.Generic.List`1<T> CSQR.Extensions::Snapshot(System.Collections.Generic.List`1<T>,System.Collections.Generic.List`1<T>&)
+// 0x00000173 T CSQR.LinkedListExtensions::Find(System.Collections.Generic.LinkedList`1<T>,System.Func`2<T,System.Boolean>)
+// 0x00000174 System.Collections.Generic.LinkedList`1<T> CSQR.LinkedListExtensions::FindAll(System.Collections.Generic.LinkedList`1<T>,System.Func`2<T,System.Boolean>)
+// 0x00000175 System.Void CSQR.LinkedListExtensions::DeleteAll(System.Collections.Generic.LinkedList`1<T>,System.Func`2<T,System.Boolean>)
+// 0x00000176 System.Void CSQR.LinkedListExtensions::ForEach(System.Collections.Generic.LinkedList`1<T>,System.Action`1<T>)
+// 0x00000177 System.Void CSQR.LinkedListExtensions::AppendRange(System.Collections.Generic.LinkedList`1<T>,System.Collections.Generic.IEnumerable`1<T>)
+// 0x00000178 System.Void CSQR.LinkedListExtensions::PrependRange(System.Collections.Generic.LinkedList`1<T>,System.Collections.Generic.IEnumerable`1<T>)
+// 0x00000179 System.Void CSQR.Sample::.ctor(CSQR.Point,CSQR.Point)
 extern void Sample__ctor_mBA5139B4E3201AA6177B87915A110FCFFE491A28 (void);
-// 0x00000160 System.Void CSQR.Sampler::.ctor(ZXing.Common.BitMatrix,ZXing.Common.BitMatrix,System.Func`2<CSQR.Point,CSQR.Point>)
+// 0x0000017A System.Void CSQR.Sampler::.ctor(ZXing.Common.BitMatrix,ZXing.Common.BitMatrix,System.Func`2<CSQR.Point,CSQR.Point>)
 extern void Sampler__ctor_mC9DA00DB6D4AF9CEE271C5E159366C3E4B8D7C70 (void);
-// 0x00000161 CSQR.Sample[] CSQR.Sampler::GetSamples(System.Int32)
+// 0x0000017B CSQR.Sample[] CSQR.Sampler::GetSamples(System.Int32)
 extern void Sampler_GetSamples_m2185B9FC028B512C61139FEB1107F43663A72E29 (void);
-// 0x00000162 System.Boolean CSQR.Sampler::TrySample(System.Int32,System.Int32,System.Int32,System.Collections.Generic.List`1<CSQR.Sample>)
+// 0x0000017C System.Boolean CSQR.Sampler::TrySample(System.Int32,System.Int32,System.Int32,System.Collections.Generic.List`1<CSQR.Sample>)
 extern void Sampler_TrySample_mB46F692206C0E4F3A8B7D517D97ED698E3C7A3AC (void);
-// 0x00000163 System.Void CSQR.StopWatch::.ctor(System.String)
+// 0x0000017D System.Void CSQR.StopWatch::.ctor(System.String)
 extern void StopWatch__ctor_mEAC66498E224C106330B80E6B591B1BF30F1D458 (void);
-// 0x00000164 System.Void CSQR.StopWatch::Start()
+// 0x0000017E System.Void CSQR.StopWatch::Start()
 extern void StopWatch_Start_m074790616FDAB060E86D68E28E4240F7182F571C (void);
-// 0x00000165 System.Void CSQR.StopWatch::Stop()
+// 0x0000017F System.Void CSQR.StopWatch::Stop()
 extern void StopWatch_Stop_m26DBC4C416DC04930C3BA43AE3A13B084B0039FB (void);
-// 0x00000166 System.Void CSQR.StopWatch::Reset()
+// 0x00000180 System.Void CSQR.StopWatch::Reset()
 extern void StopWatch_Reset_mBCFC9AFE00F422EEA6430D8C7700070C62CEBB64 (void);
-// 0x00000167 System.Void CSQR.StopWatch::Round()
+// 0x00000181 System.Void CSQR.StopWatch::Round()
 extern void StopWatch_Round_m929864D303796E4895577F5D9BC5E1283CC534E2 (void);
-// 0x00000168 System.Void CSQR.StopWatch::Round(System.String)
+// 0x00000182 System.Void CSQR.StopWatch::Round(System.String)
 extern void StopWatch_Round_m55198328344ED76202AAF6BF5EBFE0C770D9787D (void);
-// 0x00000169 System.Void CSQR.StopWatch::PrintResults()
+// 0x00000183 System.Void CSQR.StopWatch::PrintResults()
 extern void StopWatch_PrintResults_m5E5007253084C166B4039C3C0F499CD3EB639820 (void);
-// 0x0000016A pingak9.MobileDateTimePicker pingak9.MobileDateTimePicker::CreateDate(System.Int32,System.Int32,System.Int32,System.Action`1<System.DateTime>,System.Action`1<System.DateTime>)
+// 0x00000184 pingak9.MobileDateTimePicker pingak9.MobileDateTimePicker::CreateDate(System.Int32,System.Int32,System.Int32,System.Action`1<System.DateTime>,System.Action`1<System.DateTime>)
 extern void MobileDateTimePicker_CreateDate_m45503EE3E68D879128BF82012F3592BDB9051039 (void);
-// 0x0000016B pingak9.MobileDateTimePicker pingak9.MobileDateTimePicker::CreateTime(System.Action`1<System.DateTime>,System.Action`1<System.DateTime>)
+// 0x00000185 pingak9.MobileDateTimePicker pingak9.MobileDateTimePicker::CreateTime(System.Action`1<System.DateTime>,System.Action`1<System.DateTime>)
 extern void MobileDateTimePicker_CreateTime_m31178009267D70CC6F67653707B8A241912AFCEE (void);
-// 0x0000016C System.Void pingak9.MobileDateTimePicker::DateChangedEvent(System.String)
+// 0x00000186 System.Void pingak9.MobileDateTimePicker::DateChangedEvent(System.String)
 extern void MobileDateTimePicker_DateChangedEvent_m54DBB829B92729659B2C1878190AB7DD87A72016 (void);
-// 0x0000016D System.Void pingak9.MobileDateTimePicker::PickerClosedEvent(System.String)
+// 0x00000187 System.Void pingak9.MobileDateTimePicker::PickerClosedEvent(System.String)
 extern void MobileDateTimePicker_PickerClosedEvent_mFE0E7EDE3D252D5E8C2CFD8636454B27118D0E90 (void);
-// 0x0000016E System.Void pingak9.MobileDateTimePicker::.ctor()
+// 0x00000188 System.Void pingak9.MobileDateTimePicker::.ctor()
 extern void MobileDateTimePicker__ctor_m60B21BB5C2BE746637EA91DD40DCED8BE64DCC1E (void);
-// 0x0000016F pingak9.MobileDialogConfirm pingak9.MobileDialogConfirm::Create(System.String,System.String,System.String,System.String,System.Action,System.Action)
+// 0x00000189 pingak9.MobileDialogConfirm pingak9.MobileDialogConfirm::Create(System.String,System.String,System.String,System.String,System.Action,System.Action)
 extern void MobileDialogConfirm_Create_m2B457B7DA67F2380006FA47A4BC6AE72C067166A (void);
-// 0x00000170 System.Void pingak9.MobileDialogConfirm::init()
+// 0x0000018A System.Void pingak9.MobileDialogConfirm::init()
 extern void MobileDialogConfirm_init_m8258F8EB8157F784C36AD065954E9103D1A44270 (void);
-// 0x00000171 System.Void pingak9.MobileDialogConfirm::OnYesCallBack(System.String)
+// 0x0000018B System.Void pingak9.MobileDialogConfirm::OnYesCallBack(System.String)
 extern void MobileDialogConfirm_OnYesCallBack_mC3EB911CF3369C3DE3DC20014145F90F5285A986 (void);
-// 0x00000172 System.Void pingak9.MobileDialogConfirm::OnNoCallBack(System.String)
+// 0x0000018C System.Void pingak9.MobileDialogConfirm::OnNoCallBack(System.String)
 extern void MobileDialogConfirm_OnNoCallBack_m3263C2EC7DD32D7B442838DC2F5993A1B9BF3D2D (void);
-// 0x00000173 System.Void pingak9.MobileDialogConfirm::.ctor()
+// 0x0000018D System.Void pingak9.MobileDialogConfirm::.ctor()
 extern void MobileDialogConfirm__ctor_m97079572E4E5584828DB36830394AE1C84BE259B (void);
-// 0x00000174 pingak9.MobileDialogInfo pingak9.MobileDialogInfo::Create(System.String,System.String,System.String,System.Action)
+// 0x0000018E pingak9.MobileDialogInfo pingak9.MobileDialogInfo::Create(System.String,System.String,System.String,System.Action)
 extern void MobileDialogInfo_Create_m9EFED9542EDB33F150B0400C925C9E6DC9F81B51 (void);
-// 0x00000175 System.Void pingak9.MobileDialogInfo::init()
+// 0x0000018F System.Void pingak9.MobileDialogInfo::init()
 extern void MobileDialogInfo_init_mAE914A8FF5394CFED4DA156E7DC2B31A4E53E984 (void);
-// 0x00000176 System.Void pingak9.MobileDialogInfo::OnOkCallBack(System.String)
+// 0x00000190 System.Void pingak9.MobileDialogInfo::OnOkCallBack(System.String)
 extern void MobileDialogInfo_OnOkCallBack_mB6FDD94577AC879D8A470B73EEA1881693796AE2 (void);
-// 0x00000177 System.Void pingak9.MobileDialogInfo::.ctor()
+// 0x00000191 System.Void pingak9.MobileDialogInfo::.ctor()
 extern void MobileDialogInfo__ctor_m1898CC19005C90704B0D2C95B9AFB76D50E19B0D (void);
-// 0x00000178 pingak9.MobileDialogNeutral pingak9.MobileDialogNeutral::Create(System.String,System.String,System.String,System.String,System.String,System.Action,System.Action,System.Action)
+// 0x00000192 pingak9.MobileDialogNeutral pingak9.MobileDialogNeutral::Create(System.String,System.String,System.String,System.String,System.String,System.Action,System.Action,System.Action)
 extern void MobileDialogNeutral_Create_m62F562F3700F270375C571C59042DC9461A96D59 (void);
-// 0x00000179 System.Void pingak9.MobileDialogNeutral::init()
+// 0x00000193 System.Void pingak9.MobileDialogNeutral::init()
 extern void MobileDialogNeutral_init_m04F7A7702C1374C94BA470E61AA652E9B3868AC2 (void);
-// 0x0000017A System.Void pingak9.MobileDialogNeutral::OnAcceptCallBack(System.String)
+// 0x00000194 System.Void pingak9.MobileDialogNeutral::OnAcceptCallBack(System.String)
 extern void MobileDialogNeutral_OnAcceptCallBack_m9485ECF30A0BD06FFC720301D8F75E2D604CB361 (void);
-// 0x0000017B System.Void pingak9.MobileDialogNeutral::OnNeutralCallBack(System.String)
+// 0x00000195 System.Void pingak9.MobileDialogNeutral::OnNeutralCallBack(System.String)
 extern void MobileDialogNeutral_OnNeutralCallBack_m12EC29DD101C43D4716E4D4599ADC34CEAFB8181 (void);
-// 0x0000017C System.Void pingak9.MobileDialogNeutral::OnDeclineCallBack(System.String)
+// 0x00000196 System.Void pingak9.MobileDialogNeutral::OnDeclineCallBack(System.String)
 extern void MobileDialogNeutral_OnDeclineCallBack_mA952B79CEFD0985E90C9EF5C3DD33C6D8F4120F9 (void);
-// 0x0000017D System.Void pingak9.MobileDialogNeutral::.ctor()
+// 0x00000197 System.Void pingak9.MobileDialogNeutral::.ctor()
 extern void MobileDialogNeutral__ctor_mC2BE6A46475B39AD5FAE06E00CEA55CB903115A3 (void);
-// 0x0000017E System.Void pingak9.MobileNative::showDialogNeutral(System.String,System.String,System.String,System.String,System.String)
+// 0x00000198 System.Void pingak9.MobileNative::showDialogNeutral(System.String,System.String,System.String,System.String,System.String)
 extern void MobileNative_showDialogNeutral_m72110C89A57D5D3F71A53D3BCDC01087BB877CE0 (void);
-// 0x0000017F System.Void pingak9.MobileNative::showDialogConfirm(System.String,System.String,System.String,System.String,System.Boolean)
+// 0x00000199 System.Void pingak9.MobileNative::showDialogConfirm(System.String,System.String,System.String,System.String,System.Boolean)
 extern void MobileNative_showDialogConfirm_m5BB313F8301C70CBFED47D3A13B387A52C7D9E98 (void);
-// 0x00000180 System.Void pingak9.MobileNative::showInfoPopup(System.String,System.String,System.String)
+// 0x0000019A System.Void pingak9.MobileNative::showInfoPopup(System.String,System.String,System.String)
 extern void MobileNative_showInfoPopup_mA760AA60066B78C54FB12D2DC539041756B79E83 (void);
-// 0x00000181 System.Void pingak9.MobileNative::DismissCurrentAlert()
+// 0x0000019B System.Void pingak9.MobileNative::DismissCurrentAlert()
 extern void MobileNative_DismissCurrentAlert_m214F511037C8D1B3D6BAFF23194EAE5D89F05608 (void);
-// 0x00000182 System.Void pingak9.MobileNative::showDatePicker(System.Int32,System.Int32,System.Int32)
+// 0x0000019C System.Void pingak9.MobileNative::showDatePicker(System.Int32,System.Int32,System.Int32)
 extern void MobileNative_showDatePicker_m9B6A71CCEB3FE14A936FDD6337A5CE1868550447 (void);
-// 0x00000183 System.Void pingak9.MobileNative::showTimePicker()
+// 0x0000019D System.Void pingak9.MobileNative::showTimePicker()
 extern void MobileNative_showTimePicker_m9EBA4D39DA5AF4A2DDAC430BDB6DB570864AF3A4 (void);
-// 0x00000184 System.Void pingak9.MobileNative::.ctor()
+// 0x0000019E System.Void pingak9.MobileNative::.ctor()
 extern void MobileNative__ctor_m38637303C3CB9B5B61537504CE2FDDCE6FE95F13 (void);
-// 0x00000185 System.Void pingak9.NativeDialog::.ctor()
+// 0x0000019F System.Void pingak9.NativeDialog::.ctor()
 extern void NativeDialog__ctor_mBC401A0F9FFC447560724F1D4321A02BA8DFE9C3 (void);
-// 0x00000186 System.Void pingak9.NativeDialog::OpenDialog(System.String,System.String,System.String,System.Action)
+// 0x000001A0 System.Void pingak9.NativeDialog::OpenDialog(System.String,System.String,System.String,System.Action)
 extern void NativeDialog_OpenDialog_m24491E0F5EFDAA50A78C1A26A6E21B36B0137E40 (void);
-// 0x00000187 System.Void pingak9.NativeDialog::OpenDialog(System.String,System.String,System.String,System.String,System.Action,System.Action)
+// 0x000001A1 System.Void pingak9.NativeDialog::OpenDialog(System.String,System.String,System.String,System.String,System.Action,System.Action)
 extern void NativeDialog_OpenDialog_m92257FDFA820EB76F0A920DABA2D372D4D5557DC (void);
-// 0x00000188 System.Void pingak9.NativeDialog::OpenDialog(System.String,System.String,System.String,System.String,System.String,System.Action,System.Action,System.Action)
+// 0x000001A2 System.Void pingak9.NativeDialog::OpenDialog(System.String,System.String,System.String,System.String,System.String,System.Action,System.Action,System.Action)
 extern void NativeDialog_OpenDialog_mE4D3ED9D303509D4C6A3E5007AD04FE9D94B3F12 (void);
-// 0x00000189 System.Void pingak9.NativeDialog::OpenDatePicker(System.Int32,System.Int32,System.Int32,System.Action`1<System.DateTime>,System.Action`1<System.DateTime>)
+// 0x000001A3 System.Void pingak9.NativeDialog::OpenDatePicker(System.Int32,System.Int32,System.Int32,System.Action`1<System.DateTime>,System.Action`1<System.DateTime>)
 extern void NativeDialog_OpenDatePicker_m66BF51358E59D5186E2A35947BF7B5E77AF98602 (void);
-// 0x0000018A System.Void pingak9.NativeDialog::OpenTimePicker(System.Action`1<System.DateTime>,System.Action`1<System.DateTime>)
+// 0x000001A4 System.Void pingak9.NativeDialog::OpenTimePicker(System.Action`1<System.DateTime>,System.Action`1<System.DateTime>)
 extern void NativeDialog_OpenTimePicker_mDDCB01BF219C040EDD61C74BA10F6C7CEF34C276 (void);
-// 0x0000018B System.Void Crystal.SafeAreaDemo::Awake()
+// 0x000001A5 System.Void Crystal.SafeAreaDemo::Awake()
 extern void SafeAreaDemo_Awake_m70309B415D084CED95470CA1A35CFCC84BA318AE (void);
-// 0x0000018C System.Void Crystal.SafeAreaDemo::Update()
+// 0x000001A6 System.Void Crystal.SafeAreaDemo::Update()
 extern void SafeAreaDemo_Update_m474130B29E65A63C19F1423A52ACCC3314D9EF3B (void);
-// 0x0000018D System.Void Crystal.SafeAreaDemo::ToggleSafeArea()
+// 0x000001A7 System.Void Crystal.SafeAreaDemo::ToggleSafeArea()
 extern void SafeAreaDemo_ToggleSafeArea_m39EC69B62D5CA8C4C1D71ED670E61D6AC220CDB9 (void);
-// 0x0000018E System.Void Crystal.SafeAreaDemo::.ctor()
+// 0x000001A8 System.Void Crystal.SafeAreaDemo::.ctor()
 extern void SafeAreaDemo__ctor_m3297CAA9BC3353E63D3FFEBE5172095C9A132AA4 (void);
-// 0x0000018F System.Void Crystal.SafeArea::Awake()
+// 0x000001A9 System.Void Crystal.SafeArea::Awake()
 extern void SafeArea_Awake_mFAAD0518B04FA595839CA89E637D3B695F5E47B5 (void);
-// 0x00000190 System.Void Crystal.SafeArea::Update()
+// 0x000001AA System.Void Crystal.SafeArea::Update()
 extern void SafeArea_Update_mAC4051AFEC584503438092855D70BB4D175A12A4 (void);
-// 0x00000191 System.Void Crystal.SafeArea::Refresh()
+// 0x000001AB System.Void Crystal.SafeArea::Refresh()
 extern void SafeArea_Refresh_m2EB186CFFCAB2AB7E5B57A46A2A57D14493FD8EA (void);
-// 0x00000192 UnityEngine.Rect Crystal.SafeArea::GetSafeArea()
+// 0x000001AC UnityEngine.Rect Crystal.SafeArea::GetSafeArea()
 extern void SafeArea_GetSafeArea_m4B6B53C8ED0A4B2F5DBC404E2F208E6A71411815 (void);
-// 0x00000193 System.Void Crystal.SafeArea::ApplySafeArea(UnityEngine.Rect)
+// 0x000001AD System.Void Crystal.SafeArea::ApplySafeArea(UnityEngine.Rect)
 extern void SafeArea_ApplySafeArea_m19691250ABEE5AFFA7F793548BCCE402CCF38548 (void);
-// 0x00000194 System.Void Crystal.SafeArea::.ctor()
+// 0x000001AE System.Void Crystal.SafeArea::.ctor()
 extern void SafeArea__ctor_mC10940463499A1652DEC94CACFCB811ADA5CD6FF (void);
-static Il2CppMethodPointer s_methodPointers[404] = 
+static Il2CppMethodPointer s_methodPointers[430] = 
 {
 	AnchorCreator_get_AnchorPrefab_mBBAF7805E9D9F8D79408EE642D153BC76306B25A,
 	AnchorCreator_set_AnchorPrefab_m53CC9CC3022C713826B44536B48B462C8A1FACFF,
@@ -896,6 +948,20 @@ static Il2CppMethodPointer s_methodPointers[404] =
 	PlacePage_PlaceObject_mA44E3B303CEF45D3348C2DEFFBF7C184F9296210,
 	PlacePage__ctor_mD7F3549681E4D205409FE059B70A475B3D12DC09,
 	PlacePage__cctor_m2EEF8F776DB3FF233D1C2451AD58FF5940AFE7A0,
+	QRPlacePage_Awake_m5CE21B24A2222C334FC7288E8FB2A6DA2557BEB6,
+	QRPlacePage_Start_m571124FD5FBA2C94E8F40769346590C733E12C0D,
+	QRPlacePage_Initialize_mC5D15BE6259537757E4E11C9C4AB07EDB3265F3E,
+	QRPlacePage_OnCodeDetected_m26EFFD71667CDF99E46B24B111030D793FDC983B,
+	QRPlacePage_ArObjectDownloaded_m22305A2F66E0347D5D0AEAA1E05B5F4A29EBD313,
+	QRPlacePage_SetScanning_m414B9CBCF478B8B58A00046A425E4D1FCDBD8C95,
+	QRPlacePage__ctor_mD921626950F665FDE64BA5B5E30D59F692B178F4,
+	QRPlacePage_U3CInitializeU3Eb__7_0_mC5CC0C5FF251DE02D41A6E9F5A45BE6C787F119E,
+	QRPlacePage_U3CInitializeU3Eb__7_1_m9CA56D6170D973B2222B48F1EE90FB6C8CF247CC,
+	U3CU3Ec__DisplayClass8_0__ctor_mEC36C56EDFC004B2EFCB9000F2DACCC8997FBD39,
+	U3CU3Ec__DisplayClass8_0_U3COnCodeDetectedU3Eb__0_mCFF40FE00F6870A5151EE6FC371AAFF143C632F7,
+	U3CU3Ec__cctor_m13431BBEEEF76F1893DC241F49CDD3EB893928D6,
+	U3CU3Ec__ctor_m26D912D9AAF4D7767527116FE1F5D9C33EE1913F,
+	U3CU3Ec_U3COnCodeDetectedU3Eb__8_1_m645FA607FBE8BCA7D3BAD626DEE191F1A119251E,
 	SelectPage_Awake_m1E8A844C3403A686B9D87F5A98FE80F9512E3823,
 	SelectPage_Start_mBE859DD125CC34ED4F570643A2D2C6EC721C954D,
 	SelectPage_Initialize_mDC5A04629F7E743D48FC1A01BFE0EA364F1EB398,
@@ -907,12 +973,24 @@ static Il2CppMethodPointer s_methodPointers[404] =
 	U3CU3Ec__ctor_m16E0328056395826FD5AC56DEB26A6038646A783,
 	U3CU3Ec_U3CInitializeU3Eb__6_1_m8F28F49E54F8ED96D5C39C6D102DA107BEED373D,
 	ViewPage_Awake_m4F5C9C729CE681F1EF428562F3130BE6076629D8,
+	ViewPage_Deselect_mFA7043EBCA385FC5C82B610E72C9431C1471591C,
 	ViewPage_Initialize_mA04EDF0735A8139C23C4F0F5418D0E98F9F854AB,
 	ViewPage_Update_mE80DED5FDF1E16786B61B3FB6DE6B16BD0383D11,
 	ViewPage_Speak_m94EE69432CAF3EBAF42EFB53DC8BAFCA5035CEFA,
 	ViewPage__ctor_mC57C06F37E9EBAF72FCAF760D7FD56B2EF17892E,
-	U3CU3Ec__DisplayClass6_0__ctor_m2E931FEC856C0E3FFFB02A1D35BAE7D905B476D1,
-	U3CU3Ec__DisplayClass6_0_U3CInitializeU3Eb__0_m0E1F3F0F482F7AB1391067F7AFDDF4326E00BF88,
+	U3CU3Ec__DisplayClass7_0__ctor_m988A19DBF5080608D9D1716CD820B4308491B1BF,
+	U3CU3Ec__DisplayClass7_0_U3CInitializeU3Eb__0_m5366E7225931266C9A2829BCC398C8F04898A1FA,
+	QRCodeMarker__ctor_m493F667B8C9A899E0102C2359648091F1CA595F0,
+	QRCodeMarker_GetWorldCorners_m6C95121A278F1A0032051F1EAF1B0888A3361558,
+	CachedCodeEvent__ctor_m8AAD77404A8326EF8EC7C26B508C67BB887DA180,
+	QRTrackerHandler_Start_m18E78B3E5444D2760A0AE7FC835BB869919EEC2F,
+	QRTrackerHandler_Update_m2C9354500BB508816FFB6000F91BDA711DE68A5B,
+	QRTrackerHandler_OnCodeRegistered_mC91A9E79192B166615FA2697215862C284FB0F71,
+	QRTrackerHandler_OnCodeLost_m51A93C98B1649FE312C97A8E2DF7BD69BAA87E72,
+	QRTrackerHandler_RemoveCode_mD35C256A15C431225FC7867A4ECB8C2E0B585A19,
+	QRTrackerHandler_OnDisable_m055359B37820085B1D331B8C6A34B5A28060C68C,
+	QRTrackerHandler_ResetTransform_mE348D317AA078E872929A676A1E2F2CFD0378468,
+	QRTrackerHandler__ctor_m459B87A55CA8C73CFC22F03065BE31555D4F61DE,
 	SelectedArObjectManager_get_selectedArObject_m4FCC514196A392187F1AB91C82F36BC6214E12A5,
 	SelectedArObjectManager_set_selectedArObject_m7820FE55ABF090EAE26DDB87BEA90F995234D509,
 	SelectedArObjectManager_get_selectedObject_m5743EE70DFDC9C54B9C82C5E378D6D9085948729,
@@ -1222,10 +1300,10 @@ extern void Point__ctor_m7F5E86DED1C3D8BD36DA0DCF249CB6D90F675432_AdjustorThunk 
 extern void Point_ToString_mF55D2B55E40B0D33BB7FDBA15F1DBB077FB0C952_AdjustorThunk (void);
 static Il2CppTokenAdjustorThunkPair s_adjustorThunks[2] = 
 {
-	{ 0x06000145, Point__ctor_m7F5E86DED1C3D8BD36DA0DCF249CB6D90F675432_AdjustorThunk },
-	{ 0x06000147, Point_ToString_mF55D2B55E40B0D33BB7FDBA15F1DBB077FB0C952_AdjustorThunk },
+	{ 0x0600015F, Point__ctor_m7F5E86DED1C3D8BD36DA0DCF249CB6D90F675432_AdjustorThunk },
+	{ 0x06000161, Point_ToString_mF55D2B55E40B0D33BB7FDBA15F1DBB077FB0C952_AdjustorThunk },
 };
-static const int32_t s_InvokerIndices[404] = 
+static const int32_t s_InvokerIndices[430] = 
 {
 	2852,
 	2481,
@@ -1313,6 +1391,20 @@ static const int32_t s_InvokerIndices[404] =
 	2924,
 	2924,
 	2924,
+	2481,
+	2924,
+	2506,
+	2924,
+	2481,
+	2924,
+	2924,
+	2481,
+	7292,
+	2924,
+	2924,
+	2924,
+	2924,
+	2924,
 	2924,
 	2924,
 	2481,
@@ -1323,9 +1415,21 @@ static const int32_t s_InvokerIndices[404] =
 	2924,
 	2924,
 	2924,
+	2924,
 	2468,
 	2924,
 	2924,
+	2924,
+	1604,
+	2852,
+	2924,
+	2924,
+	2924,
+	1597,
+	2924,
+	2481,
+	2924,
+	2481,
 	2924,
 	2852,
 	2481,
@@ -1634,15 +1738,15 @@ static const int32_t s_InvokerIndices[404] =
 };
 static const Il2CppTokenRangePair s_rgctxIndices[9] = 
 {
-	{ 0x06000156, { 0, 5 } },
-	{ 0x06000157, { 5, 11 } },
-	{ 0x06000158, { 16, 4 } },
-	{ 0x06000159, { 20, 9 } },
-	{ 0x0600015A, { 29, 12 } },
-	{ 0x0600015B, { 41, 9 } },
-	{ 0x0600015C, { 50, 9 } },
-	{ 0x0600015D, { 59, 8 } },
-	{ 0x0600015E, { 67, 9 } },
+	{ 0x06000170, { 0, 5 } },
+	{ 0x06000171, { 5, 11 } },
+	{ 0x06000172, { 16, 4 } },
+	{ 0x06000173, { 20, 9 } },
+	{ 0x06000174, { 29, 12 } },
+	{ 0x06000175, { 41, 9 } },
+	{ 0x06000176, { 50, 9 } },
+	{ 0x06000177, { 59, 8 } },
+	{ 0x06000178, { 67, 9 } },
 };
 extern const uint32_t g_rgctx_List_1_t8E77C71B8E6B588B2B2AC97F348F4310E1677D36;
 extern const uint32_t g_rgctx_List_1__ctor_mD86E356EEE36374E116A496D7D77C49EEE1A98BB;
@@ -1803,7 +1907,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	404,
+	430,
 	s_methodPointers,
 	2,
 	s_adjustorThunks,

@@ -768,7 +768,7 @@ namespace QRFoundation
         /// </summary>
         public void Unregister()
         {
-            onCodeLost.Invoke();
+            onCodeLost?.Invoke();
             Destroy(registeredGameObject);
             registeredString = null;
         }

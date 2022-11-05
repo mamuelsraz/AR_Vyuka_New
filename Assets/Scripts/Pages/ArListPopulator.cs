@@ -14,6 +14,7 @@ public class ArListPopulator : MonoBehaviour
     private void Start()
     {
         dropdown.onValueChanged.AddListener(OnValueChanged);
+        LanguageManager.instance.onChangedLanguage += TryPopulate;
     }
 
     public void Init()
@@ -30,6 +31,12 @@ public class ArListPopulator : MonoBehaviour
         dropdown.AddOptions(categories);
 
         Populate();
+    }
+
+    void TryPopulate() {
+        if (SelectedArObjectManager.instance.selectedArea == "Jazyky") {
+            Populate();
+        }
     }
 
     void OnValueChanged(int i)
@@ -51,7 +58,11 @@ public class ArListPopulator : MonoBehaviour
             if (item.area != SelectedArObjectManager.instance.selectedArea) continue;
             if (dropdown.value != 0 && categories[dropdown.value] != item.category) continue;
             var block = Instantiate(blockPrefab, parent);
-            block.GetComponentInChildren<TextMeshProUGUI>().text = item.nickName;
+            if (item is LanguageArObject) {
+                var language = ((LanguageArObject)item).GetBlock(LanguageManager.instance.currentLanguage);
+                block.GetComponentInChildren<TextMeshProUGUI>().text = language.word;
+            }
+            else block.GetComponentInChildren<TextMeshProUGUI>().text = item.nickName;
             block.GetComponent<ArListBlock>().arObject = item;
             block.GetComponent<ArListBlock>().page = page;
         }

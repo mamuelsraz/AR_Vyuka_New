@@ -12,28 +12,42 @@ public class ViewPage : Page
     public GameObject languagePanel;
     public GameObject prepositionPrefab;
     public TextMeshProUGUI mainText;
+    public LanguageChangeUI languageChangeUI;
 
     protected override void Awake()
     {
         base.Awake();
         onPreShow.AddListener(Initialize);
+        onPreHide.AddListener(Deselect);
+    }
+
+    private void Start()
+    {
+        LanguageManager.instance.onChangedLanguage += Initialize;
+    }
+
+    void Deselect() {
+        SelectedArObjectManager.instance.selectedObject.SetActive(false);
+        languageChangeUI.Hide();
     }
 
     void Initialize() {
         var arObject = SelectedArObjectManager.instance.selectedArObject;
         if (arObject is LanguageArObject)
         {
+            languageChangeUI.Show();
             languagePanel.SetActive(true);
             var languageArObject = (LanguageArObject)arObject;
 
-            mainText.text = languageArObject.nameInLanguage[0].word;
+            var languageBlock = languageArObject.GetBlock(LanguageManager.instance.currentLanguage);
+            mainText.text = languageBlock.word;
 
             foreach (Transform child in prepositionsParent)
             {
                 GameObject.Destroy(child.gameObject);
             }
             int i = 1;
-            foreach (var preposition in languageArObject.nameInLanguage[0].prepositions)
+            foreach (var preposition in languageBlock.prepositions)
             {
                 var obj = Instantiate(prepositionPrefab, prepositionsParent);
                 var text = obj.GetComponentInChildren<TextMeshProUGUI>();
@@ -58,7 +72,6 @@ public class ViewPage : Page
 
     public void Speak(int mode)
     {
-        Debug.Log(mode);
         LanguageBlock block = LanguageManager.instance.GetCurrentLanguageBlock();
         if (block == null) return;
         TextToSpeech.instance.Setting(block.language, 1, 1);

@@ -73,6 +73,7 @@ public class AssetStreamingManager : MonoBehaviour
         while (!operation.isDone)
         {
             handle.progress = www.downloadProgress;
+            Debug.Log($"downloading {path + ArObj.bundle} | progress {handle.progress}");
             yield return null;
         }
 
