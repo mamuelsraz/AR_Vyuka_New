@@ -22,9 +22,13 @@ MonoBehaviour:
     word: Krychle
     prepositions:
     - ta
-    - ona
   - language: en-EN
     word: Cube
     prepositions:
     - the
     - a
+  - language: fr-FR
+    word: Cube
+    prepositions:
+    - le
+    - un

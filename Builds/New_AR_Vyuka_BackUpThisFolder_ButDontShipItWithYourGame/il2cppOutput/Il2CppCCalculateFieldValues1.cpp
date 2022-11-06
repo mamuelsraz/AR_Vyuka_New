@@ -756,6 +756,8 @@ struct List_1_t2E485E650BF1E41358CE56A69323E183C5A89CB6;
 struct List_1_t2121653FB628940E808D105AD2C17E0F20AFB3A6;
 // System.Collections.Generic.List`1<UnityEngine.Rendering.ShaderTagId>
 struct List_1_t4673975A297A80D4D4A65EB5A2BE3B6BD1EED9AF;
+// System.Collections.Generic.List`1<UnityEngine.Sprite>
+struct List_1_t7BE9C297880B5B41D1E6B89174D4394BF535D206;
 // System.Collections.Generic.List`1<UnityEngine.TextCore.Text.SpriteAsset>
 struct List_1_t3EE59C28A34FCD5060EF6B6BAFA85F2C9D01D320;
 // System.Collections.Generic.List`1<UnityEngine.TextCore.Text.SpriteCharacter>
@@ -812,8 +814,6 @@ struct List_1_tF42FEB6C3B18B7E7C8F2DE1FEBA00D2491736317;
 struct List_1_tA81AF2F0C55444C61C8EE5264AF3B4719AD4A897;
 // System.Collections.Generic.List`1<UnityEngine.Rendering.VolumeComponent>
 struct List_1_t602BCD639AA637A6C0BB45C136DD5458DBE18064;
-// System.Collections.Generic.List`1<QRFoundation.WidthMapping>
-struct List_1_t7C7711CBE7418C7F6FCA69379ED6A92B75B82B8A;
 // System.Collections.Generic.List`1<UnityEngine.XR.ARSubsystems.XRAnchorSubsystem>
 struct List_1_t9F2B0C5D9A34683317CA96A0A733BA6B33CC089A;
 // System.Collections.Generic.List`1<UnityEngine.XR.ARSubsystems.XRAnchorSubsystemDescriptor>
@@ -1162,8 +1162,6 @@ struct FontWeightPairU5BU5D_t76E8DB55C81EEBEFA2E6D1D3E3B3EA1FB4C4954F;
 struct GUIContentU5BU5D_t98DA1EEA8D0A2C4AE42CE11C4840B627CADFC503;
 // UnityEngine.GUIStyle[]
 struct GUIStyleU5BU5D_t1BA4BCF4D4D32DF07E9B84F1750D964DF33B0FEC;
-// UnityEngine.GameObject[]
-struct GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF;
 // UnityEngine.Rendering.GraphicsDeviceType[]
 struct GraphicsDeviceTypeU5BU5D_t4322565F239068C66BF47053B83BD6A9A9D16408;
 // UnityEngine.Experimental.Rendering.GraphicsFormat[]
@@ -1350,8 +1348,6 @@ struct SegmentU5BU5D_tB11B3ED6FEA0F7F1D0478BAFC0AFB1CA72F63982;
 struct LightCookieMappingU5BU5D_tE1F10A7D54920D3636F1DB7774B3D5F5B560E263;
 // UnityEngine.ParticleSystem/Particle[]
 struct ParticleU5BU5D_tE2CC7CC8844B6F592CC26DE7B533D8BC74C9BEC7;
-// QRFoundation.QRCodeTracker/PoseResult[]
-struct PoseResultU5BU5D_t168262226049AF5F82497C67C8071F5FDE47E30D;
 // System.Text.RegularExpressions.RegexCharClass/LowerCaseMapping[]
 struct LowerCaseMappingU5BU5D_t62316DC53695F1B45BBB5EB506991F814910A3D1;
 // UnityEngine.Experimental.Rendering.RenderGraphModule.RenderGraphResourceRegistry/RenderGraphResourcesData[]
@@ -1710,10 +1706,6 @@ struct GenericGF_tC1D3778419A01F96902AA135CFAC8BBB7DAE8FE0;
 struct GenericGFPoly_t85EB6B1C74EDFAA906625D971CBB4276BB28DD43;
 // UnityEngineInternal.GenericStack
 struct GenericStack_t1FB49AB7D847C97ABAA97AB232CA416CABD24C49;
-// QRFoundation.GetWidthAndOffsetDelegate
-struct GetWidthAndOffsetDelegate_t27A6D88B55BF5E4974892A79BEDB993F3744C525;
-// QRFoundation.GetWidthDelegate
-struct GetWidthDelegate_t5C7460483B9F6E4DE98CC1DA53AF4E4710A61DDC;
 // UnityEngine.TextCore.Glyph
 struct Glyph_t700CF8EBE04ED4AEAB520885AAA1B309E02A103F;
 // UnityEngine.Gradient
@@ -1778,6 +1770,8 @@ struct InvokableCallList_t309E1C8C7CE885A0D2F98C84CEA77A8935688382;
 struct InvokeOnRenderObjectCallbackPass_tC8BAE077CDE3D8D01F80041E285EAEC9E375FFE9;
 // TMPro.KerningTable
 struct KerningTable_t040C3FE3B519B12AADE1C5B00628581551D5AB6B;
+// LanguageChangeUI
+struct LanguageChangeUI_t2EE17CEF7817710D2DE3438AC6CB2931637621EF;
 // UnityEngine.UI.LayoutElement
 struct LayoutElement_tB1F24CC11AF4AA87015C8D8EE06D22349C5BF40A;
 // UnityEngine.UI.LayoutGroup
@@ -1850,16 +1844,6 @@ struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C;
 struct Oid_t9CF958D45B2027FCEDB1EE544E3FBB8351F61287;
 // System.Security.Cryptography.OidCollection
 struct OidCollection_tAAFE5AD288B6365182B7C9D4D66D0DA9A56712B3;
-// QRFoundation.OnCodeDetectedEvent
-struct OnCodeDetectedEvent_tC025BD10E4059D65E60586D9CAB4E09D588F5C07;
-// QRFoundation.OnCodeLostEvent
-struct OnCodeLostEvent_tB20A2B64EC471AD595CD4FCAFD8EDAC706774742;
-// QRFoundation.OnCodeRegisteredEvent
-struct OnCodeRegisteredEvent_t7BD7C67F9A70F46D45E4CB908EAD99599E62E23A;
-// QRFoundation.OnPoseRegisteredEvent
-struct OnPoseRegisteredEvent_t460E06B02B6638C921DC4DD2E886CA4BC0951696;
-// QRFoundation.OnStabilizeFailure
-struct OnStabilizeFailure_tD722003B2934F7802183DE74B4A67A0E86C93C4A;
 // UnityEngine.XR.OpenXR.OpenXRRestarter
 struct OpenXRRestarter_t59BB3482FA6ED413E66F91ABE39820D83AAE8AA1;
 // Page
@@ -10391,8 +10375,8 @@ struct U3CU3Ec_t90D4E0152E1CA86DF72AE7B28CDA8415AD2C3C43_StaticFields
 {
 	// SelectPage/<>c SelectPage/<>c::<>9
 	U3CU3Ec_t90D4E0152E1CA86DF72AE7B28CDA8415AD2C3C43* ___U3CU3E9_0;
-	// System.Action SelectPage/<>c::<>9__6_1
-	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___U3CU3E9__6_1_1;
+	// System.Action SelectPage/<>c::<>9__8_1
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___U3CU3E9__8_1_1;
 };
 
 // UnityEngine.Rendering.Universal.ShaderUtils/<>c__DisplayClass2_0
@@ -11307,12 +11291,12 @@ struct ECBlocks_tEA4244EC73E1BA16F444E8FEF988E5822ED5DB06  : public RuntimeObjec
 	ECBU5BU5D_t579C39F1A9E65583FD720AE2F386F76E441BA568* ___ecBlocks_1;
 };
 
-// ViewPage/<>c__DisplayClass7_0
-struct U3CU3Ec__DisplayClass7_0_t79188BF597374EF2D12B835DB117B80CEC70B0CD  : public RuntimeObject
+// ViewPage/<>c__DisplayClass9_0
+struct U3CU3Ec__DisplayClass9_0_t071BE16163C66BB787687A8558ADD90FCA9B1235  : public RuntimeObject
 {
-	// System.Int32 ViewPage/<>c__DisplayClass7_0::ii
+	// System.Int32 ViewPage/<>c__DisplayClass9_0::ii
 	int32_t ___ii_0;
-	// ViewPage ViewPage/<>c__DisplayClass7_0::<>4__this
+	// ViewPage ViewPage/<>c__DisplayClass9_0::<>4__this
 	ViewPage_t0E580847BC9A1F6D46EFC23579AAB05987CAF9AC* ___U3CU3E4__this_1;
 };
 
@@ -47209,6 +47193,31 @@ struct KHRSimpleControllerProfile_tBF1045A17B7BD98FD10C545E2C8122B233B9C439  : p
 {
 };
 
+// LanguageChangeUI
+struct LanguageChangeUI_t2EE17CEF7817710D2DE3438AC6CB2931637621EF  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	// UnityEngine.Transform LanguageChangeUI::mainButton
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___mainButton_4;
+	// UnityEngine.Transform LanguageChangeUI::mask
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___mask_5;
+	// System.Collections.Generic.List`1<System.String> LanguageChangeUI::languages
+	List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ___languages_6;
+	// System.Collections.Generic.List`1<UnityEngine.Sprite> LanguageChangeUI::languageGraphics
+	List_1_t7BE9C297880B5B41D1E6B89174D4394BF535D206* ___languageGraphics_7;
+	// UnityEngine.UI.Image LanguageChangeUI::mainGraphic
+	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* ___mainGraphic_8;
+	// System.Single LanguageChangeUI::openedLenght
+	float ___openedLenght_9;
+	// System.Collections.Generic.List`1<UnityEngine.UI.Image> LanguageChangeUI::languageRenderers
+	List_1_tE6BB71ABF15905EFA2BE92C38A2716547AEADB19* ___languageRenderers_10;
+	// System.Collections.Generic.List`1<System.String> LanguageChangeUI::orderedLanguages
+	List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ___orderedLanguages_11;
+	// UnityEngine.RectTransform LanguageChangeUI::languageParent
+	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___languageParent_12;
+	// System.Boolean LanguageChangeUI::barOpened
+	bool ___barOpened_13;
+};
+
 // LanguageManager
 struct LanguageManager_t83B530BDAE7462215B8FBDCD8ECC91DA0C72E8AB  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
@@ -47455,139 +47464,6 @@ struct ProbeVolumePerSceneData_t3359A660BBAB7667F56D212318C6729E84DAA397  : publ
 	int32_t ___m_CurrentState_6;
 	// UnityEngine.Experimental.Rendering.ProbeVolumeState UnityEngine.Experimental.Rendering.ProbeVolumePerSceneData::m_PreviousState
 	int32_t ___m_PreviousState_7;
-};
-
-// QRFoundation.QRCodeTracker
-struct QRCodeTracker_t21639C69F78AC4FBD4CD86AE4286F3D34A161387  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
-{
-	// QRFoundation.SizeDeterminationMode QRFoundation.QRCodeTracker::sizeDetermination
-	int32_t ___sizeDetermination_4;
-	// System.Single QRFoundation.QRCodeTracker::codeWidth
-	float ___codeWidth_5;
-	// System.Collections.Generic.List`1<QRFoundation.WidthMapping> QRFoundation.QRCodeTracker::codeWidths
-	List_1_t7C7711CBE7418C7F6FCA69379ED6A92B75B82B8A* ___codeWidths_6;
-	// QRFoundation.GetWidthDelegate QRFoundation.QRCodeTracker::getWidthDelegate
-	GetWidthDelegate_t5C7460483B9F6E4DE98CC1DA53AF4E4710A61DDC* ___getWidthDelegate_7;
-	// UnityEngine.GameObject QRFoundation.QRCodeTracker::prefab
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___prefab_8;
-	// QRFoundation.InversionAttempt QRFoundation.QRCodeTracker::inversionAttempt
-	int32_t ___inversionAttempt_9;
-	// QRFoundation.OnCodeDetectedEvent QRFoundation.QRCodeTracker::onCodeDetected
-	OnCodeDetectedEvent_tC025BD10E4059D65E60586D9CAB4E09D588F5C07* ___onCodeDetected_10;
-	// QRFoundation.OnCodeRegisteredEvent QRFoundation.QRCodeTracker::onCodeRegistered
-	OnCodeRegisteredEvent_t7BD7C67F9A70F46D45E4CB908EAD99599E62E23A* ___onCodeRegistered_11;
-	// QRFoundation.OnPoseRegisteredEvent QRFoundation.QRCodeTracker::onPoseRegistered
-	OnPoseRegisteredEvent_t460E06B02B6638C921DC4DD2E886CA4BC0951696* ___onPoseRegistered_12;
-	// QRFoundation.OnCodeLostEvent QRFoundation.QRCodeTracker::onCodeLost
-	OnCodeLostEvent_tB20A2B64EC471AD595CD4FCAFD8EDAC706774742* ___onCodeLost_13;
-	// QRFoundation.OnStabilizeFailure QRFoundation.QRCodeTracker::onStabilizeFailure
-	OnStabilizeFailure_tD722003B2934F7802183DE74B4A67A0E86C93C4A* ___onStabilizeFailure_14;
-	// System.Single QRFoundation.QRCodeTracker::maxScanResolution
-	float ___maxScanResolution_15;
-	// System.Single QRFoundation.QRCodeTracker::searchScanInterval
-	float ___searchScanInterval_16;
-	// System.Single QRFoundation.QRCodeTracker::stabilizeScanInterval
-	float ___stabilizeScanInterval_17;
-	// System.Single QRFoundation.QRCodeTracker::refineScanInterval
-	float ___refineScanInterval_18;
-	// System.Single QRFoundation.QRCodeTracker::codeLossTimeout
-	float ___codeLossTimeout_19;
-	// System.Single QRFoundation.QRCodeTracker::truncateTimeout
-	float ___truncateTimeout_20;
-	// System.Boolean QRFoundation.QRCodeTracker::debugMode
-	bool ___debugMode_21;
-	// System.Single QRFoundation.QRCodeTracker::requiredPrecision
-	float ___requiredPrecision_22;
-	// System.Boolean QRFoundation.QRCodeTracker::showLifecycleEvents
-	bool ___showLifecycleEvents_23;
-	// System.Boolean QRFoundation.QRCodeTracker::showAdvanedSettings
-	bool ___showAdvanedSettings_24;
-	// UnityEngine.Camera QRFoundation.QRCodeTracker::cam
-	Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ___cam_25;
-	// QRFoundation.AABB QRFoundation.QRCodeTracker::lastBounds
-	AABB_tCBFE8DDA554E142C8B61156741A0DB00768BF9AE* ___lastBounds_26;
-	// QRFoundation.AABB QRFoundation.QRCodeTracker::lastSuccessfulBounds
-	AABB_tCBFE8DDA554E142C8B61156741A0DB00768BF9AE* ___lastSuccessfulBounds_27;
-	// QRFoundation.AABB QRFoundation.QRCodeTracker::lastScan
-	AABB_tCBFE8DDA554E142C8B61156741A0DB00768BF9AE* ___lastScan_28;
-	// System.Int32 QRFoundation.QRCodeTracker::MAX_FAILS_UNTIL_UNFOCUS
-	int32_t ___MAX_FAILS_UNTIL_UNFOCUS_29;
-	// System.Int32 QRFoundation.QRCodeTracker::focusFails
-	int32_t ___focusFails_30;
-	// System.Int32 QRFoundation.QRCodeTracker::MAX_FAILS_UNTIL_SEARCH
-	int32_t ___MAX_FAILS_UNTIL_SEARCH_31;
-	// System.Int32 QRFoundation.QRCodeTracker::stabilizeFails
-	int32_t ___stabilizeFails_32;
-	// QRFoundation.GetWidthAndOffsetDelegate QRFoundation.QRCodeTracker::getWidthAndOffsetDelegate
-	GetWidthAndOffsetDelegate_t27A6D88B55BF5E4974892A79BEDB993F3744C525* ___getWidthAndOffsetDelegate_33;
-	// System.Boolean QRFoundation.QRCodeTracker::restrictY
-	bool ___restrictY_34;
-	// System.String QRFoundation.QRCodeTracker::lastMeta
-	String_t* ___lastMeta_35;
-	// System.Single QRFoundation.QRCodeTracker::offsetDamping
-	float ___offsetDamping_36;
-	// System.Single QRFoundation.QRCodeTracker::lastSearch
-	float ___lastSearch_37;
-	// System.Single QRFoundation.QRCodeTracker::lastStabilize
-	float ___lastStabilize_38;
-	// System.Single QRFoundation.QRCodeTracker::lastRefine
-	float ___lastRefine_39;
-	// System.Single QRFoundation.QRCodeTracker::lastPrecision
-	float ___lastPrecision_40;
-	// System.Single QRFoundation.QRCodeTracker::stabilizingTime
-	float ___stabilizingTime_41;
-	// System.Single QRFoundation.QRCodeTracker::lastFoundTime
-	float ___lastFoundTime_42;
-	// System.Single QRFoundation.QRCodeTracker::registeredStdDev
-	float ___registeredStdDev_43;
-	// System.String QRFoundation.QRCodeTracker::lastContent
-	String_t* ___lastContent_44;
-	// CSQR.QRScanResult QRFoundation.QRCodeTracker::lastScanResult
-	QRScanResult_t59F0F7EECD21AB032B77C920B2DFCDCAD863E779* ___lastScanResult_45;
-	// System.Single QRFoundation.QRCodeTracker::lastScanStart
-	float ___lastScanStart_46;
-	// System.Single QRFoundation.QRCodeTracker::lastScanDuration
-	float ___lastScanDuration_47;
-	// System.Single QRFoundation.QRCodeTracker::lastCalcStart
-	float ___lastCalcStart_48;
-	// System.Single QRFoundation.QRCodeTracker::lastCalcDuration
-	float ___lastCalcDuration_49;
-	// System.Int32 QRFoundation.QRCodeTracker::maxDebugBubbles
-	int32_t ___maxDebugBubbles_50;
-	// System.Int32 QRFoundation.QRCodeTracker::debugBubblesPointer
-	int32_t ___debugBubblesPointer_51;
-	// UnityEngine.GameObject[] QRFoundation.QRCodeTracker::debugBubbles
-	GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* ___debugBubbles_52;
-	// System.Int32 QRFoundation.QRCodeTracker::maxSamples
-	int32_t ___maxSamples_53;
-	// System.Single QRFoundation.QRCodeTracker::confidence
-	float ___confidence_54;
-	// QRFoundation.QRCodeTracker/PoseResult[] QRFoundation.QRCodeTracker::samples
-	PoseResultU5BU5D_t168262226049AF5F82497C67C8071F5FDE47E30D* ___samples_55;
-	// System.Int32 QRFoundation.QRCodeTracker::pointer
-	int32_t ___pointer_56;
-	// QRFoundation.TrackingState QRFoundation.QRCodeTracker::<trackingState>k__BackingField
-	int32_t ___U3CtrackingStateU3Ek__BackingField_57;
-	// UnityEngine.Pose QRFoundation.QRCodeTracker::<intermediate>k__BackingField
-	Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ___U3CintermediateU3Ek__BackingField_58;
-	// UnityEngine.Pose QRFoundation.QRCodeTracker::<intermediateSmoothed>k__BackingField
-	Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ___U3CintermediateSmoothedU3Ek__BackingField_59;
-	// UnityEngine.Pose QRFoundation.QRCodeTracker::<registeredPose>k__BackingField
-	Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ___U3CregisteredPoseU3Ek__BackingField_60;
-	// System.String QRFoundation.QRCodeTracker::<registeredString>k__BackingField
-	String_t* ___U3CregisteredStringU3Ek__BackingField_61;
-	// System.Single QRFoundation.QRCodeTracker::<lastWidth>k__BackingField
-	float ___U3ClastWidthU3Ek__BackingField_62;
-	// UnityEngine.GameObject QRFoundation.QRCodeTracker::registeredGameObject
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___registeredGameObject_63;
-	// System.Action QRFoundation.QRCodeTracker::qrScanCallback
-	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___qrScanCallback_64;
-	// System.Boolean QRFoundation.QRCodeTracker::scanning
-	bool ___scanning_65;
-	// UnityEngine.GameObject QRFoundation.QRCodeTracker::cameraGameObject
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___cameraGameObject_66;
-	// UnityEngine.Camera QRFoundation.QRCodeTracker::camCopy
-	Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ___camCopy_67;
 };
 
 // QRTrackerHandler
@@ -49583,6 +49459,8 @@ struct SelectPage_t74A1A3999F60A4868E4147E0EEDF6A0084E36CF9  : public Page_tA06B
 	Page_tA06B2E14F9A4096B173911E4EB2896D3FFC88544* ___placePage_13;
 	// System.Boolean SelectPage::loadChemie
 	bool ___loadChemie_14;
+	// LanguageChangeUI SelectPage::languageChangeUI
+	LanguageChangeUI_t2EE17CEF7817710D2DE3438AC6CB2931637621EF* ___languageChangeUI_15;
 };
 
 // UnityEngine.UI.Selectable
@@ -49683,6 +49561,8 @@ struct ViewPage_t0E580847BC9A1F6D46EFC23579AAB05987CAF9AC  : public Page_tA06B2E
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___prepositionPrefab_14;
 	// TMPro.TextMeshProUGUI ViewPage::mainText
 	TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* ___mainText_15;
+	// LanguageChangeUI ViewPage::languageChangeUI
+	LanguageChangeUI_t2EE17CEF7817710D2DE3438AC6CB2931637621EF* ___languageChangeUI_16;
 };
 
 // UnityEngine.InputSystem.XR.XRController
@@ -60559,16 +60439,16 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5955[5] =
 	static_cast<int32_t>(offsetof(QRPlacePage_tDAA5B0055293BC5560915094113ADE8FE4E70909, ___tracker_11)),static_cast<int32_t>(offsetof(QRPlacePage_tDAA5B0055293BC5560915094113ADE8FE4E70909, ___trackerBrain_12)),static_cast<int32_t>(offsetof(QRPlacePage_tDAA5B0055293BC5560915094113ADE8FE4E70909, ___text_13)),static_cast<int32_t>(offsetof(QRPlacePage_tDAA5B0055293BC5560915094113ADE8FE4E70909, ___viewPage_14)),static_cast<int32_t>(offsetof(QRPlacePage_tDAA5B0055293BC5560915094113ADE8FE4E70909, ___canScan_15)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5956[2] = 
 {
-	static_cast<int32_t>(offsetof(U3CU3Ec_t90D4E0152E1CA86DF72AE7B28CDA8415AD2C3C43_StaticFields, ___U3CU3E9_0)),static_cast<int32_t>(offsetof(U3CU3Ec_t90D4E0152E1CA86DF72AE7B28CDA8415AD2C3C43_StaticFields, ___U3CU3E9__6_1_1)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5957[4] = 
+	static_cast<int32_t>(offsetof(U3CU3Ec_t90D4E0152E1CA86DF72AE7B28CDA8415AD2C3C43_StaticFields, ___U3CU3E9_0)),static_cast<int32_t>(offsetof(U3CU3Ec_t90D4E0152E1CA86DF72AE7B28CDA8415AD2C3C43_StaticFields, ___U3CU3E9__8_1_1)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5957[5] = 
 {
-	static_cast<int32_t>(offsetof(SelectPage_t74A1A3999F60A4868E4147E0EEDF6A0084E36CF9, ___hidePanel_11)),static_cast<int32_t>(offsetof(SelectPage_t74A1A3999F60A4868E4147E0EEDF6A0084E36CF9, ___populator_12)),static_cast<int32_t>(offsetof(SelectPage_t74A1A3999F60A4868E4147E0EEDF6A0084E36CF9, ___placePage_13)),static_cast<int32_t>(offsetof(SelectPage_t74A1A3999F60A4868E4147E0EEDF6A0084E36CF9, ___loadChemie_14)),};
+	static_cast<int32_t>(offsetof(SelectPage_t74A1A3999F60A4868E4147E0EEDF6A0084E36CF9, ___hidePanel_11)),static_cast<int32_t>(offsetof(SelectPage_t74A1A3999F60A4868E4147E0EEDF6A0084E36CF9, ___populator_12)),static_cast<int32_t>(offsetof(SelectPage_t74A1A3999F60A4868E4147E0EEDF6A0084E36CF9, ___placePage_13)),static_cast<int32_t>(offsetof(SelectPage_t74A1A3999F60A4868E4147E0EEDF6A0084E36CF9, ___loadChemie_14)),static_cast<int32_t>(offsetof(SelectPage_t74A1A3999F60A4868E4147E0EEDF6A0084E36CF9, ___languageChangeUI_15)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5958[2] = 
 {
-	static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass7_0_t79188BF597374EF2D12B835DB117B80CEC70B0CD, ___ii_0)),static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass7_0_t79188BF597374EF2D12B835DB117B80CEC70B0CD, ___U3CU3E4__this_1)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5959[5] = 
+	static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass9_0_t071BE16163C66BB787687A8558ADD90FCA9B1235, ___ii_0)),static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass9_0_t071BE16163C66BB787687A8558ADD90FCA9B1235, ___U3CU3E4__this_1)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5959[6] = 
 {
-	static_cast<int32_t>(offsetof(ViewPage_t0E580847BC9A1F6D46EFC23579AAB05987CAF9AC, ___touchControls_11)),static_cast<int32_t>(offsetof(ViewPage_t0E580847BC9A1F6D46EFC23579AAB05987CAF9AC, ___prepositionsParent_12)),static_cast<int32_t>(offsetof(ViewPage_t0E580847BC9A1F6D46EFC23579AAB05987CAF9AC, ___languagePanel_13)),static_cast<int32_t>(offsetof(ViewPage_t0E580847BC9A1F6D46EFC23579AAB05987CAF9AC, ___prepositionPrefab_14)),static_cast<int32_t>(offsetof(ViewPage_t0E580847BC9A1F6D46EFC23579AAB05987CAF9AC, ___mainText_15)),};
+	static_cast<int32_t>(offsetof(ViewPage_t0E580847BC9A1F6D46EFC23579AAB05987CAF9AC, ___touchControls_11)),static_cast<int32_t>(offsetof(ViewPage_t0E580847BC9A1F6D46EFC23579AAB05987CAF9AC, ___prepositionsParent_12)),static_cast<int32_t>(offsetof(ViewPage_t0E580847BC9A1F6D46EFC23579AAB05987CAF9AC, ___languagePanel_13)),static_cast<int32_t>(offsetof(ViewPage_t0E580847BC9A1F6D46EFC23579AAB05987CAF9AC, ___prepositionPrefab_14)),static_cast<int32_t>(offsetof(ViewPage_t0E580847BC9A1F6D46EFC23579AAB05987CAF9AC, ___mainText_15)),static_cast<int32_t>(offsetof(ViewPage_t0E580847BC9A1F6D46EFC23579AAB05987CAF9AC, ___languageChangeUI_16)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5960[4] = 
 {
 	static_cast<int32_t>(offsetof(QRCodeMarker_t1EB5D07F9646437286FC573DD67D81DE4F9187A9, ___transform_0)),static_cast<int32_t>(offsetof(QRCodeMarker_t1EB5D07F9646437286FC573DD67D81DE4F9187A9, ___width_1)),static_cast<int32_t>(offsetof(QRCodeMarker_t1EB5D07F9646437286FC573DD67D81DE4F9187A9, ___tracked_2)),static_cast<int32_t>(offsetof(QRCodeMarker_t1EB5D07F9646437286FC573DD67D81DE4F9187A9, ___content_3)),};
@@ -60593,63 +60473,63 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5966[7] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5967[6] = 
 {
 	static_cast<int32_t>(offsetof(ArListSection_t4E0B6750152D7CFF6BF44242B4D7154F0921E8B2, ___canClick_4)),static_cast<int32_t>(offsetof(ArListSection_t4E0B6750152D7CFF6BF44242B4D7154F0921E8B2, ___rt_5)),static_cast<int32_t>(offsetof(ArListSection_t4E0B6750152D7CFF6BF44242B4D7154F0921E8B2, ___fitter_6)),static_cast<int32_t>(offsetof(ArListSection_t4E0B6750152D7CFF6BF44242B4D7154F0921E8B2, ___arrow_7)),static_cast<int32_t>(offsetof(ArListSection_t4E0B6750152D7CFF6BF44242B4D7154F0921E8B2, ___height_8)),static_cast<int32_t>(offsetof(ArListSection_t4E0B6750152D7CFF6BF44242B4D7154F0921E8B2, ___toggled_9)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5968[2] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5968[10] = 
+{
+	static_cast<int32_t>(offsetof(LanguageChangeUI_t2EE17CEF7817710D2DE3438AC6CB2931637621EF, ___mainButton_4)),static_cast<int32_t>(offsetof(LanguageChangeUI_t2EE17CEF7817710D2DE3438AC6CB2931637621EF, ___mask_5)),static_cast<int32_t>(offsetof(LanguageChangeUI_t2EE17CEF7817710D2DE3438AC6CB2931637621EF, ___languages_6)),static_cast<int32_t>(offsetof(LanguageChangeUI_t2EE17CEF7817710D2DE3438AC6CB2931637621EF, ___languageGraphics_7)),static_cast<int32_t>(offsetof(LanguageChangeUI_t2EE17CEF7817710D2DE3438AC6CB2931637621EF, ___mainGraphic_8)),static_cast<int32_t>(offsetof(LanguageChangeUI_t2EE17CEF7817710D2DE3438AC6CB2931637621EF, ___openedLenght_9)),static_cast<int32_t>(offsetof(LanguageChangeUI_t2EE17CEF7817710D2DE3438AC6CB2931637621EF, ___languageRenderers_10)),static_cast<int32_t>(offsetof(LanguageChangeUI_t2EE17CEF7817710D2DE3438AC6CB2931637621EF, ___orderedLanguages_11)),static_cast<int32_t>(offsetof(LanguageChangeUI_t2EE17CEF7817710D2DE3438AC6CB2931637621EF, ___languageParent_12)),static_cast<int32_t>(offsetof(LanguageChangeUI_t2EE17CEF7817710D2DE3438AC6CB2931637621EF, ___barOpened_13)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5969[2] = 
 {
 	static_cast<int32_t>(offsetof(LoadingGraphic_t0103554362152534E6D421D618845A9E1EC3FDD7, ___speed_4)),static_cast<int32_t>(offsetof(LoadingGraphic_t0103554362152534E6D421D618845A9E1EC3FDD7, ___realSpeed_5)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5969[3] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5970[3] = 
 {
 	static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass10_0_t17EBE443C0A083B84C0F992D4DF73A5860DA0BB4, ___U3CU3E4__this_0)),static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass10_0_t17EBE443C0A083B84C0F992D4DF73A5860DA0BB4, ___to_1)),static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass10_0_t17EBE443C0A083B84C0F992D4DF73A5860DA0BB4, ___from_2)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5970[7] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5971[7] = 
 {
 	static_cast<int32_t>(offsetof(Page_tA06B2E14F9A4096B173911E4EB2896D3FFC88544, ___rect_4)),static_cast<int32_t>(offsetof(Page_tA06B2E14F9A4096B173911E4EB2896D3FFC88544, ___transition_5)),static_cast<int32_t>(offsetof(Page_tA06B2E14F9A4096B173911E4EB2896D3FFC88544, ___active_6)),static_cast<int32_t>(offsetof(Page_tA06B2E14F9A4096B173911E4EB2896D3FFC88544, ___onPreShow_7)),static_cast<int32_t>(offsetof(Page_tA06B2E14F9A4096B173911E4EB2896D3FFC88544, ___onPostShow_8)),static_cast<int32_t>(offsetof(Page_tA06B2E14F9A4096B173911E4EB2896D3FFC88544, ___onPreHide_9)),static_cast<int32_t>(offsetof(Page_tA06B2E14F9A4096B173911E4EB2896D3FFC88544, ___onPostHide_10)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5971[2] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5972[2] = 
 {
 	static_cast<int32_t>(offsetof(SafeZonePanel_tF34A2BFE809452B77DB39DB318F2B8B4747B8CF5, ___lastSafeArea_4)),static_cast<int32_t>(offsetof(SafeZonePanel_tF34A2BFE809452B77DB39DB318F2B8B4747B8CF5, ___parentRectTransform_5)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5972[11] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5973[11] = 
 {
 	static_cast<int32_t>(offsetof(Transition_tCEFDBCF3B9C6819BF1A11F93B0DBE7EBEB353D04, ___duration_4)),static_cast<int32_t>(offsetof(Transition_tCEFDBCF3B9C6819BF1A11F93B0DBE7EBEB353D04, ___moveActions_5)),static_cast<int32_t>(offsetof(Transition_tCEFDBCF3B9C6819BF1A11F93B0DBE7EBEB353D04, ___screenActions_6)),static_cast<int32_t>(offsetof(Transition_tCEFDBCF3B9C6819BF1A11F93B0DBE7EBEB353D04, ___started_7)),static_cast<int32_t>(offsetof(Transition_tCEFDBCF3B9C6819BF1A11F93B0DBE7EBEB353D04, ___back_8)),static_cast<int32_t>(offsetof(Transition_tCEFDBCF3B9C6819BF1A11F93B0DBE7EBEB353D04, ___timeSinceStart_9)),static_cast<int32_t>(offsetof(Transition_tCEFDBCF3B9C6819BF1A11F93B0DBE7EBEB353D04, ___actionsInTime_10)),static_cast<int32_t>(offsetof(Transition_tCEFDBCF3B9C6819BF1A11F93B0DBE7EBEB353D04, ___backwardsActionsInTime_11)),static_cast<int32_t>(offsetof(Transition_tCEFDBCF3B9C6819BF1A11F93B0DBE7EBEB353D04, ___actionsQueue_12)),static_cast<int32_t>(offsetof(Transition_tCEFDBCF3B9C6819BF1A11F93B0DBE7EBEB353D04, ___toggle_13)),static_cast<int32_t>(offsetof(Transition_tCEFDBCF3B9C6819BF1A11F93B0DBE7EBEB353D04, ___currentHandle_14)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5973[2] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5974[2] = 
 {
 	static_cast<int32_t>(offsetof(TransitionHandle_t2D837ECED87EA3A345A483DB7376B48DDDF7BB75, ___OnCancel_0)),static_cast<int32_t>(offsetof(TransitionHandle_t2D837ECED87EA3A345A483DB7376B48DDDF7BB75, ___OnFinish_1)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5974[3] = 
-{
-	static_cast<int32_t>(offsetof(TransitionAction_t3371B25B524AD2C4B3965635C8ED7DF881A3A97D, ___startTime_0)),static_cast<int32_t>(offsetof(TransitionAction_t3371B25B524AD2C4B3965635C8ED7DF881A3A97D, ___duration_1)),static_cast<int32_t>(offsetof(TransitionAction_t3371B25B524AD2C4B3965635C8ED7DF881A3A97D, ___toGoal_2)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5975[3] = 
 {
+	static_cast<int32_t>(offsetof(TransitionAction_t3371B25B524AD2C4B3965635C8ED7DF881A3A97D, ___startTime_0)),static_cast<int32_t>(offsetof(TransitionAction_t3371B25B524AD2C4B3965635C8ED7DF881A3A97D, ___duration_1)),static_cast<int32_t>(offsetof(TransitionAction_t3371B25B524AD2C4B3965635C8ED7DF881A3A97D, ___toGoal_2)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5976[3] = 
+{
 	static_cast<int32_t>(offsetof(MoveTransitionAction_t994661F8B4B81E4B4A716A796ECB0522424C561F, ___transform_3)),static_cast<int32_t>(offsetof(MoveTransitionAction_t994661F8B4B81E4B4A716A796ECB0522424C561F, ___pos_4)),static_cast<int32_t>(offsetof(MoveTransitionAction_t994661F8B4B81E4B4A716A796ECB0522424C561F, ___startPos_5)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5976[4] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5977[4] = 
 {
 	static_cast<int32_t>(offsetof(ScreenTransitionAction_t407DC468F4D6213DD3220DCC3120AB003D4C885F, ___transform_3)),static_cast<int32_t>(offsetof(ScreenTransitionAction_t407DC468F4D6213DD3220DCC3120AB003D4C885F, ___canvas_4)),static_cast<int32_t>(offsetof(ScreenTransitionAction_t407DC468F4D6213DD3220DCC3120AB003D4C885F, ___pos_5)),static_cast<int32_t>(offsetof(ScreenTransitionAction_t407DC468F4D6213DD3220DCC3120AB003D4C885F, ___startPos_6)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5977[3] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5978[3] = 
 {
 	static_cast<int32_t>(offsetof(AndroidDebug_tBEADC7B68E8D668A75418286BE0FCE9AEBD54005, ___txtLog_4)),static_cast<int32_t>(offsetof(AndroidDebug_tBEADC7B68E8D668A75418286BE0FCE9AEBD54005, ___txtNewLog_5)),static_cast<int32_t>(offsetof(AndroidDebug_tBEADC7B68E8D668A75418286BE0FCE9AEBD54005, ___RmsBar_6)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5978[1] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5979[1] = 
 {
 	static_cast<int32_t>(offsetof(RotateAnim_t7E8050340BBE356977CC81127CC944C099FB26B7, ___speed_4)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5979[8] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5980[8] = 
 {
 	static_cast<int32_t>(offsetof(SampleSpeechToText_tC36F61200F92774B253ADB9D2663F3A5FB37E865, ___loading_4)),static_cast<int32_t>(offsetof(SampleSpeechToText_tC36F61200F92774B253ADB9D2663F3A5FB37E865, ___inputLocale_5)),static_cast<int32_t>(offsetof(SampleSpeechToText_tC36F61200F92774B253ADB9D2663F3A5FB37E865, ___inputText_6)),static_cast<int32_t>(offsetof(SampleSpeechToText_tC36F61200F92774B253ADB9D2663F3A5FB37E865, ___pitch_7)),static_cast<int32_t>(offsetof(SampleSpeechToText_tC36F61200F92774B253ADB9D2663F3A5FB37E865, ___rate_8)),static_cast<int32_t>(offsetof(SampleSpeechToText_tC36F61200F92774B253ADB9D2663F3A5FB37E865, ___txtLocale_9)),static_cast<int32_t>(offsetof(SampleSpeechToText_tC36F61200F92774B253ADB9D2663F3A5FB37E865, ___txtPitch_10)),static_cast<int32_t>(offsetof(SampleSpeechToText_tC36F61200F92774B253ADB9D2663F3A5FB37E865, ___txtRate_11)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5980[6] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5981[6] = 
 {
 	static_cast<int32_t>(offsetof(SpeechButton_t695A7EB3DF05B56C64C3D98B55A6662695BB98C7, ___sample_4)),static_cast<int32_t>(offsetof(SpeechButton_t695A7EB3DF05B56C64C3D98B55A6662695BB98C7, ___effect_5)),static_cast<int32_t>(offsetof(SpeechButton_t695A7EB3DF05B56C64C3D98B55A6662695BB98C7, ___speedEffect_6)),static_cast<int32_t>(offsetof(SpeechButton_t695A7EB3DF05B56C64C3D98B55A6662695BB98C7, ___scaleEffect_7)),static_cast<int32_t>(offsetof(SpeechButton_t695A7EB3DF05B56C64C3D98B55A6662695BB98C7, ___speed_8)),static_cast<int32_t>(offsetof(SpeechButton_t695A7EB3DF05B56C64C3D98B55A6662695BB98C7, ___scale_9)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5981[18] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5982[18] = 
 {
 	static_cast<int32_t>(offsetof(SpeechToText_t699B622A4DFEBC64CFF1090FC357330FD554825D_StaticFields, ____instance_4)),static_cast<int32_t>(offsetof(SpeechToText_t699B622A4DFEBC64CFF1090FC357330FD554825D, ___onResultCallback_5)),0,0,0,0,0,0,0,0,0,static_cast<int32_t>(offsetof(SpeechToText_t699B622A4DFEBC64CFF1090FC357330FD554825D, ___isShowPopupAndroid_15)),static_cast<int32_t>(offsetof(SpeechToText_t699B622A4DFEBC64CFF1090FC357330FD554825D, ___onReadyForSpeechCallback_16)),static_cast<int32_t>(offsetof(SpeechToText_t699B622A4DFEBC64CFF1090FC357330FD554825D, ___onEndOfSpeechCallback_17)),static_cast<int32_t>(offsetof(SpeechToText_t699B622A4DFEBC64CFF1090FC357330FD554825D, ___onRmsChangedCallback_18)),static_cast<int32_t>(offsetof(SpeechToText_t699B622A4DFEBC64CFF1090FC357330FD554825D, ___onBeginningOfSpeechCallback_19)),static_cast<int32_t>(offsetof(SpeechToText_t699B622A4DFEBC64CFF1090FC357330FD554825D, ___onErrorCallback_20)),static_cast<int32_t>(offsetof(SpeechToText_t699B622A4DFEBC64CFF1090FC357330FD554825D, ___onPartialResultsCallback_21)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5982[11] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5983[11] = 
 {
 	static_cast<int32_t>(offsetof(TextToSpeech_tF35D53432B519A5960A37B7BE31C3223EB23A7C1_StaticFields, ____instance_4)),static_cast<int32_t>(offsetof(TextToSpeech_tF35D53432B519A5960A37B7BE31C3223EB23A7C1, ___onStartCallBack_5)),static_cast<int32_t>(offsetof(TextToSpeech_tF35D53432B519A5960A37B7BE31C3223EB23A7C1, ___onStartEvent_6)),static_cast<int32_t>(offsetof(TextToSpeech_tF35D53432B519A5960A37B7BE31C3223EB23A7C1, ___onDoneCallback_7)),static_cast<int32_t>(offsetof(TextToSpeech_tF35D53432B519A5960A37B7BE31C3223EB23A7C1, ___onDoneEvent_8)),static_cast<int32_t>(offsetof(TextToSpeech_tF35D53432B519A5960A37B7BE31C3223EB23A7C1, ___onSpeakRangeCallback_9)),static_cast<int32_t>(offsetof(TextToSpeech_tF35D53432B519A5960A37B7BE31C3223EB23A7C1, ___pitch_10)),static_cast<int32_t>(offsetof(TextToSpeech_tF35D53432B519A5960A37B7BE31C3223EB23A7C1, ___rate_11)),0,0,0,};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5983[5] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5984[5] = 
 {
 	static_cast<int32_t>(offsetof(SizeDeterminationMode_t0349308C45B41380FABF4897D26C498B89933830, ___value___2)) + static_cast<int32_t>(sizeof(RuntimeObject)),0,0,0,0,};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5984[3] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5985[3] = 
 {
 	static_cast<int32_t>(offsetof(InversionAttempt_t6ABC902122EDCB1C9302BF70478CD0CE1E8527B8, ___value___2)) + static_cast<int32_t>(sizeof(RuntimeObject)),0,0,};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5985[2] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5986[2] = 
 {
 	static_cast<int32_t>(offsetof(WidthMapping_t6FA0CA403C40BD067A43DFD0C0FA3302D90F5F20, ___contains_0)),static_cast<int32_t>(offsetof(WidthMapping_t6FA0CA403C40BD067A43DFD0C0FA3302D90F5F20, ___width_1)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5986[1] = 
-{
-};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5987[1] = 
 {
 };
@@ -60668,24 +60548,24 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5991[1] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5992[1] = 
 {
 };
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5993[4] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5993[1] = 
+{
+};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5994[4] = 
 {
 	static_cast<int32_t>(offsetof(TrackingState_t59D2DAE3012B363E3157655C7280B23375321573, ___value___2)) + static_cast<int32_t>(sizeof(RuntimeObject)),0,0,0,};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5994[3] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5995[3] = 
 {
 	static_cast<int32_t>(offsetof(PoseResult_t6DBDACBAC6EFA5D9AB34FE76EBC41BCA2FB1D114, ___pose_0)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(PoseResult_t6DBDACBAC6EFA5D9AB34FE76EBC41BCA2FB1D114, ___corners_1)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(PoseResult_t6DBDACBAC6EFA5D9AB34FE76EBC41BCA2FB1D114, ___weight_2)) + static_cast<int32_t>(sizeof(RuntimeObject)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5995[2] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5996[2] = 
 {
 	static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass89_0_tDF942294056E2F9D98F1F4D9862C224C99E1E0BA, ___lastRegisteredString_0)),static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass89_0_tDF942294056E2F9D98F1F4D9862C224C99E1E0BA, ___U3CU3E4__this_1)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5996[5] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5997[5] = 
 {
 	static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass90_0_t1A0FAE58C83DC381F6B09AC9135EED0D6364B57E, ___U3CU3E4__this_0)),static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass90_0_t1A0FAE58C83DC381F6B09AC9135EED0D6364B57E, ___watch_1)),static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass90_0_t1A0FAE58C83DC381F6B09AC9135EED0D6364B57E, ___scanArea_2)),static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass90_0_t1A0FAE58C83DC381F6B09AC9135EED0D6364B57E, ___downsize_3)),static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass90_0_t1A0FAE58C83DC381F6B09AC9135EED0D6364B57E, ___callback_4)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5997[2] = 
-{
-	static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass90_1_t672925CFE62DF9EF7AB821643E552B862172877B, ___scanResult_0)),static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass90_1_t672925CFE62DF9EF7AB821643E552B862172877B, ___CSU24U3CU3E8__locals1_1)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5998[2] = 
 {
-	static_cast<int32_t>(offsetof(U3CU3Ec_t14197045BEF4E3A9D12D3C30002FEF25084EC245_StaticFields, ___U3CU3E9_0)),static_cast<int32_t>(offsetof(U3CU3Ec_t14197045BEF4E3A9D12D3C30002FEF25084EC245_StaticFields, ___U3CU3E9__90_2_1)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5999[64] = 
+	static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass90_1_t672925CFE62DF9EF7AB821643E552B862172877B, ___scanResult_0)),static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass90_1_t672925CFE62DF9EF7AB821643E552B862172877B, ___CSU24U3CU3E8__locals1_1)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5999[2] = 
 {
-	static_cast<int32_t>(offsetof(QRCodeTracker_t21639C69F78AC4FBD4CD86AE4286F3D34A161387, ___sizeDetermination_4)),static_cast<int32_t>(offsetof(QRCodeTracker_t21639C69F78AC4FBD4CD86AE4286F3D34A161387, ___codeWidth_5)),static_cast<int32_t>(offsetof(QRCodeTracker_t21639C69F78AC4FBD4CD86AE4286F3D34A161387, ___codeWidths_6)),static_cast<int32_t>(offsetof(QRCodeTracker_t21639C69F78AC4FBD4CD86AE4286F3D34A161387, ___getWidthDelegate_7)),static_cast<int32_t>(offsetof(QRCodeTracker_t21639C69F78AC4FBD4CD86AE4286F3D34A161387, ___prefab_8)),static_cast<int32_t>(offsetof(QRCodeTracker_t21639C69F78AC4FBD4CD86AE4286F3D34A161387, ___inversionAttempt_9)),static_cast<int32_t>(offsetof(QRCodeTracker_t21639C69F78AC4FBD4CD86AE4286F3D34A161387, ___onCodeDetected_10)),static_cast<int32_t>(offsetof(QRCodeTracker_t21639C69F78AC4FBD4CD86AE4286F3D34A161387, ___onCodeRegistered_11)),static_cast<int32_t>(offsetof(QRCodeTracker_t21639C69F78AC4FBD4CD86AE4286F3D34A161387, ___onPoseRegistered_12)),static_cast<int32_t>(offsetof(QRCodeTracker_t21639C69F78AC4FBD4CD86AE4286F3D34A161387, ___onCodeLost_13)),static_cast<int32_t>(offsetof(QRCodeTracker_t21639C69F78AC4FBD4CD86AE4286F3D34A161387, ___onStabilizeFailure_14)),static_cast<int32_t>(offsetof(QRCodeTracker_t21639C69F78AC4FBD4CD86AE4286F3D34A161387, ___maxScanResolution_15)),static_cast<int32_t>(offsetof(QRCodeTracker_t21639C69F78AC4FBD4CD86AE4286F3D34A161387, ___searchScanInterval_16)),static_cast<int32_t>(offsetof(QRCodeTracker_t21639C69F78AC4FBD4CD86AE4286F3D34A161387, ___stabilizeScanInterval_17)),static_cast<int32_t>(offsetof(QRCodeTracker_t21639C69F78AC4FBD4CD86AE4286F3D34A161387, ___refineScanInterval_18)),static_cast<int32_t>(offsetof(QRCodeTracker_t21639C69F78AC4FBD4CD86AE4286F3D34A161387, ___codeLossTimeout_19)),static_cast<int32_t>(offsetof(QRCodeTracker_t21639C69F78AC4FBD4CD86AE4286F3D34A161387, ___truncateTimeout_20)),static_cast<int32_t>(offsetof(QRCodeTracker_t21639C69F78AC4FBD4CD86AE4286F3D34A161387, ___debugMode_21)),static_cast<int32_t>(offsetof(QRCodeTracker_t21639C69F78AC4FBD4CD86AE4286F3D34A161387, ___requiredPrecision_22)),static_cast<int32_t>(offsetof(QRCodeTracker_t21639C69F78AC4FBD4CD86AE4286F3D34A161387, ___showLifecycleEvents_23)),static_cast<int32_t>(offsetof(QRCodeTracker_t21639C69F78AC4FBD4CD86AE4286F3D34A161387, ___showAdvanedSettings_24)),static_cast<int32_t>(offsetof(QRCodeTracker_t21639C69F78AC4FBD4CD86AE4286F3D34A161387, ___cam_25)),static_cast<int32_t>(offsetof(QRCodeTracker_t21639C69F78AC4FBD4CD86AE4286F3D34A161387, ___lastBounds_26)),static_cast<int32_t>(offsetof(QRCodeTracker_t21639C69F78AC4FBD4CD86AE4286F3D34A161387, ___lastSuccessfulBounds_27)),static_cast<int32_t>(offsetof(QRCodeTracker_t21639C69F78AC4FBD4CD86AE4286F3D34A161387, ___lastScan_28)),static_cast<int32_t>(offsetof(QRCodeTracker_t21639C69F78AC4FBD4CD86AE4286F3D34A161387, ___MAX_FAILS_UNTIL_UNFOCUS_29)),static_cast<int32_t>(offsetof(QRCodeTracker_t21639C69F78AC4FBD4CD86AE4286F3D34A161387, ___focusFails_30)),static_cast<int32_t>(offsetof(QRCodeTracker_t21639C69F78AC4FBD4CD86AE4286F3D34A161387, ___MAX_FAILS_UNTIL_SEARCH_31)),static_cast<int32_t>(offsetof(QRCodeTracker_t21639C69F78AC4FBD4CD86AE4286F3D34A161387, ___stabilizeFails_32)),static_cast<int32_t>(offsetof(QRCodeTracker_t21639C69F78AC4FBD4CD86AE4286F3D34A161387, ___getWidthAndOffsetDelegate_33)),static_cast<int32_t>(offsetof(QRCodeTracker_t21639C69F78AC4FBD4CD86AE4286F3D34A161387, ___restrictY_34)),static_cast<int32_t>(offsetof(QRCodeTracker_t21639C69F78AC4FBD4CD86AE4286F3D34A161387, ___lastMeta_35)),static_cast<int32_t>(offsetof(QRCodeTracker_t21639C69F78AC4FBD4CD86AE4286F3D34A161387, ___offsetDamping_36)),static_cast<int32_t>(offsetof(QRCodeTracker_t21639C69F78AC4FBD4CD86AE4286F3D34A161387, ___lastSearch_37)),static_cast<int32_t>(offsetof(QRCodeTracker_t21639C69F78AC4FBD4CD86AE4286F3D34A161387, ___lastStabilize_38)),static_cast<int32_t>(offsetof(QRCodeTracker_t21639C69F78AC4FBD4CD86AE4286F3D34A161387, ___lastRefine_39)),static_cast<int32_t>(offsetof(QRCodeTracker_t21639C69F78AC4FBD4CD86AE4286F3D34A161387, ___lastPrecision_40)),static_cast<int32_t>(offsetof(QRCodeTracker_t21639C69F78AC4FBD4CD86AE4286F3D34A161387, ___stabilizingTime_41)),static_cast<int32_t>(offsetof(QRCodeTracker_t21639C69F78AC4FBD4CD86AE4286F3D34A161387, ___lastFoundTime_42)),static_cast<int32_t>(offsetof(QRCodeTracker_t21639C69F78AC4FBD4CD86AE4286F3D34A161387, ___registeredStdDev_43)),static_cast<int32_t>(offsetof(QRCodeTracker_t21639C69F78AC4FBD4CD86AE4286F3D34A161387, ___lastContent_44)),static_cast<int32_t>(offsetof(QRCodeTracker_t21639C69F78AC4FBD4CD86AE4286F3D34A161387, ___lastScanResult_45)),static_cast<int32_t>(offsetof(QRCodeTracker_t21639C69F78AC4FBD4CD86AE4286F3D34A161387, ___lastScanStart_46)),static_cast<int32_t>(offsetof(QRCodeTracker_t21639C69F78AC4FBD4CD86AE4286F3D34A161387, ___lastScanDuration_47)),static_cast<int32_t>(offsetof(QRCodeTracker_t21639C69F78AC4FBD4CD86AE4286F3D34A161387, ___lastCalcStart_48)),static_cast<int32_t>(offsetof(QRCodeTracker_t21639C69F78AC4FBD4CD86AE4286F3D34A161387, ___lastCalcDuration_49)),static_cast<int32_t>(offsetof(QRCodeTracker_t21639C69F78AC4FBD4CD86AE4286F3D34A161387, ___maxDebugBubbles_50)),static_cast<int32_t>(offsetof(QRCodeTracker_t21639C69F78AC4FBD4CD86AE4286F3D34A161387, ___debugBubblesPointer_51)),static_cast<int32_t>(offsetof(QRCodeTracker_t21639C69F78AC4FBD4CD86AE4286F3D34A161387, ___debugBubbles_52)),static_cast<int32_t>(offsetof(QRCodeTracker_t21639C69F78AC4FBD4CD86AE4286F3D34A161387, ___maxSamples_53)),static_cast<int32_t>(offsetof(QRCodeTracker_t21639C69F78AC4FBD4CD86AE4286F3D34A161387, ___confidence_54)),static_cast<int32_t>(offsetof(QRCodeTracker_t21639C69F78AC4FBD4CD86AE4286F3D34A161387, ___samples_55)),static_cast<int32_t>(offsetof(QRCodeTracker_t21639C69F78AC4FBD4CD86AE4286F3D34A161387, ___pointer_56)),static_cast<int32_t>(offsetof(QRCodeTracker_t21639C69F78AC4FBD4CD86AE4286F3D34A161387, ___U3CtrackingStateU3Ek__BackingField_57)),static_cast<int32_t>(offsetof(QRCodeTracker_t21639C69F78AC4FBD4CD86AE4286F3D34A161387, ___U3CintermediateU3Ek__BackingField_58)),static_cast<int32_t>(offsetof(QRCodeTracker_t21639C69F78AC4FBD4CD86AE4286F3D34A161387, ___U3CintermediateSmoothedU3Ek__BackingField_59)),static_cast<int32_t>(offsetof(QRCodeTracker_t21639C69F78AC4FBD4CD86AE4286F3D34A161387, ___U3CregisteredPoseU3Ek__BackingField_60)),static_cast<int32_t>(offsetof(QRCodeTracker_t21639C69F78AC4FBD4CD86AE4286F3D34A161387, ___U3CregisteredStringU3Ek__BackingField_61)),static_cast<int32_t>(offsetof(QRCodeTracker_t21639C69F78AC4FBD4CD86AE4286F3D34A161387, ___U3ClastWidthU3Ek__BackingField_62)),static_cast<int32_t>(offsetof(QRCodeTracker_t21639C69F78AC4FBD4CD86AE4286F3D34A161387, ___registeredGameObject_63)),static_cast<int32_t>(offsetof(QRCodeTracker_t21639C69F78AC4FBD4CD86AE4286F3D34A161387, ___qrScanCallback_64)),static_cast<int32_t>(offsetof(QRCodeTracker_t21639C69F78AC4FBD4CD86AE4286F3D34A161387, ___scanning_65)),static_cast<int32_t>(offsetof(QRCodeTracker_t21639C69F78AC4FBD4CD86AE4286F3D34A161387, ___cameraGameObject_66)),static_cast<int32_t>(offsetof(QRCodeTracker_t21639C69F78AC4FBD4CD86AE4286F3D34A161387, ___camCopy_67)),};
+	static_cast<int32_t>(offsetof(U3CU3Ec_t14197045BEF4E3A9D12D3C30002FEF25084EC245_StaticFields, ___U3CU3E9_0)),static_cast<int32_t>(offsetof(U3CU3Ec_t14197045BEF4E3A9D12D3C30002FEF25084EC245_StaticFields, ___U3CU3E9__90_2_1)),};
