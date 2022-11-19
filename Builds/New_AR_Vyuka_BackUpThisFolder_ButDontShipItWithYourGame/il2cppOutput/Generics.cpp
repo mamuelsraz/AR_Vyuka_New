@@ -1008,6 +1008,8 @@ struct U3CU3Ec__DisplayClass32_0_1_t318184715C994C12294924C2E69F83F4A22AF2AE;
 struct U3CU3Ec__DisplayClass33_0_1_tB6CF9727F3704623A7C8D43E9FEB20554021BFB3;
 // UnityEngine.InputSystem.Utilities.ArrayHelpers/<>c__DisplayClass33_1`1<Unity.IL2CPP.Metadata.__Il2CppFullySharedGenericType>
 struct U3CU3Ec__DisplayClass33_1_1_tB01250104ED42B67FB7350523C897CC2CE3678E1;
+// NativeGallery/<>c__DisplayClass54_0`1<Unity.IL2CPP.Metadata.__Il2CppFullySharedGenericType>
+struct U3CU3Ec__DisplayClass54_0_1_t45AD23965281BA54C1E0E13D3A96D3CC8A4A1211;
 // System.Linq.Enumerable/<>c__DisplayClass6_0`1<Unity.IL2CPP.Metadata.__Il2CppFullySharedGenericType>
 struct U3CU3Ec__DisplayClass6_0_1_tE55BAA8F710B52E70FD7088CD314B782A20EA879;
 // UnityEngine.InputSystem.Utilities.Observable/<>c__DisplayClass6_0`1<Unity.IL2CPP.Metadata.__Il2CppFullySharedGenericType>
@@ -1172,6 +1174,8 @@ struct Func_1_t97C6124008260D65F78265F8B3965ACA776F0671;
 struct Func_1_tD5C081AE11746B200C711DD48DBEB00E3A9276D4;
 // System.Func`1<ZXing.Writer>
 struct Func_1_tC051BDFED29D8A086FB937B5859A02A2EF5C1484;
+// System.Func`1<Unity.IL2CPP.Metadata.__Il2CppFullySharedGenericType>
+struct Func_1_tBB8824FA8746333BFFF3AB3CE4A41B58450AF431;
 // System.Func`1<System.Threading.Tasks.Task/ContingentProperties>
 struct Func_1_tD59A12717D79BFB403BF973694B1BE5B85474BD1;
 // System.Func`2<System.Reflection.FieldInfo,System.Boolean>
@@ -1705,6 +1709,7 @@ IL2CPP_EXTERN_C RuntimeClass* CDSCollectionETWBCLProvider_tA904DD9138642E1D05206
 IL2CPP_EXTERN_C RuntimeClass* Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* CoreUtils_tEE57AB2B0DAE9561F4954B08800A8F957850B038_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* DecodingOptions_t062639B46A59B4B5ABA29D42F15F248D1BC771DB_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* DictionaryEntryU5BU5D_t410156653E754D17B5E1161CC6CF565103B63533_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Dictionary_2_tF099D849028F7351B6B99091102D4A3417711574_il2cpp_TypeInfo_var;
@@ -1806,6 +1811,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteral2B6D6F48C27C60C3B55391AB377D9DC8F5639AA1
 IL2CPP_EXTERN_C String_t* _stringLiteral2DC0198B89999C6E86C5CF2260C4264FF55D7903;
 IL2CPP_EXTERN_C String_t* _stringLiteral313DF12B986144753CF783AC9D1B9CA90E6321CC;
 IL2CPP_EXTERN_C String_t* _stringLiteral393DD49F8AA9554CD1BB1DA05E5D90C3A4F7CC3D;
+IL2CPP_EXTERN_C String_t* _stringLiteral3E96A9BD7C21DFE9192EA9F740C45B0D006C90B5;
 IL2CPP_EXTERN_C String_t* _stringLiteral46F273EF641E07D271D91E0DC24A4392582671F8;
 IL2CPP_EXTERN_C String_t* _stringLiteral4CC02BED909F9630E59013E4804C6C269FF8370A;
 IL2CPP_EXTERN_C String_t* _stringLiteral4DE568C91EA99022F140EDED215DEE02E9BA48AA;
@@ -2142,6 +2148,9 @@ struct U3CU3Ec__DisplayClass33_0_1_tB6CF9727F3704623A7C8D43E9FEB20554021BFB3  : 
 
 // UnityEngine.InputSystem.Utilities.ArrayHelpers/<>c__DisplayClass33_1`1<Unity.IL2CPP.Metadata.__Il2CppFullySharedGenericType>
 struct U3CU3Ec__DisplayClass33_1_1_tB01250104ED42B67FB7350523C897CC2CE3678E1 : public RuntimeObject {};
+
+// NativeGallery/<>c__DisplayClass54_0`1<Unity.IL2CPP.Metadata.__Il2CppFullySharedGenericType>
+struct U3CU3Ec__DisplayClass54_0_1_t45AD23965281BA54C1E0E13D3A96D3CC8A4A1211 : public RuntimeObject {};
 
 // System.Linq.Enumerable/<>c__DisplayClass6_0`1<Unity.IL2CPP.Metadata.__Il2CppFullySharedGenericType>
 struct U3CU3Ec__DisplayClass6_0_1_tE55BAA8F710B52E70FD7088CD314B782A20EA879  : public RuntimeObject
@@ -3887,6 +3896,23 @@ struct Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C
 	float ___m_value_0;
 };
 
+// System.Runtime.CompilerServices.TaskAwaiter
+struct TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 
+{
+	// System.Threading.Tasks.Task System.Runtime.CompilerServices.TaskAwaiter::m_task
+	Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* ___m_task_0;
+};
+// Native definition for P/Invoke marshalling of System.Runtime.CompilerServices.TaskAwaiter
+struct TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_marshaled_pinvoke
+{
+	Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* ___m_task_0;
+};
+// Native definition for COM marshalling of System.Runtime.CompilerServices.TaskAwaiter
+struct TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_marshaled_com
+{
+	Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* ___m_task_0;
+};
+
 // UnityEngine.XR.ARSubsystems.TrackableId
 struct TrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7 
 {
@@ -4911,6 +4937,21 @@ struct RenderTargetMode_tAE75E29BB61A64BDE7646D5CBD353B64BCFA9F3A
 {
 	// System.Int32 UnityEngine.UIElements.VisualElement/RenderTargetMode::value__
 	int32_t ___value___2;
+};
+
+// NativeGallery/<TryCallNativeAndroidFunctionOnSeparateThread>d__54`1<Unity.IL2CPP.Metadata.__Il2CppFullySharedGenericType>
+struct U3CTryCallNativeAndroidFunctionOnSeparateThreadU3Ed__54_1_t94C688C5100BDD4EAB7DAD072C24818C500E69EC 
+{
+	// System.Int32 NativeGallery/<TryCallNativeAndroidFunctionOnSeparateThread>d__54`1::<>1__state
+	int32_t ___U3CU3E1__state_0;
+	// System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<T> NativeGallery/<TryCallNativeAndroidFunctionOnSeparateThread>d__54`1::<>t__builder
+	AsyncTaskMethodBuilder_1_t9A3ADCFF6503F4230FFD38F6C333EBCF1A034AF4 ___U3CU3Et__builder_1;
+	// System.Func`1<T> NativeGallery/<TryCallNativeAndroidFunctionOnSeparateThread>d__54`1::function
+	Func_1_tBB8824FA8746333BFFF3AB3CE4A41B58450AF431* ___function_2;
+	// NativeGallery/<>c__DisplayClass54_0`1<T> NativeGallery/<TryCallNativeAndroidFunctionOnSeparateThread>d__54`1::<>8__1
+	U3CU3Ec__DisplayClass54_0_1_t45AD23965281BA54C1E0E13D3A96D3CC8A4A1211* ___U3CU3E8__1_3;
+	// System.Runtime.CompilerServices.TaskAwaiter NativeGallery/<TryCallNativeAndroidFunctionOnSeparateThread>d__54`1::<>u__1
+	TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 ___U3CU3Eu__1_4;
 };
 
 // ZXing.BarcodeWriterGeneric`1<Unity.IL2CPP.Metadata.__Il2CppFullySharedGenericType>
@@ -6002,6 +6043,11 @@ struct Func_1_tC3BAF7B1A0EE680F2FE474FE6314A25CA0ACF303  : public MulticastDeleg
 
 // System.Func`1<System.Object>
 struct Func_1_tD5C081AE11746B200C711DD48DBEB00E3A9276D4  : public MulticastDelegate_t
+{
+};
+
+// System.Func`1<Unity.IL2CPP.Metadata.__Il2CppFullySharedGenericType>
+struct Func_1_tBB8824FA8746333BFFF3AB3CE4A41B58450AF431  : public MulticastDelegate_t
 {
 };
 
@@ -7663,6 +7709,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Queue_1__ctor_m2A01859D57AB64CDCAECDF680
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Buffer_1__ctor_m55137EEF7AF9E0883A438776A066DA5520FFDE49_gshared (Buffer_1_tE71E32188387FE3B78503E8C2565BD78BE40C697* __this, RuntimeObject* ___source0, const RuntimeMethod* method) ;
 // System.Void System.Collections.Generic.KeyValuePair`2<Unity.IL2CPP.Metadata.__Il2CppFullySharedGenericType,Unity.IL2CPP.Metadata.__Il2CppFullySharedGenericType>::.ctor(TKey,TValue)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void KeyValuePair_2__ctor_mD82E516936D2BDE6D46C8C45270250647986231E_gshared (KeyValuePair_2_t28EF90BF7804CE5D7F99A364266351E7DC652669* __this, /*Unity.IL2CPP.Metadata.__Il2CppFullySharedGenericType*/Il2CppFullySharedGenericAny ___key0, /*Unity.IL2CPP.Metadata.__Il2CppFullySharedGenericType*/Il2CppFullySharedGenericAny ___value1, const RuntimeMethod* method) ;
+// System.Void NativeGallery/<TryCallNativeAndroidFunctionOnSeparateThread>d__54`1<Unity.IL2CPP.Metadata.__Il2CppFullySharedGenericType>::MoveNext()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CTryCallNativeAndroidFunctionOnSeparateThreadU3Ed__54_1_MoveNext_m9221F8E46B78E5D6A46F964994E208EE65DEEE6C_gshared (U3CTryCallNativeAndroidFunctionOnSeparateThreadU3Ed__54_1_t94C688C5100BDD4EAB7DAD072C24818C500E69EC* __this, const RuntimeMethod* method) ;
+// System.Void NativeGallery/<TryCallNativeAndroidFunctionOnSeparateThread>d__54`1<Unity.IL2CPP.Metadata.__Il2CppFullySharedGenericType>::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CTryCallNativeAndroidFunctionOnSeparateThreadU3Ed__54_1_SetStateMachine_m32EA54331CE89C12CBBC02A0817C5B59358019A3_gshared (U3CTryCallNativeAndroidFunctionOnSeparateThreadU3Ed__54_1_t94C688C5100BDD4EAB7DAD072C24818C500E69EC* __this, RuntimeObject* ___stateMachine0, const RuntimeMethod* method) ;
 // System.Void UnityEngine.XR.ARFoundation.TrackableCollection`1<Unity.IL2CPP.Metadata.__Il2CppFullySharedGenericType>::.ctor(System.Collections.Generic.Dictionary`2<UnityEngine.XR.ARSubsystems.TrackableId,TTrackable>)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackableCollection_1__ctor_m3C24A472465B5447A0CB9BA0AFA72CA64756631D_gshared (TrackableCollection_1_t4400020074F5D0EDBFC01EF467FC905233F8B577* __this, Dictionary_2_t31206B9464586849ECEFC97A966720A1E100BB15* ___trackables0, const RuntimeMethod* method) ;
 // T UnityEngine.Component::GetComponent<Unity.IL2CPP.Metadata.__Il2CppFullySharedGenericType>()
@@ -7793,6 +7843,12 @@ inline void Queue_1__ctor_m8ADF693E7041BD410B975BE9B7DE9D208E953945 (Queue_1_tBF
 {
 	((  void (*) (Queue_1_t00794C5F46E3254E713B03F949E6AB3A1AB1FD41*, int32_t, const RuntimeMethod*))Queue_1__ctor_m2A01859D57AB64CDCAECDF68089FD2236759976C_gshared)((Queue_1_t00794C5F46E3254E713B03F949E6AB3A1AB1FD41*)__this, ___capacity0, method);
 }
+// System.Int32 UnityEngine.AndroidJNI::AttachCurrentThread()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AndroidJNI_AttachCurrentThread_mD5647083E547A77F9377BDB78106D426878A00E7 (const RuntimeMethod* method) ;
+// System.Void UnityEngine.Debug::LogWarning(System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_LogWarning_mEF15C6B17CE4E1FA7E379CDB82CE40FCD89A3F28 (RuntimeObject* ___message0, const RuntimeMethod* method) ;
+// System.Int32 UnityEngine.AndroidJNI::DetachCurrentThread()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AndroidJNI_DetachCurrentThread_m8549BBC1875C2142A1C6BE5B57663E42B9C04A85 (const RuntimeMethod* method) ;
 // System.Int32 System.Environment::get_CurrentManagedThreadId()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Environment_get_CurrentManagedThreadId_mEC09D20ED666BC3277AC9D16B68AA287E5AFE1B2 (const RuntimeMethod* method) ;
 // System.Void System.NotSupportedException::.ctor()
@@ -7813,6 +7869,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Time_get_deltaTime_m7AB6BFA101D83E1D8F2
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Time_get_unscaledDeltaTime_m89252D23CC5AA295CFA4EB2BCB417A831AC51652 (const RuntimeMethod* method) ;
 // System.Single UnityEngine.Mathf::Clamp01(System.Single)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp01_mD921B23F47F5347996C56DC789D1DE16EE27D9B1_inline (float ___value0, const RuntimeMethod* method) ;
+// System.Void System.Action::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
+// System.Threading.Tasks.Task System.Threading.Tasks.Task::Run(System.Action)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* Task_Run_mBD6EF33232D13F2183A43D0A526A220C4F0181B4 (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___action0, const RuntimeMethod* method) ;
+// System.Runtime.CompilerServices.TaskAwaiter System.Threading.Tasks.Task::GetAwaiter()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 Task_GetAwaiter_m08B368EAC939DD35D0AC428180822255A442CA29 (Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* __this, const RuntimeMethod* method) ;
+// System.Boolean System.Runtime.CompilerServices.TaskAwaiter::get_IsCompleted()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TaskAwaiter_get_IsCompleted_mC236D276FBE3A271B56EE13FCAF2C96E48453ED8 (TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833* __this, const RuntimeMethod* method) ;
+// System.Void System.Runtime.CompilerServices.TaskAwaiter::GetResult()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskAwaiter_GetResult_mC1D712500AE49B4A89C85D6B79D87D1BA9A6B94D (TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833* __this, const RuntimeMethod* method) ;
+// System.Void NativeGallery/<TryCallNativeAndroidFunctionOnSeparateThread>d__54`1<Unity.IL2CPP.Metadata.__Il2CppFullySharedGenericType>::MoveNext()
+inline void U3CTryCallNativeAndroidFunctionOnSeparateThreadU3Ed__54_1_MoveNext_m9221F8E46B78E5D6A46F964994E208EE65DEEE6C (U3CTryCallNativeAndroidFunctionOnSeparateThreadU3Ed__54_1_t94C688C5100BDD4EAB7DAD072C24818C500E69EC* __this, const RuntimeMethod* method)
+{
+	((  void (*) (U3CTryCallNativeAndroidFunctionOnSeparateThreadU3Ed__54_1_t94C688C5100BDD4EAB7DAD072C24818C500E69EC*, const RuntimeMethod*))U3CTryCallNativeAndroidFunctionOnSeparateThreadU3Ed__54_1_MoveNext_m9221F8E46B78E5D6A46F964994E208EE65DEEE6C_gshared)((U3CTryCallNativeAndroidFunctionOnSeparateThreadU3Ed__54_1_t94C688C5100BDD4EAB7DAD072C24818C500E69EC*)__this, method);
+}
+// System.Void NativeGallery/<TryCallNativeAndroidFunctionOnSeparateThread>d__54`1<Unity.IL2CPP.Metadata.__Il2CppFullySharedGenericType>::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+inline void U3CTryCallNativeAndroidFunctionOnSeparateThreadU3Ed__54_1_SetStateMachine_m32EA54331CE89C12CBBC02A0817C5B59358019A3 (U3CTryCallNativeAndroidFunctionOnSeparateThreadU3Ed__54_1_t94C688C5100BDD4EAB7DAD072C24818C500E69EC* __this, RuntimeObject* ___stateMachine0, const RuntimeMethod* method)
+{
+	((  void (*) (U3CTryCallNativeAndroidFunctionOnSeparateThreadU3Ed__54_1_t94C688C5100BDD4EAB7DAD072C24818C500E69EC*, RuntimeObject*, const RuntimeMethod*))U3CTryCallNativeAndroidFunctionOnSeparateThreadU3Ed__54_1_SetStateMachine_m32EA54331CE89C12CBBC02A0817C5B59358019A3_gshared)((U3CTryCallNativeAndroidFunctionOnSeparateThreadU3Ed__54_1_t94C688C5100BDD4EAB7DAD072C24818C500E69EC*)__this, ___stateMachine0, method);
+}
 // System.Int32 UnityEngine.Time::get_frameCount()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Time_get_frameCount_m88E5008FE9451A892DE1F43DC8587213075890A8 (const RuntimeMethod* method) ;
 // System.Void UnityEngine.XR.ARCore.ArPrestoApi::ArPresto_update()
@@ -8290,8 +8366,6 @@ inline void CallbackEventHandler_RegisterCallback_TisGeometryChangedEvent_tB4A62
 {
 	((  void (*) (CallbackEventHandler_t99E35735225B4ACEAD1BA981632FD2D46E9CB2B4*, EventCallback_1_t435839AFF4474F7EAE0AA8A59F737E798CEAFD30*, int32_t, const RuntimeMethod*))CallbackEventHandler_RegisterCallback_TisRuntimeObject_m221D8BDDC2D60A7D22B11CBCC628C7990BE1C8F9_gshared)(__this, ___callback0, ___useTrickleDown1, method);
 }
-// System.Void System.Action::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
 // System.Void UnityEngine.UIElements.VisualElementExtensions::AddManipulator(UnityEngine.UIElements.VisualElement,UnityEngine.UIElements.IManipulator)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VisualElementExtensions_AddManipulator_m0228B38CC6B7EC08B2064733EA0E63BB8FF1CA71 (VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* ___ele0, RuntimeObject* ___manipulator1, const RuntimeMethod* method) ;
 // System.Void UnityEngine.UIElements.EventCallback`1<UnityEngine.UIElements.KeyDownEvent>::.ctor(System.Object,System.IntPtr)
@@ -9226,6 +9300,91 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass33_1_1_U3CMergeU3Eb
 		bool L_3;
 		L_3 = VirtualFuncInvoker1< bool, RuntimeObject* >::Invoke(0 /* System.Boolean System.Object::Equals(System.Object) */, (RuntimeObject*)L_0, L_2);
 		return L_3;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void NativeGallery/<>c__DisplayClass54_0`1<Unity.IL2CPP.Metadata.__Il2CppFullySharedGenericType>::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass54_0_1__ctor_m98B6DD68895A8167555C9847722F2145F7054419_gshared (/*NativeGallery/<>c__DisplayClass54_0`1<Unity.IL2CPP.Metadata.__Il2CppFullySharedGenericType>*/U3CU3Ec__DisplayClass54_0_1_t45AD23965281BA54C1E0E13D3A96D3CC8A4A1211* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2((RuntimeObject*)__this, NULL);
+		return;
+	}
+}
+// System.Void NativeGallery/<>c__DisplayClass54_0`1<Unity.IL2CPP.Metadata.__Il2CppFullySharedGenericType>::<TryCallNativeAndroidFunctionOnSeparateThread>b__0()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass54_0_1_U3CTryCallNativeAndroidFunctionOnSeparateThreadU3Eb__0_mA6B1F70147FF9C6330EF2230DE45C75FA37F049D_gshared (/*NativeGallery/<>c__DisplayClass54_0`1<Unity.IL2CPP.Metadata.__Il2CppFullySharedGenericType>*/U3CU3Ec__DisplayClass54_0_1_t45AD23965281BA54C1E0E13D3A96D3CC8A4A1211* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral3E96A9BD7C21DFE9192EA9F740C45B0D006C90B5);
+		s_Il2CppMethodInitialized = true;
+	}
+	// sizeof(T)
+	const uint32_t SizeOf_T_tAEC748E4F6B92ABF6FDB76E9F50A1638CDC2229F = il2cpp_codegen_sizeof(il2cpp_rgctx_data(method->klass->rgctx_data, 3));
+	// T
+	const Il2CppFullySharedGenericAny L_2 = alloca(SizeOf_T_tAEC748E4F6B92ABF6FDB76E9F50A1638CDC2229F);
+	{
+		// if( AndroidJNI.AttachCurrentThread() != 0 )
+		int32_t L_0;
+		L_0 = AndroidJNI_AttachCurrentThread_mD5647083E547A77F9377BDB78106D426878A00E7(NULL);
+		if (!L_0)
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		// Debug.LogWarning( "Couldn't attach JNI thread, calling native function on the main thread" );
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_LogWarning_mEF15C6B17CE4E1FA7E379CDB82CE40FCD89A3F28((RuntimeObject*)_stringLiteral3E96A9BD7C21DFE9192EA9F740C45B0D006C90B5, NULL);
+		return;
+	}
+
+IL_0012:
+	{
+	}
+	{
+		auto __finallyBlock = il2cpp::utils::Finally([&]
+		{
+
+FINALLY_002d:
+			{// begin finally (depth: 1)
+				// AndroidJNI.DetachCurrentThread();
+				int32_t L_1;
+				L_1 = AndroidJNI_DetachCurrentThread_m8549BBC1875C2142A1C6BE5B57663E42B9C04A85(NULL);
+				// }
+				return;
+			}// end finally (depth: 1)
+		});
+		try
+		{// begin try (depth: 1)
+			// result = function();
+			NullCheck((*(Func_1_tBB8824FA8746333BFFF3AB3CE4A41B58450AF431**)il2cpp_codegen_get_instance_field_data_pointer(__this, il2cpp_rgctx_field(il2cpp_rgctx_data(method->klass->rgctx_data, 0),1))));
+			InvokerActionInvoker1< Il2CppFullySharedGenericAny* >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 2)), il2cpp_rgctx_method(method->klass->rgctx_data, 2), (*(Func_1_tBB8824FA8746333BFFF3AB3CE4A41B58450AF431**)il2cpp_codegen_get_instance_field_data_pointer(__this, il2cpp_rgctx_field(il2cpp_rgctx_data(method->klass->rgctx_data, 0),1))), (Il2CppFullySharedGenericAny*)L_2);
+			il2cpp_codegen_write_instance_field_data(__this, il2cpp_rgctx_field(il2cpp_rgctx_data(method->klass->rgctx_data, 0),0), L_2, SizeOf_T_tAEC748E4F6B92ABF6FDB76E9F50A1638CDC2229F);
+			// hasResult = true;
+			il2cpp_codegen_write_instance_field_data<bool>(__this, il2cpp_rgctx_field(il2cpp_rgctx_data(method->klass->rgctx_data, 0),2), (bool)1);
+			// }
+			goto IL_0034;
+		}// end try (depth: 1)
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__finallyBlock.StoreException(e.ex);
+		}
+	}
+
+IL_0034:
+	{
+		// } );
+		return;
 	}
 }
 #ifdef __clang__
@@ -11693,6 +11852,221 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CStartU3Ed__2_System_Collect
 	{
 		return (*(RuntimeObject**)il2cpp_codegen_get_instance_field_data_pointer(__this, il2cpp_rgctx_field(il2cpp_rgctx_data(method->klass->rgctx_data, 0),1)));
 	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void NativeGallery/<TryCallNativeAndroidFunctionOnSeparateThread>d__54`1<Unity.IL2CPP.Metadata.__Il2CppFullySharedGenericType>::MoveNext()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CTryCallNativeAndroidFunctionOnSeparateThreadU3Ed__54_1_MoveNext_m9221F8E46B78E5D6A46F964994E208EE65DEEE6C_gshared (U3CTryCallNativeAndroidFunctionOnSeparateThreadU3Ed__54_1_t94C688C5100BDD4EAB7DAD072C24818C500E69EC* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	// sizeof(T)
+	const uint32_t SizeOf_T_tDC5B8A025701AA7871E2F9627662EA7410696F02 = il2cpp_codegen_sizeof(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4));
+	// T
+	const Il2CppFullySharedGenericAny L_20 = alloca(SizeOf_T_tDC5B8A025701AA7871E2F9627662EA7410696F02);
+	const Il2CppFullySharedGenericAny L_22 = L_20;
+	const Il2CppFullySharedGenericAny L_26 = L_20;
+	int32_t V_0 = 0;
+	Il2CppFullySharedGenericAny V_1 = alloca(SizeOf_T_tDC5B8A025701AA7871E2F9627662EA7410696F02);
+	memset(V_1, 0, SizeOf_T_tDC5B8A025701AA7871E2F9627662EA7410696F02);
+	TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	Exception_t* V_3 = NULL;
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	Il2CppFullySharedGenericAny G_B8_0 = alloca(SizeOf_T_tDC5B8A025701AA7871E2F9627662EA7410696F02);
+	memset(G_B8_0, 0, SizeOf_T_tDC5B8A025701AA7871E2F9627662EA7410696F02);
+	{
+		int32_t L_0 = (int32_t)__this->___U3CU3E1__state_0;
+		V_0 = L_0;
+	}
+	try
+	{// begin try (depth: 1)
+		{
+			int32_t L_1 = V_0;
+			if (!L_1)
+			{
+				goto IL_008e_1;
+			}
+		}
+		{
+			U3CU3Ec__DisplayClass54_0_1_t45AD23965281BA54C1E0E13D3A96D3CC8A4A1211* L_2 = (U3CU3Ec__DisplayClass54_0_1_t45AD23965281BA54C1E0E13D3A96D3CC8A4A1211*)il2cpp_codegen_object_new(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
+			NullCheck(L_2);
+			InvokerActionInvoker0::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 2)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 2), L_2);
+			__this->___U3CU3E8__1_3 = L_2;
+			Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E8__1_3), (void*)L_2);
+			U3CU3Ec__DisplayClass54_0_1_t45AD23965281BA54C1E0E13D3A96D3CC8A4A1211* L_3 = (U3CU3Ec__DisplayClass54_0_1_t45AD23965281BA54C1E0E13D3A96D3CC8A4A1211*)__this->___U3CU3E8__1_3;
+			Func_1_tBB8824FA8746333BFFF3AB3CE4A41B58450AF431* L_4 = (Func_1_tBB8824FA8746333BFFF3AB3CE4A41B58450AF431*)__this->___function_2;
+			NullCheck(L_3);
+			il2cpp_codegen_write_instance_field_data<Func_1_tBB8824FA8746333BFFF3AB3CE4A41B58450AF431*>(L_3, il2cpp_rgctx_field(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1),1), L_4);
+			// T result = default( T );
+			U3CU3Ec__DisplayClass54_0_1_t45AD23965281BA54C1E0E13D3A96D3CC8A4A1211* L_5 = (U3CU3Ec__DisplayClass54_0_1_t45AD23965281BA54C1E0E13D3A96D3CC8A4A1211*)__this->___U3CU3E8__1_3;
+			il2cpp_codegen_initobj((((Il2CppFullySharedGenericAny*)il2cpp_codegen_get_instance_field_data_pointer(L_5, il2cpp_rgctx_field(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1),0)))), SizeOf_T_tDC5B8A025701AA7871E2F9627662EA7410696F02);
+			// bool hasResult = false;
+			U3CU3Ec__DisplayClass54_0_1_t45AD23965281BA54C1E0E13D3A96D3CC8A4A1211* L_6 = (U3CU3Ec__DisplayClass54_0_1_t45AD23965281BA54C1E0E13D3A96D3CC8A4A1211*)__this->___U3CU3E8__1_3;
+			NullCheck(L_6);
+			il2cpp_codegen_write_instance_field_data<bool>(L_6, il2cpp_rgctx_field(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1),2), (bool)0);
+			// await Task.Run( () =>
+			// {
+			//     if( AndroidJNI.AttachCurrentThread() != 0 )
+			//         Debug.LogWarning( "Couldn't attach JNI thread, calling native function on the main thread" );
+			//     else
+			//     {
+			//         try
+			//         {
+			//             result = function();
+			//             hasResult = true;
+			//         }
+			//         finally
+			//         {
+			//             AndroidJNI.DetachCurrentThread();
+			//         }
+			//     }
+			// } );
+			U3CU3Ec__DisplayClass54_0_1_t45AD23965281BA54C1E0E13D3A96D3CC8A4A1211* L_7 = (U3CU3Ec__DisplayClass54_0_1_t45AD23965281BA54C1E0E13D3A96D3CC8A4A1211*)__this->___U3CU3E8__1_3;
+			Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_8 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
+			NullCheck(L_8);
+			Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_8, (RuntimeObject*)L_7, (intptr_t)((void*)il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5)), NULL);
+			il2cpp_codegen_runtime_class_init_inline(Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_il2cpp_TypeInfo_var);
+			Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_9;
+			L_9 = Task_Run_mBD6EF33232D13F2183A43D0A526A220C4F0181B4(L_8, NULL);
+			NullCheck(L_9);
+			TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 L_10;
+			L_10 = Task_GetAwaiter_m08B368EAC939DD35D0AC428180822255A442CA29(L_9, NULL);
+			V_2 = L_10;
+			bool L_11;
+			L_11 = TaskAwaiter_get_IsCompleted_mC236D276FBE3A271B56EE13FCAF2C96E48453ED8((&V_2), NULL);
+			if (L_11)
+			{
+				goto IL_00aa_1;
+			}
+		}
+		{
+			int32_t L_12 = 0;
+			V_0 = L_12;
+			__this->___U3CU3E1__state_0 = L_12;
+			TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 L_13 = V_2;
+			__this->___U3CU3Eu__1_4 = L_13;
+			Il2CppCodeGenWriteBarrier((void**)&(((&__this->___U3CU3Eu__1_4))->___m_task_0), (void*)NULL);
+			AsyncTaskMethodBuilder_1_t9A3ADCFF6503F4230FFD38F6C333EBCF1A034AF4* L_14 = (AsyncTaskMethodBuilder_1_t9A3ADCFF6503F4230FFD38F6C333EBCF1A034AF4*)(&__this->___U3CU3Et__builder_1);
+			InvokerActionInvoker2< TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833*, U3CTryCallNativeAndroidFunctionOnSeparateThreadU3Ed__54_1_t94C688C5100BDD4EAB7DAD072C24818C500E69EC* >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 7)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 7), L_14, (&V_2), __this);
+			goto IL_0117;
+		}
+
+IL_008e_1:
+		{
+			TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 L_15 = (TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833)__this->___U3CU3Eu__1_4;
+			V_2 = L_15;
+			TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833* L_16 = (TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833*)(&__this->___U3CU3Eu__1_4);
+			il2cpp_codegen_initobj(L_16, sizeof(TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833));
+			int32_t L_17 = (-1);
+			V_0 = L_17;
+			__this->___U3CU3E1__state_0 = L_17;
+		}
+
+IL_00aa_1:
+		{
+			TaskAwaiter_GetResult_mC1D712500AE49B4A89C85D6B79D87D1BA9A6B94D((&V_2), NULL);
+			// return hasResult ? result : function();
+			U3CU3Ec__DisplayClass54_0_1_t45AD23965281BA54C1E0E13D3A96D3CC8A4A1211* L_18 = (U3CU3Ec__DisplayClass54_0_1_t45AD23965281BA54C1E0E13D3A96D3CC8A4A1211*)__this->___U3CU3E8__1_3;
+			if ((*(bool*)il2cpp_codegen_get_instance_field_data_pointer(L_18, il2cpp_rgctx_field(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1),2))))
+			{
+				goto IL_00d0_1;
+			}
+		}
+		{
+			U3CU3Ec__DisplayClass54_0_1_t45AD23965281BA54C1E0E13D3A96D3CC8A4A1211* L_19 = (U3CU3Ec__DisplayClass54_0_1_t45AD23965281BA54C1E0E13D3A96D3CC8A4A1211*)__this->___U3CU3E8__1_3;
+			NullCheck((*(Func_1_tBB8824FA8746333BFFF3AB3CE4A41B58450AF431**)il2cpp_codegen_get_instance_field_data_pointer(L_19, il2cpp_rgctx_field(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1),1))));
+			InvokerActionInvoker1< Il2CppFullySharedGenericAny* >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 9)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 9), (*(Func_1_tBB8824FA8746333BFFF3AB3CE4A41B58450AF431**)il2cpp_codegen_get_instance_field_data_pointer(L_19, il2cpp_rgctx_field(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1),1))), (Il2CppFullySharedGenericAny*)L_20);
+			il2cpp_codegen_memcpy(G_B8_0, L_20, SizeOf_T_tDC5B8A025701AA7871E2F9627662EA7410696F02);
+			goto IL_00db_1;
+		}
+
+IL_00d0_1:
+		{
+			U3CU3Ec__DisplayClass54_0_1_t45AD23965281BA54C1E0E13D3A96D3CC8A4A1211* L_21 = (U3CU3Ec__DisplayClass54_0_1_t45AD23965281BA54C1E0E13D3A96D3CC8A4A1211*)__this->___U3CU3E8__1_3;
+			il2cpp_codegen_memcpy(L_22, il2cpp_codegen_get_instance_field_data_pointer(L_21, il2cpp_rgctx_field(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1),0)), SizeOf_T_tDC5B8A025701AA7871E2F9627662EA7410696F02);
+			il2cpp_codegen_memcpy(G_B8_0, L_22, SizeOf_T_tDC5B8A025701AA7871E2F9627662EA7410696F02);
+		}
+
+IL_00db_1:
+		{
+			il2cpp_codegen_memcpy(V_1, G_B8_0, SizeOf_T_tDC5B8A025701AA7871E2F9627662EA7410696F02);
+			goto IL_00fc;
+		}
+	}// end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_00de;
+		}
+		throw e;
+	}
+
+CATCH_00de:
+	{// begin catch(System.Exception)
+		V_3 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));
+		__this->___U3CU3E1__state_0 = ((int32_t)-2);
+		__this->___U3CU3E8__1_3 = (U3CU3Ec__DisplayClass54_0_1_t45AD23965281BA54C1E0E13D3A96D3CC8A4A1211*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E8__1_3), (void*)(U3CU3Ec__DisplayClass54_0_1_t45AD23965281BA54C1E0E13D3A96D3CC8A4A1211*)NULL);
+		AsyncTaskMethodBuilder_1_t9A3ADCFF6503F4230FFD38F6C333EBCF1A034AF4* L_23 = (AsyncTaskMethodBuilder_1_t9A3ADCFF6503F4230FFD38F6C333EBCF1A034AF4*)(&__this->___U3CU3Et__builder_1);
+		Exception_t* L_24 = V_3;
+		InvokerActionInvoker1< Exception_t* >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 10)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 10), L_23, L_24);
+		IL2CPP_POP_ACTIVE_EXCEPTION();
+		goto IL_0117;
+	}// end catch (depth: 1)
+
+IL_00fc:
+	{
+		// }
+		__this->___U3CU3E1__state_0 = ((int32_t)-2);
+		__this->___U3CU3E8__1_3 = (U3CU3Ec__DisplayClass54_0_1_t45AD23965281BA54C1E0E13D3A96D3CC8A4A1211*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E8__1_3), (void*)(U3CU3Ec__DisplayClass54_0_1_t45AD23965281BA54C1E0E13D3A96D3CC8A4A1211*)NULL);
+		AsyncTaskMethodBuilder_1_t9A3ADCFF6503F4230FFD38F6C333EBCF1A034AF4* L_25 = (AsyncTaskMethodBuilder_1_t9A3ADCFF6503F4230FFD38F6C333EBCF1A034AF4*)(&__this->___U3CU3Et__builder_1);
+		il2cpp_codegen_memcpy(L_26, V_1, SizeOf_T_tDC5B8A025701AA7871E2F9627662EA7410696F02);
+		InvokerActionInvoker1< Il2CppFullySharedGenericAny >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 11)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 11), L_25, (il2cpp_codegen_class_is_value_type(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)) ? L_26: *(void**)L_26));
+	}
+
+IL_0117:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void U3CTryCallNativeAndroidFunctionOnSeparateThreadU3Ed__54_1_MoveNext_m9221F8E46B78E5D6A46F964994E208EE65DEEE6C_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	U3CTryCallNativeAndroidFunctionOnSeparateThreadU3Ed__54_1_t94C688C5100BDD4EAB7DAD072C24818C500E69EC* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<U3CTryCallNativeAndroidFunctionOnSeparateThreadU3Ed__54_1_t94C688C5100BDD4EAB7DAD072C24818C500E69EC*>(__this + _offset);
+	U3CTryCallNativeAndroidFunctionOnSeparateThreadU3Ed__54_1_MoveNext_m9221F8E46B78E5D6A46F964994E208EE65DEEE6C(_thisAdjusted, method);
+}
+// System.Void NativeGallery/<TryCallNativeAndroidFunctionOnSeparateThread>d__54`1<Unity.IL2CPP.Metadata.__Il2CppFullySharedGenericType>::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CTryCallNativeAndroidFunctionOnSeparateThreadU3Ed__54_1_SetStateMachine_m32EA54331CE89C12CBBC02A0817C5B59358019A3_gshared (U3CTryCallNativeAndroidFunctionOnSeparateThreadU3Ed__54_1_t94C688C5100BDD4EAB7DAD072C24818C500E69EC* __this, RuntimeObject* ___stateMachine0, const RuntimeMethod* method) 
+{
+	{
+		AsyncTaskMethodBuilder_1_t9A3ADCFF6503F4230FFD38F6C333EBCF1A034AF4* L_0 = (AsyncTaskMethodBuilder_1_t9A3ADCFF6503F4230FFD38F6C333EBCF1A034AF4*)(&__this->___U3CU3Et__builder_1);
+		RuntimeObject* L_1 = ___stateMachine0;
+		InvokerActionInvoker1< RuntimeObject* >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 12)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 12), L_0, L_1);
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void U3CTryCallNativeAndroidFunctionOnSeparateThreadU3Ed__54_1_SetStateMachine_m32EA54331CE89C12CBBC02A0817C5B59358019A3_AdjustorThunk (RuntimeObject* __this, RuntimeObject* ___stateMachine0, const RuntimeMethod* method)
+{
+	U3CTryCallNativeAndroidFunctionOnSeparateThreadU3Ed__54_1_t94C688C5100BDD4EAB7DAD072C24818C500E69EC* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<U3CTryCallNativeAndroidFunctionOnSeparateThreadU3Ed__54_1_t94C688C5100BDD4EAB7DAD072C24818C500E69EC*>(__this + _offset);
+	U3CTryCallNativeAndroidFunctionOnSeparateThreadU3Ed__54_1_SetStateMachine_m32EA54331CE89C12CBBC02A0817C5B59358019A3(_thisAdjusted, ___stateMachine0, method);
 }
 #ifdef __clang__
 #pragma clang diagnostic pop

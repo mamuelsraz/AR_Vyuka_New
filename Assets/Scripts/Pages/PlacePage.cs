@@ -28,8 +28,10 @@ public class PlacePage : Page
         m_AnchorPoints = new List<ARAnchor>();
     }
 
-    void Update()
+    protected override void Update()
     {
+        base.Update();
+
         if (active)
         {
             if (!placementIndicator.activeSelf) placementIndicator.SetActive(true);

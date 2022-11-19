@@ -25,7 +25,6 @@ public class SelectedArObjectManager : MonoBehaviour
         if (selectedObject != null) selectedObject.SetActive(false);
         selectedArObject = arObject;
         selectedObject = AssetStreamingManager.instance.cachedArObjects[selectedArObject];
-        //selectedObject.SetActive(true);
     }
 
     public GameObject SpawnCurrent(Transform parent) {

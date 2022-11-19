@@ -1,11 +1,10 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class TouchControls : MonoBehaviour
 {
     float initialDistance = 0f;
     Vector2 initialRotatePos = Vector2.one;
+    float initialRotation = 0f;
     Vector3 initialScale = Vector3.one;
     public void RotateAndScaleObj(Transform obj)
     {
@@ -18,11 +17,12 @@ public class TouchControls : MonoBehaviour
             {
                 initialRotatePos = touchZero.position;
                 initialScale = obj.localScale;
+                initialRotation = obj.localEulerAngles.y;
             }
             else
             {
-                Vector2 factor = touchZero.position - initialRotatePos;
-                obj.localEulerAngles = new Vector3(0, factor.x, 0);
+                Vector2 factor = initialRotatePos - touchZero.position;
+                obj.localEulerAngles = new Vector3(0, initialRotation + factor.x, 0);
             }
         }
         else if (Input.touchCount == 2)
@@ -39,6 +39,8 @@ public class TouchControls : MonoBehaviour
             if (touchZero.phase == TouchPhase.Began || touchOne.phase == TouchPhase.Began)
             {
                 initialDistance = Vector2.Distance(touchZero.position, touchOne.position);
+                initialScale = obj.localScale;
+                initialRotation = obj.localEulerAngles.y;
             }
             else // if touch is moved
             {

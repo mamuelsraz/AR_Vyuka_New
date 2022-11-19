@@ -10,6 +10,7 @@ public class ViewPage : Page
     public TouchControls touchControls;
     public Transform prepositionsParent;
     public GameObject languagePanel;
+    public TextMeshProUGUI otherText;
     public GameObject prepositionPrefab;
     public TextMeshProUGUI mainText;
     public LanguageChangeUI languageChangeUI;
@@ -53,17 +54,24 @@ public class ViewPage : Page
                 var text = obj.GetComponentInChildren<TextMeshProUGUI>();
                 text.text = preposition;
                 int ii = i;
-                obj.GetComponentInChildren<Button>().onClick.AddListener(() => {
+                obj.GetComponentInChildren<Button>().onClick.AddListener(() =>
+                {
                     Speak(ii);
                 });
                 i++;
             }
+
+            otherText.gameObject.SetActive(false);
         }
-        else languagePanel.SetActive(false);
+        else { languagePanel.SetActive(false);
+            otherText.text = arObject.nickName;
+            otherText.gameObject.SetActive(true);
+        }
     }
 
-    private void Update()
+    protected override void Update()
     {
+        base.Update();
         if (active)
         {
             touchControls.RotateAndScaleObj(SelectedArObjectManager.instance.selectedObject.transform);
@@ -90,5 +98,4 @@ public class ViewPage : Page
                 break;
         }
     }
-   
 }

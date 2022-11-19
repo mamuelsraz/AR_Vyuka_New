@@ -11,6 +11,7 @@ public class Transition : MonoBehaviour
     public float duration;
     public List<MoveTransitionAction> moveActions;
     public List<ScreenTransitionAction> screenActions;
+    public List<RotateTransitionAction> rotateActions;
     protected bool started;
     protected bool back;
     float timeSinceStart;
@@ -27,10 +28,11 @@ public class Transition : MonoBehaviour
 
     private void Awake()
     {
-        List<TransitionAction> actions = new List<TransitionAction>(moveActions.Count + screenActions.Count);
+        List<TransitionAction> actions = new List<TransitionAction>(moveActions.Count + screenActions.Count + rotateActions.Count);
         actionsInTime = new List<TransitionAction>();
         actions.AddRange(moveActions);
         actions.AddRange(screenActions);
+        actions.AddRange(rotateActions);
 
         foreach (var newAction in actions)
         {
@@ -64,7 +66,7 @@ public class Transition : MonoBehaviour
 
         if (currentHandle != null)
         {
-            currentHandle.OnCancel.Invoke(transitionHandle);
+            currentHandle.OnCancel?.Invoke(transitionHandle);
         }
         currentHandle = transitionHandle;
 
@@ -90,7 +92,7 @@ public class Transition : MonoBehaviour
     protected virtual void EndTransition()
     {
         started = false;
-        currentHandle.OnFinish.Invoke();
+        currentHandle.OnFinish?.Invoke();
         currentHandle = null;
     }
 

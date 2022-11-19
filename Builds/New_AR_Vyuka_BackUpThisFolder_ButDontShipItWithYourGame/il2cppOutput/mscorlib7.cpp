@@ -24574,6 +24574,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Monitor_Wait_m2EB745280938351E12D82BB27C
 		return L_2;
 	}
 }
+// System.Boolean System.Threading.Monitor::Wait(System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Monitor_Wait_m4E2A910D043438CDD5F8B9B9E82213C1E3CC8A78 (RuntimeObject* ___obj0, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = ___obj0;
+		bool L_1;
+		L_1 = Monitor_Wait_mA6FB0E1C758DC87FA6FB27B4C35B3DE34B6AC66B(L_0, (-1), (bool)0, NULL);
+		return L_1;
+	}
+}
 // System.Void System.Threading.Monitor::Pulse(System.Object)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Monitor_Pulse_mCCD5C110AC8E4CD538E367C3414CA4E93F045419 (RuntimeObject* ___obj0, const RuntimeMethod* method) 
 {

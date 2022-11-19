@@ -8,6 +8,7 @@ using UnityEngine.Events;
 public class Page : MonoBehaviour
 {
     [HideInInspector] public RectTransform rect;
+    [HideInInspector] public Page previousPage = null;
     public Transition transition;
     public bool active;
 
@@ -24,14 +25,28 @@ public class Page : MonoBehaviour
         gameObject.SetActive(active);
     }
 
-    public void GoBack(Page page) {
-        transition.screenActions[0].transform = page.rect;
+    protected virtual void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            GoBack();
+        }
+    }
+
+    public void GoBack()
+    {
+        if (previousPage == null)
+        {
+            Application.Quit();
+            return;
+        }
+        transition.screenActions[0].transform = previousPage.rect;
         transition.screenActions[1].transform = rect;
         onPreHide?.Invoke();
-        page.onPreShow?.Invoke();
+        previousPage.onPreShow?.Invoke();
 
         var handle = transition.StartTransition(true);
-        SubToHandle(handle, this, page);
+        SubToHandle(handle, this, previousPage);
     }
 
 
@@ -41,12 +56,13 @@ public class Page : MonoBehaviour
         transition.screenActions[1].transform = page.rect;
         onPreHide?.Invoke();
         page.onPreShow?.Invoke();
-
+        page.previousPage = this;
         var handle = transition.StartTransition();
         SubToHandle(handle, this, page);
     }
 
-    public void SubToHandle(TransitionHandle handle, Page from, Page to) {
+    public void SubToHandle(TransitionHandle handle, Page from, Page to)
+    {
         handle.OnFinish += () =>
         {
             onPostHide?.Invoke();
@@ -60,12 +76,14 @@ public class Page : MonoBehaviour
         };
     }
 
-    void ActivatePanel() {
+    void ActivatePanel()
+    {
         active = true;
         gameObject.SetActive(true);
     }
 
-    void DeactivatePanel() {
+    void DeactivatePanel()
+    {
         active = false;
         gameObject.SetActive(false);
     }

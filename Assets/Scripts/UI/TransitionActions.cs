@@ -33,6 +33,25 @@ public class TransitionAction
 }
 
 [System.Serializable]
+public class RotateTransitionAction : TransitionAction {
+    public Transform transform;
+    public float pos;
+    public float startPos;
+
+    public override TweenCallback Forward(float duration)
+    {
+        transform.localEulerAngles  = new Vector3(0, 0, toGoal ? startPos : pos);
+        return transform.DOLocalRotate(new Vector3(0, 0, toGoal ? pos : startPos), duration).onComplete;
+    }
+
+    public override TweenCallback Back(float duration)
+    {
+        transform.localEulerAngles = new Vector3(0, 0, toGoal ? pos : startPos);
+        return transform.DOLocalRotate(new Vector3(0, 0, toGoal ? startPos : pos), duration).onComplete;
+    }
+}
+
+[System.Serializable]
 public class MoveTransitionAction : TransitionAction
 {
     public RectTransform transform;

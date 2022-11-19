@@ -10,7 +10,9 @@ public class SelectPage : Page
 {
     public Image hidePanel;
     public ArListPopulator populator;
-    public Page placePage;
+    public PlacePage placePage;
+    public ViewPage viewPage;
+    public BasicViewPage basicViewPage;
     [HideInInspector] public bool loadChemie;
     public LanguageChangeUI languageChangeUI;
     protected override void Awake()
@@ -63,6 +65,7 @@ public class SelectPage : Page
 
     public void ChangePage()
     {
+        placePage.viewPage = viewPage;
         GoTo(placePage);
     }
 }

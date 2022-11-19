@@ -59,7 +59,7 @@ public class QRPlacePage : Page
         ArObject arObject = null;
         foreach (var item in AssetStreamingManager.instance.ArObjectList)
         {
-            if (item.bundle == marker.content) {
+            if (item.bundle == marker.content || item.nickName == marker.content) {
                 arObject = item;
                 break;
             }
@@ -67,6 +67,7 @@ public class QRPlacePage : Page
 
         if (arObject == null) {
             text.text = "QR kód nesedí s žádným objektem";
+            return;
         }
 
         text.text = $"Stahuje se model s názvem: {arObject.nickName}";
