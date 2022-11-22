@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42c263dd625183845824377cfdd042af, type: 3}
+  m_Name: stul_obj
+  m_EditorClassIdentifier: 
+  obj: {fileID: 8814031246374693585, guid: 6982cc860a91ef74cbeb5214e2973e82, type: 3}
+  nickName: "St\u016Fl"
+  bundle: stul
+  area: Jazyky
+  category: "N\xE1bytek"
+  nameInLanguage:
+  - language: cs-CS
+    word: "St\u016Fl"
+    prepositions:
+    - ten
+  - language: en-EN
+    word: Table
+    prepositions:
+    - the
+    - a
+  - language: fr-FR
+    word: Table
+    prepositions:
+    - la
+    - une

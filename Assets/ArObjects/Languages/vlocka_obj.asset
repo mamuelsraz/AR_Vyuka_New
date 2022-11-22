@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42c263dd625183845824377cfdd042af, type: 3}
+  m_Name: vlocka_obj
+  m_EditorClassIdentifier: 
+  obj: {fileID: 7092405857664840775, guid: e8ee7177702b7274c9e427a5ddb29f93, type: 3}
+  nickName: "Sn\xEDh"
+  bundle: vlocka
+  area: Jazyky
+  category: "Po\u010Das\xED"
+  nameInLanguage:
+  - language: cs-CS
+    word: "Sn\xEDh"
+    prepositions:
+    - ten
+  - language: en-EN
+    word: Snow
+    prepositions:
+    - the
+  - language: fr-FR
+    word: Neige
+    prepositions:
+    - la

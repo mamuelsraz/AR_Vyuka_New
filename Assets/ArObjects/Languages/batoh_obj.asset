@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42c263dd625183845824377cfdd042af, type: 3}
+  m_Name: batoh_obj
+  m_EditorClassIdentifier: 
+  obj: {fileID: 6506861146609691180, guid: 1d87ce770ca6b1446bdb14c438d9bbab, type: 3}
+  nickName: "\u0161koln\xED ta\u0161ka"
+  bundle: batoh
+  area: Jazyky
+  category: "\u0160kola"
+  nameInLanguage:
+  - language: cs-CS
+    word: Batoh
+    prepositions:
+    - ten
+  - language: en-EN
+    word: Bag
+    prepositions:
+    - the
+    - a
+  - language: fr-FR
+    word: "Sac \xE0 dos"
+    prepositions:
+    - le
+    - un

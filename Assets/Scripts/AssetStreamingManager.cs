@@ -13,6 +13,7 @@ public class AssetStreamingManager : MonoBehaviour
 
     private void Awake()
     {
+        Caching.ClearCache();
         if (instance == null) instance = this;
         else Destroy(this);
         cachedArObjects = new Dictionary<ArObject, GameObject>();
@@ -70,6 +71,8 @@ public class AssetStreamingManager : MonoBehaviour
         UnityWebRequest www = UnityWebRequestAssetBundle.GetAssetBundle(path + ArObj.bundle);
         var operation = www.SendWebRequest();
 
+        Debug.Log("downloading at: " + path + ArObj.bundle);
+
         while (!operation.isDone)
         {
             handle.progress = www.downloadProgress;
@@ -79,6 +82,7 @@ public class AssetStreamingManager : MonoBehaviour
 
         if (www.result != UnityWebRequest.Result.Success)
         {
+            Debug.Log("fail!: " + www.responseCode + " " + www.result);
             handle.Complete.Invoke(new StreamingHandleResponse(StreamingStatus.Failed, null));
         }
         else

@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42c263dd625183845824377cfdd042af, type: 3}
+  m_Name: burger_obj
+  m_EditorClassIdentifier: 
+  obj: {fileID: 6086402130132690804, guid: 21703bf1ac427b84ab709fbfeb54f54d, type: 3}
+  nickName: Hamburger
+  bundle: burger
+  area: Jazyky
+  category: "J\xEDdlo"
+  nameInLanguage:
+  - language: cs-CS
+    word: Hamburger
+    prepositions:
+    - ten
+  - language: en-EN
+    word: Hamburger
+    prepositions:
+    - the
+    - a
+  - language: fr-FR
+    word: Hamburger
+    prepositions:
+    - le
+    - un

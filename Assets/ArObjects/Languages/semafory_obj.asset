@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42c263dd625183845824377cfdd042af, type: 3}
+  m_Name: semafory_obj
+  m_EditorClassIdentifier: 
+  obj: {fileID: 1744069988490330112, guid: 86565eb4e16cef7489bad54d52947604, type: 3}
+  nickName: Semafory
+  bundle: semafory
+  area: Jazyky
+  category: "M\u011Bsto"
+  nameInLanguage:
+  - language: cs-CS
+    word: Semafory
+    prepositions:
+    - ty
+  - language: en-EN
+    word: Traffic lights
+    prepositions:
+    - the
+  - language: fr-FR
+    word: Feux
+    prepositions:
+    - Les

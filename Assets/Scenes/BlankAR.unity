@@ -8427,6 +8427,7 @@ Transform:
   - {fileID: 1944779175}
   - {fileID: 506927735}
   - {fileID: 87789598}
+  - {fileID: 1329820004}
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -9276,6 +9277,60 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_IsOn: 1
+--- !u!1 &1329820003
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1329820004}
+  - component: {fileID: 1329820005}
+  m_Layer: 0
+  m_Name: ColorChanger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1329820004
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1329820003}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1196746243}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1329820005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1329820003}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e2bef5697e5ba64c90e37a40860470a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  materialsThatChange:
+  - {fileID: 2100000, guid: b3426ea5b82119343884f21f27b61090, type: 2}
+  - {fileID: 2100000, guid: cec52278b7a4e7a449e024c54047ad77, type: 2}
+  - {fileID: 2100000, guid: 30b5200d462ca7f46a81c94df38545ef, type: 2}
+  - {fileID: 2100000, guid: 7504569675999c24d94e5d32b2dc5f7e, type: 2}
+  colorMaterials:
+  - {fileID: 2100000, guid: b3426ea5b82119343884f21f27b61090, type: 2}
+  - {fileID: 2100000, guid: cec52278b7a4e7a449e024c54047ad77, type: 2}
+  - {fileID: 2100000, guid: 30b5200d462ca7f46a81c94df38545ef, type: 2}
+  - {fileID: 2100000, guid: 7504569675999c24d94e5d32b2dc5f7e, type: 2}
 --- !u!1 &1330604792
 GameObject:
   m_ObjectHideFlags: 0

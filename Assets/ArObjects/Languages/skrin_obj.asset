@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42c263dd625183845824377cfdd042af, type: 3}
+  m_Name: skrin_obj
+  m_EditorClassIdentifier: 
+  obj: {fileID: 1913965413293156597, guid: 254c0f427c8f7a64cb4244e2a270f665, type: 3}
+  nickName: "Sk\u0159\xED\u0148"
+  bundle: skrin
+  area: Jazyky
+  category: "N\xE1bytek"
+  nameInLanguage:
+  - language: cs-CS
+    word: "Sk\u0159\xED\u0148"
+    prepositions:
+    - ta
+  - language: en-EN
+    word: wardrobe
+    prepositions:
+    - the
+    - a
+  - language: fr-FR
+    word: Armoire
+    prepositions:
+    - l'
+    - une

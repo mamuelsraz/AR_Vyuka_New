@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42c263dd625183845824377cfdd042af, type: 3}
+  m_Name: lampa_obj
+  m_EditorClassIdentifier: 
+  obj: {fileID: 3034060998207996898, guid: f8b751a185f9ac04eb7923b2305efd08, type: 3}
+  nickName: Lampa
+  bundle: lampa
+  area: Jazyky
+  category: "N\xE1bytek"
+  nameInLanguage:
+  - language: cs-CS
+    word: Lampa
+    prepositions:
+    - ta
+  - language: en-EN
+    word: Lamp
+    prepositions:
+    - the
+    - a
+  - language: fr-FR
+    word: Lampe
+    prepositions:
+    - la
+    - une

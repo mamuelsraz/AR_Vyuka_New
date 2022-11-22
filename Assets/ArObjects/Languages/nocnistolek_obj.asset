@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42c263dd625183845824377cfdd042af, type: 3}
+  m_Name: nocnistolek_obj
+  m_EditorClassIdentifier: 
+  obj: {fileID: 7579931507231518945, guid: fe7bd6a686751564fa78380b66b0a4c9, type: 3}
+  nickName: "No\u010Dn\xED stolek"
+  bundle: nocnistolek
+  area: Jazyky
+  category: "N\xE1bytek"
+  nameInLanguage:
+  - language: cs-CS
+    word: "No\u010Dn\xED stolek"
+    prepositions:
+    - ten
+  - language: en-EN
+    word: Nightstand
+    prepositions:
+    - the
+    - a
+  - language: fr-FR
+    word: Meuble
+    prepositions:
+    - le
+    - un

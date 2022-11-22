@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42c263dd625183845824377cfdd042af, type: 3}
+  m_Name: dest_obj
+  m_EditorClassIdentifier: 
+  obj: {fileID: 5132869137122200597, guid: 1147c2e1b8481184a99066ed9c4bd299, type: 3}
+  nickName: "D\xE9\u0161\u0165"
+  bundle: dest
+  area: Jazyky
+  category: "Po\u010Das\xED"
+  nameInLanguage:
+  - language: cs-CS
+    word: "D\xE9\u0161\u0165"
+    prepositions:
+    - ten
+  - language: en-EN
+    word: Rain
+    prepositions:
+    - the
+  - language: fr-FR
+    word: Pluie
+    prepositions:
+    - la
