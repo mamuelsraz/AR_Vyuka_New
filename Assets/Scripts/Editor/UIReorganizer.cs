@@ -5,8 +5,8 @@ using UnityEngine;
 
 public class UIReorganizer
 {
+    static Vector2 size = new Vector2(770, 1570);
     static Vector2 offset = new Vector2(0, 0);
-    static Vector2 size = new Vector2(1, 1);
     static int rowCount;
 
     [MenuItem("Tools/Reorganize/Divide")]
