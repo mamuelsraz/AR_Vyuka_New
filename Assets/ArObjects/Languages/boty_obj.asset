@@ -13,21 +13,22 @@ MonoBehaviour:
   m_Name: boty_obj
   m_EditorClassIdentifier: 
   obj: {fileID: 8078496373903825011, guid: 03944bf5dc4ac2e44a8b7d7a8548735a, type: 3}
-  nickName: Boty
+  nickName: boty
   bundle: boty
   area: Jazyky
   category: "Oble\u010Den\xED"
+  sprite: {fileID: 21300000, guid: e012f45c1a7dbca4e9292feb8fcd26be, type: 3}
   nameInLanguage:
   - language: cs-CS
-    word: Boty
+    word: boty
     prepositions:
     - ty
   - language: en-EN
-    word: Shoes
+    word: shoes
     prepositions:
     - the
   - language: fr-FR
-    word: Chaussures
+    word: chaussures
     prepositions:
     - les
     - des

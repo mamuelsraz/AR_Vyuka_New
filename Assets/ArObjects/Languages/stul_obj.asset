@@ -13,22 +13,23 @@ MonoBehaviour:
   m_Name: stul_obj
   m_EditorClassIdentifier: 
   obj: {fileID: 8814031246374693585, guid: 6982cc860a91ef74cbeb5214e2973e82, type: 3}
-  nickName: "St\u016Fl"
+  nickName: "st\u016Fl"
   bundle: stul
   area: Jazyky
   category: "N\xE1bytek"
+  sprite: {fileID: 21300000, guid: ca867260792bd4e4e827638bc3c2f45c, type: 3}
   nameInLanguage:
   - language: cs-CS
-    word: "St\u016Fl"
+    word: "st\u016Fl"
     prepositions:
     - ten
   - language: en-EN
-    word: Table
+    word: table
     prepositions:
     - the
     - a
   - language: fr-FR
-    word: Table
+    word: table
     prepositions:
     - la
     - une

@@ -13,13 +13,14 @@ MonoBehaviour:
   m_Name: skrin_obj
   m_EditorClassIdentifier: 
   obj: {fileID: 1913965413293156597, guid: 254c0f427c8f7a64cb4244e2a270f665, type: 3}
-  nickName: "Sk\u0159\xED\u0148"
+  nickName: "sk\u0159\xED\u0148"
   bundle: skrin
   area: Jazyky
   category: "N\xE1bytek"
+  sprite: {fileID: 21300000, guid: d736e946ffbb4f24daa3e8bea6c3c267, type: 3}
   nameInLanguage:
   - language: cs-CS
-    word: "Sk\u0159\xED\u0148"
+    word: "sk\u0159\xED\u0148"
     prepositions:
     - ta
   - language: en-EN
@@ -28,7 +29,7 @@ MonoBehaviour:
     - the
     - a
   - language: fr-FR
-    word: Armoire
+    word: armoire
     prepositions:
     - l'
     - une

@@ -13,20 +13,20 @@ MonoBehaviour:
   m_Name: vitr_obj
   m_EditorClassIdentifier: 
   obj: {fileID: 1317142453539178167, guid: de7dcb7f3de30e5449ef75448032f1f4, type: 3}
-  nickName: "V\xEDtr"
+  nickName: "v\xEDtr"
   bundle: vitr
   area: Jazyky
   category: "Po\u010Das\xED"
   nameInLanguage:
   - language: cs-CS
-    word: "V\xEDtr"
+    word: "v\xEDtr"
     prepositions:
     - ten
   - language: en-EN
-    word: Wind
+    word: wind
     prepositions:
     - the
   - language: fr-FR
-    word: Vent
+    word: vent
     prepositions:
     - le

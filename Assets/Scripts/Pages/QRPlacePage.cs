@@ -27,29 +27,34 @@ public class QRPlacePage : Page
         SetScanning(false);
         SetScanning(true);
         text.text = "Stahuje se seznam objektů, vyčkejte";
-        canScan = AssetStreamingManager.instance.ArObjectList.Length > 0;
-        if (canScan)
+
+        var handle = AssetStreamingManager.instance.LoadList(AssetStreamingManager.path, "list");
+        if (handle == null)
         {
             text.text = "Hledá se QR kód";
+            canScan = true;
         }
-        else AssetStreamingManager.instance.LoadList(AssetStreamingManager.path, "list").Complete += (StreamingHandleResponse response) =>
+        else
         {
-            if (response.status != StreamingStatus.Failed)
+            handle.Complete += (StreamingHandleResponse response) =>
             {
-                text.text = "Hledá se QR kód";
-                canScan = true;
-            }
-
-            else
-            {
-                NativeDialog.OpenDialog("Nepovedlo se stáhnout seznam!", "Zkontrolujte prosím, zda máte stálé připojení k internetu. Aplikace se po stisknutí [ok] restartuje.", "Ok",
-                () =>
+                if (response.status != StreamingStatus.Failed)
                 {
-                    canScan = false;
-                    SceneManager.LoadScene(0);
-                });
-            }
-        };
+                    text.text = "Hledá se QR kód";
+                    canScan = true;
+                }
+
+                else
+                {
+                    NativeDialog.OpenDialog("Nepovedlo se stáhnout seznam!", "Zkontrolujte prosím, zda máte stálé připojení k internetu. Aplikace se po stisknutí [ok] restartuje.", "Ok",
+                    () =>
+                    {
+                        canScan = false;
+                        SceneManager.LoadScene(0);
+                    });
+                }
+            };
+        }
     }
 
     void OnCodeDetected(QRCodeMarker marker)
@@ -59,13 +64,15 @@ public class QRPlacePage : Page
         ArObject arObject = null;
         foreach (var item in AssetStreamingManager.instance.ArObjectList)
         {
-            if (item.bundle == marker.content || item.nickName == marker.content) {
+            if (item.nickName == marker.content)
+            {
                 arObject = item;
                 break;
             }
         }
 
-        if (arObject == null) {
+        if (arObject == null)
+        {
             text.text = "QR kód nesedí s žádným objektem";
             return;
         }
@@ -95,8 +102,9 @@ public class QRPlacePage : Page
         };
     }
 
-    void ArObjectDownloaded() {
-        QRCodeMarker marker = tracker.cachedCodes[SelectedArObjectManager.instance.selectedArObject.bundle];
+    void ArObjectDownloaded()
+    {
+        QRCodeMarker marker = tracker.cachedCodes[SelectedArObjectManager.instance.selectedArObject.nickName];
         SelectedArObjectManager.instance.SpawnCurrent(marker.transform);
 
         GoTo(viewPage);

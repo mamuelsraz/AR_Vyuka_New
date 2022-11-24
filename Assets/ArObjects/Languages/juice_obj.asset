@@ -13,20 +13,21 @@ MonoBehaviour:
   m_Name: juice_obj
   m_EditorClassIdentifier: 
   obj: {fileID: 7522560967284358267, guid: 2b7a7d4c3536a2e49b2c7540f616de85, type: 3}
-  nickName: "D\u017Eus"
+  nickName: "d\u017Eus"
   bundle: juice
   area: Jazyky
   category: "J\xEDdlo"
+  sprite: {fileID: 21300000, guid: a2a1527db3286f3498b3afffed91bf78, type: 3}
   nameInLanguage:
   - language: cs-CS
-    word: "D\u017Eus"
+    word: "d\u017Eus"
     prepositions:
     - ten
   - language: en-EN
-    word: Juice
+    word: juice
     prepositions: []
   - language: fr-FR
-    word: Jus
+    word: jus
     prepositions:
     - le
     - du

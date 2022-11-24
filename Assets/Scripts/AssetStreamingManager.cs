@@ -13,17 +13,27 @@ public class AssetStreamingManager : MonoBehaviour
 
     private void Awake()
     {
-        Caching.ClearCache();
         if (instance == null) instance = this;
         else Destroy(this);
+
+        Caching.ClearCache();
+
+        ArObjectList = null;
         cachedArObjects = new Dictionary<ArObject, GameObject>();
     }
 
     public StreamingHandle LoadList(string path, string list)
     {
         StreamingHandle handle = new StreamingHandle();
-        StartCoroutine(DownloadList(handle, path, list));
-        return handle;
+        if (ArObjectList != null)
+        {
+            return null;
+        }
+        else
+        {
+            StartCoroutine(DownloadList(handle, path, list));
+            return handle;
+        }
     }
 
     public StreamingHandle LoadArObj(ArObject obj, string path)

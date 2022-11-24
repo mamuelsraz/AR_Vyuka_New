@@ -17,18 +17,19 @@ MonoBehaviour:
   bundle: kreslo
   area: Jazyky
   category: "N\xE1bytek"
+  sprite: {fileID: 21300000, guid: 9bed06991cc21764fb11650777c280b4, type: 3}
   nameInLanguage:
   - language: cs-CS
-    word: "K\u0159eslo"
+    word: "k\u0159eslo"
     prepositions:
     - to
   - language: en-EN
-    word: Armchair
+    word: armchair
     prepositions:
     - the
     - an
   - language: fr-FR
-    word: Fauteuil
+    word: fauteuil
     prepositions:
     - le
     - un

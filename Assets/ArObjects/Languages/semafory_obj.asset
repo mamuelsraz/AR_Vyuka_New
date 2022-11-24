@@ -13,20 +13,21 @@ MonoBehaviour:
   m_Name: semafory_obj
   m_EditorClassIdentifier: 
   obj: {fileID: 1744069988490330112, guid: 86565eb4e16cef7489bad54d52947604, type: 3}
-  nickName: Semafory
+  nickName: semafory
   bundle: semafory
   area: Jazyky
   category: "M\u011Bsto"
+  sprite: {fileID: 21300000, guid: 7789a4e97078cc2408aa142f9aac61c2, type: 3}
   nameInLanguage:
   - language: cs-CS
-    word: Semafory
+    word: semafory
     prepositions:
     - ty
   - language: en-EN
-    word: Traffic lights
+    word: traffic lights
     prepositions:
     - the
   - language: fr-FR
-    word: Feux
+    word: feux
     prepositions:
     - Les

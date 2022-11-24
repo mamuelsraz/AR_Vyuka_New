@@ -88,7 +88,7 @@ GameObject:
   - component: {fileID: 1325226835449950588}
   - component: {fileID: 1325226835449950591}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Sprite Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -413,7 +413,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
   m_AnchoredPosition: {x: 160.6, y: 0}
-  m_SizeDelta: {x: 200, y: 50}
+  m_SizeDelta: {x: 315, y: 50}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!222 &1325226836590879583
 CanvasRenderer:
@@ -443,7 +443,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Z\xE1mek"
+  m_text: aaaaaaaa
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 636323e9e5d54e147af1fb3338da92a4, type: 2}
   m_sharedMaterial: {fileID: 791681093244933645, guid: 636323e9e5d54e147af1fb3338da92a4,
@@ -611,6 +611,7 @@ MonoBehaviour:
   button: {fileID: 1325226836277491559}
   buttonTransform: {fileID: 1325226835172257787}
   fillImage: {fileID: 3796600124049922793}
+  spriteImage: {fileID: 1325226835449950591}
 --- !u!1 &4013402454077527988
 GameObject:
   m_ObjectHideFlags: 0

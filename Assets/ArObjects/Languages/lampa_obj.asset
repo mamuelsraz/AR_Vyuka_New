@@ -13,22 +13,23 @@ MonoBehaviour:
   m_Name: lampa_obj
   m_EditorClassIdentifier: 
   obj: {fileID: 3034060998207996898, guid: f8b751a185f9ac04eb7923b2305efd08, type: 3}
-  nickName: Lampa
+  nickName: lampa
   bundle: lampa
   area: Jazyky
   category: "N\xE1bytek"
+  sprite: {fileID: 21300000, guid: 25163033efea31e4897ab524edddf16b, type: 3}
   nameInLanguage:
   - language: cs-CS
-    word: Lampa
+    word: lampa
     prepositions:
     - ta
   - language: en-EN
-    word: Lamp
+    word: lamp
     prepositions:
     - the
     - a
   - language: fr-FR
-    word: Lampe
+    word: lampe
     prepositions:
     - la
     - une

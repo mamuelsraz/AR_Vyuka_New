@@ -7,7 +7,8 @@ public class ArObject : ScriptableObject
 {
     public GameObject obj;
     public string nickName;
-    public string bundle;
+    [HideInInspector] public string bundle;
     public string area;
     public string category;
+    public Sprite sprite;
 }

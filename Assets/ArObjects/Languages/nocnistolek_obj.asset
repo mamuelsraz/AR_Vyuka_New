@@ -13,22 +13,23 @@ MonoBehaviour:
   m_Name: nocnistolek_obj
   m_EditorClassIdentifier: 
   obj: {fileID: 7579931507231518945, guid: fe7bd6a686751564fa78380b66b0a4c9, type: 3}
-  nickName: "No\u010Dn\xED stolek"
+  nickName: "no\u010Dn\xED stolek"
   bundle: nocnistolek
   area: Jazyky
   category: "N\xE1bytek"
+  sprite: {fileID: 21300000, guid: 6e73c08a4ce0f414ebf8f3ae1d6694b2, type: 3}
   nameInLanguage:
   - language: cs-CS
-    word: "No\u010Dn\xED stolek"
+    word: "no\u010Dn\xED stolek"
     prepositions:
     - ten
   - language: en-EN
-    word: Nightstand
+    word: nightstand
     prepositions:
     - the
     - a
   - language: fr-FR
-    word: Meuble
+    word: meuble
     prepositions:
     - le
     - un

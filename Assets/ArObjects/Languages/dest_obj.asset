@@ -13,20 +13,21 @@ MonoBehaviour:
   m_Name: dest_obj
   m_EditorClassIdentifier: 
   obj: {fileID: 5132869137122200597, guid: 1147c2e1b8481184a99066ed9c4bd299, type: 3}
-  nickName: "D\xE9\u0161\u0165"
+  nickName: "d\xE9\u0161\u0165"
   bundle: dest
   area: Jazyky
   category: "Po\u010Das\xED"
+  sprite: {fileID: 21300000, guid: 3c8b2d7efe00929469afb78d597c61a4, type: 3}
   nameInLanguage:
   - language: cs-CS
-    word: "D\xE9\u0161\u0165"
+    word: "d\xE9\u0161\u0165"
     prepositions:
     - ten
   - language: en-EN
-    word: Rain
+    word: rain
     prepositions:
     - the
   - language: fr-FR
-    word: Pluie
+    word: pluie
     prepositions:
     - la

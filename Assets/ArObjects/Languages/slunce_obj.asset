@@ -13,20 +13,21 @@ MonoBehaviour:
   m_Name: slunce_obj
   m_EditorClassIdentifier: 
   obj: {fileID: 7390782823387892467, guid: 2d3e5ced8c4bc064bb2fdeaf2ee02b7a, type: 3}
-  nickName: Slunce
+  nickName: slunce
   bundle: slunce
   area: Jazyky
   category: "Po\u010Das\xED"
+  sprite: {fileID: 21300000, guid: 57ff9fb55cfba864b8164bcff82db483, type: 3}
   nameInLanguage:
   - language: cs-CS
-    word: Slunce
+    word: slunce
     prepositions:
     - to
   - language: en-EN
-    word: Sun
+    word: sun
     prepositions:
     - the
   - language: fr-FR
-    word: Soleil
+    word: soleil
     prepositions:
     - le

@@ -13,6 +13,7 @@ public class ArListBlock : MonoBehaviour
     public Button button;
     public Transform buttonTransform;
     public Image fillImage;
+    public Image spriteImage;
     bool downloaded;
     StreamingHandle handle;
 
@@ -27,6 +28,7 @@ public class ArListBlock : MonoBehaviour
 
     private void Start()
     {
+        spriteImage.sprite = arObject.sprite;
         if (AssetStreamingManager.instance.cachedArObjects.ContainsKey(arObject))
         {
             button.enabled = true;

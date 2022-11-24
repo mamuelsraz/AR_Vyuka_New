@@ -13,20 +13,21 @@ MonoBehaviour:
   m_Name: vlocka_obj
   m_EditorClassIdentifier: 
   obj: {fileID: 7092405857664840775, guid: e8ee7177702b7274c9e427a5ddb29f93, type: 3}
-  nickName: "Sn\xEDh"
+  nickName: "sn\xEDh"
   bundle: vlocka
   area: Jazyky
   category: "Po\u010Das\xED"
+  sprite: {fileID: 21300000, guid: b9bd19349de398241975fc0c998b7d1f, type: 3}
   nameInLanguage:
   - language: cs-CS
-    word: "Sn\xEDh"
+    word: "sn\xEDh"
     prepositions:
     - ten
   - language: en-EN
-    word: Snow
+    word: snow
     prepositions:
     - the
   - language: fr-FR
-    word: Neige
+    word: neige
     prepositions:
     - la

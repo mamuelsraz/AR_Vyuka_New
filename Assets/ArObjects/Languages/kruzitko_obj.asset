@@ -13,20 +13,23 @@ MonoBehaviour:
   m_Name: kruzitko_obj
   m_EditorClassIdentifier: 
   obj: {fileID: 4368228434913718676, guid: 150f171d24d929143856879fa66d2a7e, type: 3}
-  nickName: "Kru\u017E\xEDtko"
+  nickName: "kru\u017E\xEDtko"
   bundle: kruzitko
   area: Jazyky
   category: "\u0160kola"
+  sprite: {fileID: 21300000, guid: d3febbec7f2b4bf44ac65003895cb310, type: 3}
   nameInLanguage:
   - language: cs-CS
-    word: "Kru\u017E\xEDtko"
+    word: "kru\u017E\xEDtko"
     prepositions:
     - to
   - language: en-EN
-    word: TBA
-    prepositions: []
+    word: compas
+    prepositions:
+    - the
+    - a
   - language: fr-FR
-    word: Compas
+    word: compas
     prepositions:
     - le
     - un

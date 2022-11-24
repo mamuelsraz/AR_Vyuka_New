@@ -13,21 +13,22 @@ MonoBehaviour:
   m_Name: blesky_obj
   m_EditorClassIdentifier: 
   obj: {fileID: 758917706676669276, guid: 18fb779f186453c44a6f2edd950df9fc, type: 3}
-  nickName: Blesky
+  nickName: "bou\u0159ka"
   bundle: blesky
   area: Jazyky
   category: "Po\u010Das\xED"
+  sprite: {fileID: 21300000, guid: c308642bc583ebd438ee429740f4577d, type: 3}
   nameInLanguage:
   - language: cs-CS
-    word: "Bou\u0159ka"
+    word: "bou\u0159ka"
     prepositions:
     - ta
   - language: en-EN
-    word: Storm
+    word: storm
     prepositions:
     - the
     - a
   - language: fr-FR
-    word: Orage
+    word: orage
     prepositions:
     - l'

@@ -13,22 +13,23 @@ MonoBehaviour:
   m_Name: notebook_obj
   m_EditorClassIdentifier: 
   obj: {fileID: 4908110031692968469, guid: eb13a0b5b25433b43a7beb642b7758a3, type: 3}
-  nickName: Notebook
+  nickName: notebook
   bundle: notebook
   area: Jazyky
   category: "\u0160kola"
+  sprite: {fileID: 21300000, guid: b9c27cdb94aaa434eb1c49de6250744a, type: 3}
   nameInLanguage:
   - language: cs-CS
-    word: Notebook
+    word: notebook
     prepositions:
     - ten
   - language: en-EN
-    word: Notebook
+    word: notebook
     prepositions:
     - the
     - a
   - language: fr-FR
-    word: Notebook
+    word: notebook
     prepositions:
     - le
     - un

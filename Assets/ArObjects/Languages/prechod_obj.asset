@@ -13,22 +13,23 @@ MonoBehaviour:
   m_Name: prechod_obj
   m_EditorClassIdentifier: 
   obj: {fileID: 6099945450121781001, guid: 9721846d68cbe2b45b357c3922bdd09f, type: 3}
-  nickName: "P\u0159echod"
+  nickName: "p\u0159echod"
   bundle: prechod
   area: Jazyky
   category: "M\u011Bsto"
+  sprite: {fileID: 21300000, guid: d475cd5a8a80f5246942b7c3bb8fc447, type: 3}
   nameInLanguage:
   - language: cs-CS
-    word: "P\u0159echod"
+    word: "p\u0159echod"
     prepositions:
     - ten
   - language: en-EN
-    word: Crosswalk
+    word: crosswalk
     prepositions:
     - the
     - a
   - language: fr-FR
-    word: "Passage pi\xE9ton"
+    word: "passage pi\xE9ton"
     prepositions:
     - le
     - un

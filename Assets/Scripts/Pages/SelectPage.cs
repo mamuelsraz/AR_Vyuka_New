@@ -38,30 +38,40 @@ public class SelectPage : Page
         {
             languageChangeUI.Show();
         }
-        if (AssetStreamingManager.instance.ArObjectList.Length > 0) populator.Init();
-        else AssetStreamingManager.instance.LoadList(AssetStreamingManager.path, "list").Complete += (StreamingHandleResponse response) =>
+
+        var handle = AssetStreamingManager.instance.LoadList(AssetStreamingManager.path, "list");
+        if (handle == null)
         {
-            if (response.status != StreamingStatus.Failed)
+            populator.Init();
+            hidePanel.DOFade(0, 0.25f).onComplete += () =>
             {
-                populator.Init();
-                hidePanel.DOFade(0, 0.25f).onComplete += () =>
+                hidePanel.gameObject.SetActive(false);
+            };
+        }
+        else
+        {
+            handle.Complete += (StreamingHandleResponse response) =>
+            {
+                if (response.status != StreamingStatus.Failed)
                 {
-                    hidePanel.gameObject.SetActive(false);
-                };
-            }
+                    populator.Init();
+                    hidePanel.DOFade(0, 0.25f).onComplete += () =>
+                    {
+                        hidePanel.gameObject.SetActive(false);
+                    };
+                }
 
-            else
-            {
-                NativeDialog.OpenDialog("Nepovedlo se stáhnout seznam!", "Zkontrolujte prosím, zda máte stálé připojení k internetu. Aplikace se po stisknutí [ok] restartuje.", "Ok",
-                () =>
+                else
                 {
-                    SceneManager.LoadScene(0);
-                });
-            }
-        };
+                    NativeDialog.OpenDialog("Nepovedlo se stáhnout seznam!", "Zkontrolujte prosím, zda máte stálé připojení k internetu. Aplikace se po stisknutí [ok] restartuje.", "Ok",
+                    () =>
+                    {
+                        SceneManager.LoadScene(0);
+                    });
+                }
+            };
+        }
     }
-
-
 
     public void ChangePage()
     {

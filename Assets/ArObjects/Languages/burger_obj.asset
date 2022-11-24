@@ -13,22 +13,23 @@ MonoBehaviour:
   m_Name: burger_obj
   m_EditorClassIdentifier: 
   obj: {fileID: 6086402130132690804, guid: 21703bf1ac427b84ab709fbfeb54f54d, type: 3}
-  nickName: Hamburger
+  nickName: hamburger
   bundle: burger
   area: Jazyky
   category: "J\xEDdlo"
+  sprite: {fileID: 21300000, guid: 110bd3575c53eff499e405664f93ced0, type: 3}
   nameInLanguage:
   - language: cs-CS
-    word: Hamburger
+    word: hamburger
     prepositions:
     - ten
   - language: en-EN
-    word: Hamburger
+    word: hamburger
     prepositions:
     - the
     - a
   - language: fr-FR
-    word: Hamburger
+    word: hamburger
     prepositions:
     - le
     - un

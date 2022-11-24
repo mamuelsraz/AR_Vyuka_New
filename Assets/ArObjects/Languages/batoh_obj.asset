@@ -17,18 +17,19 @@ MonoBehaviour:
   bundle: batoh
   area: Jazyky
   category: "\u0160kola"
+  sprite: {fileID: 21300000, guid: 8b5e55c8c09fbb0499756045ac78659f, type: 3}
   nameInLanguage:
   - language: cs-CS
-    word: Batoh
+    word: batoh
     prepositions:
     - ten
   - language: en-EN
-    word: Bag
+    word: bag
     prepositions:
     - the
     - a
   - language: fr-FR
-    word: "Sac \xE0 dos"
+    word: "sac \xE0 dos"
     prepositions:
     - le
     - un
