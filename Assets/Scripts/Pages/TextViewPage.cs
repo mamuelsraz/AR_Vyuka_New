@@ -50,8 +50,8 @@ public class TextViewPage : Page
 
     public void Speak()
     {
-        TextToSpeech.instance.Setting(LanguageManager.instance.currentLanguage, 1, 1);
+        TextToSpeech.Instance.Setting(LanguageManager.instance.currentLanguage, 1, 1);
 
-        TextToSpeech.instance.StartSpeak(inputField.text);
+        TextToSpeech.Instance.StartSpeak(inputField.text);
     }
 }

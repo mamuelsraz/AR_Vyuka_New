@@ -2,7 +2,7 @@
 using System.IO;
 using UnityEditor;
 using UnityEditor.Callbacks;
-#if UNITY_IOS
+#if UNITY_IPHONE
 using UnityEditor.iOS.Xcode;
 
 public class BuildPostProcessor

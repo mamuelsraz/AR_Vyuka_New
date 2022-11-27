@@ -27,12 +27,14 @@ public class ViewPage : Page
         LanguageManager.instance.onChangedLanguage += Initialize;
     }
 
-    void Deselect() {
+    void Deselect()
+    {
         SelectedArObjectManager.instance.selectedObject.SetActive(false);
         languageChangeUI.Hide();
     }
 
-    void Initialize() {
+    void Initialize()
+    {
         var arObject = SelectedArObjectManager.instance.selectedArObject;
         if (arObject is LanguageArObject)
         {
@@ -63,7 +65,9 @@ public class ViewPage : Page
 
             otherText.gameObject.SetActive(false);
         }
-        else { languagePanel.SetActive(false);
+        else
+        {
+            languagePanel.SetActive(false);
             otherText.text = arObject.nickName;
             otherText.gameObject.SetActive(true);
         }
@@ -82,20 +86,30 @@ public class ViewPage : Page
     {
         LanguageBlock block = LanguageManager.instance.GetCurrentLanguageBlock();
         if (block == null) return;
-        TextToSpeech.instance.Setting(block.language, 1, 1);
+        TextToSpeech.Instance.Setting(block.language, 1, 1);
+        string message = "";
         switch (mode)
         {
             case 0:
-                TextToSpeech.instance.StartSpeak(block.word);
+                message = block.word;
                 break;
             case 1:
-                TextToSpeech.instance.StartSpeak($"{block.prepositions[0]} {block.word}");
+                string preposition = block.prepositions[0];
+                if (preposition[preposition.Length - 1] == '\'')
+                    message = $"{preposition}{block.word}";
+                else
+                    message = $"{preposition} {block.word}";
                 break;
             case 2:
-                TextToSpeech.instance.StartSpeak($"{block.prepositions[1]} {block.word}");
+                string preposition2 = block.prepositions[1];
+                if (preposition2[preposition2.Length - 1] == '\'')
+                    message = $"{preposition2}{block.word}";
+                else
+                    message = $"{preposition2} {block.word}";
                 break;
             default:
                 break;
         }
+        TextToSpeech.Instance.StartSpeak(message);
     }
 }

@@ -3,32 +3,27 @@ using System.Collections;
 using System.Runtime.InteropServices;
 using UnityEngine.UI;
 using System;
-using UnityEngine.Events;
 
 namespace TextSpeech
 {
     public class TextToSpeech : MonoBehaviour
     {
         #region Init
-        static TextToSpeech _instance;
-        public static TextToSpeech instance
+        private static TextToSpeech _instance;
+        public static TextToSpeech Instance
         {
             get
             {
                 if (_instance == null)
                 {
-                    Init();
+                        //Create if it doesn't exist
+                    GameObject go = new GameObject("TextToSpeech");
+                    _instance = go.AddComponent<TextToSpeech>();
                 }
                 return _instance;
             }
         }
-        public static void Init()
-        {
-            if (instance != null) return;
-            GameObject obj = new GameObject();
-            obj.name = "TextToSpeech";
-            _instance = obj.AddComponent<TextToSpeech>();
-        }
+
         void Awake()
         {
             _instance = this;
@@ -36,9 +31,7 @@ namespace TextSpeech
         #endregion
 
         public Action onStartCallBack;
-        public UnityEvent onStartEvent;
         public Action onDoneCallback;
-        public UnityEvent onDoneEvent;
         public Action<string> onSpeakRangeCallback;
 
         [Range(0.5f, 2)]
@@ -90,14 +83,11 @@ namespace TextSpeech
         {
             if (onStartCallBack != null)
                 onStartCallBack();
-            onStartEvent.Invoke();
         }
         public void onDone(string _message)
         {
             if (onDoneCallback != null)
                 onDoneCallback();
-
-            onDoneEvent.Invoke();
         }
         public void onError(string _message)
         {

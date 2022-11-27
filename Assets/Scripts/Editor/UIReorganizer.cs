@@ -5,9 +5,9 @@ using UnityEngine;
 
 public class UIReorganizer
 {
-    static Vector2 size = new Vector2(770, 1570);
+    static Vector2 size = new Vector2(900, 1800);
     static Vector2 offset = new Vector2(0, 0);
-    static int rowCount;
+    static int rowCount = 4;
 
     [MenuItem("Tools/Reorganize/Divide")]
     static void Organize() {
@@ -20,7 +20,7 @@ public class UIReorganizer
             Vector2 position = offset + new Vector2(x * size.x,y * size.y);
 
             var page = pages[i];
-            page.transform.position = position;
+            page.GetComponent<RectTransform>().anchoredPosition = position;
         }
     }
 
@@ -30,7 +30,7 @@ public class UIReorganizer
         for (int i = 0; i < pages.Length; i++)
         {
             var page = pages[i];
-            page.transform.position = Vector2.zero;
+            page.GetComponent<RectTransform>().anchoredPosition = Vector2.zero;
         }
     }
 }
