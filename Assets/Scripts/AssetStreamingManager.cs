@@ -52,12 +52,21 @@ public class AssetStreamingManager : MonoBehaviour
     IEnumerator DownloadList(StreamingHandle handle, string path, string list)
     {
         UnityWebRequest www = UnityWebRequestAssetBundle.GetAssetBundle(path + list);
+        var operation = www.SendWebRequest();
 
-        yield return www.SendWebRequest();
+        Debug.Log("downloading at: " + path + list);
+
+        while (!operation.isDone)
+        {
+            handle.progress = www.downloadProgress;
+            handle.Tick?.Invoke();
+            Debug.Log($"downloading {path + list} | progress {handle.progress}");
+            yield return null;
+        }
 
         if (www.result != UnityWebRequest.Result.Success)
         {
-            handle.Complete.Invoke(new StreamingHandleResponse(StreamingStatus.Failed, null));
+            handle.Complete?.Invoke(new StreamingHandleResponse(StreamingStatus.Failed, null));
         }
         else
         {
@@ -67,11 +76,11 @@ public class AssetStreamingManager : MonoBehaviour
             {
                 ArObjectList = bundle.LoadAllAssets<ArObject>();
 
-                handle.Complete.Invoke(new StreamingHandleResponse(StreamingStatus.Success, ArObjectList));
+                handle.Complete?.Invoke(new StreamingHandleResponse(StreamingStatus.Success, ArObjectList));
             }
             else
             {
-                handle.Complete.Invoke(new StreamingHandleResponse(StreamingStatus.Failed, null));
+                handle.Complete?.Invoke(new StreamingHandleResponse(StreamingStatus.Failed, null));
             }
         }
     }
@@ -86,6 +95,7 @@ public class AssetStreamingManager : MonoBehaviour
         while (!operation.isDone)
         {
             handle.progress = www.downloadProgress;
+            handle.Tick?.Invoke();
             Debug.Log($"downloading {path + ArObj.bundle} | progress {handle.progress}");
             yield return null;
         }
@@ -93,7 +103,7 @@ public class AssetStreamingManager : MonoBehaviour
         if (www.result != UnityWebRequest.Result.Success)
         {
             Debug.Log("fail!: " + www.responseCode + " " + www.result);
-            handle.Complete.Invoke(new StreamingHandleResponse(StreamingStatus.Failed, null));
+            handle.Complete?.Invoke(new StreamingHandleResponse(StreamingStatus.Failed, null));
         }
         else
         {
@@ -108,16 +118,16 @@ public class AssetStreamingManager : MonoBehaviour
                     loadedObj.SetActive(false);
 
                     cachedArObjects.Add(ArObj, loadedObj);
-                    handle.Complete.Invoke(new StreamingHandleResponse(StreamingStatus.Success, loadedObj));
+                    handle.Complete?.Invoke(new StreamingHandleResponse(StreamingStatus.Success, loadedObj));
                 }
                 else
                 {
-                    handle.Complete.Invoke(new StreamingHandleResponse(StreamingStatus.Failed, null));
+                    handle.Complete?.Invoke(new StreamingHandleResponse(StreamingStatus.Failed, null));
                 }
             }
             else
             {
-                handle.Complete.Invoke(new StreamingHandleResponse(StreamingStatus.Failed, null));
+                handle.Complete?.Invoke(new StreamingHandleResponse(StreamingStatus.Failed, null));
             }
 
             bundle.Unload(false);
@@ -128,6 +138,7 @@ public class AssetStreamingManager : MonoBehaviour
 public class StreamingHandle
 {
     public float progress;
+    public Action Tick;
     public Action<StreamingHandleResponse> Complete;
 }
 

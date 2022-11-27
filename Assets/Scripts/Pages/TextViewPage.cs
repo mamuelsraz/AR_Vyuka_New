@@ -39,6 +39,7 @@ public class TextViewPage : Page
         if (text == null) return;
         text.Text = inputField.text;
         text.GenerateText();
+        ColorChanger.instance.Initialize();
     }
 
     public void TextChanged()
@@ -46,6 +47,7 @@ public class TextViewPage : Page
         if (text == null) return;
         text.Text = inputField.text;
         text.GenerateText();
+        ColorChanger.instance.Initialize();
     }
 
     public void Speak()

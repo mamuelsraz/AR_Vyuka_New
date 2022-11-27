@@ -38,15 +38,6 @@ public class ArListBlock : MonoBehaviour
         }
     }
 
-    private void Update()
-    {
-        if (handle != null)
-        {
-            fillImage.color = new Color(fillImage.color.r, fillImage.color.g, fillImage.color.b, 1);
-            fillImage.fillAmount = handle.progress;
-        }
-    }
-
     void Download()
     {
         button.enabled = false;
@@ -57,23 +48,33 @@ public class ArListBlock : MonoBehaviour
             buttonTransform.DORotate(new Vector3(0, 0, 180), 0.25f);
             downloaded = true;
         }
-        else handle.Complete += (StreamingHandleResponse response) =>
+        else
         {
-            button.enabled = true;
-            fillImage.DOFade(0, 0.25f);
-            handle = null;
-            if (response.status != StreamingStatus.Failed)
+            handle.Tick += () =>
             {
-                buttonTransform.DORotate(new Vector3(0, 0, 180), 0.25f);
-                downloaded = true;
-            }
-            else
-                NativeDialog.OpenDialog("Nepovedlo se stáhnout model!", "Zkontrolujte prosím, zda máte stálé připojení k internetu. Aplikace se po stisknutí [ok] restartuje.", "Ok",
-                () =>
+                fillImage.color = new Color(fillImage.color.r, fillImage.color.g, fillImage.color.b, 1);
+                fillImage.fillAmount = handle.progress;
+            };
+            handle.Complete += (StreamingHandleResponse response) =>
+            {
+                button.enabled = true;
+                fillImage.DOFade(0, 0.25f);
+                handle = null;
+                if (response.status != StreamingStatus.Failed)
                 {
-                    SceneManager.LoadScene(0);
-                });
-        };
+                    buttonTransform.DORotate(new Vector3(0, 0, 180), 0.25f);
+                    downloaded = true;
+                }
+                else
+                {
+                    NativeDialog.OpenDialog("Nepovedlo se stáhnout model!", "Zkontrolujte prosím, zda máte stálé připojení k internetu. Aplikace se po stisknutí [ok] restartuje.", "Ok",
+                    () =>
+                    {
+                        SceneManager.LoadScene(0);
+                    });
+                }
+            };
+        }
     }
 
     void Place()

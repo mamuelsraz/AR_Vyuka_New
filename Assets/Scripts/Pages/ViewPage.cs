@@ -71,6 +71,8 @@ public class ViewPage : Page
             otherText.text = arObject.nickName;
             otherText.gameObject.SetActive(true);
         }
+
+        ColorChanger.instance.Initialize();
     }
 
     protected override void Update()

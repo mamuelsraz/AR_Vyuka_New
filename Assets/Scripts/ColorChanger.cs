@@ -5,9 +5,19 @@ using UnityEngine;
 
 public class ColorChanger : MonoBehaviour
 {
+    public static ColorChanger instance;
     public List<Material> materialsThatChange;
     public List<Material> colorMaterials;
     List<MaterialOnRenderer> materialsOnRenderers;
+
+    private void Awake()
+    {
+        if (instance == null)
+        {
+            instance = this;
+        }
+        else Destroy(this);
+    }
 
     public void Initialize()
     {
@@ -21,23 +31,29 @@ public class ColorChanger : MonoBehaviour
             for (int i = 0; i < renderer.materials.Length; i++)
             {
                 Material mat = renderer.materials[0];
-                bool matches = materialsThatChange.Where(p => p.name == mat.name).Count() > 0;
+                string matName = mat.name.Replace(" (Instance)", "");
+                Debug.Log(matName);
+                bool matches = materialsThatChange.Where(p => p.name == matName).Count() > 0;
                 if (matches)
                 {
                     materialsOnRenderers.Add(new MaterialOnRenderer(renderer, i, mat));
                 }
             }
         }
+
+        ChangeColor(-1);
     }
 
     public void ChangeColor(int i)
     {
         foreach (var item in materialsOnRenderers)
         {
+            Material[] materials = item.renderer.materials;
             if (i == -1)
-                item.renderer.materials[item.index] = item.material;
+                materials[item.index] = item.material;
             else
-                item.renderer.materials[item.index] = colorMaterials[i];
+                materials[item.index] = colorMaterials[i];
+            item.renderer.materials = materials;
         }
     }
 }

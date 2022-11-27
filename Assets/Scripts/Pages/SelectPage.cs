@@ -9,6 +9,7 @@ using DG.Tweening;
 public class SelectPage : Page
 {
     public Image hidePanel;
+    public Image progressBar;
     public ArListPopulator populator;
     public PlacePage placePage;
     public ViewPage viewPage;
@@ -34,6 +35,7 @@ public class SelectPage : Page
 
     private void Initialize()
     {
+
         if (SelectedArObjectManager.instance.selectedArea == "Jazyky")
         {
             languageChangeUI.Show();
@@ -50,6 +52,10 @@ public class SelectPage : Page
         }
         else
         {
+            handle.Tick += () =>
+            {
+                progressBar.fillAmount = handle.progress;
+            };
             handle.Complete += (StreamingHandleResponse response) =>
             {
                 if (response.status != StreamingStatus.Failed)
