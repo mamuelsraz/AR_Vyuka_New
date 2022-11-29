@@ -835,6 +835,7 @@ GameObject:
   m_Component:
   - component: {fileID: 87789598}
   - component: {fileID: 87789599}
+  - component: {fileID: 87789600}
   m_Layer: 0
   m_Name: TTSManager
   m_TagString: Untagged
@@ -871,6 +872,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pitch: 1
   rate: 1
+--- !u!114 &87789600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 87789597}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a5aa9e7b25e77d42b245ca39314195d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &94213234
 GameObject:
   m_ObjectHideFlags: 0
@@ -8417,7 +8430,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -0.000022888184}
+  m_AnchoredPosition: {x: 0, y: -0.000049591064}
   m_SizeDelta: {x: 0, y: 60}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!1 &1027970229
@@ -12767,7 +12780,7 @@ GameObject:
   - component: {fileID: 1596008077}
   m_Layer: 5
   m_Name: language_change_panel
-  m_TagString: Page
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12790,7 +12803,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 1800, y: 1800}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1596008076
@@ -15076,7 +15089,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 2138506366}
   m_Direction: 2
   m_Value: 1
-  m_Size: 1
+  m_Size: 0.94
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:

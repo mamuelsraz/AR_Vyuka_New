@@ -32,6 +32,7 @@ namespace TextSpeech
 
         public Action onStartCallBack;
         public Action onDoneCallback;
+        public Action onLanguageNotAvailable;
         public Action<string> onSpeakRangeCallback;
 
         [Range(0.5f, 2)]
@@ -74,6 +75,8 @@ namespace TextSpeech
 
         public void onSpeechRange(string _message)
         {
+            Debug.LogError("TTS onSpeechRange " + _message);
+
             if (onSpeakRangeCallback != null && _message != null)
             {
                 onSpeakRangeCallback(_message);
@@ -81,20 +84,25 @@ namespace TextSpeech
         }
         public void onStart(string _message)
         {
+            Debug.LogError("TTS onStart " + _message);
+
             if (onStartCallBack != null)
                 onStartCallBack();
         }
         public void onDone(string _message)
         {
+            Debug.LogError("TTS onDone " + _message);
+
             if (onDoneCallback != null)
                 onDoneCallback();
         }
         public void onError(string _message)
         {
+            Debug.LogError("TTS onError " + _message);
         }
         public void onMessage(string _message)
         {
-
+            Debug.LogError("TTS onMessage " + _message);
         }
         /** Denotes the language is available for the language by the locale, but not the country and variant. */
         public const int LANG_AVAILABLE = 0;
@@ -104,11 +112,13 @@ namespace TextSpeech
         public const int LANG_NOT_SUPPORTED = -2;
         public void onSettingResult(string _params)
         {
+            Debug.LogError("TTS onSettings result:" + _params);
             int _error = int.Parse(_params);
             string _message = "";
             if (_error == LANG_MISSING_DATA || _error == LANG_NOT_SUPPORTED)
             {
                 _message = "This Language is not supported";
+                onLanguageNotAvailable.Invoke();
             }
             else
             {

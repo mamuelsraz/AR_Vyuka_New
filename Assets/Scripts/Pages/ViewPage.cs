@@ -4,6 +4,7 @@ using UnityEngine;
 using TMPro;
 using TextSpeech;
 using UnityEngine.UI;
+using pingak9;
 
 public class ViewPage : Page
 {
