@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99d0876742e685842a34b543423061db, type: 3}
+  m_Name: "N\xE1levka"
+  m_EditorClassIdentifier: 
+  obj: {fileID: 3723973501256006051, guid: 80e3ccc717b1e5843b1032d5f2ec45ca, type: 3}
+  nickName: "n\xE1levka"
+  bundle: nalevka
+  area: Chemie
+  category: "Pom\u016Fcky"
+  sprite: {fileID: 21300000, guid: 680bc4313a39d34459865470425bc23a, type: 3}

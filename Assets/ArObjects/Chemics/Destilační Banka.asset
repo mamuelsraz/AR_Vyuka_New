@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99d0876742e685842a34b543423061db, type: 3}
+  m_Name: "Destila\u010Dn\xED Banka"
+  m_EditorClassIdentifier: 
+  obj: {fileID: 919132149155446097, guid: 8d4dd781600b43042a224b171c1cddeb, type: 3}
+  nickName: "destila\u010Dn\xED ba\u0148ka"
+  bundle: 
+  area: Chemie
+  category: "N\xE1doby"
+  sprite: {fileID: 21300000, guid: 8e3ce6629b9a2e3469ad8a5561209f28, type: 3}
