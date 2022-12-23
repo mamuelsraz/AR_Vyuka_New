@@ -37,7 +37,7 @@ public class Page : MonoBehaviour
     {
         if (previousPage == null)
         {
-            //Application.Quit();
+            Application.Quit();
             return;
         }
         transition.screenActions[0].transform = previousPage.rect;
