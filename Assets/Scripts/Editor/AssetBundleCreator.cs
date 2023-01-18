@@ -25,6 +25,10 @@ public class AssetBundleCreator
     [MenuItem("Tools/Create/JSON")]
     static void CreateJSON()
     {
+        //ARAssetCatalog ctlg = new(new List<LanguageARAsset>());
+        //ctlg.assets.Add(new LanguageARAsset("aaaaaa"));
+        //Debug.Log(Newtonsoft.Json.JsonConvert.SerializeObject(ctlg.assets));
+
         var addressableGroup = AddressableAssetSettingsDefaultObject.Settings.FindGroup("ARObjects");
         var handle = AdressablesStreamingManager.GetAssetCatalog();
         handle.OnComplete += (ARAssetCatalog catalog) =>
@@ -54,6 +58,10 @@ public class AssetBundleCreator
                 }
             }
             Debug.Log("Asset Catalog updated");
+            string json = Newtonsoft.Json.JsonConvert.SerializeObject(catalog);
+            Debug.Log(json);
+            File.WriteAllText("Assets/catalog.json", json);
+            Debug.Log("Asset saved to Assets/catalog.json, please export it to the server");
         };
     }
 
