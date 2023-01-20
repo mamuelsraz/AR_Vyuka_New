@@ -12,4 +12,12 @@ public class ARAssetCatalog
     {
         this.assets = assets;
     }
+
+    public override string ToString()
+    {
+        if (assets == null) return "catalog has no asset list";
+        if(assets.Count > 0)
+        return $"catalog has {assets.Count} assets, first one being {assets[0].asset}";
+        else return "catalog has 0 assets";
+    }
 }

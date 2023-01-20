@@ -1,13 +1,13 @@
-using System.Collections;
-using System.Collections.Generic;
+using Newtonsoft.Json.Linq;
 using System.IO;
 using UnityEditor;
 using UnityEditor.AddressableAssets;
-using UnityEditor.AddressableAssets.Settings;
-using UnityEditor.VersionControl;
 using UnityEngine;
+using Unity.RemoteConfig.Editor;
+using System;
+using Newtonsoft.Json;
 
-public class AssetBundleCreator
+public static class AssetBundleCreator
 {
     [MenuItem("Tools/Create/AssetBundles for Windows")]
     static void BuildAllAssetBundlesWindows()
@@ -22,47 +22,155 @@ public class AssetBundleCreator
                                         BuildTarget.StandaloneWindows);
     }
 
-    [MenuItem("Tools/Create/JSON")]
-    static void CreateJSON()
+    [MenuItem("Tools/Test")]
+    static void JSONTesting()
     {
-        //ARAssetCatalog ctlg = new(new List<LanguageARAsset>());
-        //ctlg.assets.Add(new LanguageARAsset("aaaaaa"));
-        //Debug.Log(Newtonsoft.Json.JsonConvert.SerializeObject(ctlg.assets));
-
-        var addressableGroup = AddressableAssetSettingsDefaultObject.Settings.FindGroup("ARObjects");
-        var handle = AdressablesStreamingManager.GetAssetCatalog();
-        handle.OnComplete += (ARAssetCatalog catalog) =>
+        if (string.IsNullOrEmpty(CloudProjectSettings.projectId) || string.IsNullOrEmpty(CloudProjectSettings.organizationId))
         {
-            Debug.Log("Asset Catalog downloaded.");
-            foreach (var asset in catalog.assets)
-            {
-                bool contains = false;
-                foreach (var addressable in addressableGroup.entries)
-                    contains = asset.asset == addressable.address;
-                if (!contains)
-                {
-                    Debug.Log($"Asset {asset.asset} from catalog is not present in addressables, hiding it");
-                    asset.hidden = true;
-                }
-            }
+            Debug.Log("not connected to unity cloud services");
+        }
+        Debug.Log("connected to unity cloud services");
 
-            foreach (var addressable in addressableGroup.entries)
+        RemoteConfigWebApiClient.fetchEnvironmentsFinished += OnEnvironmentsFetched;
+        try
+        {
+            RemoteConfigWebApiClient.FetchEnvironments(Application.cloudProjectId);
+
+        }
+        catch (Exception e)
+        {
+            RemoteConfigWebApiClient.fetchEnvironmentsFinished -= OnEnvironmentsFetched;
+            Debug.LogError(e);
+        }
+
+        //var RemoteConfigController = new RemoteConfigWindowController();
+
+    }
+
+    static string envID = "";
+    static void OnEnvironmentsFetched(JArray a)
+    {
+        RemoteConfigWebApiClient.fetchEnvironmentsFinished -= OnEnvironmentsFetched;
+        JObject env = LoadEnvironment(a, "development");
+        envID = env["id"].Value<string>();
+        Debug.Log("environment loaded with id: " + envID);
+        RemoteConfigWebApiClient.fetchConfigsFinished += OnConfigsLoaded;
+        try
+        {
+            RemoteConfigWebApiClient.FetchConfigs(Application.cloudProjectId, envID);
+        }
+        catch (Exception e)
+        {
+            Debug.LogError(e);
+            RemoteConfigWebApiClient.fetchConfigsFinished -= OnConfigsLoaded;
+        }
+    }
+    public static JObject LoadEnvironment(JArray environments, string currentEnvName)
+    {
+        if (environments.Count > 0)
+        {
+            var currentEnvironment = environments[0];
+            foreach (var environment in environments)
             {
-                bool contains = false;
-                foreach (var asset in catalog.assets)
-                    contains = asset.asset == addressable.address;
-                if (!contains)
+                if (environment["name"].Value<string>() == currentEnvName)
                 {
-                    Debug.Log($"Addressable {addressable.address} is new, adding it to the catalog");
-                    catalog.assets.Add(new LanguageARAsset(addressable.address));
+                    currentEnvironment = environment;
+                    break;
                 }
             }
-            Debug.Log("Asset Catalog updated");
-            string json = Newtonsoft.Json.JsonConvert.SerializeObject(catalog);
-            Debug.Log(json);
-            File.WriteAllText("Assets/catalog.json", json);
-            Debug.Log("Asset saved to Assets/catalog.json, please export it to the server");
-        };
+            return (JObject)currentEnvironment;
+        }
+        else
+        {
+            Debug.LogWarning("No environments loaded");
+            return new JObject();
+        }
+    }
+
+    static void OnConfigsLoaded(JObject a)
+    {
+        RemoteConfigWebApiClient.fetchConfigsFinished -= OnConfigsLoaded;
+        Debug.Log("searching for file named: catalog");
+        JArray configContent = a["value"] as JArray;
+        JObject catalog = null;
+        string id = a["id"].Value<string>();
+        foreach (JObject item in configContent)
+        {
+            if (item["key"].Value<string>() == "catalog")
+            {
+                catalog = item["value"] as JObject;
+                break;
+            }
+        }
+
+        if (catalog == null)
+        {
+            Debug.LogError("No file named catalog found");
+            return;
+        }
+
+        ARAssetCatalog assetCatalog = JsonUtility.FromJson<ARAssetCatalog>(catalog.ToString(Formatting.None));
+        CreateJSON(assetCatalog, configContent, id);
+    }
+
+
+    static void CreateJSON(ARAssetCatalog catalog, JArray configContent, string configID)
+    {
+        Debug.Log("getting assets in addressables");
+        var addressableGroup = AddressableAssetSettingsDefaultObject.Settings.FindGroup("ARObjects");
+        foreach (var asset in catalog.assets)
+        {
+            bool contains = false;
+            foreach (var addressable in addressableGroup.entries)
+                contains = asset.asset == addressable.address;
+            if (!contains)
+            {
+                Debug.Log($"Asset {asset.asset} from catalog is not present in addressables, hiding it");
+                asset.hidden = true;
+            }
+        }
+
+        foreach (var addressable in addressableGroup.entries)
+        {
+            bool contains = false;
+            foreach (var asset in catalog.assets)
+                contains = asset.asset == addressable.address;
+            if (!contains)
+            {
+                Debug.Log($"Addressable {addressable.address} is new, adding it to the catalog");
+                catalog.assets.Add(new LanguageARAsset(addressable.address));
+            }
+        }
+        Debug.Log("Asset Catalog updated");
+
+        foreach (JObject item in configContent)
+        {
+            if (item["key"].Value<string>() == "catalog")
+            {
+                string json = JsonConvert.SerializeObject(catalog);
+                JObject content = JObject.Parse(json);
+                item["value"] = content;
+                break;
+            }
+        }
+
+        Debug.Log(configContent.ToString(Formatting.None));
+
+        RemoteConfigWebApiClient.settingsRequestFinished += OnPutConfigs;
+        try
+        {
+            RemoteConfigWebApiClient.PutConfig(Application.cloudProjectId, envID, configID, configContent);
+        }
+        catch (Exception e)
+        {
+            Debug.LogError(e);
+            RemoteConfigWebApiClient.settingsRequestFinished -= OnPutConfigs;
+        }
+    }
+
+    static void OnPutConfigs() {
+        RemoteConfigWebApiClient.settingsRequestFinished -= OnPutConfigs;
+        Debug.Log("Done!");
     }
 
     [MenuItem("Tools/Create/AssetBundles for Android")]
