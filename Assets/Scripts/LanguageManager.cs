@@ -24,10 +24,9 @@ public class LanguageManager : MonoBehaviour
     public LanguageBlock GetCurrentLanguageBlock() {
         string language = currentLanguage;
         LanguageBlock block = null;
-        var ARObject = SelectedArObjectManager.instance.selectedArObject;
-        if (ARObject is LanguageArObject) {
-            var langARObject = (LanguageArObject)ARObject;
-            foreach (var item in langARObject.nameInLanguage)
+        var ARObject = SelectedArObjectManager.instance.selectedARAsset;
+        if (ARObject.area == "Jazyky") {
+            foreach (var item in ARObject.nameInLanguage)
             {
                 if (language.Equals(item.language)) {
                     block = item;

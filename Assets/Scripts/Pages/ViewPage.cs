@@ -36,14 +36,13 @@ public class ViewPage : Page
 
     void Initialize()
     {
-        var arObject = SelectedArObjectManager.instance.selectedArObject;
-        if (arObject is LanguageArObject)
+        var arAsset = SelectedArObjectManager.instance.selectedARAsset;
+        if (arAsset.area == "Jazyky")
         {
             languageChangeUI.Show();
             languagePanel.SetActive(true);
-            var languageArObject = (LanguageArObject)arObject;
 
-            var languageBlock = languageArObject.GetBlock(LanguageManager.instance.currentLanguage);
+            var languageBlock = arAsset.GetBlock(LanguageManager.instance.currentLanguage);
             mainText.text = languageBlock.word;
 
             foreach (Transform child in prepositionsParent)
@@ -69,7 +68,7 @@ public class ViewPage : Page
         else
         {
             languagePanel.SetActive(false);
-            otherText.text = arObject.nickName;
+            otherText.text = arAsset.nickName;
             otherText.gameObject.SetActive(true);
         }
 

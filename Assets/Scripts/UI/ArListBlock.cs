@@ -9,13 +9,12 @@ using UnityEngine.SceneManagement;
 public class ArListBlock : MonoBehaviour
 {
     public SelectPage page;
-    public ArObject arObject;
+    public LanguageARAsset arAsset;
     public Button button;
     public Transform buttonTransform;
     public Image fillImage;
     public Image spriteImage;
     bool downloaded;
-    StreamingHandle handle;
 
     public void Click()
     {
@@ -28,8 +27,8 @@ public class ArListBlock : MonoBehaviour
 
     private void Start()
     {
-        spriteImage.sprite = arObject.sprite;
-        if (AssetStreamingManager.instance.cachedArObjects.ContainsKey(arObject))
+        //spriteImage.sprite = arAsset.sprite;
+        if (AddressablesStreamingManager.Instance.cachedARAssets.ContainsKey(arAsset))
         {
             button.enabled = true;
             fillImage.color = new Color(fillImage.color.r, fillImage.color.g, fillImage.color.b, 0);
@@ -41,7 +40,7 @@ public class ArListBlock : MonoBehaviour
     void Download()
     {
         button.enabled = false;
-        handle = AssetStreamingManager.instance.LoadArObj(arObject, AssetStreamingManager.path);
+        var handle = AddressablesStreamingManager.Instance.LoadArObj(arAsset);
         if (handle == null)
         {
             fillImage.DOFade(0, 0.25f);
@@ -55,31 +54,27 @@ public class ArListBlock : MonoBehaviour
                 fillImage.color = new Color(fillImage.color.r, fillImage.color.g, fillImage.color.b, 1);
                 fillImage.fillAmount = handle.progress;
             };
-            handle.Complete += (StreamingHandleResponse response) =>
+            handle.OnFail += () =>
+            {
+                NativeDialog.OpenDialog("Nepovedlo se stáhnout model!", "Zkontrolujte prosím, zda máte stálé připojení k internetu. Aplikace se po stisknutí [ok] restartuje.", "Ok",
+                       () =>
+                       {
+                           SceneManager.LoadScene(0);
+                       });
+            };
+            handle.OnComplete += (response) =>
             {
                 button.enabled = true;
                 fillImage.DOFade(0, 0.25f);
-                handle = null;
-                if (response.status != StreamingStatus.Failed)
-                {
-                    buttonTransform.DORotate(new Vector3(0, 0, 180), 0.25f);
-                    downloaded = true;
-                }
-                else
-                {
-                    NativeDialog.OpenDialog("Nepovedlo se stáhnout model!", "Zkontrolujte prosím, zda máte stálé připojení k internetu. Aplikace se po stisknutí [ok] restartuje.", "Ok",
-                    () =>
-                    {
-                        SceneManager.LoadScene(0);
-                    });
-                }
+                buttonTransform.DORotate(new Vector3(0, 0, 180), 0.25f);
+                downloaded = true;
             };
         }
     }
 
     void Place()
     {
-        SelectedArObjectManager.instance.SelectNew(arObject);
+        SelectedArObjectManager.instance.SelectNew(arAsset);
         page.ChangePage();
     }
 }

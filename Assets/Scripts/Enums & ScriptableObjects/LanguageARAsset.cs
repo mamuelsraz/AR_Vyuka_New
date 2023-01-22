@@ -29,4 +29,21 @@ public class LanguageARAsset
     {
         this.asset = asset;
     }
+
+    public LanguageBlock GetBlock(string language)
+    {
+        if (area != "Jazyky") return null;
+
+        LanguageBlock block = null;
+        foreach (var item in nameInLanguage)
+        {
+            if (item.language == language)
+            {
+                block = item;
+                break;
+            }
+        }
+
+        return block;
+    }
 }

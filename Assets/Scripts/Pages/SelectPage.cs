@@ -41,7 +41,7 @@ public class SelectPage : Page
             languageChangeUI.Show();
         }
 
-        var handle = AssetStreamingManager.instance.LoadList(AssetStreamingManager.path, "list");
+        var handle = AddressablesStreamingManager.Instance.LoadAssetCatalog();
         if (handle == null)
         {
             populator.Init();
@@ -56,25 +56,21 @@ public class SelectPage : Page
             {
                 progressBar.fillAmount = handle.progress;
             };
-            handle.Complete += (StreamingHandleResponse response) =>
+            handle.OnFail += () =>
             {
-                if (response.status != StreamingStatus.Failed)
+                NativeDialog.OpenDialog("Nepovedlo se stáhnout seznam!", "Zkontrolujte prosím, zda máte stálé připojení k internetu. Aplikace se po stisknutí [ok] restartuje.", "Ok",
+                   () =>
+                   {
+                       SceneManager.LoadScene(0);
+                   });
+            };
+            handle.OnComplete += (response) =>
+            {
+                populator.Init();
+                hidePanel.DOFade(0, 0.25f).onComplete += () =>
                 {
-                    populator.Init();
-                    hidePanel.DOFade(0, 0.25f).onComplete += () =>
-                    {
-                        hidePanel.gameObject.SetActive(false);
-                    };
-                }
-
-                else
-                {
-                    NativeDialog.OpenDialog("Nepovedlo se stáhnout seznam!", "Zkontrolujte prosím, zda máte stálé připojení k internetu. Aplikace se po stisknutí [ok] restartuje.", "Ok",
-                    () =>
-                    {
-                        SceneManager.LoadScene(0);
-                    });
-                }
+                    hidePanel.gameObject.SetActive(false);
+                };
             };
         }
     }

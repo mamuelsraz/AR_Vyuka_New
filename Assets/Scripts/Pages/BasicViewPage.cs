@@ -14,6 +14,6 @@ public class BasicViewPage : Page
     }
 
     void Initialize() {
-        text.text = SelectedArObjectManager.instance.selectedArObject.nickName;
+        text.text = SelectedArObjectManager.instance.selectedARAsset.nickName;
     }
 }

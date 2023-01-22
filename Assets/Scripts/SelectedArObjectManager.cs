@@ -6,7 +6,7 @@ public class SelectedArObjectManager : MonoBehaviour
 {
     public static SelectedArObjectManager instance;
     public string selectedArea;
-    [HideInInspector] public ArObject selectedArObject { get; private set; }
+    [HideInInspector] public LanguageARAsset selectedARAsset { get; private set; }
     [HideInInspector] public GameObject selectedObject { get; private set; }
 
     private void Awake()
@@ -18,13 +18,13 @@ public class SelectedArObjectManager : MonoBehaviour
         else Destroy(this);
     }
 
-    public void SelectNew(ArObject arObject)
+    public void SelectNew(LanguageARAsset arAsset)
     {
-        if (selectedObject != null && selectedArObject.bundle == arObject.bundle) return;
+        if (selectedObject != null && selectedARAsset.asset == arAsset.asset) return;
 
         if (selectedObject != null) selectedObject.SetActive(false);
-        selectedArObject = arObject;
-        selectedObject = AssetStreamingManager.instance.cachedArObjects[selectedArObject];
+        selectedARAsset = arAsset;
+        selectedObject = AddressablesStreamingManager.Instance.cachedARAssets[selectedARAsset];
     }
 
     public GameObject SpawnCurrent(Transform parent) {

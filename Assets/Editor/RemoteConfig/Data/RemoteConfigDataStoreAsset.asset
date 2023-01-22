@@ -12,13 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 469c24fdb3bd6431b92cc1465bd9166b, type: 3}
   m_Name: RemoteConfigDataStoreAsset
   m_EditorClassIdentifier: 
-  _rsKeyList: "[\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"dc6de278-3bb7-46d3-ab18-8bf41352a607\"\r\n   
+  _rsKeyList: "[\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"954e01a1-f5c2-4d18-a4b4-8b3d72fecdde\"\r\n   
     },\r\n    \"rs\": {\r\n      \"key\": \"catalog\",\r\n      \"type\": \"json\",\r\n     
     \"schemaId\": null,\r\n      \"value\": {\r\n        \"assets\": [\r\n         
-    {\r\n            \"asset\": \"boty\",\r\n            \"nickName\": null,\r\n           
-    \"area\": null,\r\n            \"category\": null,\r\n            \"hidden\":
-    true,\r\n            \"nameInLanguage\": null\r\n          },\r\n          {\r\n           
-    \"asset\": \"TitracniBanka\",\r\n            \"nickName\": null,\r\n           
+    {\r\n            \"asset\": \"TitracniBanka\",\r\n            \"nickName\": null,\r\n           
     \"area\": null,\r\n            \"category\": null,\r\n            \"hidden\":
     false,\r\n            \"nameInLanguage\": null\r\n          },\r\n          {\r\n           
     \"asset\": \"batoh\",\r\n            \"nickName\": null,\r\n            \"area\":
@@ -101,13 +98,10 @@ MonoBehaviour:
     null,\r\n            \"area\": null,\r\n            \"category\": null,\r\n           
     \"hidden\": false,\r\n            \"nameInLanguage\": null\r\n          }\r\n       
     ]\r\n      }\r\n    }\r\n  }\r\n]"
-  _rsLastCachedKeyList: "[\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"dc6de278-3bb7-46d3-ab18-8bf41352a607\"\r\n   
+  _rsLastCachedKeyList: "[\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"954e01a1-f5c2-4d18-a4b4-8b3d72fecdde\"\r\n   
     },\r\n    \"rs\": {\r\n      \"key\": \"catalog\",\r\n      \"type\": \"json\",\r\n     
     \"schemaId\": null,\r\n      \"value\": {\r\n        \"assets\": [\r\n         
-    {\r\n            \"asset\": \"boty\",\r\n            \"nickName\": null,\r\n           
-    \"area\": null,\r\n            \"category\": null,\r\n            \"hidden\":
-    true,\r\n            \"nameInLanguage\": null\r\n          },\r\n          {\r\n           
-    \"asset\": \"TitracniBanka\",\r\n            \"nickName\": null,\r\n           
+    {\r\n            \"asset\": \"TitracniBanka\",\r\n            \"nickName\": null,\r\n           
     \"area\": null,\r\n            \"category\": null,\r\n            \"hidden\":
     false,\r\n            \"nameInLanguage\": null\r\n          },\r\n          {\r\n           
     \"asset\": \"batoh\",\r\n            \"nickName\": null,\r\n            \"area\":

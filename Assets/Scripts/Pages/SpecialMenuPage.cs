@@ -5,8 +5,10 @@ public class SpecialMenuPage : Page
 {
     public PlacePage placePage;
     public TextViewPage textViewPage;
-    public ArObject textARObject;
-    public ArObject imageARObject;
+    public GameObject textObject;
+    public LanguageARAsset textARAsset;
+    public GameObject imageObject;
+    public LanguageARAsset imageARAsset;
     public Image image;
     public Material material;
     public float idealImageScale = 0.2f;
@@ -14,13 +16,13 @@ public class SpecialMenuPage : Page
 
     public void PlaceText()
     {
-        if (!AssetStreamingManager.instance.cachedArObjects.ContainsKey(textARObject))
+        if (!AddressablesStreamingManager.Instance.cachedARAssets.ContainsKey(textARAsset))
         {
-            var obj = Instantiate(textARObject.obj);
+            var obj = Instantiate(textObject);
             obj.SetActive(false);
-            AssetStreamingManager.instance.cachedArObjects.Add(textARObject, obj);
+            AddressablesStreamingManager.Instance.cachedARAssets.Add(textARAsset, obj);
         }
-        SelectedArObjectManager.instance.SelectNew(textARObject);
+        SelectedArObjectManager.instance.SelectNew(textARAsset);
 
         placePage.viewPage = textViewPage;
         GoTo(placePage);
@@ -28,13 +30,13 @@ public class SpecialMenuPage : Page
 
     public void PlaceImage()
     {
-        if (!AssetStreamingManager.instance.cachedArObjects.ContainsKey(imageARObject))
+        if (!AddressablesStreamingManager.Instance.cachedARAssets.ContainsKey(imageARAsset))
         {
-            var obj = Instantiate(imageARObject.obj);
+            var obj = Instantiate(imageObject);
             obj.SetActive(false);
-            AssetStreamingManager.instance.cachedArObjects.Add(imageARObject, obj);
+            AddressablesStreamingManager.Instance.cachedARAssets.Add(imageARAsset, obj);
         }
-        SelectedArObjectManager.instance.SelectNew(imageARObject);
+        SelectedArObjectManager.instance.SelectNew(imageARAsset);
 
         var imageObj = SelectedArObjectManager.instance.selectedObject;
         imageObj.transform.GetChild(0).localScale = new Vector3(dimensions.x, dimensions.y, 1);

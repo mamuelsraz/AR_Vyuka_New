@@ -28,7 +28,7 @@ public class QRPlacePage : Page
         SetScanning(true);
         text.text = "Stahuje se seznam objektů, vyčkejte";
 
-        var handle = AssetStreamingManager.instance.LoadList(AssetStreamingManager.path, "list");
+        var handle = AddressablesStreamingManager.Instance.LoadAssetCatalog();
         if (handle == null)
         {
             text.text = "Hledá se QR kód";
@@ -36,23 +36,19 @@ public class QRPlacePage : Page
         }
         else
         {
-            handle.Complete += (StreamingHandleResponse response) =>
+            handle.OnComplete += (response) =>
             {
-                if (response.status != StreamingStatus.Failed)
+                text.text = "Hledá se QR kód";
+                canScan = true;
+            };
+            handle.OnFail += () =>
+            {
+                NativeDialog.OpenDialog("Nepovedlo se stáhnout seznam!", "Zkontrolujte prosím, zda máte stálé připojení k internetu. Aplikace se po stisknutí [ok] restartuje.", "Ok",
+                () =>
                 {
-                    text.text = "Hledá se QR kód";
-                    canScan = true;
-                }
-
-                else
-                {
-                    NativeDialog.OpenDialog("Nepovedlo se stáhnout seznam!", "Zkontrolujte prosím, zda máte stálé připojení k internetu. Aplikace se po stisknutí [ok] restartuje.", "Ok",
-                    () =>
-                    {
-                        canScan = false;
-                        SceneManager.LoadScene(0);
-                    });
-                }
+                    canScan = false;
+                    SceneManager.LoadScene(0);
+                });
             };
         }
     }
@@ -61,50 +57,51 @@ public class QRPlacePage : Page
     {
         if (!canScan) return;
 
-        ArObject arObject = null;
-        foreach (var item in AssetStreamingManager.instance.ArObjectList)
+        LanguageARAsset ARAsset = null;
+        foreach (var item in AddressablesStreamingManager.Instance.catalog.assets)
         {
             if (item.nickName == marker.content)
             {
-                arObject = item;
+                ARAsset = item;
                 break;
             }
         }
 
-        if (arObject == null)
+        if (ARAsset == null)
         {
             text.text = "QR kód nesedí s žádným objektem";
             return;
         }
 
-        text.text = $"Stahuje se model s názvem: {arObject.nickName}";
+        text.text = $"Stahuje se model s názvem: {ARAsset.nickName}";
 
-        var handle = AssetStreamingManager.instance.LoadArObj(arObject, AssetStreamingManager.path);
+        var handle = AddressablesStreamingManager.Instance.LoadArObj(ARAsset);
         if (handle == null)
         {
-            SelectedArObjectManager.instance.SelectNew(arObject);
+            SelectedArObjectManager.instance.SelectNew(ARAsset);
             ArObjectDownloaded();
         }
-        else handle.Complete += (StreamingHandleResponse response) =>
+        else
         {
-            handle = null;
-            if (response.status != StreamingStatus.Failed)
+            handle.OnFail += () =>
             {
-                SelectedArObjectManager.instance.SelectNew(arObject);
-                ArObjectDownloaded();
-            }
-            else
                 NativeDialog.OpenDialog("Nepovedlo se stáhnout model!", "Zkontrolujte prosím, zda máte stálé připojení k internetu. Aplikace se po stisknutí [ok] restartuje.", "Ok",
-                () =>
-                {
-                    SceneManager.LoadScene(0);
-                });
-        };
+                 () =>
+                 {
+                     SceneManager.LoadScene(0);
+                 });
+            };
+            handle.OnComplete += (response) =>
+            {
+                SelectedArObjectManager.instance.SelectNew(ARAsset);
+                ArObjectDownloaded();
+            };
+        }
     }
 
     void ArObjectDownloaded()
     {
-        QRCodeMarker marker = tracker.cachedCodes[SelectedArObjectManager.instance.selectedArObject.nickName];
+        QRCodeMarker marker = tracker.cachedCodes[SelectedArObjectManager.instance.selectedARAsset.nickName];
         SelectedArObjectManager.instance.SpawnCurrent(marker.transform);
 
         GoTo(viewPage);

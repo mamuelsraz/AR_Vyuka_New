@@ -22,7 +22,7 @@ public class ArListPopulator : MonoBehaviour
 
         categories = new List<string>();
         categories.Add("vše");
-        foreach (var item in AssetStreamingManager.instance.ArObjectList)
+        foreach (var item in AddressablesStreamingManager.Instance.catalog.assets)
         {
             if (item.area != SelectedArObjectManager.instance.selectedArea) continue;
             if (!categories.Contains(item.category)) categories.Add(item.category);
@@ -33,8 +33,10 @@ public class ArListPopulator : MonoBehaviour
         Populate();
     }
 
-    void TryPopulate() {
-        if (SelectedArObjectManager.instance.selectedArea == "Jazyky") {
+    void TryPopulate()
+    {
+        if (SelectedArObjectManager.instance.selectedArea == "Jazyky")
+        {
             Populate();
         }
     }
@@ -53,17 +55,17 @@ public class ArListPopulator : MonoBehaviour
 
         Dictionary<string, List<ArObject>> sortedCategories = new();
 
-        foreach (var item in AssetStreamingManager.instance.ArObjectList)
+        foreach (var item in AddressablesStreamingManager.Instance.catalog.assets)
         {
             if (item.area != SelectedArObjectManager.instance.selectedArea) continue;
             if (dropdown.value != 0 && categories[dropdown.value] != item.category) continue;
             var block = Instantiate(blockPrefab, parent);
-            if (item is LanguageArObject) {
-                var language = ((LanguageArObject)item).GetBlock(LanguageManager.instance.currentLanguage);
+            var language = item.GetBlock(LanguageManager.instance.currentLanguage);
+            if (language != null)
                 block.GetComponentInChildren<TextMeshProUGUI>().text = language.word;
-            }
-            else block.GetComponentInChildren<TextMeshProUGUI>().text = item.nickName;
-            block.GetComponent<ArListBlock>().arObject = item;
+            else 
+                block.GetComponentInChildren<TextMeshProUGUI>().text = item.nickName;
+            block.GetComponent<ArListBlock>().arAsset = item;
             block.GetComponent<ArListBlock>().page = page;
         }
     }

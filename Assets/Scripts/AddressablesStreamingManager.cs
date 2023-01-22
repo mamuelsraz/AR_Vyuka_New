@@ -9,7 +9,7 @@ using UnityEngine.ResourceManagement.AsyncOperations;
 public class AddressablesStreamingManager : MonoBehaviour
 {
     public static AddressablesStreamingManager Instance;
-    public ARAssetCatalog catalog;
+    [HideInInspector] public ARAssetCatalog catalog;
     public Dictionary<LanguageARAsset, GameObject> cachedARAssets;
 
     private void Awake()
@@ -27,7 +27,7 @@ public class AddressablesStreamingManager : MonoBehaviour
     public struct userAttributes { }
     public struct appAttributes { }
 
-    public ARAssetStreamingHandle<GameObject> LoadArObj(LanguageARAsset asset, string path)
+    public ARAssetStreamingHandle<GameObject> LoadArObj(LanguageARAsset asset)
     {
         if (cachedARAssets.ContainsKey(asset))
         {
@@ -65,9 +65,10 @@ public class AddressablesStreamingManager : MonoBehaviour
         }
     }
 
-    public ARAssetStreamingHandle<ARAssetCatalog> GetAssetCatalog()
+    public ARAssetStreamingHandle<ARAssetCatalog> LoadAssetCatalog()
     {
-        if (catalog != null) return null;
+        if (catalog != null && catalog.assets != null && catalog.assets.Count > 0) 
+            return null;
 
         var handle = new ARAssetStreamingHandle<ARAssetCatalog>();
 
@@ -96,6 +97,8 @@ public class AddressablesStreamingManager : MonoBehaviour
         }
 
         string json = ConfigManager.appConfig.GetJson("catalog");
+        Debug.Log("Catalog loaded:");
+        Debug.Log(json);
         catalog = JsonUtility.FromJson<ARAssetCatalog>(json);
         handle.OnComplete?.Invoke(catalog);
     }
