@@ -294,7 +294,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2777447611275959547}
   m_Layer: 0
-  m_Name: NocniStolek
+  m_Name: nocniStolek
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

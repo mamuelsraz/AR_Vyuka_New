@@ -27,13 +27,24 @@ public class ArListBlock : MonoBehaviour
 
     private void Start()
     {
-        //spriteImage.sprite = arAsset.sprite;
         if (AddressablesStreamingManager.Instance.cachedARAssets.ContainsKey(arAsset))
         {
             button.enabled = true;
             fillImage.color = new Color(fillImage.color.r, fillImage.color.g, fillImage.color.b, 0);
             buttonTransform.localEulerAngles = new Vector3(0, 0, 180);
             downloaded = true;
+        }
+
+        var handle = AddressablesStreamingManager.Instance.LoadIcon(arAsset);
+        if (handle == null)
+        {
+            spriteImage.sprite = AddressablesStreamingManager.Instance.cachedSprites[arAsset];
+        }
+        else {
+            handle.OnComplete += (sprite) =>
+            {
+                spriteImage.sprite = sprite;
+            };
         }
     }
 

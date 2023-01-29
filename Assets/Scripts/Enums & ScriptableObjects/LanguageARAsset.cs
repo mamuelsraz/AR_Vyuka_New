@@ -9,6 +9,7 @@ using UnityEngine.ResourceManagement.ResourceLocations;
 public class LanguageARAsset
 {
     public string asset;
+    public string icon;
     public string nickName;
     public string area;
     public string category;

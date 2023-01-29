@@ -9,20 +9,7 @@ using Newtonsoft.Json;
 
 public static class AssetBundleCreator
 {
-    [MenuItem("Tools/Create/AssetBundles for Windows")]
-    static void BuildAllAssetBundlesWindows()
-    {
-        string assetBundleDirectory = "Assets/Bundles/AR_Vyuka_New_Content";
-        if (!Directory.Exists(assetBundleDirectory))
-        {
-            Directory.CreateDirectory(assetBundleDirectory);
-        }
-        BuildPipeline.BuildAssetBundles(assetBundleDirectory,
-                                        BuildAssetBundleOptions.UncompressedAssetBundle,
-                                        BuildTarget.StandaloneWindows);
-    }
-
-    [MenuItem("Tools/Test")]
+    [MenuItem("Tools/Update JSON Catalog")]
     static void JSONTesting()
     {
         if (string.IsNullOrEmpty(CloudProjectSettings.projectId) || string.IsNullOrEmpty(CloudProjectSettings.organizationId))
@@ -51,7 +38,7 @@ public static class AssetBundleCreator
     static void OnEnvironmentsFetched(JArray a)
     {
         RemoteConfigWebApiClient.fetchEnvironmentsFinished -= OnEnvironmentsFetched;
-        JObject env = LoadEnvironment(a, "development");
+        JObject env = LoadEnvironment(a, "production");
         envID = env["id"].Value<string>();
         Debug.Log("environment loaded with id: " + envID);
         RemoteConfigWebApiClient.fetchConfigsFinished += OnConfigsLoaded;
@@ -122,7 +109,11 @@ public static class AssetBundleCreator
         {
             bool contains = false;
             foreach (var addressable in addressableGroup.entries)
+            {
                 contains = asset.asset == addressable.address;
+                if (contains) break;
+            }
+
             if (!contains)
             {
                 Debug.Log($"Asset {asset.asset} from catalog is not present in addressables, hiding it");
@@ -130,15 +121,33 @@ public static class AssetBundleCreator
             }
         }
 
+        var iconGroup = AddressableAssetSettingsDefaultObject.Settings.FindGroup("Icons");
+
         foreach (var addressable in addressableGroup.entries)
         {
+            LanguageARAsset languageAsset = null;
             bool contains = false;
             foreach (var asset in catalog.assets)
+            {
                 contains = asset.asset == addressable.address;
+                languageAsset = asset;
+                if(contains) break;
+            }
+
+
             if (!contains)
             {
                 Debug.Log($"Addressable {addressable.address} is new, adding it to the catalog");
-                catalog.assets.Add(new LanguageARAsset(addressable.address));
+                languageAsset = new LanguageARAsset(addressable.address);
+                catalog.assets.Add(languageAsset);
+            }
+
+            foreach (var icon in iconGroup.entries)
+            {
+                string name = icon.address.Replace("t_", "");
+                if (name == addressable.address) {
+                    languageAsset.icon = icon.address;
+                }
             }
         }
         Debug.Log("Asset Catalog updated");
@@ -171,31 +180,5 @@ public static class AssetBundleCreator
     static void OnPutConfigs() {
         RemoteConfigWebApiClient.settingsRequestFinished -= OnPutConfigs;
         Debug.Log("Done!");
-    }
-
-    [MenuItem("Tools/Create/AssetBundles for Android")]
-    static void BuildAllAssetBundlesAndroid()
-    {
-        string assetBundleDirectory = "Assets/Bundles/AR_Vyuka_New_Content";
-        if (!Directory.Exists(assetBundleDirectory))
-        {
-            Directory.CreateDirectory(assetBundleDirectory);
-        }
-        BuildPipeline.BuildAssetBundles(assetBundleDirectory,
-                                        BuildAssetBundleOptions.UncompressedAssetBundle,
-                                        BuildTarget.Android);
-    }
-
-    [MenuItem("Tools/Create/AssetBundles for IOS")]
-    static void BuildAllAssetBundlesIOS()
-    {
-        string assetBundleDirectory = "Assets/Bundles/AR_Vyuka_New_Content";
-        if (!Directory.Exists(assetBundleDirectory))
-        {
-            Directory.CreateDirectory(assetBundleDirectory);
-        }
-        BuildPipeline.BuildAssetBundles(assetBundleDirectory,
-                                        BuildAssetBundleOptions.UncompressedAssetBundle,
-                                        BuildTarget.iOS);
     }
 }

@@ -12,178 +12,184 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 469c24fdb3bd6431b92cc1465bd9166b, type: 3}
   m_Name: RemoteConfigDataStoreAsset
   m_EditorClassIdentifier: 
-  _rsKeyList: "[\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"954e01a1-f5c2-4d18-a4b4-8b3d72fecdde\"\r\n   
+  _rsKeyList: "[\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"36da126c-86fb-40ac-b989-cb2c9111b19a\"\r\n   
     },\r\n    \"rs\": {\r\n      \"key\": \"catalog\",\r\n      \"type\": \"json\",\r\n     
     \"schemaId\": null,\r\n      \"value\": {\r\n        \"assets\": [\r\n         
-    {\r\n            \"asset\": \"TitracniBanka\",\r\n            \"nickName\": null,\r\n           
-    \"area\": null,\r\n            \"category\": null,\r\n            \"hidden\":
-    false,\r\n            \"nameInLanguage\": null\r\n          },\r\n          {\r\n           
-    \"asset\": \"batoh\",\r\n            \"nickName\": null,\r\n            \"area\":
-    null,\r\n            \"category\": null,\r\n            \"hidden\": false,\r\n           
-    \"nameInLanguage\": null\r\n          },\r\n          {\r\n            \"asset\":
-    \"Blesky\",\r\n            \"nickName\": null,\r\n            \"area\": null,\r\n           
-    \"category\": null,\r\n            \"hidden\": false,\r\n            \"nameInLanguage\":
-    null\r\n          },\r\n          {\r\n            \"asset\": \"boty\",\r\n           
+    {\r\n            \"asset\": \"st\u0159i\u010Dka\",\r\n            \"icon\": null,\r\n           
     \"nickName\": null,\r\n            \"area\": null,\r\n            \"category\":
     null,\r\n            \"hidden\": false,\r\n            \"nameInLanguage\": null\r\n         
-    },\r\n          {\r\n            \"asset\": \"Burger\",\r\n            \"nickName\":
+    },\r\n          {\r\n            \"asset\": \"vlocka\",\r\n            \"icon\":
+    null,\r\n            \"nickName\": null,\r\n            \"area\": null,\r\n           
+    \"category\": null,\r\n            \"hidden\": false,\r\n            \"nameInLanguage\":
+    null\r\n          },\r\n          {\r\n            \"asset\": \"batoh\",\r\n           
+    \"icon\": \"t_batoh\",\r\n            \"nickName\": null,\r\n            \"area\":
+    null,\r\n            \"category\": null,\r\n            \"hidden\": false,\r\n           
+    \"nameInLanguage\": null\r\n          },\r\n          {\r\n            \"asset\":
+    \"blesky\",\r\n            \"icon\": \"t_blesky\",\r\n            \"nickName\":
     null,\r\n            \"area\": null,\r\n            \"category\": null,\r\n           
     \"hidden\": false,\r\n            \"nameInLanguage\": null\r\n          },\r\n         
-    {\r\n            \"asset\": \"cube 1\",\r\n            \"nickName\": null,\r\n           
-    \"area\": null,\r\n            \"category\": null,\r\n            \"hidden\":
-    false,\r\n            \"nameInLanguage\": null\r\n          },\r\n          {\r\n           
-    \"asset\": \"cube 2\",\r\n            \"nickName\": null,\r\n            \"area\":
+    {\r\n            \"asset\": \"boty\",\r\n            \"icon\": \"t_boty\",\r\n           
+    \"nickName\": null,\r\n            \"area\": null,\r\n            \"category\":
+    null,\r\n            \"hidden\": false,\r\n            \"nameInLanguage\": null\r\n         
+    },\r\n          {\r\n            \"asset\": \"burger\",\r\n            \"icon\":
+    \"t_burger\",\r\n            \"nickName\": null,\r\n            \"area\": null,\r\n           
+    \"category\": null,\r\n            \"hidden\": false,\r\n            \"nameInLanguage\":
+    null\r\n          },\r\n          {\r\n            \"asset\": \"dest\",\r\n           
+    \"icon\": \"t_dest\",\r\n            \"nickName\": null,\r\n            \"area\":
     null,\r\n            \"category\": null,\r\n            \"hidden\": false,\r\n           
     \"nameInLanguage\": null\r\n          },\r\n          {\r\n            \"asset\":
-    \"cube\",\r\n            \"nickName\": null,\r\n            \"area\": null,\r\n           
-    \"category\": null,\r\n            \"hidden\": false,\r\n            \"nameInLanguage\":
-    null\r\n          },\r\n          {\r\n            \"asset\": \"Dest\",\r\n           
+    \"destilacniBanka\",\r\n            \"icon\": \"t_destilacniBanka\",\r\n           
     \"nickName\": null,\r\n            \"area\": null,\r\n            \"category\":
     null,\r\n            \"hidden\": false,\r\n            \"nameInLanguage\": null\r\n         
-    },\r\n          {\r\n            \"asset\": \"destilacniBanka\",\r\n           
-    \"nickName\": null,\r\n            \"area\": null,\r\n            \"category\":
-    null,\r\n            \"hidden\": false,\r\n            \"nameInLanguage\": null\r\n         
-    },\r\n          {\r\n            \"asset\": \"ErlenmayerovaBanka\",\r\n           
-    \"nickName\": null,\r\n            \"area\": null,\r\n            \"category\":
-    null,\r\n            \"hidden\": false,\r\n            \"nameInLanguage\": null\r\n         
-    },\r\n          {\r\n            \"asset\": \"Juice\",\r\n            \"nickName\":
+    },\r\n          {\r\n            \"asset\": \"erlenmayerovaBanka\",\r\n           
+    \"icon\": \"t_erlenmayerovaBanka\",\r\n            \"nickName\": null,\r\n           
+    \"area\": null,\r\n            \"category\": null,\r\n            \"hidden\":
+    false,\r\n            \"nameInLanguage\": null\r\n          },\r\n          {\r\n           
+    \"asset\": \"dzus\",\r\n            \"icon\": \"t_dzus\",\r\n            \"nickName\":
     null,\r\n            \"area\": null,\r\n            \"category\": null,\r\n           
     \"hidden\": false,\r\n            \"nameInLanguage\": null\r\n          },\r\n         
-    {\r\n            \"asset\": \"Kadinka\",\r\n            \"nickName\": null,\r\n           
-    \"area\": null,\r\n            \"category\": null,\r\n            \"hidden\":
-    false,\r\n            \"nameInLanguage\": null\r\n          },\r\n          {\r\n           
-    \"asset\": \"Kreslo\",\r\n            \"nickName\": null,\r\n            \"area\":
-    null,\r\n            \"category\": null,\r\n            \"hidden\": false,\r\n           
-    \"nameInLanguage\": null\r\n          },\r\n          {\r\n            \"asset\":
-    \"Kruzitko\",\r\n            \"nickName\": null,\r\n            \"area\": null,\r\n           
-    \"category\": null,\r\n            \"hidden\": false,\r\n            \"nameInLanguage\":
-    null\r\n          },\r\n          {\r\n            \"asset\": \"Lampa\",\r\n           
+    {\r\n            \"asset\": \"kadinka\",\r\n            \"icon\": \"t_kadinka\",\r\n           
     \"nickName\": null,\r\n            \"area\": null,\r\n            \"category\":
     null,\r\n            \"hidden\": false,\r\n            \"nameInLanguage\": null\r\n         
-    },\r\n          {\r\n            \"asset\": \"Nalevka\",\r\n            \"nickName\":
+    },\r\n          {\r\n            \"asset\": \"kreslo\",\r\n            \"icon\":
+    \"t_kreslo\",\r\n            \"nickName\": null,\r\n            \"area\": null,\r\n           
+    \"category\": null,\r\n            \"hidden\": false,\r\n            \"nameInLanguage\":
+    null\r\n          },\r\n          {\r\n            \"asset\": \"kruzitko\",\r\n           
+    \"icon\": \"t_kruzitko\",\r\n            \"nickName\": null,\r\n            \"area\":
+    null,\r\n            \"category\": null,\r\n            \"hidden\": false,\r\n           
+    \"nameInLanguage\": null\r\n          },\r\n          {\r\n            \"asset\":
+    \"lampa\",\r\n            \"icon\": \"t_lampa\",\r\n            \"nickName\":
     null,\r\n            \"area\": null,\r\n            \"category\": null,\r\n           
     \"hidden\": false,\r\n            \"nameInLanguage\": null\r\n          },\r\n         
-    {\r\n            \"asset\": \"Nasypka\",\r\n            \"nickName\": null,\r\n           
-    \"area\": null,\r\n            \"category\": null,\r\n            \"hidden\":
-    false,\r\n            \"nameInLanguage\": null\r\n          },\r\n          {\r\n           
-    \"asset\": \"NocniStolek\",\r\n            \"nickName\": null,\r\n           
-    \"area\": null,\r\n            \"category\": null,\r\n            \"hidden\":
-    false,\r\n            \"nameInLanguage\": null\r\n          },\r\n          {\r\n           
-    \"asset\": \"Notebook\",\r\n            \"nickName\": null,\r\n            \"area\":
-    null,\r\n            \"category\": null,\r\n            \"hidden\": false,\r\n           
-    \"nameInLanguage\": null\r\n          },\r\n          {\r\n            \"asset\":
-    \"Prechod\",\r\n            \"nickName\": null,\r\n            \"area\": null,\r\n           
-    \"category\": null,\r\n            \"hidden\": false,\r\n            \"nameInLanguage\":
-    null\r\n          },\r\n          {\r\n            \"asset\": \"Semafory\",\r\n           
+    {\r\n            \"asset\": \"nalevka\",\r\n            \"icon\": \"t_nalevka\",\r\n           
     \"nickName\": null,\r\n            \"area\": null,\r\n            \"category\":
     null,\r\n            \"hidden\": false,\r\n            \"nameInLanguage\": null\r\n         
-    },\r\n          {\r\n            \"asset\": \"skrin\",\r\n            \"nickName\":
+    },\r\n          {\r\n            \"asset\": \"nasypka\",\r\n            \"icon\":
+    \"t_nasypka\",\r\n            \"nickName\": null,\r\n            \"area\": null,\r\n           
+    \"category\": null,\r\n            \"hidden\": false,\r\n            \"nameInLanguage\":
+    null\r\n          },\r\n          {\r\n            \"asset\": \"nocniStolek\",\r\n           
+    \"icon\": null,\r\n            \"nickName\": null,\r\n            \"area\": null,\r\n           
+    \"category\": null,\r\n            \"hidden\": false,\r\n            \"nameInLanguage\":
+    null\r\n          },\r\n          {\r\n            \"asset\": \"notebook\",\r\n           
+    \"icon\": \"t_notebook\",\r\n            \"nickName\": null,\r\n            \"area\":
+    null,\r\n            \"category\": null,\r\n            \"hidden\": false,\r\n           
+    \"nameInLanguage\": null\r\n          },\r\n          {\r\n            \"asset\":
+    \"prechod\",\r\n            \"icon\": \"t_prechod\",\r\n            \"nickName\":
     null,\r\n            \"area\": null,\r\n            \"category\": null,\r\n           
     \"hidden\": false,\r\n            \"nameInLanguage\": null\r\n          },\r\n         
-    {\r\n            \"asset\": \"Slunce\",\r\n            \"nickName\": null,\r\n           
-    \"area\": null,\r\n            \"category\": null,\r\n            \"hidden\":
-    false,\r\n            \"nameInLanguage\": null\r\n          },\r\n          {\r\n           
-    \"asset\": \"Stul\",\r\n            \"nickName\": null,\r\n            \"area\":
-    null,\r\n            \"category\": null,\r\n            \"hidden\": false,\r\n           
-    \"nameInLanguage\": null\r\n          },\r\n          {\r\n            \"asset\":
-    \"st\u0159i\u010Dka\",\r\n            \"nickName\": null,\r\n            \"area\":
-    null,\r\n            \"category\": null,\r\n            \"hidden\": false,\r\n           
-    \"nameInLanguage\": null\r\n          },\r\n          {\r\n            \"asset\":
-    \"VarnaBanka\",\r\n            \"nickName\": null,\r\n            \"area\": null,\r\n           
-    \"category\": null,\r\n            \"hidden\": false,\r\n            \"nameInLanguage\":
-    null\r\n          },\r\n          {\r\n            \"asset\": \"Vitr\",\r\n           
+    {\r\n            \"asset\": \"semafory\",\r\n            \"icon\": \"t_semafory\",\r\n           
     \"nickName\": null,\r\n            \"area\": null,\r\n            \"category\":
     null,\r\n            \"hidden\": false,\r\n            \"nameInLanguage\": null\r\n         
-    },\r\n          {\r\n            \"asset\": \"Vlocka\",\r\n            \"nickName\":
-    null,\r\n            \"area\": null,\r\n            \"category\": null,\r\n           
-    \"hidden\": false,\r\n            \"nameInLanguage\": null\r\n          }\r\n       
-    ]\r\n      }\r\n    }\r\n  }\r\n]"
-  _rsLastCachedKeyList: "[\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"954e01a1-f5c2-4d18-a4b4-8b3d72fecdde\"\r\n   
+    },\r\n          {\r\n            \"asset\": \"skrin\",\r\n            \"icon\":
+    \"t_skrin\",\r\n            \"nickName\": null,\r\n            \"area\": null,\r\n           
+    \"category\": null,\r\n            \"hidden\": false,\r\n            \"nameInLanguage\":
+    null\r\n          },\r\n          {\r\n            \"asset\": \"slunce\",\r\n           
+    \"icon\": \"t_slunce\",\r\n            \"nickName\": null,\r\n            \"area\":
+    null,\r\n            \"category\": null,\r\n            \"hidden\": false,\r\n           
+    \"nameInLanguage\": null\r\n          },\r\n          {\r\n            \"asset\":
+    \"stul\",\r\n            \"icon\": \"t_stul\",\r\n            \"nickName\": null,\r\n           
+    \"area\": null,\r\n            \"category\": null,\r\n            \"hidden\":
+    false,\r\n            \"nameInLanguage\": null\r\n          },\r\n          {\r\n           
+    \"asset\": \"titracniBanka\",\r\n            \"icon\": \"t_titracniBanka\",\r\n           
+    \"nickName\": null,\r\n            \"area\": null,\r\n            \"category\":
+    null,\r\n            \"hidden\": false,\r\n            \"nameInLanguage\": null\r\n         
+    },\r\n          {\r\n            \"asset\": \"varnaBanka\",\r\n            \"icon\":
+    \"t_varnaBanka\",\r\n            \"nickName\": null,\r\n            \"area\":
+    null,\r\n            \"category\": null,\r\n            \"hidden\": false,\r\n           
+    \"nameInLanguage\": null\r\n          },\r\n          {\r\n            \"asset\":
+    \"vitr\",\r\n            \"icon\": null,\r\n            \"nickName\": null,\r\n           
+    \"area\": null,\r\n            \"category\": null,\r\n            \"hidden\":
+    false,\r\n            \"nameInLanguage\": null\r\n          }\r\n        ]\r\n     
+    }\r\n    }\r\n  }\r\n]"
+  _rsLastCachedKeyList: "[\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"36da126c-86fb-40ac-b989-cb2c9111b19a\"\r\n   
     },\r\n    \"rs\": {\r\n      \"key\": \"catalog\",\r\n      \"type\": \"json\",\r\n     
     \"schemaId\": null,\r\n      \"value\": {\r\n        \"assets\": [\r\n         
-    {\r\n            \"asset\": \"TitracniBanka\",\r\n            \"nickName\": null,\r\n           
-    \"area\": null,\r\n            \"category\": null,\r\n            \"hidden\":
-    false,\r\n            \"nameInLanguage\": null\r\n          },\r\n          {\r\n           
-    \"asset\": \"batoh\",\r\n            \"nickName\": null,\r\n            \"area\":
-    null,\r\n            \"category\": null,\r\n            \"hidden\": false,\r\n           
-    \"nameInLanguage\": null\r\n          },\r\n          {\r\n            \"asset\":
-    \"Blesky\",\r\n            \"nickName\": null,\r\n            \"area\": null,\r\n           
-    \"category\": null,\r\n            \"hidden\": false,\r\n            \"nameInLanguage\":
-    null\r\n          },\r\n          {\r\n            \"asset\": \"boty\",\r\n           
+    {\r\n            \"asset\": \"st\u0159i\u010Dka\",\r\n            \"icon\": null,\r\n           
     \"nickName\": null,\r\n            \"area\": null,\r\n            \"category\":
     null,\r\n            \"hidden\": false,\r\n            \"nameInLanguage\": null\r\n         
-    },\r\n          {\r\n            \"asset\": \"Burger\",\r\n            \"nickName\":
+    },\r\n          {\r\n            \"asset\": \"vlocka\",\r\n            \"icon\":
+    null,\r\n            \"nickName\": null,\r\n            \"area\": null,\r\n           
+    \"category\": null,\r\n            \"hidden\": false,\r\n            \"nameInLanguage\":
+    null\r\n          },\r\n          {\r\n            \"asset\": \"batoh\",\r\n           
+    \"icon\": \"t_batoh\",\r\n            \"nickName\": null,\r\n            \"area\":
+    null,\r\n            \"category\": null,\r\n            \"hidden\": false,\r\n           
+    \"nameInLanguage\": null\r\n          },\r\n          {\r\n            \"asset\":
+    \"blesky\",\r\n            \"icon\": \"t_blesky\",\r\n            \"nickName\":
     null,\r\n            \"area\": null,\r\n            \"category\": null,\r\n           
     \"hidden\": false,\r\n            \"nameInLanguage\": null\r\n          },\r\n         
-    {\r\n            \"asset\": \"cube 1\",\r\n            \"nickName\": null,\r\n           
-    \"area\": null,\r\n            \"category\": null,\r\n            \"hidden\":
-    false,\r\n            \"nameInLanguage\": null\r\n          },\r\n          {\r\n           
-    \"asset\": \"cube 2\",\r\n            \"nickName\": null,\r\n            \"area\":
+    {\r\n            \"asset\": \"boty\",\r\n            \"icon\": \"t_boty\",\r\n           
+    \"nickName\": null,\r\n            \"area\": null,\r\n            \"category\":
+    null,\r\n            \"hidden\": false,\r\n            \"nameInLanguage\": null\r\n         
+    },\r\n          {\r\n            \"asset\": \"burger\",\r\n            \"icon\":
+    \"t_burger\",\r\n            \"nickName\": null,\r\n            \"area\": null,\r\n           
+    \"category\": null,\r\n            \"hidden\": false,\r\n            \"nameInLanguage\":
+    null\r\n          },\r\n          {\r\n            \"asset\": \"dest\",\r\n           
+    \"icon\": \"t_dest\",\r\n            \"nickName\": null,\r\n            \"area\":
     null,\r\n            \"category\": null,\r\n            \"hidden\": false,\r\n           
     \"nameInLanguage\": null\r\n          },\r\n          {\r\n            \"asset\":
-    \"cube\",\r\n            \"nickName\": null,\r\n            \"area\": null,\r\n           
-    \"category\": null,\r\n            \"hidden\": false,\r\n            \"nameInLanguage\":
-    null\r\n          },\r\n          {\r\n            \"asset\": \"Dest\",\r\n           
+    \"destilacniBanka\",\r\n            \"icon\": \"t_destilacniBanka\",\r\n           
     \"nickName\": null,\r\n            \"area\": null,\r\n            \"category\":
     null,\r\n            \"hidden\": false,\r\n            \"nameInLanguage\": null\r\n         
-    },\r\n          {\r\n            \"asset\": \"destilacniBanka\",\r\n           
-    \"nickName\": null,\r\n            \"area\": null,\r\n            \"category\":
-    null,\r\n            \"hidden\": false,\r\n            \"nameInLanguage\": null\r\n         
-    },\r\n          {\r\n            \"asset\": \"ErlenmayerovaBanka\",\r\n           
-    \"nickName\": null,\r\n            \"area\": null,\r\n            \"category\":
-    null,\r\n            \"hidden\": false,\r\n            \"nameInLanguage\": null\r\n         
-    },\r\n          {\r\n            \"asset\": \"Juice\",\r\n            \"nickName\":
+    },\r\n          {\r\n            \"asset\": \"erlenmayerovaBanka\",\r\n           
+    \"icon\": \"t_erlenmayerovaBanka\",\r\n            \"nickName\": null,\r\n           
+    \"area\": null,\r\n            \"category\": null,\r\n            \"hidden\":
+    false,\r\n            \"nameInLanguage\": null\r\n          },\r\n          {\r\n           
+    \"asset\": \"dzus\",\r\n            \"icon\": \"t_dzus\",\r\n            \"nickName\":
     null,\r\n            \"area\": null,\r\n            \"category\": null,\r\n           
     \"hidden\": false,\r\n            \"nameInLanguage\": null\r\n          },\r\n         
-    {\r\n            \"asset\": \"Kadinka\",\r\n            \"nickName\": null,\r\n           
-    \"area\": null,\r\n            \"category\": null,\r\n            \"hidden\":
-    false,\r\n            \"nameInLanguage\": null\r\n          },\r\n          {\r\n           
-    \"asset\": \"Kreslo\",\r\n            \"nickName\": null,\r\n            \"area\":
-    null,\r\n            \"category\": null,\r\n            \"hidden\": false,\r\n           
-    \"nameInLanguage\": null\r\n          },\r\n          {\r\n            \"asset\":
-    \"Kruzitko\",\r\n            \"nickName\": null,\r\n            \"area\": null,\r\n           
-    \"category\": null,\r\n            \"hidden\": false,\r\n            \"nameInLanguage\":
-    null\r\n          },\r\n          {\r\n            \"asset\": \"Lampa\",\r\n           
+    {\r\n            \"asset\": \"kadinka\",\r\n            \"icon\": \"t_kadinka\",\r\n           
     \"nickName\": null,\r\n            \"area\": null,\r\n            \"category\":
     null,\r\n            \"hidden\": false,\r\n            \"nameInLanguage\": null\r\n         
-    },\r\n          {\r\n            \"asset\": \"Nalevka\",\r\n            \"nickName\":
+    },\r\n          {\r\n            \"asset\": \"kreslo\",\r\n            \"icon\":
+    \"t_kreslo\",\r\n            \"nickName\": null,\r\n            \"area\": null,\r\n           
+    \"category\": null,\r\n            \"hidden\": false,\r\n            \"nameInLanguage\":
+    null\r\n          },\r\n          {\r\n            \"asset\": \"kruzitko\",\r\n           
+    \"icon\": \"t_kruzitko\",\r\n            \"nickName\": null,\r\n            \"area\":
+    null,\r\n            \"category\": null,\r\n            \"hidden\": false,\r\n           
+    \"nameInLanguage\": null\r\n          },\r\n          {\r\n            \"asset\":
+    \"lampa\",\r\n            \"icon\": \"t_lampa\",\r\n            \"nickName\":
     null,\r\n            \"area\": null,\r\n            \"category\": null,\r\n           
     \"hidden\": false,\r\n            \"nameInLanguage\": null\r\n          },\r\n         
-    {\r\n            \"asset\": \"Nasypka\",\r\n            \"nickName\": null,\r\n           
-    \"area\": null,\r\n            \"category\": null,\r\n            \"hidden\":
-    false,\r\n            \"nameInLanguage\": null\r\n          },\r\n          {\r\n           
-    \"asset\": \"NocniStolek\",\r\n            \"nickName\": null,\r\n           
-    \"area\": null,\r\n            \"category\": null,\r\n            \"hidden\":
-    false,\r\n            \"nameInLanguage\": null\r\n          },\r\n          {\r\n           
-    \"asset\": \"Notebook\",\r\n            \"nickName\": null,\r\n            \"area\":
-    null,\r\n            \"category\": null,\r\n            \"hidden\": false,\r\n           
-    \"nameInLanguage\": null\r\n          },\r\n          {\r\n            \"asset\":
-    \"Prechod\",\r\n            \"nickName\": null,\r\n            \"area\": null,\r\n           
-    \"category\": null,\r\n            \"hidden\": false,\r\n            \"nameInLanguage\":
-    null\r\n          },\r\n          {\r\n            \"asset\": \"Semafory\",\r\n           
+    {\r\n            \"asset\": \"nalevka\",\r\n            \"icon\": \"t_nalevka\",\r\n           
     \"nickName\": null,\r\n            \"area\": null,\r\n            \"category\":
     null,\r\n            \"hidden\": false,\r\n            \"nameInLanguage\": null\r\n         
-    },\r\n          {\r\n            \"asset\": \"skrin\",\r\n            \"nickName\":
+    },\r\n          {\r\n            \"asset\": \"nasypka\",\r\n            \"icon\":
+    \"t_nasypka\",\r\n            \"nickName\": null,\r\n            \"area\": null,\r\n           
+    \"category\": null,\r\n            \"hidden\": false,\r\n            \"nameInLanguage\":
+    null\r\n          },\r\n          {\r\n            \"asset\": \"nocniStolek\",\r\n           
+    \"icon\": null,\r\n            \"nickName\": null,\r\n            \"area\": null,\r\n           
+    \"category\": null,\r\n            \"hidden\": false,\r\n            \"nameInLanguage\":
+    null\r\n          },\r\n          {\r\n            \"asset\": \"notebook\",\r\n           
+    \"icon\": \"t_notebook\",\r\n            \"nickName\": null,\r\n            \"area\":
+    null,\r\n            \"category\": null,\r\n            \"hidden\": false,\r\n           
+    \"nameInLanguage\": null\r\n          },\r\n          {\r\n            \"asset\":
+    \"prechod\",\r\n            \"icon\": \"t_prechod\",\r\n            \"nickName\":
     null,\r\n            \"area\": null,\r\n            \"category\": null,\r\n           
     \"hidden\": false,\r\n            \"nameInLanguage\": null\r\n          },\r\n         
-    {\r\n            \"asset\": \"Slunce\",\r\n            \"nickName\": null,\r\n           
-    \"area\": null,\r\n            \"category\": null,\r\n            \"hidden\":
-    false,\r\n            \"nameInLanguage\": null\r\n          },\r\n          {\r\n           
-    \"asset\": \"Stul\",\r\n            \"nickName\": null,\r\n            \"area\":
-    null,\r\n            \"category\": null,\r\n            \"hidden\": false,\r\n           
-    \"nameInLanguage\": null\r\n          },\r\n          {\r\n            \"asset\":
-    \"st\u0159i\u010Dka\",\r\n            \"nickName\": null,\r\n            \"area\":
-    null,\r\n            \"category\": null,\r\n            \"hidden\": false,\r\n           
-    \"nameInLanguage\": null\r\n          },\r\n          {\r\n            \"asset\":
-    \"VarnaBanka\",\r\n            \"nickName\": null,\r\n            \"area\": null,\r\n           
-    \"category\": null,\r\n            \"hidden\": false,\r\n            \"nameInLanguage\":
-    null\r\n          },\r\n          {\r\n            \"asset\": \"Vitr\",\r\n           
+    {\r\n            \"asset\": \"semafory\",\r\n            \"icon\": \"t_semafory\",\r\n           
     \"nickName\": null,\r\n            \"area\": null,\r\n            \"category\":
     null,\r\n            \"hidden\": false,\r\n            \"nameInLanguage\": null\r\n         
-    },\r\n          {\r\n            \"asset\": \"Vlocka\",\r\n            \"nickName\":
-    null,\r\n            \"area\": null,\r\n            \"category\": null,\r\n           
-    \"hidden\": false,\r\n            \"nameInLanguage\": null\r\n          }\r\n       
-    ]\r\n      }\r\n    }\r\n  }\r\n]"
+    },\r\n          {\r\n            \"asset\": \"skrin\",\r\n            \"icon\":
+    \"t_skrin\",\r\n            \"nickName\": null,\r\n            \"area\": null,\r\n           
+    \"category\": null,\r\n            \"hidden\": false,\r\n            \"nameInLanguage\":
+    null\r\n          },\r\n          {\r\n            \"asset\": \"slunce\",\r\n           
+    \"icon\": \"t_slunce\",\r\n            \"nickName\": null,\r\n            \"area\":
+    null,\r\n            \"category\": null,\r\n            \"hidden\": false,\r\n           
+    \"nameInLanguage\": null\r\n          },\r\n          {\r\n            \"asset\":
+    \"stul\",\r\n            \"icon\": \"t_stul\",\r\n            \"nickName\": null,\r\n           
+    \"area\": null,\r\n            \"category\": null,\r\n            \"hidden\":
+    false,\r\n            \"nameInLanguage\": null\r\n          },\r\n          {\r\n           
+    \"asset\": \"titracniBanka\",\r\n            \"icon\": \"t_titracniBanka\",\r\n           
+    \"nickName\": null,\r\n            \"area\": null,\r\n            \"category\":
+    null,\r\n            \"hidden\": false,\r\n            \"nameInLanguage\": null\r\n         
+    },\r\n          {\r\n            \"asset\": \"varnaBanka\",\r\n            \"icon\":
+    \"t_varnaBanka\",\r\n            \"nickName\": null,\r\n            \"area\":
+    null,\r\n            \"category\": null,\r\n            \"hidden\": false,\r\n           
+    \"nameInLanguage\": null\r\n          },\r\n          {\r\n            \"asset\":
+    \"vitr\",\r\n            \"icon\": null,\r\n            \"nickName\": null,\r\n           
+    \"area\": null,\r\n            \"category\": null,\r\n            \"hidden\":
+    false,\r\n            \"nameInLanguage\": null\r\n          }\r\n        ]\r\n     
+    }\r\n    }\r\n  }\r\n]"
   _environments: "[\r\n  {\r\n    \"projectId\": \"87434ced-242e-4de7-9298-cb3cda0505bf\",\r\n   
     \"name\": \"development\",\r\n    \"id\": \"ea43718d-0a8a-4e5e-96d6-c86ab2d851a9\",\r\n   
     \"isDefault\": false,\r\n    \"createdAt\": \"2023-01-15T19:20:33Z\",\r\n   

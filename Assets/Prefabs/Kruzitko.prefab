@@ -342,7 +342,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4920719189820471438}
   m_Layer: 0
-  m_Name: Kruzitko
+  m_Name: kruzitko
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4844743583701344569}
   m_Layer: 0
-  m_Name: TitracniBanka
+  m_Name: titracniBanka
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

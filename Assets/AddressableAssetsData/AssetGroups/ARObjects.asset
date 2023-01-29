@@ -17,8 +17,12 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: 4cf4b40825755a842a74e8b1014e5620
   m_SerializeEntries:
-  - m_GUID: fff25e167e7e6e54d9a8a33a4155c3bc
-    m_Address: TitracniBanka
+  - m_GUID: f4a81b90a3d5ec04f97504a66282118e
+    m_Address: stricka
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e8ee7177702b7274c9e427a5ddb29f93
+    m_Address: vlocka
     m_ReadOnly: 0
     m_SerializedLabels: []
   - m_GUID: 1d87ce770ca6b1446bdb14c438d9bbab
@@ -26,7 +30,7 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
   - m_GUID: 18fb779f186453c44a6f2edd950df9fc
-    m_Address: Blesky
+    m_Address: blesky
     m_ReadOnly: 0
     m_SerializedLabels: []
   - m_GUID: 03944bf5dc4ac2e44a8b7d7a8548735a
@@ -34,23 +38,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
   - m_GUID: 21703bf1ac427b84ab709fbfeb54f54d
-    m_Address: Burger
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: 356980574aebaf44fa5fd3e280a3d88a
-    m_Address: cube 1
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: 3cac4ef5c35adfd4fb40b35176d0b1bb
-    m_Address: cube 2
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: 7c4f400367d645245a43b414c0961721
-    m_Address: cube
+    m_Address: burger
     m_ReadOnly: 0
     m_SerializedLabels: []
   - m_GUID: 1147c2e1b8481184a99066ed9c4bd299
-    m_Address: Dest
+    m_Address: dest
     m_ReadOnly: 0
     m_SerializedLabels: []
   - m_GUID: 076dedb8173882c4c999477bb87ba344
@@ -58,51 +50,51 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
   - m_GUID: 0d2e674dabeec1c4784d6883bc4fa328
-    m_Address: ErlenmayerovaBanka
+    m_Address: erlenmayerovaBanka
     m_ReadOnly: 0
     m_SerializedLabels: []
   - m_GUID: 2b7a7d4c3536a2e49b2c7540f616de85
-    m_Address: Juice
+    m_Address: dzus
     m_ReadOnly: 0
     m_SerializedLabels: []
   - m_GUID: 4f97cfdbe7758d14fab4504011183ad3
-    m_Address: Kadinka
+    m_Address: kadinka
     m_ReadOnly: 0
     m_SerializedLabels: []
   - m_GUID: a4031c1baed8063419f15a0e08b3b6b8
-    m_Address: Kreslo
+    m_Address: kreslo
     m_ReadOnly: 0
     m_SerializedLabels: []
   - m_GUID: 150f171d24d929143856879fa66d2a7e
-    m_Address: Kruzitko
+    m_Address: kruzitko
     m_ReadOnly: 0
     m_SerializedLabels: []
   - m_GUID: f8b751a185f9ac04eb7923b2305efd08
-    m_Address: Lampa
+    m_Address: lampa
     m_ReadOnly: 0
     m_SerializedLabels: []
   - m_GUID: 80e3ccc717b1e5843b1032d5f2ec45ca
-    m_Address: Nalevka
+    m_Address: nalevka
     m_ReadOnly: 0
     m_SerializedLabels: []
   - m_GUID: 11b117e8aa941bc4d80a73fb080773d8
-    m_Address: Nasypka
+    m_Address: nasypka
     m_ReadOnly: 0
     m_SerializedLabels: []
   - m_GUID: fe7bd6a686751564fa78380b66b0a4c9
-    m_Address: NocniStolek
+    m_Address: nocniStolek
     m_ReadOnly: 0
     m_SerializedLabels: []
   - m_GUID: eb13a0b5b25433b43a7beb642b7758a3
-    m_Address: Notebook
+    m_Address: notebook
     m_ReadOnly: 0
     m_SerializedLabels: []
   - m_GUID: 9721846d68cbe2b45b357c3922bdd09f
-    m_Address: Prechod
+    m_Address: prechod
     m_ReadOnly: 0
     m_SerializedLabels: []
   - m_GUID: 86565eb4e16cef7489bad54d52947604
-    m_Address: Semafory
+    m_Address: semafory
     m_ReadOnly: 0
     m_SerializedLabels: []
   - m_GUID: 254c0f427c8f7a64cb4244e2a270f665
@@ -110,27 +102,23 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
   - m_GUID: 2d3e5ced8c4bc064bb2fdeaf2ee02b7a
-    m_Address: Slunce
+    m_Address: slunce
     m_ReadOnly: 0
     m_SerializedLabels: []
   - m_GUID: 6982cc860a91ef74cbeb5214e2973e82
-    m_Address: Stul
+    m_Address: stul
     m_ReadOnly: 0
     m_SerializedLabels: []
-  - m_GUID: f4a81b90a3d5ec04f97504a66282118e
-    m_Address: "st\u0159i\u010Dka"
+  - m_GUID: fff25e167e7e6e54d9a8a33a4155c3bc
+    m_Address: titracniBanka
     m_ReadOnly: 0
     m_SerializedLabels: []
   - m_GUID: f0d28d39d3bef2f42944060ca3dc3346
-    m_Address: VarnaBanka
+    m_Address: varnaBanka
     m_ReadOnly: 0
     m_SerializedLabels: []
   - m_GUID: de7dcb7f3de30e5449ef75448032f1f4
-    m_Address: Vitr
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: e8ee7177702b7274c9e427a5ddb29f93
-    m_Address: Vlocka
+    m_Address: vitr
     m_ReadOnly: 0
     m_SerializedLabels: []
   m_ReadOnly: 0

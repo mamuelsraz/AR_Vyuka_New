@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8450276045204596346}
   m_Layer: 0
-  m_Name: Vitr
+  m_Name: vitr
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
