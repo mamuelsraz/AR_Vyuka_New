@@ -3438,7 +3438,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 2700, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &341387841
@@ -4454,23 +4454,27 @@ MonoBehaviour:
       m_Calls: []
   placePage: {fileID: 341387843}
   textViewPage: {fileID: 78185704}
-  textObject: {fileID: 0}
+  textObject: {fileID: 8457316716411678308, guid: 9bc77c89c92569543bf755232af136c7,
+    type: 3}
   textARAsset:
     asset: 
-    nickName: 
-    area: 
+    icon: 
+    nickName: text
+    area: "Jin\xE9"
     category: 
     hidden: 0
     nameInLanguage: []
-  imageObject: {fileID: 0}
+  imageObject: {fileID: 5050237498975695438, guid: d08eeb5873af1924f8a0bc4b054bdccc,
+    type: 3}
   imageARAsset:
     asset: 
-    nickName: 
-    area: 
+    icon: 
+    nickName: "obr\xE1zek"
+    area: "Jin\xE9"
     category: 
     hidden: 0
     nameInLanguage: []
-  image: {fileID: 0}
+  image: {fileID: 802414011}
   material: {fileID: 2100000, guid: a65e4cb7274363b4388414f059f28d31, type: 2}
   idealImageScale: 0.5
 --- !u!1001 &434068913
