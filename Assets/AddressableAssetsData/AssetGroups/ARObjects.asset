@@ -121,6 +121,10 @@ MonoBehaviour:
     m_Address: vitr
     m_ReadOnly: 0
     m_SerializedLabels: []
+  - m_GUID: ad7d4bbaa1a4cc54d9561828f33e3a99
+    m_Address: "Assets/Prefabs/Exsik\xE1tor.prefab"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: d67df2bfa69f556428e8fbd6fc06c983, type: 2}
   m_SchemaSet:

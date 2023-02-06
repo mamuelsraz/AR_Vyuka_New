@@ -16,7 +16,19 @@ MonoBehaviour:
   m_Data:
     m_SerializedData: []
   m_GUID: 9cf6f67943a069540914a82bd6ffa125
-  m_SerializeEntries: []
+  m_SerializeEntries:
+  - m_GUID: 6bea3bf48f3befc4e8c25dab2630cb97
+    m_Address: Assets/Thumbnails/bageta.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f5f879100e7909f469695dce8e72e8a6
+    m_Address: Assets/Thumbnails/byreta.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2f3ccf73a1a380e49815ff0e34f43523
+    m_Address: Assets/Thumbnails/delici nalevka.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: d67df2bfa69f556428e8fbd6fc06c983, type: 2}
   m_SchemaSet:
