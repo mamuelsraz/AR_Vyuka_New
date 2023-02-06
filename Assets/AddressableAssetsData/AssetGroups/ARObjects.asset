@@ -125,6 +125,30 @@ MonoBehaviour:
     m_Address: "Assets/Prefabs/Exsik\xE1tor.prefab"
     m_ReadOnly: 0
     m_SerializedLabels: []
+  - m_GUID: 16c485147cf06cb49941d6b2078ef357
+    m_Address: Assets/Prefabs/Bageta.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a3f2ed67afee004479ef7f6e6e23977c
+    m_Address: Assets/Prefabs/Byreta.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b74d236a62efb4440a7fe3e188f9f8f6
+    m_Address: Assets/Prefabs/DeliciNalevka.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0f80065ab11769b449fbdbdc06ed9573
+    m_Address: Assets/Prefabs/KrystalizacniMiskaSklo.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0c478f4023b294944a49668e190169b2
+    m_Address: Assets/Prefabs/KrystalizacniMiskaPorcelan.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 47934c1f292204b44bb575eba9486191
+    m_Address: Assets/Prefabs/KvetinaVKvetinaci.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: d67df2bfa69f556428e8fbd6fc06c983, type: 2}
   m_SchemaSet:
