@@ -45,6 +45,9 @@ public class ArListBlock : MonoBehaviour
             {
                 spriteImage.sprite = sprite;
             };
+            handle.OnFail += () => {
+                Debug.LogError($"icon ' {arAsset.icon} ' could not be loaded on asset {arAsset.asset}.");
+            };
         }
     }
 

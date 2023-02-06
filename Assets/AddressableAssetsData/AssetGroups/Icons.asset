@@ -130,11 +130,7 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
   - m_GUID: 2f3ccf73a1a380e49815ff0e34f43523
-    m_Address: t_DeliciNalevka.png
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: fe0c5435d1d01fe4f85f9098d6ed14c8
-    m_Address: t_Prachovnice
+    m_Address: t_DeliciNalevka
     m_ReadOnly: 0
     m_SerializedLabels: []
   - m_GUID: f00011f47c04de64cbfa99306571780e
@@ -147,6 +143,10 @@ MonoBehaviour:
     m_SerializedLabels: []
   - m_GUID: 89a1d9b00b68b264caac9b838da1a84c
     m_Address: t_KvetinaVKvetinaci
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 41a67fd47506af44eb7c424327793f27
+    m_Address: t_Prachovnice
     m_ReadOnly: 0
     m_SerializedLabels: []
   m_ReadOnly: 0

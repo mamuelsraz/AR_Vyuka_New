@@ -79,28 +79,37 @@ public class AddressablesStreamingManager : MonoBehaviour
         return handle;
     }
 
-    IEnumerator DownloadIcon(LanguageARAsset asset, ARAssetStreamingHandle<Sprite> response) {
-        var asyncHandle = Addressables.LoadAssetAsync<Sprite>(asset.icon);
-        while (!asyncHandle.IsDone)
+    IEnumerator DownloadIcon(LanguageARAsset asset, ARAssetStreamingHandle<Sprite> response)
+    {
+        if (asset.icon == "")
         {
-            response.progress = asyncHandle.PercentComplete;
-            response.Tick?.Invoke();
             yield return null;
-        }
-        if (asyncHandle.Status != AsyncOperationStatus.Succeeded)
-        {
-            response.OnFail?.Invoke();
+            response.OnFail.Invoke();
         }
         else
         {
-            cachedSprites.Add(asset, asyncHandle.Result);
-            response.OnComplete?.Invoke(asyncHandle.Result);
+            var asyncHandle = Addressables.LoadAssetAsync<Sprite>(asset.icon);
+            while (!asyncHandle.IsDone)
+            {
+                response.progress = asyncHandle.PercentComplete;
+                response.Tick?.Invoke();
+                yield return null;
+            }
+            if (asyncHandle.Status != AsyncOperationStatus.Succeeded)
+            {
+                response.OnFail?.Invoke();
+            }
+            else
+            {
+                cachedSprites.Add(asset, asyncHandle.Result);
+                response.OnComplete?.Invoke(asyncHandle.Result);
+            }
         }
     }
 
     public ARAssetStreamingHandle<ARAssetCatalog> LoadAssetCatalog()
     {
-        if (catalog != null && catalog.assets != null && catalog.assets.Count > 0) 
+        if (catalog != null && catalog.assets != null && catalog.assets.Count > 0)
             return null;
 
         var handle = new ARAssetStreamingHandle<ARAssetCatalog>();
@@ -133,6 +142,7 @@ public class AddressablesStreamingManager : MonoBehaviour
         Debug.Log("Catalog loaded:");
         Debug.Log(json);
         catalog = JsonUtility.FromJson<ARAssetCatalog>(json);
+        catalog.assets.RemoveAll((x) => x.hidden );
         handle.OnComplete?.Invoke(catalog);
     }
 }
