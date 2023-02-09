@@ -15,6 +15,7 @@ public class ArListBlock : MonoBehaviour
     public Image fillImage;
     public Image spriteImage;
     bool downloaded;
+    Color defaultCol;
 
     public void Click()
     {
@@ -27,6 +28,8 @@ public class ArListBlock : MonoBehaviour
 
     private void Start()
     {
+        defaultCol = spriteImage.color;
+
         if (AddressablesStreamingManager.Instance.cachedARAssets.ContainsKey(arAsset))
         {
             button.enabled = true;
@@ -38,15 +41,25 @@ public class ArListBlock : MonoBehaviour
         var handle = AddressablesStreamingManager.Instance.LoadIcon(arAsset);
         if (handle == null)
         {
+            spriteImage.color = Color.white;
+            spriteImage.fillAmount = 1;
             spriteImage.sprite = AddressablesStreamingManager.Instance.cachedSprites[arAsset];
         }
-        else {
+        else
+        {
             handle.OnComplete += (sprite) =>
             {
+                spriteImage.color = Color.white;
+                spriteImage.fillAmount = 1;
                 spriteImage.sprite = sprite;
             };
-            handle.OnFail += () => {
+            handle.OnFail += () =>
+            {
                 Debug.LogError($"icon ' {arAsset.icon} ' could not be loaded on asset {arAsset.asset}.");
+            };
+            handle.Tick += () =>
+            {
+                spriteImage.fillAmount = handle.progress;
             };
         }
     }
