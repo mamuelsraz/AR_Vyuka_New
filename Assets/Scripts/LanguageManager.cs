@@ -16,27 +16,28 @@ public class LanguageManager : MonoBehaviour
         else Destroy(this);
     }
 
-    public void ChangeLanguage(string language) {
+    public void ChangeLanguage(string language)
+    {
         currentLanguage = language;
         onChangedLanguage?.Invoke();
     }
 
-    public LanguageBlock GetCurrentLanguageBlock() {
+    public LanguageBlock GetCurrentLanguageBlock()
+    {
         string language = currentLanguage;
         LanguageBlock block = null;
         var ARObject = SelectedArObjectManager.instance.selectedARAsset;
-        if (ARObject.area == "Jazyky") {
-            foreach (var item in ARObject.nameInLanguage)
+
+        if (ARObject.area != "Jazyky") return null;
+
+        foreach (var item in ARObject.nameInLanguage)
+        {
+            if (language.Equals(item.language))
             {
-                if (language.Equals(item.language)) {
-                    block = item;
-                    break;
-                }
-            }
-            if (block != null) {
-                return block;
+                block = item;
+                break;
             }
         }
-        return null;
+        return block;
     }
 }
