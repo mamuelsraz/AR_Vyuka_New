@@ -149,6 +149,50 @@ MonoBehaviour:
     m_Address: t_Prachovnice
     m_ReadOnly: 0
     m_SerializedLabels: []
+  - m_GUID: ddc2ad03697dfe84ea605ad721ffdc18
+    m_Address: t_calculator
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4fe76af58b99e99468de88a2735fb679
+    m_Address: t_clock
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: dffcc65422cd1264d9f53b67c57f3982
+    m_Address: t_eraser
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9f78ae55909c689439f7292045b4f69d
+    m_Address: t_glasses
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1de4967e8e5b63d47ac61bb0d9f97283
+    m_Address: t_phone
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4e79017982b58ae47adec4e53d9b9a3b
+    m_Address: t_key
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4f723a043821b0b4a9c02ccb5ebeb357
+    m_Address: t_pizza
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b9627a5463699f442af830c2fb17ffdd
+    m_Address: t_toothbrush
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1d3a198a092e7ba40b78b424eab75025
+    m_Address: t_vitr
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 99cc14064819a0e41beccd7d117dd73a
+    m_Address: t_mirror
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f5ccb983c0dcde841a51996cf5608e2f
+    m_Address: t_pen
+    m_ReadOnly: 0
+    m_SerializedLabels: []
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: d67df2bfa69f556428e8fbd6fc06c983, type: 2}
   m_SchemaSet:

@@ -153,6 +153,46 @@ MonoBehaviour:
     m_Address: Prachovnice
     m_ReadOnly: 0
     m_SerializedLabels: []
+  - m_GUID: b26075346e949c54d8e567c40ebbbc48
+    m_Address: pen
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 04cde3df7f1b1ce4baefd6523c97d2c7
+    m_Address: mirror
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a0fe657bdc491bb42a516d804db4b621
+    m_Address: toothbrush
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f3ba08086d1ef3445a74f99a438d1366
+    m_Address: pizza
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9441dff716ead3a4390e4102e27758f2
+    m_Address: key
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 02d75b1b10aba8e469f3dd158dbd9c69
+    m_Address: phone
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b816393c086066c4d8b1507c29b7d261
+    m_Address: glasses
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: fbccdbe57be83a5428a14afff2b81b95
+    m_Address: eraser
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d71212cd14df55d4fbbc41c762e15e5e
+    m_Address: clock
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c6e02ae3b91edbc49ae700713991fd0f
+    m_Address: calculator
+    m_ReadOnly: 0
+    m_SerializedLabels: []
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: d67df2bfa69f556428e8fbd6fc06c983, type: 2}
   m_SchemaSet:
